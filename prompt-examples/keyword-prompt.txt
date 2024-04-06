@@ -1,0 +1,17 @@
+Using the following details from a asthma_pollution research project, identify ten key phrases or terms related to the project and provide the corresponding UMLS codes. Format the output as 'Keyword (UMLS Code)'. 
+For example, if a keyword is 'asthma', and its UMLS code is C0004096, format it as 'asthma (C0004096)'.
+
+Main goal and aims:
+I am formulating a research question based on asthma health disparities Iplan to so research and find ways to answer the question i am trying to formulate
+
+Questions:
+Scientific Questions Being Studied
+I am formulating a research question based on asthma health disparities Iplan to so research and find ways to answer the question i am trying to formulate
+
+Approaches:
+Scientific Approaches
+the specific approches i plan to use for my study is how asthma is treated among colored or how common is asthma.is within blacks than others
+
+Findings:
+Anticipated Findings
+i antisipate to find that colored get treated with lover doses to solve the issue than others

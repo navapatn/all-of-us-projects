@@ -1,0 +1,14 @@
+"For the following institution(s), provide the classification, location (US or non-US), the state (if in the US) or country (if outside the US), and research classification (R1, R2, or neither). The response should be in a structured format suitable for conversion into a dictionary.
+
+Institution(s):
+- Prairie View A&M University
+
+Please format the response as a JSON object, containing the fields 'institution', 'classification', 'location', 'country_or_state', and 'research_classification'. For example:
+
+{
+  ""institution"": ""[Name of the Institution]"",
+  ""classification"": ""[academic/non-academic]"",
+  ""location"": ""[US/non-US]"",
+  ""country_or_state"": ""[if US, state name; if non-US, country name]"",
+  ""research_classification"": ""[R1/R2/neither/don't know]""
+}"
