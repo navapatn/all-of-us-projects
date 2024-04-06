@@ -1,0 +1,343 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+environmental health,"The specific scientific question I intend to study is: ""What is the association between air pollution and the incidence of lung cancer?"" This question is of paramount importance due to the increasing global burden of lung cancer and the growing…","Scientific Questions Being Studied
+The specific scientific question I intend to study is: ""What is the association between air pollution and the incidence of lung cancer?"" This question is of paramount importance due to the increasing global burden of lung cancer and the growing evidence that air pollution plays a significant role in the etiology of respiratory diseases, including lung cancer. Understanding this association is critical for several reasons:
+Public Health Impact: Lung cancer remains one of the leading causes of cancer-related deaths worldwide. Identifying and quantifying the role of air pollution in lung cancer development could lead to targeted public health interventions, policies for air quality improvement, and ultimately, a reduction in lung cancer incidence and mortality.","Project Purpose(s)
+Disease Focused Research (cancer)","Scientific Approaches
+Datasets:
+Air Quality Data: Sources could include the Environmental Protection Agency (EPA) Air Quality System (AQS) database.
+Health Outcomes Data: Acquire lung cancer incidence and mortality data from cancer registries. This data will include information on lung cancer cases, demographic variables (age, sex), and geographic location.
+Covariate Data: Collect data on potential confounders and effect modifiers, including smoking rates, socio-economic status, and occupational exposures
+Research Methods:
+Exposure Assessment: Use  models to estimate individual or community-level exposure to air pollutants based on residential or workplace locations.
+Epidemiological Analysis: Conduct observational studies, such as cohort or case-control studies, to assess the relationship between air pollution exposure and lung cancer risk. This will involve calculating relative risks, odds ratios, and attributable risks, adjusting for confounders.","Anticipated Findings
+The study aims to identify a quantitative relationship between long-term exposure to specific air pollutants (e.g., PM2.5, NO2) and the incidence of lung cancer. Findings are expected to highlight the risk increase associated with certain levels of exposure.
+Through spatial analysis, the research may uncover geographic patterns in the correlation between air pollution levels and lung cancer rates, identifying areas with elevated risks.
+Public Health Policies: The findings will provide robust evidence to support the development of targeted public health policies and air quality standards aimed at reducing lung cancer incidence. This evidence can advocate for stricter air pollution controls and inform guidelines for safe exposure levels.
+Environmental Justice: Identifying spatial hotspots and differential risks can contribute to the discourse on environmental justice, highlighting communities disproportionately affected by air pollution and prompting targeted interventions.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yanhong Huang
+- Graduate Trainee, University of New Mexico and University of New Mexico Health Sciences Center"
+Cardio Paper Working Version,This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental…,"Scientific Questions Being Studied
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Project Purpose(s)
+Disease Focused Research (hypertension)
+Population Health","Scientific Approaches
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Anticipated Findings
+We anticipate an association between air pollution concentrations and the incidence of hypertension. We anticipate that the strength of this association will vary by race and other demographic factors, as well as by smoking status and other behavioral health factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Maia Griffith
+- Project Personnel, University of Chicago
+Jiajun Luo
+- Research Fellow, University of Chicago
+Andrew Craver
+- Project Personnel, University of Chicago
+Collaborators:
+Yuqing Yang - Project Personnel, University of Chicago"
+Asthma Paper,This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental…,"Scientific Questions Being Studied
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Project Purpose(s)
+Disease Focused Research (hypertension)
+Population Health","Scientific Approaches
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Anticipated Findings
+We anticipate an association between air pollution concentrations and the incidence of hypertension. We anticipate that the strength of this association will vary by race and other demographic factors, as well as by smoking status and other behavioral health factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Andrew Craver
+- Project Personnel, University of Chicago
+Maia Griffith
+- Project Personnel, University of Chicago
+Jiajun Luo
+- Research Fellow, University of Chicago
+Collaborators:
+Kate Burrows - Early Career Tenure-track Researcher, University of Chicago
+Yuqing Yang - Project Personnel, University of Chicago"
+Duplicate of Wearables Pollution and Temperature Controlled Tier,"Exposure to ambient air pollution and extreme temperature has significant consequences for human health and mortality. Behavioral responses to air pollution and temperature are of academic and public interest in and of themselves, but they can also reveal the social…","Scientific Questions Being Studied
+Exposure to ambient air pollution and extreme temperature has significant consequences for human health and mortality. Behavioral responses to air pollution and temperature are of academic and public interest in and of themselves, but they can also reveal the social costs of pollution and extreme temperatures, or the benefits of their mitigation, informing cost-benefit analysis of environmental policy. This project aims to use wearables data from the All of Us project. to examine (1) how human behavior changes in response to pollution and temperature shocks and (2) mechanisms through which pollution and temperature affect human health and physical performance.","Project Purpose(s)
+Population Health
+Social / Behavioral","Scientific Approaches
+This project will use econometric and causal inference tools common in applied microeconomics research to explore behavioral responses to ambient air pollution and extreme temperature. It will incorporate publicly available weather and temperature data as well as pollution data from local pollution monitors as and satellite measures.","Anticipated Findings
+This study will provide a novel approach to valuing pollution avoidance and climate change mitigation, contributing to a growing literature in environmental economics. Whereas much of the existing literature identifies health impacts for vulnerable populations like infants and the elderly, populations for which relevant data are available from administrative records, these wearables data can be used to analyze impacts on other demographic groups, including non-elderly adults.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Robert Harris
+- Other, Georgia Institute of Technology"
+Stillbirth and Social Determinants of Health,"Intrauterine fetal demise (IUFD) or stillbirth, is defined in the US as death ≥20 weeks gestation and occurs in about 1 in 160 pregnancies (CDC). Numerous medical risk factors have been identified as contributing to stillbirth, as have several social…","Scientific Questions Being Studied
+Intrauterine fetal demise (IUFD) or stillbirth, is defined in the US as death ≥20 weeks gestation and occurs in about 1 in 160 pregnancies (CDC). Numerous medical risk factors have been identified as contributing to stillbirth, as have several social determinants, such as race, income, education, access to antenatal cate, air pollution, and drug use.  There is a paucity of literature examining the association of social determinants of health on IUFD as well as the impact social determinants of health have on stillbirth evaluation. Previous literature has shown placental pathology, fetal autopsy, and genetic testing identified as the most useful in determining stillbirth cause. However, little data analyzing whether socioeconomically disadvantaged groups are receiving these recommended evaluations exists. This study seeks to examine the social, racial, and economic factors that may be contributing to stillbirth as well as the role these determinants may have on stillbirth evaluation.","Project Purpose(s)
+Social / Behavioral
+Ancestry","Scientific Approaches
+Previously performed cross-sectional study using institutional data were used to develop a predictive model for stillbirth. Use of information obtained using the All of Us dataset will be used to help validate our model. Additional data on social determinants of health among women experiencing stillbirth  will be analyzed, as well as any existing genetic data for these cases.","Anticipated Findings
+We anticipate findings demonstrating an impact for social determinants of health on the occurrence of stillbirth as well the evaluation performed thereafter. This study offers a benefit to the medical community in that it may allow for more complete understanding of the factors influencing intrauterine fetal demise leading to better and more equitable prenatal care, delivery planning, and genetic evaluation for patients with a history of intrauterine fetal demise.","Demographic Categories of Interest
+Race / Ethnicity
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Lena Shay
+- Research Fellow, Baylor College of Medicine"
+Climate change and mental health,"This project will evaluate the association between climate-related exposures (air pollution, temperature) and the incidence of mental disorders. We will also investigate whether this association varies by age, race, or sex. We will investigate a range of different mental disorders:…","Scientific Questions Being Studied
+This project will evaluate the association between climate-related exposures (air pollution, temperature) and the incidence of mental disorders. We will also investigate whether this association varies by age, race, or sex. We will investigate a range of different mental disorders:
+- schizophrenia spectrum disorder [ICD9: 295, 297, 298 (298.0 excluded)],
+- bipolar disorder (296.0, 296.1,296.4–8),
+- depression (296.2–3, 298.0, 300.4, 309.0, 309.1, 311),
+- anxiety, stress-related and somatoform disorders [300 (300.3, 300.4 and 300.7 excluded), 306,307.4, 307.8–307.9, 308, 316],
+- personality and behaviour disorders (301, 302, 312), and
+- substance use disorders (291, 292, 303, 304, 305).","Project Purpose(s)
+Disease Focused Research (anxiety disorder)
+Population Health","Scientific Approaches
+We will assign exposure based on 3 digit zip code. We will then create a cohort of All of Us participants without mental health conditions at baseline and develop matched controls (by age, sex, educational status, race/ethnicity, and marital status).","Anticipated Findings
+We anticipate identifying an association between air pollution and the incidence of mental disorders, and that the strength of this association may vary by sociodemographic characteristics. This will be one of the first studies to evaluate the impact of pollution on the development of new mental disorders.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Kate Burrows
+- Early Career Tenure-track Researcher, University of Chicago"
+Air pollution sensitivity and asthma incidence,"Previous studies have shown that living somewhere with high levels of air pollution makes it more likely that a person will develop asthma. While in the long term we need to decrease air pollution levels nationwide, we urgently need ways…","Scientific Questions Being Studied
+Previous studies have shown that living somewhere with high levels of air pollution makes it more likely that a person will develop asthma. While in the long term we need to decrease air pollution levels nationwide, we urgently need ways to protect people exposed to air pollution. To do this, we need to understand how being exposed to air pollution leads to asthma. Knowing which genetic variants make a person more likely to develop asthma when they are exposed to air pollution can help us with this. First, because it may show us which people are especially at risk and therefor allow us to target these people with screening or public health interventions and second, because these genetic variants may point to certain biological processes that we can then target with medications.","Project Purpose(s)
+Ancestry","Scientific Approaches
+We plan on using data from the Environmental Protection Agency to determine which people live in areas with high levels of air pollution. In this group of people, we plan on comparing the genetic variants between people with asthma and people without asthma.","Anticipated Findings
+We hope to validate genetic variants that have been previously linked with developing asthma when exposed to air pollution and discover new variants. This may help us define at risk populations and therapeutic targets. Given the inequitable distribution of air pollution exposure in the United States, protecting exposed populations from the effects of air pollution may help reduce asthma inequities.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jelte Kelchtermans
+- Early Career Tenure-track Researcher, University of Pennsylvania"
+Air pollution and climate change on cardiometabolic health,"Epidemiological evidence has shown climate change (including extreme heat and elevated temperature) and air pollution have adverse effects on population health, especially cardiovascular disease and metabolic diseases. However, there is limited information on individual susceptibility to climate change and air…","Scientific Questions Being Studied
+Epidemiological evidence has shown climate change (including extreme heat and elevated temperature) and air pollution have adverse effects on population health, especially cardiovascular disease and metabolic diseases. However, there is limited information on individual susceptibility to climate change and air pollution in terms of genetic variant, lifestyle and behavior factors. The overall aim of this project is to investigate how climate change, air pollution and lifestyle are affecting cardiometabolic diseases among representative US population in the All of US program. First, we will investigate how climate-related extreme events and air pollution together impact cardiometabolic disease incidence and mortality. Second, we will examine whether lifestyle and behavior information modify the impact of environmental factor on cardiometabolic health. Third, we will leverage genetic variant and assess individual susceptibility.","Project Purpose(s)
+Disease Focused Research (cardiovascular disease, type 2 diabetes, cardiometabolic disease)
+Population Health","Scientific Approaches
+We will match All of US participants' location with spatial-temporal datasets containing air pollution, extreme heat and temperature exposure and link diseases incidence and mortality EMR datasets in All of US database. Epidemiological analysis will be conducted to assess the impact of air pollution and climate change on cardiometabolic health incidence and mortality. We will additional explore using Fitbit data as an indicator of the individual behavior and test whether it can be used as an indicator of climate adaptation. Lastly, we will conduct statistical analysis testing genetic variant of cardiometabolic susceptibility during high air pollution period and/or during heatwave events.","Anticipated Findings
+For the first aim, we anticipated that we found that air pollution and heat exposure is associated with higher incidence and mortality of the cardiometabolic diseases. For the second aim, we anticipated that we found increased physical activity could reduce adverse impact of air pollution and extreme heat exposure. For the third aim, we anticipated to replicate some of the previously identified genetic variants that are susceptible markers of the cardiometabolic diseases.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jiawen Liao
+- Research Fellow, University of Southern California"
+LCS-EPI,I am using low-cost air sensors to monitor the air pollution concentration in certain areas. I want to observe the air pollution-related health disparities occurring in some regions where underrepresented populations are in the United States. Air pollution is related…,"Scientific Questions Being Studied
+I am using low-cost air sensors to monitor the air pollution concentration in certain areas. I want to observe the air pollution-related health disparities occurring in some regions where underrepresented populations are in the United States. Air pollution is related to respiratory diseases, such as asthma. I hope to find some health data related to respiratory diseases with geographical information for environmental justice research.","Project Purpose(s)
+Population Health
+Educational","Scientific Approaches
+I want to use geographic information and health outcomes to see whether underrepresented and vulnerable populations are more exposed to air pollution than other populations. Also, I hope to see underrepresented and vulnerable populations have higher incidence rates for certain respiratory diseases, such as COPD.","Anticipated Findings
+I anticipate that people living in unprotected areas from air pollution exposure can experience respiratory disease symptoms with a higher likelihood than those of others who are living in more clean areas.","Demographic Categories of Interest
+Geography
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+In Kyu Park
+- Graduate Trainee, University of Massachusetts, Amherst"
+Glaucoma and environmental factors,"Glaucoma is the leading cause of irreversible blindness worldwide, affecting approximately 80 million people. The exact mechanisms of glaucoma development remain unclear, but oxidative stress, inflammatory pathways, and microvascular changes have been shown to play an important role. The same…","Scientific Questions Being Studied
+Glaucoma is the leading cause of irreversible blindness worldwide, affecting approximately 80 million people. The exact mechanisms of glaucoma development remain unclear, but oxidative stress, inflammatory pathways,  and microvascular changes have been shown to play an important role. The same mechanisms have been linked to air pollution and recent studies have shown that greater exposure of air pollutants are associated with both self-reported glaucoma and adverse structural characteristics of the disease. A better understanding of the association between glaucoma and air pollution, can help identify modifiable risk factors and, hopefully, provide actionable advice for patients and health care professionals to improve glaucoma management.","Project Purpose(s)
+Disease Focused Research (glaucoma)","Scientific Approaches
+We plan to conduct an epidemiological study. To reflect chronic exposure, we will assess data from participants who have responded to The Basics survey question “How many years have you lived at your current address?” with either “6 to 10” or “11 to 20 or “more 20”. Cases of glaucoma will be identified using SNOMED-CT. To assess exposure of air pollutants, we will use publicly available government sources obtained from the Environmental Protection Agency (EPA) using ZIP Code Tabulation Areas (ZCTAs). We will match to the nearest location of measurement for each environmental variable to assign each patient a single set of environmental measurements. We will use logistic regression models to quantify the association of environmental variables with our primary outcome of glaucoma.","Anticipated Findings
+We expect to obtain novel insights to increase our understanding of the relationship between greater exposure to air pollutants, and other environmental factors, and the risk of glaucoma. Using ""All of Us"" data, we hope to contribute new knowledge that can potentially identify new modifiable risk factors for glaucoma.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Anna-Sophie Thein
+- Graduate Trainee, University of California, San Francisco"
+Urban genetics,"The world has witnessed on-going urbanization and globalization for decades. Currently, more than half of the world’s population lives in urban areas and the proportion is expected to go up to about 66% by 2050. The number of people living…","Scientific Questions Being Studied
+The world has witnessed on-going urbanization and globalization for decades.  Currently, more than half of the world’s population lives in urban areas and the proportion is expected to go up to about 66% by 2050.  The number of people living outside their country of origin has also been increasing over the last two decades.   This global trend is evident in largest cities in the world such as New York, suggesting rapid and extensive admixture of individuals with different ancestry inside the city. This admixture is different from the admixture we experienced before in many points. Thus, it is important to understand what would happen in our genome in the city from the perspective of population genetics.
+Additionally, the environment in urban area is very unique: E.g. high density of people, heavy traffic, heavy air pollution, low level of physical activity and etc. These unique environment can drive evolution though gene environment interaction.","Project Purpose(s)
+Ancestry","Scientific Approaches
+To assess what genetic features in cities are different from those in rural areas,  we will categorize All Of US participants by the level of urbanization based on zip code data and compare several statistics (e.g. genetic diversity). To understand what is happening in a large city, we will analyze population structure in New York City by PCA, ADMIXTURE, UMAP and IBD sharing network and compare with New York States. We will also infer local ancestry for each individual using MOSAIC and gnomix to compare ancestry composition in each individual's genome.","Anticipated Findings
+By analyzing NYC participants, we will find several founder populations and many recently admixed individuals. By combining EHR data, we will be able to find population-specific disease and associated variants. This may improve our understanding of disease background for underrepresented populations such as admixed populations and small founder populations.
+Higher genetic diversity and higher rate of assortative mating are anticipated in the city than rural area. Our findings may be helpful to create future frameworks of genomic study such as Genome-wide association study (GWAS) because some genetic features like assortative mating would contradict the assumption of current framework.
+Inferring local ancestry is important for finding disease-associated variants in admixed individuals. We will provide the results to other researchers to enhance genetic researches in admixed populations.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Sri Raj
+- Early Career Tenure-track Researcher, Albert Einstein College of Medicine
+Mariko Segawa
+- Research Fellow, Albert Einstein College of Medicine
+Collaborators:
+Srilakshmi Raj - Early Career Tenure-track Researcher, Albert Einstein College of Medicine
+Varun Gupta - Project Personnel, Albert Einstein College of Medicine"
+Asthma Prevalence and Urbanization,"I am researching the potential correlation between asthma prevalence and urban domeciles to assess correlation between those who live in urban environments and contraction of asthma. From these findings, I hope to explore specific factors in urban environments (industrial pollution,…","Scientific Questions Being Studied
+I am researching the potential correlation between asthma prevalence and urban domeciles to assess correlation between those who live in urban environments and contraction of asthma. From these findings, I hope to explore specific factors in urban environments (industrial pollution, car pollution, etc.) that may explain this phenomenon","Project Purpose(s)
+Disease Focused Research (asthma)
+Population Health
+Educational
+Control Set
+Ancestry","Scientific Approaches
+I plan to conduct quantitative research, comparing the asthma rates of young adults in urban environments to those in rural/sub-urban environments","Anticipated Findings
+I anticipate to conduct further studies based on the findings of this initial research, such as identifying the specific factors in urban environments leading to asthma and, eventually, to provide recommendations for preventative care","Demographic Categories of Interest
+Geography","Data Set Used
+Registered Tier","Research Team
+Owner:
+Deserae O'Dell
+- Undergraduate Student, Arizona State University"
+Pollution and smoking practice,"Comparing incidence of lung diseases among tobacco and ecigarette users to background rates of lung disease, relative to air pollution data for participants' zip codes. Specifically looking to understand relative effects of smoked tobacco/nicotine products compared to environmental air pollution.","Scientific Questions Being Studied
+Comparing incidence of lung diseases among tobacco and ecigarette users to background rates of lung disease, relative to air pollution data for participants' zip codes. Specifically looking to understand relative effects of smoked tobacco/nicotine products compared to environmental air pollution.","Project Purpose(s)
+Educational","Scientific Approaches
+Using participant survey data for tobacco/nicotine use and participant zip code data connected with (as yet undecided) external data on air pollution and air quality for a given zip code. Specific analysis approaches are still being explored.","Anticipated Findings
+Anticipating a more consistent negative effect on lung health from personal tobacco usage with environmental air pollution compounding these effects.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eric Sodja
+- Graduate Trainee, University of Utah"
+Sinusitis and air pollution,"We already know that air pollution is related to chronic rhinosinusitis. However, if there are any genes that modify this relationship is unknown. We propose to study which single nucleotide polymorphisms (SNPs) could modify the air pollution and chronic rhinitis…","Scientific Questions Being Studied
+We already know that air pollution is related to chronic rhinosinusitis. However, if there are any genes that modify this relationship is unknown. We propose to study which  single nucleotide polymorphisms (SNPs) could modify the air pollution and chronic rhinitis relationship.","Project Purpose(s)
+Disease Focused Research (sinusitis)
+Ancestry","Scientific Approaches
+We plan to use general demographic data (such as age, sex, ethnicity, education, income), general comorbidity data (included in conditions), air pollution data (particulate matter equal or less than 2.5μm [PM2.5]) and SNP/intel variants.
+To verify which SNPs are more associated with chronic rhinosinusitis, we are going to perform a wide genome association study (GWAS). Then, we are going to perform logistic regressions, using interaction terms, to see whether the association of air pollution with chronic rhinosinusitis is modified.","Anticipated Findings
+We anticipate that some SNPs can modify the relationship between air pollution and chronic rhinosinusitis in our modification analyses. These findings will help to identify which individuals are more susceptible to develop chronic rhinosinusitis when exposed to PM2.5, offering important public health information.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Henrique Ochoa Scussiatto
+- Research Fellow, University of Chicago
+Collaborators:
+Olga Lesnik - Project Personnel, University of Chicago"
+derm,Use public datasets to get information about the impact of pollution on alopecia areata. This will help us see the role of environmental impacts.,"Scientific Questions Being Studied
+Use public datasets to get information about the impact of pollution on alopecia areata. This will help us see the role of environmental impacts.","Project Purpose(s)
+Disease Focused Research (Derm)","Scientific Approaches
+Use public datasets to get information about the impact of pollution on alopecia areata. This will help us see the role of environmental impacts.","Anticipated Findings
+Exploring the impact of pollution on alopecia areata.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ross O'Hagan
+- Graduate Trainee, Icahn School of Medicine at Mount Sinai"
+Cardio Paper,This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental…,"Scientific Questions Being Studied
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Project Purpose(s)
+Disease Focused Research (hypertension)
+Population Health","Scientific Approaches
+This study seeks to understand the relationship between ambient air pollution concentrations (PM2.5 and NO2) and the incidence of hypertension in the All of Us cohort. To explore this association we will match modelled air quality data for the continental USA to participant zip code prefix. Analysis will consist of multivariate logistic regression and generalized additive models.","Anticipated Findings
+We anticipate an association between air pollution concentrations and the incidence of hypertension. We anticipate that the strength of this association will vary by race and other demographic factors, as well as by smoking status and other behavioral health factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Andrew Craver
+- Project Personnel, University of Chicago
+Jiajun Luo
+- Research Fellow, University of Chicago
+Maia Griffith
+- Project Personnel, University of Chicago"
+Mental_health_equity,"Aim. To determine the association of combined place-based environmental and social stressors, their constellation, with middle childhood and adolescent symptoms of depression among All of Us participants (8 to 17 years old). Specific questions include: What is the spatial association…","Scientific Questions Being Studied
+Aim. To determine the association of combined place-based environmental and social stressors, their constellation, with middle childhood and adolescent symptoms of depression among All of Us participants (8 to 17 years old). Specific questions include:
+What is the spatial association of neighborhood environmental stressors such as crime, green space, noise, air pollution, on participant depression disorder?
+What is the association social stressors, such as, individual and household composition and socio-economic characteristics, on participant depression disorder?What  are the combined effects of place-based environmental and social stressors on participant depression disorder?","Project Purpose(s)
+Disease Focused Research (mental depression)
+Population Health
+Social / Behavioral
+Other Purpose (To complete a chapter in my doctoral dissertation on influence of environmental stressors on depression disorder among adolescents. )","Scientific Approaches
+This research will use exploratory geospatial and descriptive analysis approach to attain a preliminary understanding of the spatial association and distribution of geographic stressors and the variation in the distribution of mental health risks. This approach will use exploratory mapping, row standardized spatial weights, descriptive statistics, bivariate and multivariate analysis based on ordinary least square (OLS) methods.
+In addition, this research will utilize data reduction methods including principle component analysis and Latent profile analysis to identify constellation of exposure to geographic environmental and social stressors. Exposures identified to influence outcomes of interest with the exploratory spatial descriptive analysis (above), will be used in this phase of the analysis.","Anticipated Findings
+This research will go beyond the prior research focused on either social or environmental exposures and incorporate analysis of the synergistic effects of these factors that make up these different neighborhood contexts. Synergistic effects on the brain have been hypothesized via systemic inflammation, vascular degeneration, and alterations in blood-brain barrier permeability. However, few studies have been able to disentangle cause and effect relationship between social stressors and environmental hazards with health outcomes. Studies that analyze synergistic effects document issues with temporal misclassification of exposures, spatial statistical power or autocorrelation.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Geography
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Javier Morla
+- Graduate Trainee, University of California, Davis"
+COPD,"How do demographic disparities, affect prevalence of COPD, exploring any disparities in access to care, treatment, and outcomes. Another area of focus would be what environmental exposures, such as air pollution and exposure to toxins in the development of COPD.…","Scientific Questions Being Studied
+How do demographic disparities, affect prevalence of COPD, exploring any disparities in access to care, treatment, and outcomes.
+Another area of focus would be what environmental exposures, such as air pollution and exposure to toxins in the development of COPD.
+Comorbidities, or the relationship between COPD and other health conditions will also be analyzed, including the impact of these comorbidities on COPD treatment and outcomes.
+Lifestyle factors,  will also be explored and their potential impact on disease progression and treatment outcomes investigated.
+Treatment effectiveness, treatment approach, treatment utilization.
+Clinical outcomes, such hospitalization, functional status, and quality of life, will also be analyzed, including the exploration of potential predictors of these outcomes. Additionally, genetic data in the All of Us dataset can be used to investigate the genetic basis of COPD and identify potential targets for future treatments.","Project Purpose(s)
+Disease Focused Research (chronic obstructive pulmonary disease)","Scientific Approaches
+Demographic and lifestyle data, environmental exposure data, clinical outcomes, hospitalizations, health records, genomic data, imaging data, spirometry data, EHR data.
+methods: regression analysis, longitudinal analysis, GWAS, Machine learning
+tools: biostatistical R programming","Anticipated Findings
+Improved understanding of the demographic disparities in COPD
+Improved understanding of the role of environmental exposures in COPD
+Improved understanding of the relationship between COPD and other health conditions
+Improved understanding of the impact of lifestyle factors on COPD
+Improved understanding of the effectiveness of different treatment approaches
+Improved understanding of clinical outcomes and potential predictors of these outcomes
+Improved understanding of the genetic basis of COPD","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Samuel Huang
+- Graduate Trainee, Cornell University"
+SLE case-control,"We are interested generally in risk factors for developing autoimmune diseases, in particular but not limited to systemic lupus erythematosus and rheumatoid arthritis, at the population level. We are interested in environmental risk factors (air pollution, heat, pesticides, etc.), psychosocial…","Scientific Questions Being Studied
+We are interested generally in risk factors for developing autoimmune diseases, in particular but not limited to systemic lupus erythematosus and rheumatoid arthritis, at the population level. We are interested in environmental risk factors (air pollution, heat, pesticides, etc.), psychosocial factors (stress, emotional distress, trauma, PTSD, depression, resilience), social determinants of health (access to food, work, housing, neighborhood factors) , and behavioral lifestyle factors (smoking, alcohol, exercise, obesity, diet, work hours, etc.). We are interested in characterizing the sociodemographics of the populations affected and estimating the population attributable risk for each of these factors and in combinations.  When genome-wide data are available, we will be interested in genetic risk factors for autoimmune diseases, and how they may interact with environmental risk factors to produce immune dysregulation and then disease.","Project Purpose(s)
+Disease Focused Research (Autoimmune diseases)
+Population Health
+Social / Behavioral
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+We plan to assemble cohorts of individuals with incident and prevalent autoimmune diseases (concentrating on SLE and RA, but also investigating other related autoimmune diseases) and matched controls to investigate the prevalence of these risk factors, populations most affected, magnitude of the risk estimates and population attributable risks. In cross-sectional analyses, we will use logistic regression models.","Anticipated Findings
+We have previously studied many of these risk factors, and their interactions with genetic factors, among women in the prospective Nurses' Health Study and to an extent in the Black Women's Health Study,  the Women's Health Study, and Roxbury Lupus Study. These studies have all been limited to females, had mainly older adult participants, and have had limited racial and ethnic diversity. For these reasons, we aim to confirm and extend our research into more diverse population-based cohorts and expect that all of these factors will be associated with risk of these autoimmune diseases. We intend to examine the  magnitudes of effects observed and the population attributable risks. These studies will contribute greatly to our knowledge of autoimmune disease risk factors, both modifiable and non-modifiable, and potential pathogenesis of these complex diseases, in diverse US populations.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jeong Yee
+- Research Fellow, Mass General Brigham
+Karen Costenbader
+- Mid-career Tenured Researcher, Mass General Brigham"
+Wearables Pollution and Temperature Controlled Tier,"Exposure to ambient air pollution and extreme temperature has significant consequences for human health and mortality. Behavioral responses to air pollution and temperature are of academic and public interest in and of themselves, but they can also reveal the social…","Scientific Questions Being Studied
+Exposure to ambient air pollution and extreme temperature has significant consequences for human health and mortality. Behavioral responses to air pollution and temperature are of academic and public interest in and of themselves, but they can also reveal the social costs of pollution and extreme temperatures, or the benefits of their mitigation, informing cost-benefit analysis of environmental policy. This project aims to use wearables data from the All of Us project. to examine (1) how human behavior changes in response to pollution and temperature shocks and (2) mechanisms through which pollution and temperature affect human health and physical performance.","Project Purpose(s)
+Population Health
+Social / Behavioral","Scientific Approaches
+This project will use econometric and causal inference tools common in applied microeconomics research to explore behavioral responses to ambient air pollution and extreme temperature. It will incorporate publicly available weather and temperature data as well as pollution data from local pollution monitors as and satellite measures.","Anticipated Findings
+This study will provide a novel approach to valuing pollution avoidance and climate change mitigation, contributing to a growing literature in environmental economics. Whereas much of the existing literature identifies health impacts for vulnerable populations like infants and the elderly, populations for which relevant data are available from administrative records, these wearables data can be used to analyze impacts on other demographic groups, including non-elderly adults.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Robert Harris
+- Other, Georgia Institute of Technology"
+Breast cancer disparities,"Health disparities exist widely in the breast cancer outcomes (incidence, survival, and quality-of-life). When compared with white women, African American women have higher recurrence and death rates from breast cancer although they have a lower incidence rate. It is well…","Scientific Questions Being Studied
+Health disparities exist widely in the breast cancer outcomes (incidence, survival, and quality-of-life). When compared with white women, African American women have higher recurrence and death rates from breast cancer although they have a lower incidence rate. It is well established that both community and individual level risk factors play important roles in the breast cancer outcomes.
+We will take advantage of the comprehensive database collected by the All of Us project to investigate the observed racial disparities in breast cancer outcomes. Using the novel multilevel mediation analysis method, we will identify modifiable factors that can explain the racial disparities observed in breast cancer outcomes. The risk factors to be considered include measures at both the environmental (e.g. pollution measurements) and individual levels (e.g., smoking behavior and gene expressions).","Project Purpose(s)
+Population Health
+Methods Development","Scientific Approaches
+We will identify important genes and investigate their relative contribution in breast cancer progression to determine how the neighborhood environment interacts with gene expressions, leading to their alteration in different racial groups and thus influencing associated racial health disparities. All female participants who were diagnosed with invasive breast cancer will be included for analysis. We will also entail cross-sectional data analysis of multilevel data, nesting individual gene expression data in neighborhoods, to analyze the competing risks of the neighborhood environment for breast cancer. As described in the AoU data dictionary, participants’ residential addresses were geo-coded and the socio-economic status of the residential address are linked to patients according to the zip codes.  We have generated neighborhood risk factors from public-available datasets and will link the neighborhood risk factors with each participant. We will use the mediation analysis method.","Anticipated Findings
+A clear understanding of the etiologic factors underlying health disparities is essential for designing screenings, treatments and interventions for optimally reducing disparities. The multilevel statistical methods developed through the project can help explain a wide array of health disparities. We will test the use of AoU database to investigate its potential of helping generate and test hypothesis that aims at ultimately filling in knowledge gaps and improving biomedical and epidemiological research in health disparities.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Qingzhao Yu
+- Mid-career Tenured Researcher, Louisiana State University Health Sciences Center, New Orleans"
+Hemodynamics,Can pulmonary hypertension and its various subgroups be identified by right heart catheterizations from All of Us? Is patient survival affected by pollution or distance? Are there differences in patients with HFpEF?,"Scientific Questions Being Studied
+Can pulmonary hypertension and its various subgroups be identified by right heart catheterizations from All of Us? Is patient survival affected by pollution or distance? Are there differences in patients with HFpEF?","Project Purpose(s)
+Disease Focused Research (pulmonary hypertension)
+Population Health
+Methods Development","Scientific Approaches
+We are looking to apply adjusted statistical models to determine if there are differences in survival between our various cohorts.","Anticipated Findings
+We expect to see trends similar to our own research on different populations.","Demographic Categories of Interest
+Age
+Geography","Data Set Used
+Registered Tier","Research Team
+Owner:
+Adam Handen
+- Project Personnel, University of Pittsburgh"

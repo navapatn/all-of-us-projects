@@ -1,0 +1,386 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+Dementia/Alzheimer's Comorbidity Effect,Study the effect of comorbidities while controlling for other clinically reported factors in the development of Alzheimer's disease and dementia that leads to disproportionate morbidity between ethnicities. We would like to explore what health elements are responsible for this diagnosis…,"Scientific Questions Being Studied
+Study the effect of comorbidities while controlling for other clinically reported factors in the development of Alzheimer's disease and dementia that leads to disproportionate morbidity between ethnicities. We would like to explore what health elements are responsible for this diagnosis that causes a difference in its occurrence between ethnicities. We would also like to consider some of the underlying genetic interactions which influence Alzheimer's and dementia development that would establish a clearer cause of the observed ethnic differences due to genetic factors that are non-specific to ethnicity. Understanding the impact of comorbidities and other clinical factors may be used in a preventative medicine and public health context to better understand the progression of disease among subpopulations due to other underlying medical conditions that are easier to address and thus may improve preventative treatment that focuses on resolving the health disparity between ethnic groups.","Project Purpose(s)
+Disease Focused Research (Dementia and Alzheimer's Disease)","Scientific Approaches
+This research is part of an undergraduate thesis project and thus scientific approaches will be adjusted over time and will be reflected here. The datasets and tools used will all come from the secure AoU workspace.","Anticipated Findings
+Anticipated findings include the ethnic disparity in Alzheimer’s and dementia morbidity that can be explained by a disproportionate occurrence of comorbidities and potential differences in the APOE allele between subpopulations. The demographics of the current cohort of those affected by Alzheimer’s disease and dementia will be better understood for causes that lead to a disproportionate health effect.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Cayden Goeringer
+- Undergraduate Student, Arizona State University"
+Underdiagnosis of Dementias,The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies…,"Scientific Questions Being Studied
+The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies and our work, less than half of patients with dementia have been formally diagnosed and significantly more so in underrepresented racial and ethnic groups. Our scientific questions are:
+1. Are dementias underdiagnosed in the electronic health record (EHR) compared to population estimates?
+2. What are the risk factors for patients to not be formally diagnosed with dementias?
+3. How do the underdiagnosis and risk factors differ across racial and ethnic groups?
+We hypothesize dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors include demographics, comorbidities, medications, and healthcare access.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health","Scientific Approaches
+We will define dementia as probable based on ICD codes and possible based on a combination of ICD codes, medication use and personal medical history. We will calculate the prevalence of dementias across racial and ethnic group compared to population estimates. We will compare risk factors of patients who have probable dementia versus possible dementia using logistic regression correcting for demographics. Risk factors tested will include drug exposures, lab measurement, demographics, health access, and other survey questions. We will compare risk factors across racial and ethnic groups.","Anticipated Findings
+We expect to find that dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors for underdiagnosis include demographics, comorbidities, medications, and healthcare access, which will differ across racial and ethnic groups. These findings may lead to racially and ethnically specific strategies to improve the early and appropriate diagnosis of dementias, which can initiate multi-disciplinary care and treatment.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Tim Chang
+- Early Career Tenure-track Researcher, University of California, Los Angeles
+Satpal Singh Wadhwa
+- Mid-career Tenured Researcher, University of California, Los Angeles
+Samantha Shah
+- Project Personnel, University of California, Los Angeles
+Joy Fu
+- Graduate Trainee, University of California, Los Angeles"
+Duplicate of Unmet caregiving needs of older adults with dementia - Delayed Care,"This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated…","Scientific Questions Being Studied
+This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated with the healthcare utilization of older adults with dementia, including doctor visits, emergency room admissions, and hospitalizations? The expected increase in the number of older adults living with dementia has important implications for the demand for healthcare services and the need for informal care from family members.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Social / Behavioral
+Drug Development","Scientific Approaches
+We will use the electronic health record data to create a cohort of All of Us participants aged 65 and older with an ICD code for dementia. We will use survey data for information on difficulty with daily activities (e.g., walking, bathing, errands) and supportive relationships (e.g., someone to help cook meals or provide transportation). We will use these survey data to determine the percentage of older adults with dementia that have difficulty with daily tasks but do not have supportive relationships (i.e., unmet caregiving needs). We will also use electronic health record data to identify the number of doctor visits, emergency room admissions, and hospitalizations over one year. We will perform regression analyses to determine if unmet caregiving needs are associated with the healthcare utilization of older adults with dementia.","Anticipated Findings
+We expect that most (>50%) older adults with dementia will report having someone to help with daily activities. We hypothesize that unmet caregiving needs will be associated with fewer doctor visits but more emergency room admissions and hospitalizations. Our research will show how the availability of supportive relationships influences the healthcare use of older adults with dementia.","Demographic Categories of Interest
+Age
+Disability Status","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Weibin Zhang
+- Project Personnel, University of Texas Medical Branch (UTMB) at Galveston
+Collaborators:
+Daniel Bao - Graduate Trainee, University of Texas Medical Branch (UTMB) at Galveston
+Brian Downer - Early Career Tenure-track Researcher, University of Texas Medical Branch (UTMB) at Galveston
+Suresh Bhavnani - Late Career Tenured Researcher, University of Texas Medical Branch (UTMB) at Galveston"
+Unmet caregiving needs of older adults with dementia - Controlled Duplicate test,"This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated…","Scientific Questions Being Studied
+This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated with the healthcare utilization of older adults with dementia, including doctor visits, emergency room admissions, and hospitalizations? The expected increase in the number of older adults living with dementia has important implications for the demand for healthcare services and the need for informal care from family members.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Social / Behavioral
+Drug Development","Scientific Approaches
+We will use the electronic health record data to create a cohort of All of Us participants aged 65 and older with an ICD code for dementia. We will use survey data for information on difficulty with daily activities (e.g., walking, bathing, errands) and supportive relationships (e.g., someone to help cook meals or provide transportation). We will use these survey data to determine the percentage of older adults with dementia that have difficulty with daily tasks but do not have supportive relationships (i.e., unmet caregiving needs). We will also use electronic health record data to identify the number of doctor visits, emergency room admissions, and hospitalizations over one year. We will perform regression analyses to determine if unmet caregiving needs are associated with the healthcare utilization of older adults with dementia.","Anticipated Findings
+We expect that most (>50%) older adults with dementia will report having someone to help with daily activities. We hypothesize that unmet caregiving needs will be associated with fewer doctor visits but more emergency room admissions and hospitalizations. Our research will show how the availability of supportive relationships influences the healthcare use of older adults with dementia.","Demographic Categories of Interest
+Age
+Disability Status","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Weibin Zhang
+- Project Personnel, University of Texas Medical Branch (UTMB) at Galveston
+Collaborators:
+Daniel Bao - Graduate Trainee, University of Texas Medical Branch (UTMB) at Galveston
+Brian Downer - Early Career Tenure-track Researcher, University of Texas Medical Branch (UTMB) at Galveston
+Suresh Bhavnani - Late Career Tenured Researcher, University of Texas Medical Branch (UTMB) at Galveston"
+Duplicate of Unmet caregiving needs of older adults with dementia,"This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated…","Scientific Questions Being Studied
+This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated with the healthcare utilization of older adults with dementia, including doctor visits, emergency room admissions, and hospitalizations? The expected increase in the number of older adults living with dementia has important implications for the demand for healthcare services and the need for informal care from family members.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Social / Behavioral","Scientific Approaches
+We will use the electronic health record data to create a cohort of All of Us participants aged 65 and older with an ICD code for dementia. We will use survey data for information on difficulty with daily activities (e.g., walking, bathing, errands) and supportive relationships (e.g., someone to help cook meals or provide transportation). We will use these survey data to determine the percentage of older adults with dementia that have difficulty with daily tasks but do not have supportive relationships (i.e., unmet caregiving needs). We will also use electronic health record data to identify the number of doctor visits, emergency room admissions, and hospitalizations over one year. We will perform regression analyses to determine if unmet caregiving needs are associated with the healthcare utilization of older adults with dementia.","Anticipated Findings
+We expect that most (>50%) older adults with dementia will report having someone to help with daily activities. We hypothesize that unmet caregiving needs will be associated with fewer doctor visits but more emergency room admissions and hospitalizations. Our research will show how the availability of supportive relationships influences the healthcare use of older adults with dementia.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Weibin Zhang
+- Project Personnel, University of Texas Medical Branch (UTMB) at Galveston"
+Unmet caregiving needs of older adults with dementia - Controlled Duplicate,"This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated…","Scientific Questions Being Studied
+This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated with the healthcare utilization of older adults with dementia, including doctor visits, emergency room admissions, and hospitalizations? The expected increase in the number of older adults living with dementia has important implications for the demand for healthcare services and the need for informal care from family members.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Social / Behavioral
+Drug Development","Scientific Approaches
+We will use the electronic health record data to create a cohort of All of Us participants aged 65 and older with an ICD code for dementia. We will use survey data for information on difficulty with daily activities (e.g., walking, bathing, errands) and supportive relationships (e.g., someone to help cook meals or provide transportation). We will use these survey data to determine the percentage of older adults with dementia that have difficulty with daily tasks but do not have supportive relationships (i.e., unmet caregiving needs). We will also use electronic health record data to identify the number of doctor visits, emergency room admissions, and hospitalizations over one year. We will perform regression analyses to determine if unmet caregiving needs are associated with the healthcare utilization of older adults with dementia.","Anticipated Findings
+We expect that most (>50%) older adults with dementia will report having someone to help with daily activities. We hypothesize that unmet caregiving needs will be associated with fewer doctor visits but more emergency room admissions and hospitalizations. Our research will show how the availability of supportive relationships influences the healthcare use of older adults with dementia.","Demographic Categories of Interest
+Age
+Disability Status","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Daniel Bao
+- Graduate Trainee, University of Texas Medical Branch (UTMB) at Galveston
+Collaborators:
+Weibin Zhang - Project Personnel, University of Texas Medical Branch (UTMB) at Galveston
+Brian Downer - Early Career Tenure-track Researcher, University of Texas Medical Branch (UTMB) at Galveston
+Suresh Bhavnani - Late Career Tenured Researcher, University of Texas Medical Branch (UTMB) at Galveston"
+Unmet caregiving needs of older adults with dementia,"This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated…","Scientific Questions Being Studied
+This project will describe the caregiving needs, social support, and healthcare use of older adults diagnosed with dementia. Our primary research questions are: (1) What percentage of older adults with dementia have unmet caregiving needs? (2) Are unmet needs associated with the healthcare utilization of older adults with dementia, including doctor visits, emergency room admissions, and hospitalizations? The expected increase in the number of older adults living with dementia has important implications for the demand for healthcare services and the need for informal care from family members.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Social / Behavioral","Scientific Approaches
+We will use the electronic health record data to create a cohort of All of Us participants aged 65 and older with an ICD code for dementia. We will use survey data for information on difficulty with daily activities (e.g., walking, bathing, errands) and supportive relationships (e.g., someone to help cook meals or provide transportation). We will use these survey data to determine the percentage of older adults with dementia that have difficulty with daily tasks but do not have supportive relationships (i.e., unmet caregiving needs). We will also use electronic health record data to identify the number of doctor visits, emergency room admissions, and hospitalizations over one year. We will perform regression analyses to determine if unmet caregiving needs are associated with the healthcare utilization of older adults with dementia.","Anticipated Findings
+We expect that most (>50%) older adults with dementia will report having someone to help with daily activities. We hypothesize that unmet caregiving needs will be associated with fewer doctor visits but more emergency room admissions and hospitalizations. Our research will show how the availability of supportive relationships influences the healthcare use of older adults with dementia.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Brian Downer
+- Early Career Tenure-track Researcher, University of Texas Medical Branch (UTMB) at Galveston
+Collaborators:
+Weibin Zhang - Project Personnel, University of Texas Medical Branch (UTMB) at Galveston
+Daniel Bao - Graduate Trainee, University of Texas Medical Branch (UTMB) at Galveston
+Suresh Bhavnani - Late Career Tenured Researcher, University of Texas Medical Branch (UTMB) at Galveston"
+Dementia-Alzheimer's-CRP,"Do CRP levels change with age in dementia/Alzheimer's patients as opposed to controls? Associations have shown that these protein levels are increased in Alzheimer's patients, and this will help answer whether patients' CRP levels are elevated naturally or if it…","Scientific Questions Being Studied
+Do CRP levels change with age in dementia/Alzheimer's patients as opposed to controls? Associations have shown that these protein levels are increased in Alzheimer's patients, and this will help answer whether patients' CRP levels are elevated naturally or if it is something that happens over time as a result of the disease progression.","Project Purpose(s)
+Disease Focused Research (Dimentia/Alzheimer's)","Scientific Approaches
+Datasets - AOU phenotyping and lab data Research methods and tools - clean and summarize lab data for CRP - average by decile of age and disease status and plot in R.","Anticipated Findings
+I anticipate that CRP levels will be elevated in Alzheimer's after disease progression. This would help answer cause and effect of the two","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Slavina Goleva
+- Research Fellow, National Human Genome Research Institute (NIH-NHGRI)
+David Schlueter
+- Research Fellow, National Human Genome Research Institute (NIH-NHGRI)"
+AD,"Alzheimer’s disease (AD) is a leading cause of dementia and neurological disability in the aging population. For the proposed project, we will examine the associations between genetic, environmental, demographic and clinical factors and functional outcomes in people with Alzheimer’s disease.","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is a leading cause of dementia and neurological disability in the aging population. For the proposed project, we will examine the associations between genetic, environmental, demographic and clinical factors and functional outcomes in people with Alzheimer’s disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Educational","Scientific Approaches
+In the proposed project, we will test the hypothesis that meaningful genetic, environmental, demographic and clinical factors can predict AD functional outcomes and disease trajectory. We will also examine how social determinants of health influence AD functional outcomes and disease trajectory. We will utilize data from the All of Us database with at least one of the International Classification of Disease (ICD) diagnosis codes for AD and related dementia.","Anticipated Findings
+We anticipate that integrating genetic, environmental, demographic and clinical factors will predict AD functional outcomes and disease trajectory and these outcomes will differ by sex, race, ethnicity, and socioeconomic status.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Shruthi Venkatesh
+- Graduate Trainee, University of Pittsburgh"
+Sleep disorder and dementia across diverse racial and ethnic groups 6,"Poor sleep quality has been linked to worse cognitive function, but most research has been conducted in predominantly White samples. We will investigate whether poorer sleep quality is associated with lower levels of and faster declines in cognition and greater…","Scientific Questions Being Studied
+Poor sleep quality has been linked to worse cognitive function, but most research has been conducted in predominantly White samples. We  will investigate whether poorer sleep quality is associated with lower levels of and faster declines in cognition and greater risk of dementia and whether these associations differ by race/ethnicity.  Findings of this study will provide implications for promoting cognitive health across diverse populations","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Population Health
+Social / Behavioral","Scientific Approaches
+We will explore the data to get a sense of the number of waves of variables that are available in the dataset. We will plan our analyses based on the data that are avaiable (e.g., cross-sectional vs. longitudinal).","Anticipated Findings
+We expect to find that sleep disorders will be associated with increased risk of dementia and that the findings will be differed by race and ethnicity status. These findings will help us whether sleep treatments can be used to promote cognitive health across all race and ethnicity groups.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ruijia Chen
+- Research Fellow, University of California, San Francisco
+Jingxuan Wang
+- Graduate Trainee, University of California, San Francisco"
+Hearing Loss and Cognition,"What is the relationship between hearing loss and cognition? Previous research suggests that hearing loss is associated with a higher risk of dementia. By investigating how demographics and various physical and mental illnesses may be associated with that relationship, we…","Scientific Questions Being Studied
+What is the relationship between hearing loss and cognition? Previous research suggests that hearing loss is associated with a higher risk of dementia. By investigating how demographics and various physical and mental illnesses may be associated with that relationship,  we may be better able to target preventive care if a causal pathway exists.","Project Purpose(s)
+Disease Focused Research (Hearing Loss, Dementia)
+Social / Behavioral","Scientific Approaches
+I plan to use datasets consisting of individuals with audiometric data and will use linear regression analysis to characterize the relationship between hearing loss and cognition.","Anticipated Findings
+I hypothesize that hearing loss is associated with higher risk of dementia. Further characterization of this relationship would help craft preventive strategies to improve hearing and/or cognitive outcomes.","Demographic Categories of Interest
+Disability Status","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Michael Denham
+- Graduate Trainee, Columbia University"
+Data exploration of COVID-19 and Dementia associations,Our research attempts to identify attributable risk factors associated with increased mortality in dementia patients admitted to the hospital with an acute covid-19 infection. We want to know whether there are differences between patients diagnosed with an acute episode of…,"Scientific Questions Being Studied
+Our research attempts to identify attributable risk factors associated with increased mortality in dementia patients admitted to the hospital with an acute covid-19 infection.  We want to know whether there are differences between patients diagnosed with an acute episode of covid-19 alone versus dementia patients with an acute COVID-19 episode.   Additionally, are there significant differences in lab values over time? Or, are there any indications of differences in delivery of care (e.g. time to admission, time to treatment, and admitted level of care)?","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health
+Methods Development
+Ancestry
+Ethical, Legal, and Social Implications (ELSI)","Scientific Approaches
+We have not formalized a specific approach or development. Our methods are first to explore the data and look for indications that support a specific hypothesis.","Anticipated Findings
+We expect to find distinct differences between Covid-19 patients admitted to hospital and dementia patients admitted to hospital with an acute Covid-19 diagnosis. In many cases, dementia patients have preexisting damage to the blood-brain-barrier (BBB) due to a chronic state of inflammation, allowing the viral particles direct access to the brain (Wang et al., 2021). SARS-Cov2 has been shown to induce the release of cytokines IL1, IL-16, TNF-α, exacerbating inflammation and causing further injury to the BBB (Fotuhi et al., 2020). Entry of viral particles and blood material into the CSF can result in thrombotic events, seizures, and encephalitis, all of which can lead to fatal outcomes (Wang et al., 2021). This leaves patients with dementia extremely vulnerable to the development of inflammatory cytokine storms and hypercoagulation cascades common in COVID-19.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Tasia Baldwin
+- Other, California University of Science and Medicine
+Ivan Oropeza Iniguez
+- Graduate Trainee, California University of Science and Medicine
+Angela Davidian
+- Early Career Tenure-track Researcher, California University of Science and Medicine"
+Duplicate of Underdiagnosis of Dementias,The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies…,"Scientific Questions Being Studied
+The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies and our work, less than half of patients with dementia have been formally diagnosed and significantly more so in underrepresented racial and ethnic groups. Our scientific questions are:
+1. Are dementias underdiagnosed in the electronic health record (EHR) compared to population estimates?
+2. What are the risk factors for patients to not be formally diagnosed with dementias?
+3. How do the underdiagnosis and risk factors differ across racial and ethnic groups?
+We hypothesize dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors include demographics, comorbidities, medications, and healthcare access.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health","Scientific Approaches
+We will define dementia as probable based on ICD codes and possible based on a combination of ICD codes, medication use and personal medical history. We will calculate the prevalence of dementias across racial and ethnic group compared to population estimates. We will compare risk factors of patients who have probable dementia versus possible dementia using logistic regression correcting for demographics. Risk factors tested will include drug exposures, lab measurement, demographics, health access, and other survey questions. We will compare risk factors across racial and ethnic groups.","Anticipated Findings
+We expect to find that dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors for underdiagnosis include demographics, comorbidities, medications, and healthcare access, which will differ across racial and ethnic groups. These findings may lead to racially and ethnically specific strategies to improve the early and appropriate diagnosis of dementias, which can initiate multi-disciplinary care and treatment.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Samantha Shah
+- Project Personnel, University of California, Los Angeles"
+Duplicate of Preparing to Investigate the Genetics of NDDs in the AoU Cohort,"Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative…","Scientific Questions Being Studied
+Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases  such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative diseases.","Project Purpose(s)
+Disease Focused Research (neurodegenerative disease, Ageing)
+Ancestry","Scientific Approaches
+We will use this workspace to become familiar with how to retrieve phenotypic and genomic data from the AoU cohort. Using Python and/or R (via JupyterNotebooks) we will perform a prospective statistical power analysis of the AoU dataset to determine the applicability of future, secondary analysis to help bridge the gap between genetic association and functional impact with methods such as GWAS, PheWAS, and Polygenic Risk Score (PRS). Additionally, our lab is interested in investigating the role of genetics in neurodegenerative diseases in underrepresented populations and therefore will investigate whether the diversity and size of the AoU cohort will allow us to perform population-specific analysis of the genetic contributions to neurodegenerative diseases.","Anticipated Findings
+We expect to find that the size of the AoU cohort will have the statistical power necessary to perform our desired secondary analysis.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eve Gardner
+- Project Personnel, Van Andel Research Institute"
+Hearing and Cognition,"According to the Lancet Commission (2020), hearing loss is considered to be the number one modifiable risk factor for Dementia in midlife. In the current study, we aim to validate the association between hearing loss and dementia in different life…","Scientific Questions Being Studied
+According to the Lancet Commission (2020), hearing loss is considered to be the number one modifiable risk factor for Dementia in midlife. In the current study, we aim to validate the association between hearing loss and dementia in different life spans and the contribution of the different modifiable risk factors.","Project Purpose(s)
+Disease Focused Research (dementia)","Scientific Approaches
+Multivariate logistic regression  to assess the association between hearing loss (exposure) and dementia (outcome) and the contribution of other modifiable risk factors in different life spans.","Anticipated Findings
+The study will validate the relative role of hearing loss as a modifiable risk factor for dementia.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yasmeen Abdelkarim Mohamed Hamza
+- Early Career Tenure-track Researcher, Florida State University
+Collaborators:
+Xianhui Wang - Research Fellow, University of California, Irvine
+Fan-Gang Zeng - Late Career Tenured Researcher, University of California, Irvine"
+Preparing to Investigate the Genetics of NDDs in the AoU Cohort,"Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative…","Scientific Questions Being Studied
+Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases  such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative diseases.","Project Purpose(s)
+Disease Focused Research (neurodegenerative disease, Ageing)
+Ancestry","Scientific Approaches
+We will use this workspace to become familiar with how to retrieve phenotypic and genomic data from the AoU cohort. Using Python and/or R (via JupyterNotebooks) we will perform a prospective statistical power analysis of the AoU dataset to determine the applicability of future, secondary analysis to help bridge the gap between genetic association and functional impact with methods such as GWAS, PheWAS, and Polygenic Risk Score (PRS). Additionally, our lab is interested in investigating the role of genetics in neurodegenerative diseases in underrepresented populations and therefore will investigate whether the diversity and size of the AoU cohort will allow us to perform population-specific analysis of the genetic contributions to neurodegenerative diseases.","Anticipated Findings
+We expect to find that the size of the AoU cohort will have the statistical power necessary to perform our desired secondary analysis.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eve Gardner
+- Project Personnel, Van Andel Research Institute"
+Itch and Dementia,"Itch is a common clinical phenomenon which worsens with age, and up to one-third of elderly patients report clinically significant itch with moderate impact on their quality of life. Itch and neurological conditions including Alzheimer’s disease are also significantly associated…","Scientific Questions Being Studied
+Itch is a common clinical phenomenon which worsens with age, and up to one-third of elderly patients report clinically significant itch with moderate impact on their quality of life. Itch and neurological conditions including Alzheimer’s disease are also significantly associated in aging humans. For example, bullous pemphigoid – a pruritic autoimmune skin disorder whose incidence rises with age – increases the odds of dementia by 10-fold (95% confidence interval 5.4-17.8]). The association between age-related non-neoplastic skin conditions and neurological disorders can be due to shared risk factors (e.g., aging, exposure) or upstream pathophysiology (systemic inflammation, inflammaging), but studies dissecting these potential mechanistic relationships are lacking. In this study, I intend to evaluate the association between dementia and pruritus in an aging population.","Project Purpose(s)
+Disease Focused Research (dementia)","Scientific Approaches
+I will use descriptive statistics to characterize pruritic skin diseases in patients with and without dementia including demographic information, inflammatory skin diseases, dementia subtypes, other comorbid medical conditions, and use of specific medications that have been associated with the development of dementia in prior literature (e.g. sedating anti-histamines). I will use basic statistical techniques to assess these relationships including chi-squared analyses, t-tests, Pearson correlation coefficients, and linear multivariable linear regression models.","Anticipated Findings
+I anticipate that these analyses will demonstrate an association between dementia and pruritus, measured by presence/absence of pruritic inflammatory skin diseases. These data will be used to inform future studies on these associations as well as alternative therapeutic options for patients with dementia and itch.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Emily Cole
+- Early Career Tenure-track Researcher, Emory University"
+CICADA,This proposal seeks support for developing advanced clinical informatics and computational approaches for drug-repositioning for Alzheimer's disease (AD) and related dementias (ADRD). The proposed project directly addresses the areas of emphasis in PAR-20-156 to “develop computational methods such as artificial…,"Scientific Questions Being Studied
+This proposal seeks support for developing advanced clinical informatics and computational approaches for drug-repositioning for Alzheimer's disease (AD) and related dementias (ADRD). The proposed project directly addresses the areas of emphasis in PAR-20-156 to “develop computational methods such as artificial intelligence/machine learning to investigate new uses of FDA-approved drugs or candidate drugs from failed Phase II/Phase III clinical trials through analysis of multimodal data.” The overarching goals of this proposal are to develop novel clinical informatics and computational approaches for drug repositioning of AD/ADRD. Our project holds the promise of identifying novel drug repositioning signals. This project is novel for integrating evidence synthesis methods with signal detection methods using advanced multimodal modeling, and it is potentially transformative for advancing prevention and treatment for AD/ADRD.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+Specifically, we will develop statistical methods and ontology technology to extract drug-repositioning signals from multidimensional data (e.g., pharmacy-linked genetic data and biobank data, historical trials, and EHR data). The proposed framework is novel because it integrates advanced statistical inference procedures with semantic technology for data-driven and reproducible drug repositioning for AD/ADRD. We have three aims: We have three specific aims: Aim 1: Develop signal detection methods using multi-modal data (pharmacy-linked genetic data, genetic and electronic health record (EHR) data, and BioBank data). Aim 2: Evaluate the efficacy and safety of candidate drugs via historical trials and EHR data. Aim 3: Develop novel semantic and natural language processing (NLP) methods for Knowledge Graph (KG) construction.","Anticipated Findings
+The success of this project will lead to novel computational methods, KG, and software for facilitating drug repositioning for AD/ADRD based on multimodal data. If successful, the proposed method could identify novel drug repositioning signals and generate novel hypotheses for prevention and treatment intervention of treat AD/ADRD. Our project holds the promise of identifying novel drug repositioning signals. This project is novel for integrating evidence synthesis methods with signal detection methods using advanced multimodal modeling, and it is potentially transformative for advancing prevention and treatment for AD/ADRD.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Bingyu Zhang
+- Graduate Trainee, University of Pennsylvania"
+Multiple etiology dementias,Exploring whether the data is sufficiently robust to address research into the genetics of multiple etiology dementias and to explore differences across race/ethnicity.,"Scientific Questions Being Studied
+Exploring whether the data is sufficiently robust to address research into the genetics of multiple etiology dementias and to explore differences across race/ethnicity.","Project Purpose(s)
+Disease Focused Research (Alzheimer's and non-Alzheimer's dementias)
+Ancestry","Scientific Approaches
+Descriptive analyses to support feasibility of a full research proposal. All datasets will be interrogated.","Anticipated Findings
+Findings from this exploratory analysis will inform the depth and breadth of a full research proposal on this timely topic for our elderly.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Steve Waring
+- Senior Researcher, Essentia Health"
+Dataset tutorial,Identifying the causative factors of dementia and how they correlate with socioeconomic factors.,"Scientific Questions Being Studied
+Identifying the causative factors of dementia and how they correlate with socioeconomic factors.","Project Purpose(s)
+Educational","Scientific Approaches
+To capture the temporal progression of this neurodegenerative disease, the cohort age will be 30 years old and above. All races and ethnicities will be included, as well as all gender identities. Disability status, education level, access to healthcare, sexual orientation, rural vs urban living, and income level will also be included. Correlation statistics will be used.","Anticipated Findings
+I anticipate seeing economically disadvantaged demographics will show a higher rate of dementia diagnosis. This would elucidate potential avenues of investigation for treating or preventing the onset of the disease, be it through improved nutrition, improved access to healthcare screenings, etc.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Robert Petrovic
+- Graduate Trainee, Baylor College of Medicine"
+Controlled SGM Neuroscience,"Neurological diseases such as Parkinson's Disease or Alzheimer's Disease and Related Dementias can have direct or indirect impacts on day-to-day psychosocial and health behaviors (e.g., activities of daily living, healthcare utilization, self care). Little is known about the impact of…","Scientific Questions Being Studied
+Neurological diseases such as Parkinson's Disease or Alzheimer's Disease and Related Dementias can have direct or indirect impacts on day-to-day psychosocial and health behaviors (e.g., activities of daily living, healthcare utilization, self care). Little is known about the impact of neurological diseases in the sexual and gender minority populations. and as sexual and gender minority populations may experience differences in social support and other impacts of structural inequities we would like to know the following:
+1) Does the impact of having Parkinson's Disease or Alzheimer's Disease and Related Dementias (PD/ADRD) on psychosocial behavioral health, or well-being differ between sexual and gender minorities (SGM) and cisgender, heterosexual (CGH) individuals?
+1a) Are there any differences between sexuality and gender identity subpopulations?
+2) Comparing SGM and CGH individuals with PD/ADRD are there differences in comorbid conditions?","Project Purpose(s)
+Disease Focused Research (Parkinson's Disease and Alzheimer's Disease and related dementias)
+Population Health
+Social / Behavioral
+Methods Development","Scientific Approaches
+We will first identify all of those individuals with valid Sexual Orientation and Gender identity concept answers in the controlled tier dataset, and then among those we will identify the sub population with PD/ADRD diagnoses, and then among that cohort of individuals we will evaluate differences among cohort members based on sex-assigned-at-birth, gender identity, and sexual orientation.
+We will use univariate (measures of central tendency, frequencies/distributions) and bivariate statistics (significant differences between groups). Differences will be assessed using the appropriate within and between groups comparisons approaches based on the type of measures used e.g [M]AN[C]OVA ([multiple] analysis of [co-]variance).
+If the population of affected individuals is large enough we may evaluate complex relationships among the various psychosocial health and well-being factors using partial correlations, logistic regressions, or other multivariable analyses if appropriate.","Anticipated Findings
+We anticipate being able to provide some specific descriptive work related to the All-of-us sample, and any group differences that exist. At this point in time the a priori hypothesis is that SGM individuals will have a poorer psychosocial health and well-being than their CGH comparators. When we finish this work we hope that this will generate information that will spark further inquiry and opportunities to conduct studies to better understand and address any disparities that are identified among SGM individuals with PD/ADRD.
+Further, descriptive analyses that examine data in the aggregate as well disaggregated data (by groups) and using analyses that allow us to account for intersecting marginalized identities are important for understanding which groups are at greatest risk for poor outcomes. We we anticipate that differences to exist in both the combined and disaggregated analyses.","Demographic Categories of Interest
+Sex at Birth
+Gender Identity
+Sexual Orientation","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Scott Moore
+- Early Career Tenure-track Researcher, Case Western Reserve University"
+Alzheimer's drug repurposing validation,"Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Project Purpose(s)
+Methods Development","Scientific Approaches
+This study will use a retrospective cohort study design to compare prevalence of Alzheimer's disease in patients with and without exposure to drug repurposing candidates.","Anticipated Findings
+Successfully validated repurposing candidates will represent high-priority drugs for further investigation in clinical trials.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Monika Grabowska
+- Graduate Trainee, Vanderbilt University"
+Dementia,"Alzheimer's Disease and Related Dementias (ADRD) is an overwhelming medical condition at any age, but ADRD in younger age is particularly devastating, affecting quality of life and independence of individuals in their prime years. Here, we aim to study factors…","Scientific Questions Being Studied
+Alzheimer's Disease and Related Dementias (ADRD) is an overwhelming medical condition at any age, but ADRD in younger age is particularly devastating, affecting quality of life and independence of individuals in their prime years. Here, we aim to study factors associated with ADRD age of onset.","Project Purpose(s)
+Disease Focused Research (dementia)","Scientific Approaches
+We will use the total sample to compare characteristics of individuals with and without ADRD and evaluate their relationship with ADRD age of onset.","Anticipated Findings
+Identifying distinct predisposing and/or protective factors for earlier onset of ADRD opens opportunities to target vulnerable populations for early detection and prevention.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sanaz Sedaghat
+- Early Career Tenure-track Researcher, University of Minnesota"
+Memory Loss and Dementia,"The initial part of this research will be data exploration in the hope of being able to create an analysis pipeline that can answer the question ""what are the genetic, behavioral and socio-demographic that can determine the risk of developing…","Scientific Questions Being Studied
+The initial part of this research will be data exploration in the hope of being able to create an analysis pipeline that can answer the question ""what are the genetic, behavioral and socio-demographic that can determine the risk of developing Dementia and memory loss? How do they interact with each other?"".
+The answers to these questions can be relevant for public health, since they could help develop prevention strategies and understand the real impact of external exposures on the development of these common impairing conditions.","Project Purpose(s)
+Disease Focused Research (dementia)
+Social / Behavioral
+Ancestry","Scientific Approaches
+I will explore several datasets: genomic data, survey questions (selecting subjects reporting dementia and memory loss), lifestyle, physical activity and demographic. Exploratory analyses will be carried out to characterize the subjects, followed by a clustering/stratification analysis to see whether there are identifiable subgroups of patients. After that, multilevel and hierarchical analysis methods such as Mediation Analysis, Bayesian Networks and Mixed-effects Models will be used to inspect the contribution of different genetic and external factors to the development of the aforementioned conditions. If possible, I might integrate some external datasets about other environmental data.","Anticipated Findings
+Possible findings could be that some environmental, social or behavioral factors could impact the development or exacerbation of the conditions more than others, and therefore they should be the starting point for prevention strategies. It could be also possible to find that interactions between factors change depending on the genetic predisposition of the patients, therefore allowing to develop precision medicine techniques.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Daniele Pala
+- Research Fellow, University of Pennsylvania"
+hma4,"Diabetes, cardiovascualar diseases and dementia are the major challenges to human health, which are determined by genetic susceptibility, environmental risk factors, and their interactions. However, the evidence on the G×E (genetic facotrs* environmental factors) interaction and unconfounded estimates of a…","Scientific Questions Being Studied
+Diabetes, cardiovascualar diseases and dementia are the major challenges to human health, which are determined by genetic susceptibility, environmental risk factors, and their interactions. However, the evidence on the G×E (genetic facotrs* environmental factors) interaction and unconfounded estimates of a modifiable exposure is still laking. This study plan aim to investigate whether modifiable factors for such disease may interact with the genetic variations in relation to risks of diabetes, cardiovascualar diseases and dementia.","Project Purpose(s)
+Disease Focused Research (cardiovascualr diseases, diabetes and dementia)
+Population Health
+Social / Behavioral
+Educational
+Drug Development
+Methods Development
+Control Set
+Ancestry
+Commercial
+Ethical, Legal, and Social Implications (ELSI)","Scientific Approaches
+Datasets: all the genotype and phenotype related datasets
+Reseach method:I plan to use G×E interaction , COX model, Losigical model in my study.
+Tools: R.
+Scientific question: whether modifiable factors could modify the association between genetic risk and  disease risks (Diabetes, cardiovascualar diseases and dementia)","Anticipated Findings
+Some individual environmental fators or an overall modifiable-risk-factor profile may modify the association between genetic risk and disease risk.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Hao Ma
+- Research Fellow, Tulane University"

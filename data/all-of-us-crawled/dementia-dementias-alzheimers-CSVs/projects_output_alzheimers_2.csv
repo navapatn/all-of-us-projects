@@ -1,0 +1,1088 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+Alzheimer's Disease,"Females are two-thirds as likely to develop Alzheimer's disease compared to males. Also, females also tend to have earlier onset and more severe symptoms. Whether that prevalence results from increased longevity or genetic differences remains to be understood. We want…","Scientific Questions Being Studied
+Females are two-thirds as likely to develop Alzheimer's disease compared to males. Also, females also tend to have earlier onset and more severe symptoms. Whether that prevalence results from increased longevity or genetic differences remains to be understood. We want to perform association analysis for Alzheimer's disease-related phenotypes in a diverse population to explore genetic architecture using All of Us research dataset, with a particular focus on the previously-overlooked sex-specific effects. We seek to understand the reason behind these sex biases in Alzheimer's disease to improve health care and resolve health disparities.
+We will consider the following questions:
+1) Which variants are associated with Alzheimer’s disease?
+2) Which variants have different effects on Alzheimer’s disease between sexes?
+3) We will narrow down the list of causal variants using state-of-the-art methods.
+We will publish our results as a scientific paper, and release GWAS summary statistics","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+We plan to use marginal regression models such as logistic mixed regression for a binary outcome (in REGENIE) on All of Us genetics data. Phenotypes of interest are late-onset Alzheimer’s disease & other types of Alzheimer’s disease. We plan to define our phenotype based on known ICD-9 (331.0) & ICD-10 codes (G30).
+1) Phenotype definition: We will try to retrieve both genetics data & phenotype data based on our established pipelines (in Liu et al) and uniformly process the data.
+2) GWAS analysis: We will perform GWAS analysis for each sub-trait of interest and combine the results to perform meta-analysis. We will adjust sex, age, and 10 principal components as covariates in association analysis.
+3) Sex-stratified effects and the X-chromosome: We will investigate the role of X chromosome in AD, generate sex stratified results, & perform downstream analysis such as variant annotation, among others.
+We plan to use R, Python, Plink, REGENIE, and other commonly used tools.","Anticipated Findings
+For this analysis, we would expect to see novel variants/genes associated with Alzheimer's phenotypes, especially those with effects showing sex differences. We expect to find: 1) potential variants or genes associated with Alzheimer's disease. 2) genetic factors' contribution to Alzheimer's disease in a sex-specific manner. 3) more accurate genetic effect estimation when we conduct sex-stratified analysis. 4) A detailed pipeline for performing similar analyses will be available to researchers within the Researcher Workbench for All of Us to enhance reproducibility. Our developed methods will benefit future research of a similar kind.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Education Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jeniece Regan
+- Graduate Trainee, Pennsylvania State University, College of Medicine
+Avantika Diwadkar
+- Graduate Trainee, Pennsylvania State University, College of Medicine"
+Modeling dementia using digital patterns from wearable devices,An antemortem diagnosis of Alzheimer’s Disease (AD) requires costly techniques like positron emission tomography (PET) or invasive methods like measurements in cerebrospinal fluid (CSF). Other types of dementia like Frontotemporal Dementia (FTD) or Lewy Body Dementia (LBD) currently have no…,"Scientific Questions Being Studied
+An antemortem diagnosis of Alzheimer’s Disease (AD) requires costly techniques like positron emission tomography (PET) or invasive methods like measurements in cerebrospinal fluid (CSF). Other types of dementia like Frontotemporal Dementia (FTD) or Lewy Body Dementia (LBD) currently have no identified biomarkers comparable to the PET and CSF measures in AD.
+Wearable devices have the potential to serve as inexpensive and non-invasive ways to predict dementia type.  Passive collection is also well-suited for elderly individuals, as it avoids relying on subjective recollection and does not interfere with their day-to-day activities.
+We will evaluate the ability of machine learning models using wearable devices to predict the type of dementia. We are already conducting longitudinal study on patients with mild cognitive impairment and will use the All of Us cohort to develop and test our predictions algorithms to apply them to our longitudinal cohort.","Project Purpose(s)
+Disease Focused Research (dementia)
+Methods Development","Scientific Approaches
+We will define a cohort based on diagnosis codes and age range (higher than 55). We will then develop a pipeline to generate predictive computational models. Our pipeline includes:
+1. Use developed tools to calibrate raw accelerometer data from these sources.
+2. Map the raw data to derived traits of physical activity and sleep, matching the fitness tracker data measured on the prospective cohort.
+3. Account for differences between the prospective study fitness trackers’ digital features and the accelerometer-derived features by having controls wear the two devices concomitantly and generating mapping functions to account for device differences.
+4. Generate machine learning models on large datasets and use a transfer-learning methodology to transfer the learned models to the prospective cohort. These machine learning models will be stratified based on sex and comorbidities (e.g., heart problems).","Anticipated Findings
+Our primary outcome is to generate a computational model that will accurately classify types of dementia based on wearable devices. These models will be applied to our prospective cohort to enable early detection of dementia type and prediction of risk for cognitive decline as early as the stage of mild cognitive impairment or even earlier.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Assaf Gottlieb
+- Early Career Tenure-track Researcher, University of Texas Health Science Center, Houston"
+Alzheimer's Dataset,The goal of this research project is to determine the number of Alzheimer cases by race/ethnicity who also have sequence data available. This data will be used as validation cohort for a grant application.,"Scientific Questions Being Studied
+The goal of this research project is to determine the number of Alzheimer cases by race/ethnicity who also have sequence data available.  This data will be used as validation cohort for a grant application.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+Descriptive analyses will be performed to determine the number of available cases.","Anticipated Findings
+The anticipated findings will counts of the number of available cases.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Kristina Allen-Brady
+- Mid-career Tenured Researcher, University of Utah"
+Duplicate of ALDH2,"Alcohol consumption is a risk factor for many chronic diseases, including some cancers, type 2 diabetes, and Alzheimer’s disease. Individuals with a specific variant of the aldehyde dehydrogenase 2 gene (ALDH2*2) are at higher risk of many of these diseases.…","Scientific Questions Being Studied
+Alcohol consumption is a risk factor for many chronic diseases, including some cancers, type 2 diabetes, and Alzheimer’s disease. Individuals with a specific variant of the aldehyde dehydrogenase 2 gene (ALDH2*2) are at higher risk of many of these diseases. Given that ALDH2*2 is the most common single genetic variation in humans and that more than half of all American adults drink alcohol, an opportunity is present for targeted chronic disease risk reduction in a large number of Americans. However, in order to design effective public health strategies, such as targeted intervention programs, a better understanding of current alcohol consumption behaviors and associated factors, overall and stratified by ALDH2 genotype, is needed. This study aims to characterize the alcohol consumption behaviors among participants in the All of Us Research Program and examine factors that may be related to the behaviors, overall and by ALDH2 genotype.","Project Purpose(s)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will analyze data from the All of Us Research Program database regarding alcohol consumption behaviors, ALDH2 genotype (rs671), demographics, personal and family health history, socioeconomic factors, lifestyle factors, and social determinants of health. All participants with informative data for rs671 will be included in the study. These data sets will be from surveys, physical measurements, and the genomic data set. Statistical analyses will be done using R or python. We will examine relationships between these factors and alcohol consumption using Fisher’s exact test (categorical variables) and the Kruskal-Wallis test (continuous variables), overall and stratified by ALDH2 genotype and potentially other factors, for example, demographics.","Anticipated Findings
+We hypothesize that alcohol consumption behaviors will be associated with factors including demographics, personal and family health history, socioeconomic factors,  lifestyle factors, and social determinants of health, with ALDH2 genotype and potentially other factors. While a limited number of U.S. studies among university students have shown that ALDH2*2 homozygotes tend to avoid alcohol, many ALDH2 heterozygotes do consume alcohol, albeit at lower levels. There have been no studies examining alcohol consumption behaviors by ALDH2 genotype conducted outside the university setting in the U.S. The All of Us Research Program presents a valuable source of data from study participants across the U.S. which would enable the study of alcohol consumption behaviors in the context of genomics.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Manxi Yang
+- Graduate Trainee, University of California, Irvine
+Danielle Forman
+- Other, University of California, Irvine
+Collaborators:
+Jacqueline Kim - Other, University of California, Irvine
+Hester Nguyen - Undergraduate Student, University of California, Irvine"
+Mosaicism and Atrial Fibrillation,"Mosaicism of chromosomes is a common condition that becomes more prevalent with advancing age. While this age-related phenomenon has been known for many years, awareness of the potential role of mosaicism in human diseases, including Alzheimer’s disease, cancers, and cardiovascular…","Scientific Questions Being Studied
+Mosaicism of chromosomes is a common condition that becomes more prevalent with advancing age. While this age-related phenomenon has been known for many years, awareness of the potential role of mosaicism in human diseases, including Alzheimer’s disease, cancers, and cardiovascular disease, is a more recent development. Recent studies have also demonstrated that mosaicism in hematopoietic cells can elicit an inflammatory response. Based on prior studies, cardiac (atrial) inflammation, and fibrosis can result in disruption of normal atrial conduction and is a powerful predictor of risk for the development and progression of atrial fibrillation. In the current study, we aim to better understand the association of mosaicism with the development and progression of AF.","Project Purpose(s)
+Disease Focused Research (atrial fibrillation)","Scientific Approaches
+We will identify adult subjects with AF in the All of Us Controlled Tier dataset who have undergone genotyping, whole genome sequencing, or whole exome sequencing. We will perform basic statistical testing to examine demographics associated with the presence or absence of mosaicism. Based on these demographics, we will use multivariable regression statistical analyses to assess risk predictors for atrial fibrillation's development and progression.","Anticipated Findings
+We anticipate mosaicism's prevalence in individuals may predict the development and progression of AF. Exploring the pathophysiological mechanisms underlying AF incidence and progression may reveal new targets for preventing and treating AF. The findings may have significant implications for clinical practice and inform future research directions.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jeremy Ruskin
+- Late Career Tenured Researcher, Mass General Brigham
+Ghazal Sanadgol
+- Research Fellow, Mass General Brigham
+acile nahlawi
+- Research Fellow, Mass General Brigham"
+updated association between Alzheimer's and infection,"There is ample evidence to suggest that some link may exist between chronic inflammation of the brain and development of Alzheimer's disease later in life. A potential trigger for such inflammation is an infectious pathogen, and understanding the potential links…","Scientific Questions Being Studied
+There is ample evidence to suggest that some link may exist between chronic inflammation of the brain and development of Alzheimer's disease later in life.  A potential trigger for such inflammation is an infectious pathogen, and understanding the potential links between infection and Alzheimer's will enable prevention of disease before symptoms even begin and a better understanding of how to treat the disease once it has already developed. My dataset explores the relative risk of developing Alzheimer's disease in individuals that have experienced a viral infection compared to those who have not.","Project Purpose(s)
+Disease Focused Research (Alzheimer's Disease)
+Population Health
+Educational","Scientific Approaches
+This is preliminary exploration of the data, not an exhaustive study, so I will make some basic plots of the dataset I generate as I start planning a broader study.","Anticipated Findings
+We expect to see that individuals that have experienced an infection of the brain or nervous system are more likely to develop AD than those who have not. This would shed greater light on how AD develops in the first place and how we could prevent it or lessen its impact using existing treatments or vaccinations for pathogens that may be linked to AD.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Lydia Howell
+- Graduate Trainee, Brigham Young University"
+Alzheimer's Disease Polygenic Risk Score version 7,Alzheimer's disease is a common neurodegenerative disorder that is caused by a combination of genetic and environmental factors. Genetic predisposition variants identified in one population often are not associated with disease risk in another population. We specifically aim to improve…,"Scientific Questions Being Studied
+Alzheimer's disease is a common neurodegenerative disorder that is caused by a combination of genetic and environmental factors. Genetic predisposition variants identified in one population often are not associated with disease risk in another population. We specifically aim to improve polygenic risk scores and disease stratification in diverse populations to improve Alzheimer's disease risk assessments for all populations. Unbiased polygenic risk scores that are applicable to all populations will improve healthcare outcomes for all individuals regardless of their genetic ancestry.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease and related dementias)
+Population Health
+Social / Behavioral
+Methods Development
+Control Set
+Ancestry
+Ethical, Legal, and Social Implications (ELSI)","Scientific Approaches
+We developed the Polygenic Risk Score Knowledgebase, which enables us to calculate polygenic risk scores based on all genome-wide association studies present in the GWAS Catalog. Importantly, we are then able to contextualize those scores to diverse populations to calculate risk percentiles. We hope to improve Alzheimer's disease polygenic risk scores across all populations by combining GWAS summary statistics and environmental factors that likely contribute to disease risk. We will also use available data through Alzheimer's Disease Research Centers including the University of Kentucky Alzheimer's Disease Research Center.","Anticipated Findings
+We anticipate improve polygenic risk score calculations for Alzheimer's disease to make the scores less biased and contextualized for different populations. We anticipate that these scores will improv risk stratification for high risk individuals of all populations and enhance clinical trial screenings to better identify control populations from all backgrounds who have lower genetic risk for Alzheimer's disease. Improved clinical trial screenings will lead to better therapeutic development and could help develop a more generalized cure for Alzheimer's disease that can help all populations.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Justin Miller
+- Early Career Tenure-track Researcher, University of Kentucky"
+Alzheimer's Disease resilience_TierDatasetV7,We aim to identify a subgroup of healthy individuals with a high risk of developing Alzheimer’s Disease (AD) based on high-throughput genetics data. This subgroup of AD-resilient individuals will be further studied with the final goal of detecting other genetic…,"Scientific Questions Being Studied
+We aim to identify a subgroup of healthy individuals with a high risk of developing Alzheimer’s Disease (AD) based on high-throughput genetics data. This subgroup of AD-resilient individuals will be further studied with the final goal of detecting other genetic factors or environmental/social variables associated with resilience.","Project Purpose(s)
+Disease Focused Research (Alzheimer's Disease)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will first select a cohort with high-throughput Single Nucleotide Polymorphisms (SNPs) data; then, we will exclude individuals with AD diagnosis and any other type of dementia using ICD-codes (total: 29 codes) and four medications (Galantamine, Rivastigmine, Memantine, and Donepezil). Individuals included in the study cohort will be from both sexes, any ethnicity, and at least 60 years old. The first group will be selected based on the APO E4/E4 genotype, which increases the risk by approximately eight to twelvefold. The second group will be selected among the individuals with a higher AD polygenic risk scores (PRS) computed from Genome-Wide Association Studies (GWAS). All the group samples will be stratified by ethnicity due to the different genetic risks of APOE and AD-associated SNPs used for the PRS.","Anticipated Findings
+We aim to find variables associated with AD resilience. The non-genetic protective factors will be used to increase the knowledge of modifiable risk factors and focus on improving lifestyle conditions aiming to reduce AD risk. The genetic factor will be used to develop genetic testing for screening for early detection of individuals at high AD risk to plan proper early pharmacological treatment and non-drug interventions (e.g., memory training and physical exercise programs).","Demographic Categories of Interest
+Others","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Marcus Naymik
+- Mid-career Tenured Researcher, Translational Genomics Research Institute
+Matt Huentelman
+- Late Career Tenured Researcher, Translational Genomics Research Institute
+Ignazio Piras
+- Early Career Tenure-track Researcher, Translational Genomics Research Institute
+Donald Saner
+- Project Personnel, Banner Health"
+AD.04142023,The genetic etiology of Alzheimer’s disease (AD) is poorly understood. Somatic mutations in the brains with AD and other neurological disorders have been established as a potential mechanism for their pathophysiology. Somatic transposable elements (TEs) are prevalent in individual neurons…,"Scientific Questions Being Studied
+The genetic etiology of Alzheimer’s disease (AD) is poorly understood. Somatic mutations in the brains with AD and other neurological disorders have been established as a potential mechanism for their pathophysiology. Somatic transposable elements (TEs) are prevalent in individual neurons in the human brain's cerebral cortex, a region long associated with AD progression. Recent work has shown a connection between AD-associated Tau protein-mediated mechanisms with TE activity and somatic mutations. Unfortunately, few studies have investigated TE's role and genomic impact in AD and related dementias in the survey of large-scale cohorts. In this proposal, we aim to employ a genome-wide scan to explore the functional impact of TE in AD and related dementias by leveraging the genomic and phenotypic data in All of Us dataset.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Methods Development
+Ancestry","Scientific Approaches
+We will establish genetic patterns of somatic TEs that would reveal the potential pathogenesis of AD. We will build a predictive model based on TE expression profiles in different regions of AD brains and clinical information that could help routine research and clinical practice.","Anticipated Findings
+This project will build on the foundation for future collaborations and funding proposals and would likely expand the molecular mechanisms underlying the pathogenesis of AD and related dementias.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Sexual Orientation
+Disability Status
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Weichen Zhou
+- Early Career Tenure-track Researcher, University of Michigan"
+Genetic predictors of AD/ADRDs Across Diverse Populations,"We are exploring the data to evaluate feasibility for use in a larger project related to modifiable determinants of Alzheimer's Disease and Alzheimer's Related Disorders. Our goal is to evaluate specific modifiable factors (alcohol use, depression treatment, sensory impairments, and…","Scientific Questions Being Studied
+We are exploring the data to evaluate feasibility for use in a larger project related to modifiable determinants of Alzheimer's Disease and Alzheimer's Related Disorders.  Our goal is to evaluate specific modifiable factors (alcohol use, depression treatment, sensory impairments, and social isolation) using several complementary analytic methods.  One aspect of this project is to evaluate whether early dementia symptoms influence each of these behaviors, so we need to develop strong genetic risk scores for dementia that work well across diverse samples. Because we are specifically interested in differential effects across communities, All of Us is especially useful.","Project Purpose(s)
+Disease Focused Research (Alzheimer's Disease, Vascular Dementia, and Related Conditions)
+Population Health
+Methods Development
+Ancestry","Scientific Approaches
+We will use treat all of us as a cohort and evaluate incidence of dementia and related conditions. This will allow us to estimate Mendelian Randomization study designs, including reverse Mendelian Randomization.","Anticipated Findings
+Anticipated findings of the larger project relate to whether changes in alcohol use, depression treatment, treatment of vision and hearing impairments, and social isolation are likely to delay or prevent memory and cognitive losses in older adults due to Alzheimer's Disease or related conditions.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+M. Maria Glymour
+- Mid-career Tenured Researcher, University of California, San Francisco"
+PTC Gene Link Between Alzheimers,The scientific question we are studying is the correlation between having the PTC mutation and developing Alzheimer’s later in life. We hypothesized that Individuals with the PTC mutation on the TAS2R38 gene will have a higher risk of developing Alzheimer’s…,"Scientific Questions Being Studied
+The scientific question we are studying is the correlation between having the PTC mutation and developing Alzheimer’s later in life. We hypothesized that  Individuals with the PTC mutation on the TAS2R38 gene will have a higher risk of developing Alzheimer’s in the future than those who do not have the mutation.","Project Purpose(s)
+Educational
+Ancestry","Scientific Approaches
+The scientific approaches we plan to use for our study include the analysis of genomic sequences and datasets.","Anticipated Findings
+Individuals with the PTC mutation on the TAS2R38 gene will have a higher risk of developing Alzheimer’s in the future than those who do not have the mutation.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jack Schwebel
+- Undergraduate Student, Arizona State University
+Collaborators:
+Vishnu Sreenivas - Undergraduate Student, Arizona State University
+Tiffany Thanh Tran Duong - Undergraduate Student, Arizona State University
+Teona Savic - Undergraduate Student, Arizona State University
+Kendall Christiansen  - Undergraduate Student, Arizona State University
+Gloria Grama - Undergraduate Student, Arizona State University"
+vaccine,"Because dementia or Alzheimer's first affects the part of the brain and gets worse over time. There's no cure for Alzheimer's, but there are treatments that may change disease progression. The study aims to analyze the relationship between flu vaccines…","Scientific Questions Being Studied
+Because dementia or Alzheimer's first affects the part of the brain and gets worse over time. There's no cure for Alzheimer's, but there are treatments that may change disease progression. The study aims to analyze the relationship between flu vaccines and dementia.","Project Purpose(s)
+Disease Focused Research (dementia)
+Methods Development","Scientific Approaches
+We are using the dataset with a time span of more than 5 years.
+Time series analysis. Logistic regression. And survival analysis","Anticipated Findings
+Annual flu vaccine would reduce the risk of Alzheimer's or not.
+If the annual flu vaccine would reduce the risk of Alzheimer's. Then we would like to analyze whether any other anti-virus vaccine would reduce the risk of Alzheimer's.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Xingyue Huo
+- Early Career Tenure-track Researcher, University of Utah"
+Deep Learning Derived Phenotypes for Neuro-PASC,"We will develop models to predict the risk for neurological complications. In particular, we will use the numeric output that before the softmax in the final binary output as the risk of the predicted neuro-PASC or ADRD-PASC. In addition, we…","Scientific Questions Being Studied
+We will develop models to predict the risk for neurological complications. In particular, we will use the numeric output that before the softmax in the final binary output as the risk of the predicted neuro-PASC or ADRD-PASC. In addition, we will also consider the predicted hazards, the output from the survival outcome predictions. Also, to maximize the information captured by our deep learning models, we will also use the neurons in the hidden layer as endophenotypes for neuro-PASC and ADRD-PASC. For all phenotypes, we will conduct single-phenotype GWAS association tests using linear mixed models.
+Alzheimer’s disease and related dementia are already an important national priority and Neurological complications of PASC (neuro-PASC) are important as they are a major category of PASC. Finding the related genetic factors behind these two disease can be crucial in the management of  early detection.","Project Purpose(s)
+Disease Focused Research (COVID-19 and Alzheimer's disease)","Scientific Approaches
+Datasets: N3C is one of the richest data sources that include the electronic health records data for more than 5 million confirmed covid-19 patients from 74 sites
+across the United States. All of Us is a unique source where we can access the genetic and clinical data for 100000 US patients and with higher representation for
+minority groups.
+Research Methods and Methods : We train a deep learning-based model on COVID-19 patients’ data available through the N3C initiative. As an outcome, the model will learn a phenotypic representation that consists of the patient's risk to develop post COVID complications, including neuropsychiatric complications Afterwards, we will transfer the model to the All of Us researcher platform and apply our model to create the phenotypic  representation for the 11,767 COVID-19 patients using their EHR data. Then, we will use the genotypic data for 3,653 Covid-19 patients who has both their whole genome sequencing (WGS) and EHR data for the GWAS study","Anticipated Findings
+The goal is to bring breakthroughs in AI/ML for expedite discovery of the genetic basis of Alzheimer’s disease (AD). We expect to find associations between endophenotypes and SNPs related to Long Covid and Alzheimer's Disease.
+The innovation of our project are as follows:
+1. Using a transfer learning approach to leverage the large N3C data for phenotyping All of Us data is new.
+2. We will be the first who leverage the All of Us platform to study the genetic factors for neuro-PASC and ADRD-PASC.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Laila Rasmy Bekhet
+- Graduate Trainee, University of Texas Health Science Center, Houston
+Hao Yan
+- Graduate Trainee, University of Texas Health Science Center, Houston
+Degui Zhi
+- Mid-career Tenured Researcher, University of Texas Health Science Center, Houston"
+Alzheimer's Disease Polygenic Risk Score,Alzheimer's disease is a common neurodegenerative disorder that is caused by a combination of genetic and environmental factors. Genetic predisposition variants identified in one population often are not associated with disease risk in another population. We specifically aim to improve…,"Scientific Questions Being Studied
+Alzheimer's disease is a common neurodegenerative disorder that is caused by a combination of genetic and environmental factors. Genetic predisposition variants identified in one population often are not associated with disease risk in another population. We specifically aim to improve polygenic risk scores and disease stratification in diverse populations to improve Alzheimer's disease risk assessments for all populations. Unbiased polygenic risk scores that are applicable to all populations will improve healthcare outcomes for all individuals regardless of their genetic ancestry.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease and related dementias)
+Population Health
+Social / Behavioral
+Methods Development
+Control Set
+Ancestry
+Ethical, Legal, and Social Implications (ELSI)","Scientific Approaches
+We developed the Polygenic Risk Score Knowledgebase, which enables us to calculate polygenic risk scores based on all genome-wide association studies present in the GWAS Catalog. Importantly, we are then able to contextualize those scores to diverse populations to calculate risk percentiles. We hope to improve Alzheimer's disease polygenic risk scores across all populations by combining GWAS summary statistics and environmental factors that likely contribute to disease risk. We will also use available data through Alzheimer's Disease Research Centers including the University of Kentucky Alzheimer's Disease Research Center.","Anticipated Findings
+We anticipate improve polygenic risk score calculations for Alzheimer's disease to make the scores less biased and contextualized for different populations. We anticipate that these scores will improv risk stratification for high risk individuals of all populations and enhance clinical trial screenings to better identify control populations from all backgrounds who have lower genetic risk for Alzheimer's disease. Improved clinical trial screenings will lead to better therapeutic development and could help develop a more generalized cure for Alzheimer's disease that can help all populations.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Justin Miller
+- Early Career Tenure-track Researcher, University of Kentucky"
+ALDH2,"Alcohol consumption is a risk factor for many chronic diseases, including some cancers, type 2 diabetes, and Alzheimer’s disease. Individuals with a specific variant of the aldehyde dehydrogenase 2 gene (ALDH2*2) are at higher risk of many of these diseases.…","Scientific Questions Being Studied
+Alcohol consumption is a risk factor for many chronic diseases, including some cancers, type 2 diabetes, and Alzheimer’s disease. Individuals with a specific variant of the aldehyde dehydrogenase 2 gene (ALDH2*2) are at higher risk of many of these diseases. Given that ALDH2*2 is the most common single genetic variation in humans and that more than half of all American adults drink alcohol, an opportunity is present for targeted chronic disease risk reduction in a large number of Americans. However, in order to design effective public health strategies, such as targeted intervention programs, a better understanding of current alcohol consumption behaviors and associated factors, overall and stratified by ALDH2 genotype, is needed. This study aims to characterize the alcohol consumption behaviors among participants in the All of Us Research Program and examine factors that may be related to the behaviors, overall and by ALDH2 genotype.","Project Purpose(s)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will analyze data from the All of Us Research Program database regarding alcohol consumption behaviors, ALDH2 genotype (rs671), demographics, personal and family health history, socioeconomic factors, lifestyle factors, and social determinants of health. All participants with informative data for rs671 will be included in the study. These data sets will be from surveys, physical measurements, and the genomic data set. Statistical analyses will be done using R or python. We will examine relationships between these factors and alcohol consumption using Fisher’s exact test (categorical variables) and the Kruskal-Wallis test (continuous variables), overall and stratified by ALDH2 genotype and potentially other factors, for example, demographics.","Anticipated Findings
+We hypothesize that alcohol consumption behaviors will be associated with factors including demographics, personal and family health history, socioeconomic factors,  lifestyle factors, and social determinants of health, with ALDH2 genotype and potentially other factors. While a limited number of U.S. studies among university students have shown that ALDH2*2 homozygotes tend to avoid alcohol, many ALDH2 heterozygotes do consume alcohol, albeit at lower levels. There have been no studies examining alcohol consumption behaviors by ALDH2 genotype conducted outside the university setting in the U.S. The All of Us Research Program presents a valuable source of data from study participants across the U.S. which would enable the study of alcohol consumption behaviors in the context of genomics.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Danielle Forman
+- Other, University of California, Irvine
+Collaborators:
+Manxi Yang - Graduate Trainee, University of California, Irvine
+Jacqueline Kim - Other, University of California, Irvine
+Hester Nguyen - Undergraduate Student, University of California, Irvine"
+AD genetics,"We plan to use the All of US data to conduct GWAS and Polygenic Risk score Analyses(PRS) in Alzheimer’s disease (AD). Standard AD PRSs are derived from (i) common SNPs only, (ii) make no use of AD-relevant multi-omic data, and…","Scientific Questions Being Studied
+We plan to use the All of US data to conduct GWAS and Polygenic Risk score Analyses(PRS) in Alzheimer’s disease (AD). Standard AD PRSs are derived from (i) common SNPs only, (ii) make no use of AD-relevant multi-omic data, and (iii) distil the effects of SNPs across the genome to a single number, resulting in a key loss of information about an individual’s genetic profile. In contrast, we will compute pathway PRSs that aggregate rare, structural and common AD risk variants.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Population Health
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+We will be using the genetic data, and phenotype data from the Survey information including self-report and family health history about dementia. Related disease phenotype and clinical risk factors such as memory loss, CVD, diabetes and lifestyle will also be investigated in the analyses. We will use PLINK2 to perform a whole genome association analysis including the common and rare varaints on dementia/ AD case-control status. PRSice will be used to calculate genome-wide PRS and set-based PRS. Further regression and survival analyses will be ran in R.","Anticipated Findings
+Our AD-tailored, pathway-based PRSs may enable stratification of AD patients into more homogeneous sub-types and uncover novel drug targets for treating AD patients of the corresponding sub-types.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+HEI MAN WU
+- Research Fellow, Icahn School of Medicine at Mount Sinai"
+Precision and Diversity in Alzheimer's Disease and Dementia,"Alzheimer's Disease (AD) is a progressive neurological disorder and the most common cause of dementia. Genetic research has greatly increased our knowledge for the genetic basis of this disease, however despite this, we have made little headway in the discovery…","Scientific Questions Being Studied
+Alzheimer's Disease (AD) is a progressive neurological disorder and the most common cause of dementia. Genetic research has greatly increased our knowledge for the genetic basis of this disease, however despite this, we have made little headway in the discovery of disease modifying or preventative therapeutics. Additionally, genetic research for AD, as well as other diseases, is dominated by those of European ancestry. To address these issues, we are focussing on 2 scientific questions.
+1. Are there genetic modifiers that affect risk for developing AD in carriers of the APOE e4 genotype? Having just one copy of the APOE e4 genotype greatly increases the risk for developing AD, however, many people possess two copies of the APOE e4 genotype and never develop AD.
+2. What variants affect AD risk for non-European populations? Leveraging different LD patterns, we can increase the power to detect additional risk variants.","Project Purpose(s)
+Disease Focused Research (Alzheimer's Disease and Dementia)","Scientific Approaches
+Our plan to address these 2 questions is through a series of meta-analyses and follow-up work. The plan for question 1 is to perform a Genome-Wide Association Study of AD in APOE e4 carriers only. We will use the AllofUs genetic datasets as well as the demographics age, sex, and AD disease status. We will use Plink software to carry out this analysis. We will then meta-analyze these results with summary statistics from other AD cohorts. Follow-up will include FUMA and gene burden tests to further investigate any potential findings. The plan for question 2 is to perform a Trans-Ancestry Meta Analysis to nominate new risk variants. We will use Plink to perform GWAS is populations that have been defined by genetic ancestry, and then will use MR-MEGA software to meta-analyze the summary statistics in order to nominate new risk variants that may have different effects on disease risk in different ancestry populations.","Anticipated Findings
+The anticipated findings are two-fold: the first is to nominate genetic variants that effect AD risk in APOE e4 carriers. This is one of many important steps on the journey to precision medicine. It is unlikely that we will find a therapeutic that works for all types of AD and dementia. Instead, we must focus on specific types of disease. By discovering additional genetic modifiers of risk (why do some APOE e4 carriers not get AD?) we can potentially nominate new targets that have a better chance at disease modification. Second, we need to make an active effort as a research community to include non-European populations in genetic research. Much less is known about the genetic basis of AD in non-European populations. We aim to nominate new AD risk variants that are present in multiple and different populations so that we can increase our knowledge and treatment of those populations.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Hampton Leonard
+- Graduate Trainee, National Institute on Aging (NIH - NIA)
+Collaborators:
+Mary Makarious - Graduate Trainee, National Institute on Aging (NIH - NIA)"
+AD,"We plan to use the All of US data to conduct GWAS and Polygenic Risk score Analyses(PRS) in Alzheimer’s disease (AD). Standard AD PRSs are derived from (i) common SNPs only, (ii) make no use of AD-relevant multi-omic data, and…","Scientific Questions Being Studied
+We plan to use the All of US data to conduct GWAS and Polygenic Risk score Analyses(PRS) in Alzheimer’s disease (AD). Standard AD PRSs are derived from (i) common SNPs only, (ii) make no use of AD-relevant multi-omic data, and (iii) distil the effects of SNPs across the genome to a single number, resulting in a key loss of information about an individual’s genetic profile. In contrast, we will compute pathway PRSs that aggregate rare, structural and common AD risk variants.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Population Health
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+We will be using the genetic data, and phenotype data from the Survey information including self-report and family health history about dementia. Related disease phenotype and clinical risk factors such as memory loss, CVD, diabetes and lifestyle will also be investigated in the analyses. We will use PLINK2 to perform a whole genome association analysis including the common and rare varaints on dementia/ AD case-control status. PRSice will be used to calculate genome-wide PRS and set-based PRS. Further regression and survival analyses will be ran in R.","Anticipated Findings
+Our AD-tailored, pathway-based PRSs may enable stratification of AD patients into more homogeneous sub-types and uncover novel drug targets for treating AD patients of the corresponding sub-types.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+HEI MAN WU
+- Research Fellow, Icahn School of Medicine at Mount Sinai"
+Oral Health and Dementia,"Alzheimer's disease and related dementias (ADRD) is irreversible, progressive brain disease that affects 5.7 million Americans. It is the sixth leading cause of death among all adults and the fifth leading cause of death for those aged 65 or older.…","Scientific Questions Being Studied
+Alzheimer's disease and related dementias (ADRD) is irreversible, progressive brain disease that affects 5.7 million Americans. It is the sixth leading cause of death among all adults and the fifth leading cause of death for those aged 65 or older. ADRD is devastating for individuals and families financially and emotionally. Identifying both individual and combined risk factors of ADRD and evaluating the impact of comorbidities on cognitive impairment is essential to improve cognitive health of older adults. Diabetes and poor oral health are common among older adults and both are risk factors for ADRD.","Project Purpose(s)
+Population Health","Scientific Approaches
+The proposed study is the first to examine the joint effect (additive or interactions) of both DM and poor oral health on ADRD and mortality, and the pathways from the co-occurrence to the onset of ADRD and mortality. Specific aims are: Aim 1: To examine the relationship between the co-occurrence of DM and poor oral health and the incidence of ADRD using a propensity matched sample within the study period. Aim 2: To examine the association between the co-occurrence of DM and poor oral health and the age of first diagnosis of ADRD among persons who developed ADRD during the study period. Aim 3: To test the pathways from the co-occurrence of DM and poor oral health to the onset of ADRD by examining the mediation effect of key mediating variables (i.e., CVD and stroke developed after baseline).","Anticipated Findings
+The proposed study is the first to examine the effect of the co-occurrence of DM and poor oral health on ADRD and mortality, using large national samples. The proposed study will contribute to a better understanding of the risk profile of ADRD by providing important empirical evidence on the combined risk of both DM and oral health for ADRD. Further, it may identify modifiable factors that can serve as targets to reduce the risk of ADRD. The findings will have important implications for clinical practice and policy initiatives for integrating primary care and dental care.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Yaolin Pei
+- Research Fellow, New York University"
+Deep Learning Derived Phenotypes for Alzheimer's Disease,"We will develop models to predict the risk for neurological complications. In particular, we will use the numeric output that before the softmax in the final binary output as the risk of the predicted neuro-PASC or ADRD-PASC. In addition, we…","Scientific Questions Being Studied
+We will develop models to predict the risk for neurological complications. In particular, we will use the numeric output that before the softmax in the final binary output as the risk of the predicted neuro-PASC or ADRD-PASC. In addition, we will also consider the predicted hazards, the output from the survival outcome predictions. Also, to maximize the information captured by our deep learning models, we will also use the neurons in the hidden layer as endophenotypes for neuro-PASC and ADRD-PASC. For all phenotypes, we will conduct single-phenotype GWAS association tests using linear mixed models.
+Alzheimer’s disease and related dementia are already an important national priority and Neurological complications of PASC (neuro-PASC) are important as they are a major category of PASC. Finding the related genetic factors behind these two disease can be crucial in the management of  early detection.","Project Purpose(s)
+Disease Focused Research (COVID-19 and Alzheimer's disease)","Scientific Approaches
+Datasets: N3C is one of the richest data sources that include the electronic health records data for more than 5 million confirmed covid-19 patients from 74 sites
+across the United States. All of Us is a unique source where we can access the genetic and clinical data for 100000 US patients and with higher representation for
+minority groups.
+Research Methods and Methods : We train a deep learning-based model on COVID-19 patients’ data available through the N3C initiative. As an outcome, the model will learn a phenotypic representation that consists of the patient's risk to develop post COVID complications, including neuropsychiatric complications Afterwards, we will transfer the model to the All of Us researcher platform and apply our model to create the phenotypic  representation for the 11,767 COVID-19 patients using their EHR data. Then, we will use the genotypic data for 3,653 Covid-19 patients who has both their whole genome sequencing (WGS) and EHR data for the GWAS study","Anticipated Findings
+The goal is to bring breakthroughs in AI/ML for expedite discovery of the genetic basis of Alzheimer’s disease (AD). We expect to find associations between endophenotypes and SNPs related to Long Covid and Alzheimer's Disease.
+The innovation of our project are as follows:
+1. Using a transfer learning approach to leverage the large N3C data for phenotyping All of Us data is new.
+2. We will be the first who leverage the All of Us platform to study the genetic factors for neuro-PASC and ADRD-PASC.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Laila Rasmy Bekhet
+- Graduate Trainee, University of Texas Health Science Center, Houston
+Hao Yan
+- Graduate Trainee, University of Texas Health Science Center, Houston
+Degui Zhi
+- Mid-career Tenured Researcher, University of Texas Health Science Center, Houston"
+SM APOE,"Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia…","Scientific Questions Being Studied
+Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia and demographics.","Project Purpose(s)
+Educational
+Ancestry","Scientific Approaches
+The two rsIDs for APOE genotyping (rs429358 and rs7412) will be extracted from AllOfUs Hail tables. Data will be summarized into the defined APOE genotypes (ε2, ε3, ε4) and associated with hypercholesterolemia status. Hypercholesterolemia will be defined by the SNOMED code ""E78.0 - Pure hypercholesterolemia"". Summary statistics for APOE association will be stratified by age, sex and declared race/ethnicity.","Anticipated Findings
+The study hopes to find similar statics as has been found in the UKBiobank cohort, with the addition of higher diversity. The summary statistics of these findings will be used as preliminary data to propose a larger cohort study.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Sevda Molani
+- Research Fellow, Institute for Systems Biology"
+Duplicate of Alzheimer's drug repurposing validation,"Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Methods Development","Scientific Approaches
+This study will use a retrospective cohort study design to compare prevalence of Alzheimer's disease in patients with and without exposure to drug repurposing candidates.","Anticipated Findings
+Successfully validated repurposing candidates will represent high-priority drugs for further investigation in clinical trials.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Monika Grabowska
+- Graduate Trainee, Vanderbilt University"
+Alzheimer's Disease,Are blood traits such as neutrophil to lymphocyte ratio associated with Alzheimer's Disease? Neutrophil to lymphocyte ratio has been shown to be associated with Alzheimer's Disease but it is not known whether this association will replicate in the All of…,"Scientific Questions Being Studied
+Are blood traits such as neutrophil to lymphocyte ratio associated with Alzheimer's Disease? Neutrophil to lymphocyte ratio has been shown to be associated with Alzheimer's Disease but it is not known whether this association will replicate in the All of Us dataset.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+The main approach will use a cox proportional hazards model while adjusted for covariates such as age and sex.","Anticipated Findings
+Based on the previous literature, it is anticipated that neutrophil to lymphocyte ratio will be associated with Alzheimer's Disease in the All of Us cohort. These findings may allow for a better understanding of Alzheimer's Disease.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Emily Drzymalla
+- Other, University of North Carolina, Chapel Hill
+Collaborators:
+Bjoernar Tuftin - Project Personnel, University of North Carolina, Chapel Hill
+Micah Hysong - Graduate Trainee, University of North Carolina, Chapel Hill"
+Testing for Pilot Data,"Alzheimer's disease, the major symptom of which is cognitive decline, is sometimes referred to as ""Type 3 diabetes."" There is much evidence to associate issues with blood sugar with vascular disease and cognitive decline. However, Alzheimer's is not the only…","Scientific Questions Being Studied
+Alzheimer's disease, the major symptom of which is cognitive decline, is sometimes referred to as ""Type 3 diabetes."" There is much evidence to associate issues with blood sugar with vascular disease and cognitive decline.  However, Alzheimer's is not the only condition that leads to cognitive decline and diabetes is not the only condition that has blood sugar issues.  Studying these associations in a larger population will hopefully give mechanistic and preventative links.","Project Purpose(s)
+Disease Focused Research (Glucose measures and cognitive decline)","Scientific Approaches
+How do blood sugar issues contribute to cognitive decline? I will look at negative controls as well as people with PCOS and Type 1 and Type 2 Diabetes in a stratified analysis.  This will include both traditional statistics/group comparisons as well as unsupervised analysis.","Anticipated Findings
+The unsupervised clustering analysis based on blood glucose measures is expected to differentiate between people with and without cognitive decline.  It is expected that these will not be perfectly associated with disease categories and there will be considerable overlap.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Raha Dastgheyb
+- Early Career Tenure-track Researcher, Johns Hopkins University"
+Alzheimer’s Disease and the Blood Brain Barrier,The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more…,"Scientific Questions Being Studied
+The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more about Alzheimer's disease and seeing if there are any potential preventative methods that can halt the disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+The scientific approach we plan on doing is using data analysis on datasets to see if there is any correlations. We will be using linear regression to compare different variables with people who have Alzheimer's disease.","Anticipated Findings
+Anticipated findings that we hope to find is any relationship between alzheimer's disease and other factors in the blood brain barrier. These findings will contribute to alzheimer's disease research allowing for medical scientist to find potential therapies.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Gerardo Rodriguez
+- Undergraduate Student, Arizona State University"
+Alzheimer's Disease and the Blood Brain Barrier,The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more…,"Scientific Questions Being Studied
+The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more about Alzheimer's disease and seeing if there are any potential preventative methods that can halt the disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+The scientific approach we plan on doing is using data analysis on datasets to see if there is any correlations. We will be using linear regression to compare different variables with people who have Alzheimer's disease.","Anticipated Findings
+Anticipated findings that we hope to find is any relationship between alzheimer's disease and other factors in the blood brain barrier. These findings will contribute to alzheimer's disease research allowing for medical scientist to find potential therapies.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Gerardo Rodriguez
+- Undergraduate Student, Arizona State University"
+Metformin and Cognitive Decline,We intend to explore the data to determine the feasibility of a study examining the potentially neuroprotective effects of metformin use in regards to lowering risk for vascular dementia and Alzheimer's disease.,"Scientific Questions Being Studied
+We intend to explore the data to determine the feasibility of a study examining the potentially neuroprotective effects of metformin use in regards to lowering risk for vascular dementia and Alzheimer's disease.","Project Purpose(s)
+Population Health","Scientific Approaches
+We intend to explore the registered tier dataset, formulate a hypothesis, and test our hypothesis using a variety of statistical methods.","Anticipated Findings
+We anticipate that long-term metformin use may lower the risk for the development of vascular dementia or Alzheimer's disease in patients with Type 2 diabetes compared to controls, and possibly compared to other patients with type 2 diabetes which is well-controlled using other medications.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Lauren Ray
+- Graduate Trainee, University of the Incarnate Word
+Liam Campbell
+- Graduate Trainee, University of the Incarnate Word"
+Admixture and AD risk,"The heritability of Alzheimer’s disease (AD) is estimated between 60-80%, indicating a strong genetic component to susceptibility to AD; which differs between ancestral populations. Although genetic ancestry has been shown to modify an individual’s risk for AD, the majority of…","Scientific Questions Being Studied
+The heritability of Alzheimer’s disease (AD) is estimated between 60-80%, indicating a strong genetic component to susceptibility to AD; which differs between ancestral populations. Although genetic ancestry has been shown to modify an individual’s risk for AD, the majority of genome-wide association studies and models for the calculation of a polygenic risk score have utilized data derived from populations with mostly European ancestry. Furthermore, a well-defined model of an ancestry-informed PRS has yet to be established in admixed populations. We aim to utilize All of Us Research Program data along with data from other studies such as the NIH AD sequencing project to build improved models of AD risk in admixed populations. We hypothesize that an ancestry-informed model for polygenic risk will provide a more accurate representation of AD risk in individuals with admixed genetic ancestry, compared to models that have been built off homogenous ancestral populations.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease and related dementias )
+Population Health
+Methods Development
+Ancestry","Scientific Approaches
+Alongside data from other studies, we will use genetic data from the All of Us Research program to evaluate the local ancestry of known genetic risk factors of AD to determine whether risk models in admixed populations improve with the addition of ancestry information. This will be done by mapping local ancestry of known genetic risk factors of AD as well as global (genomic average) proportions of genetic ancestry across the genomes of the participants. We will then leverage AD diagnosis against the composition of local ancestry proportions. These data will be used to build the framework of an ancestry-informed PRS model. We will then employ a meta-analysis framework that has utility in both multiethnic and ethnic-specific analysis utilizing fixed or random effects models and assess phenotypic heterogeneity through Cochran's Q test when comparing prediction accuracy within and across self-identified racial or ethnic categories.","Anticipated Findings
+We expect ancestry specific genetic modifiers of AD risk between populations, with risk further modified by proportions of local ancestry spread across the genomes of admixed individuals. Furthermore, we predict that the local ancestry of known genetic modifiers of AD risk differentially influences AD risk when considering global proportions of genetic ancestry as well as non-genetic risk factors of AD such as diabetes, cardiovascular disease, and social determinants of health. We also predict these data can be leveraged to build an ancestry specific polygenic risk model. We will publish these findings and share the weights used to develop the score (which can be performed in a privacy-preserving fashion) to ensure other parties can leverage our insights and improve biomedical research across AD.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Esteban  Lucero
+- Research Fellow, University of Colorado, Denver"
+Alzheimer's Disease and APOE4,The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more…,"Scientific Questions Being Studied
+The scientific questions we are intending to study are finding relationships between the APOE4 gene and Alzheimer's. We will be interested in seeing other factors that contribute to the diagnosis/progression of Alzheimer's disease. This will be important in understanding more about Alzheimer's disease and seeing if there are any potential preventative methods that can halt the disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+The scientific approach we plan on doing is using data analysis on datasets to see if there is any correlations. We will be using linear regression to compare different variables with people who have Alzheimer's disease.","Anticipated Findings
+Anticipated findings that we hope to find is any relationship between alzheimer's disease and other factors in the blood brain barrier. These findings will contribute to alzheimer's disease research allowing for medical scientist to find potential therapies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Gerardo Rodriguez
+- Undergraduate Student, Arizona State University"
+Dementia/Alzheimer's Comorbidity Effect,Study the effect of comorbidities while controlling for other clinically reported factors in the development of Alzheimer's disease and dementia that leads to disproportionate morbidity between ethnicities. We would like to explore what health elements are responsible for this diagnosis…,"Scientific Questions Being Studied
+Study the effect of comorbidities while controlling for other clinically reported factors in the development of Alzheimer's disease and dementia that leads to disproportionate morbidity between ethnicities. We would like to explore what health elements are responsible for this diagnosis that causes a difference in its occurrence between ethnicities. We would also like to consider some of the underlying genetic interactions which influence Alzheimer's and dementia development that would establish a clearer cause of the observed ethnic differences due to genetic factors that are non-specific to ethnicity. Understanding the impact of comorbidities and other clinical factors may be used in a preventative medicine and public health context to better understand the progression of disease among subpopulations due to other underlying medical conditions that are easier to address and thus may improve preventative treatment that focuses on resolving the health disparity between ethnic groups.","Project Purpose(s)
+Disease Focused Research (Dementia and Alzheimer's Disease)","Scientific Approaches
+This research is part of an undergraduate thesis project and thus scientific approaches will be adjusted over time and will be reflected here. The datasets and tools used will all come from the secure AoU workspace.","Anticipated Findings
+Anticipated findings include the ethnic disparity in Alzheimer’s and dementia morbidity that can be explained by a disproportionate occurrence of comorbidities and potential differences in the APOE allele between subpopulations. The demographics of the current cohort of those affected by Alzheimer’s disease and dementia will be better understood for causes that lead to a disproportionate health effect.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Cayden Goeringer
+- Undergraduate Student, Arizona State University"
+Underdiagnosis of Dementias,The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies…,"Scientific Questions Being Studied
+The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies and our work, less than half of patients with dementia have been formally diagnosed and significantly more so in underrepresented racial and ethnic groups. Our scientific questions are:
+1. Are dementias underdiagnosed in the electronic health record (EHR) compared to population estimates?
+2. What are the risk factors for patients to not be formally diagnosed with dementias?
+3. How do the underdiagnosis and risk factors differ across racial and ethnic groups?
+We hypothesize dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors include demographics, comorbidities, medications, and healthcare access.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health","Scientific Approaches
+We will define dementia as probable based on ICD codes and possible based on a combination of ICD codes, medication use and personal medical history. We will calculate the prevalence of dementias across racial and ethnic group compared to population estimates. We will compare risk factors of patients who have probable dementia versus possible dementia using logistic regression correcting for demographics. Risk factors tested will include drug exposures, lab measurement, demographics, health access, and other survey questions. We will compare risk factors across racial and ethnic groups.","Anticipated Findings
+We expect to find that dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors for underdiagnosis include demographics, comorbidities, medications, and healthcare access, which will differ across racial and ethnic groups. These findings may lead to racially and ethnically specific strategies to improve the early and appropriate diagnosis of dementias, which can initiate multi-disciplinary care and treatment.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Tim Chang
+- Early Career Tenure-track Researcher, University of California, Los Angeles
+Satpal Singh Wadhwa
+- Mid-career Tenured Researcher, University of California, Los Angeles
+Samantha Shah
+- Project Personnel, University of California, Los Angeles
+Joy Fu
+- Graduate Trainee, University of California, Los Angeles"
+APOE and hypercholesterol,"Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia…","Scientific Questions Being Studied
+Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia and demographics.","Project Purpose(s)
+Educational
+Ancestry","Scientific Approaches
+The two rsIDs for APOE genotyping (rs429358 and rs7412) will be extracted from AllOfUs Hail tables. Data will be summarized into the defined APOE genotypes (ε2, ε3, ε4) and associated with hypercholesterolemia status. Hypercholesterolemia will be defined by the SNOMED code ""E78.0 - Pure hypercholesterolemia"". Summary statistics for APOE association will be stratified by age, sex and declared race/ethnicity.","Anticipated Findings
+The study hopes to find similar statics as has been found in the UKBiobank cohort, with the addition of higher diversity. The summary statistics of these findings will be used as preliminary data to propose a larger cohort study.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Lance Pflieger
+- Project Personnel, Intermountain Healthcare
+Collaborators:
+Sevda Molani - Research Fellow, Institute for Systems Biology
+Ehsan Alipour - Graduate Trainee, University of Washington"
+Dementia-Alzheimer's-CRP,"Do CRP levels change with age in dementia/Alzheimer's patients as opposed to controls? Associations have shown that these protein levels are increased in Alzheimer's patients, and this will help answer whether patients' CRP levels are elevated naturally or if it…","Scientific Questions Being Studied
+Do CRP levels change with age in dementia/Alzheimer's patients as opposed to controls? Associations have shown that these protein levels are increased in Alzheimer's patients, and this will help answer whether patients' CRP levels are elevated naturally or if it is something that happens over time as a result of the disease progression.","Project Purpose(s)
+Disease Focused Research (Dimentia/Alzheimer's)","Scientific Approaches
+Datasets - AOU phenotyping and lab data Research methods and tools - clean and summarize lab data for CRP - average by decile of age and disease status and plot in R.","Anticipated Findings
+I anticipate that CRP levels will be elevated in Alzheimer's after disease progression. This would help answer cause and effect of the two","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Slavina Goleva
+- Research Fellow, National Human Genome Research Institute (NIH-NHGRI)
+David Schlueter
+- Research Fellow, National Human Genome Research Institute (NIH-NHGRI)"
+"Environmental Exposure, Epigenetics, and Health Outcomes",Our research question is: How does exposure to adverse social and natural environmental conditions impact human health outcomes through epigenetic changes? Subsequent questions are: In which populations do we see the highest associations between exposure and epigenetic changes? In which…,"Scientific Questions Being Studied
+Our research question is: How does exposure to adverse social and natural environmental conditions impact human health outcomes through epigenetic changes? Subsequent questions are: In which populations do we see the highest associations between exposure and epigenetic changes? In which populations do we see the highest associations between epigenetic changes and poor health outcomes? To what extent do we see these epigenetic changes being reversed, and what lifestyle factors are associated with that?
+This research will have key implications for chronic disease: a top cause of mortality in vulnerable U.S populations. This paper explores the mechanisms by which the SDOH impact health outcomes. Epigenetic mechanisms have been closely linked cardiovascular disease, type II diabetes, and Alzheimer’s disease–the three chronic diseases with the highest prevalence globally. Specifically, studying inflammation in the genotype dataset will connect this research directly to chronic disease.","Project Purpose(s)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+This project will have a longitudinal, natural experiment design as we plan to look at changes from the initial questionnaire to the follow-up.. We will control for various demographic, social, and genetic factors to infer causality.
+We will use data from the EHR domains, genomics, physical measurements and the survey categories of family health history, SDOH, overall health, and lifestyle to examine factors influencing participants' health outcomes.
+We will use R to analyze the data. We will calculate descriptive, bivariate, and inferential statistics to describe the population and measure outcomes of interest. The focus is on multivariate, fixed effects regression, with basic and augmented models. The study will include two main regressions, A) estimating the effects of environmental exposure on gene expression, and B) estimating the effects of changes in gene expression on health outcomes.
+The outcome measures are epigenetic changes and mental and physical health outcomes.","Anticipated Findings
+We hypothesize that degree of exposure to adverse environmental conditions will have a positive association with extent and severity of epigenetic changes. Additionally, we hypothesize that these epigenetic changes will be positively associated with extent and severity of poor physical and mental health outcomes. We expect to find that these effects are mitigated by upward socioeconomic mobility.
+This research project fills a gap in the current literature by analyzing epigenetic data through a social science lens and combining epigenetic information with environmental exposure in populations with similar genetic information. Applying social science methods to this topic increases the external validity of this research because it combines field-based data with laboratory data. While much social science public health research analyzes associations between SDOH and health outcomes, this paper looks to examine the biological pathways by which these associations occur.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Sexual Orientation
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Margaret Lenhart
+- Undergraduate Student, University of Notre Dame"
+AD,"Alzheimer’s disease (AD) is a leading cause of dementia and neurological disability in the aging population. For the proposed project, we will examine the associations between genetic, environmental, demographic and clinical factors and functional outcomes in people with Alzheimer’s disease.","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is a leading cause of dementia and neurological disability in the aging population. For the proposed project, we will examine the associations between genetic, environmental, demographic and clinical factors and functional outcomes in people with Alzheimer’s disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Educational","Scientific Approaches
+In the proposed project, we will test the hypothesis that meaningful genetic, environmental, demographic and clinical factors can predict AD functional outcomes and disease trajectory. We will also examine how social determinants of health influence AD functional outcomes and disease trajectory. We will utilize data from the All of Us database with at least one of the International Classification of Disease (ICD) diagnosis codes for AD and related dementia.","Anticipated Findings
+We anticipate that integrating genetic, environmental, demographic and clinical factors will predict AD functional outcomes and disease trajectory and these outcomes will differ by sex, race, ethnicity, and socioeconomic status.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Shruthi Venkatesh
+- Graduate Trainee, University of Pittsburgh"
+Alzheimer's disease APOe variants,"By using the data, I hope to find answers on Alzheimer's disease progression in American Indian communities, specifically in the women ages 65 years or older. This research will be looking into the Apolipoprotein variants E2, E3, and E4 within…","Scientific Questions Being Studied
+By using the data, I hope to find answers on Alzheimer's disease progression in American Indian communities, specifically in the women ages 65 years or older. This research will be looking into the  Apolipoprotein variants E2, E3, and E4 within the American Indian populations and comparing the information to other ethnic groups. This research will investigate specific tribes within the United States by certain demographic areas. Many tribal elders use natural botanical plants from their environments for treatment of illnesses and diseases. I will explore the data to see what types of plants from the various areas have been researched or studied.","Project Purpose(s)
+Educational
+Ancestry","Scientific Approaches
+The data sets I plan to use will be the Alzheimer's disease in populations 65 years or older and compare the ethnicities and specifically in American Indian populations.","Anticipated Findings
+The anticipated findings should be higher for other ethnicities compared to American Indian populations. Also, the women are expected to be higher with Alzheimer's disease than men. For American Indian tribes, it will be beneficial to see if the women are at higher risk because most tribes are matrilineal and the women are the main teachers of cultures, traditions, language and histories.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Petula Henderson
+- Graduate Trainee, Arizona State University"
+Duplicate of APOE and hypercholesterol,"Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia…","Scientific Questions Being Studied
+Variants in the Apolipoprotein E (APOE) have been shown to have differential risk for conditions such as Alzheimer's disease and cardiovascular disease. This workspace will assess the feasibility of a large APOE association study by summarizing the APOE genotypes, hypercholesterolemia and demographics.","Project Purpose(s)
+Educational
+Ancestry","Scientific Approaches
+The two rsIDs for APOE genotyping (rs429358 and rs7412) will be extracted from AllOfUs Hail tables. Data will be summarized into the defined APOE genotypes (ε2, ε3, ε4) and associated with hypercholesterolemia status. Hypercholesterolemia will be defined by the SNOMED code ""E78.0 - Pure hypercholesterolemia"". Summary statistics for APOE association will be stratified by age, sex and declared race/ethnicity.","Anticipated Findings
+The study hopes to find similar statics as has been found in the UKBiobank cohort, with the addition of higher diversity. The summary statistics of these findings will be used as preliminary data to propose a larger cohort study.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ehsan Alipour
+- Graduate Trainee, University of Washington"
+The Impact of Alzheimer's disease in Latinx Populations,"This research aims to calculate the fitness cost of Alzheimer's disease to high grandparent care, Latino/a communities. This research will take into consideration cultural, economic, and evolutionary factors in order to create a holistic model of the fitness impact on…","Scientific Questions Being Studied
+This research aims to calculate the fitness cost of Alzheimer's disease to high grandparent care, Latino/a communities. This research will take into consideration cultural, economic, and evolutionary factors in order to create a holistic model of the fitness impact on a population when a grandmother gets Alzheimer's disease.","Project Purpose(s)
+Educational","Scientific Approaches
+The goal of this research will be to create a holistic model that shows the fitness impact of a grandmother getting Alzheimer's disease.  Cultural factors such as high grandparent care and multigenerational households in Latino/a communities must be taken into account in the model. Evolutionary factors will be essential to the model in order to incorporate the grandmother effect and how grandmother’s generally increase fitness by caring for their offspring and allowing their daughters to have more children, indirectly increasing their own fitness. Genetic factors will be applied with the understanding of APOE and how an APOE4 homozygous individual will have a high chance of developing Alzheimer’s disease, allelic information could allow us to predict Alzheimer’s outcomes.","Anticipated Findings
+I hope to find what the effect of Alzheimer's disease is on the Latinx community. I would like to figure out what this impact looks like so that better resources and tools can be allocated to help this community.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Julianna Perez
+- Undergraduate Student, Arizona State University"
+A1C Project,We want to examine that if high A1C level is a risk factor for diagnosis of Alzheimer's' Disease. It's significant since the causes of AD are still mysterious for us.,"Scientific Questions Being Studied
+We want to examine that if high A1C level is a risk factor for diagnosis of Alzheimer's' Disease. It's significant since the causes of AD are still mysterious for us.","Project Purpose(s)
+Educational","Scientific Approaches
+We will apply simple scientific approaches, control-case experiments.
+The datasets we will use contained A1C levels and test reports of AD/","Anticipated Findings
+We want to examine that if high A1C level is a risk factor for diagnosis of Alzheimer's' Disease. It's significant since the causes of AD are still mysterious for us.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yinyin Guan
+- Undergraduate Student, University of California, Davis"
+AD,Does neutrophil to lymphocyte ratio a risk factor for Alzheimer's disease? Investigating this association could help to identify patients at an increased risk for developing Alzheimer's disease and possibly allow for earlier treatment.,"Scientific Questions Being Studied
+Does neutrophil to lymphocyte ratio a risk factor for Alzheimer's disease? Investigating this association could help to identify patients at an increased risk for developing Alzheimer's disease and possibly allow for earlier treatment.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+The dataset will include All of Us participants with and without Alzheimer's disease and will include neutrophil to lymphocyte ratio and covariates such as age, sex, and cardiovascular risk factors. The analysis will involve logistic regression.","Anticipated Findings
+The anticipated findings from the study based on the previous literature is that neutrophil to lymphocyte ratio will be associated with Alzheimer's disease.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Emily Drzymalla
+- Other, University of North Carolina, Chapel Hill
+Collaborators:
+Laura Raffield - Other, University of North Carolina, Chapel Hill"
+Alzheimer's and ADHD Mendelian Randomization,"What genetic connections, if any, do Alzheimer's Disease and ADHD have with each other? It's been shown in past studies that the primary and secondary kin of ADHD patients are more likely to develop Alzheimer's compared to other people. The…","Scientific Questions Being Studied
+What genetic connections, if any, do Alzheimer's Disease and ADHD have with each other? It's been shown in past studies that the primary and secondary kin of ADHD patients are more likely to develop Alzheimer's compared to other people. The goal of this project is to see whether we can develop polygenic risk scores for each respective disease and determine if they can be used to predict the opposite disease phenotype.","Project Purpose(s)
+Ancestry","Scientific Approaches
+My hope is to use a consortium of GWAS studies for each respective disease and develop polygenic risk scores for both. After which, I intend to use the genetic dataset in All of Us to determine whether we can respectively predict both disease types with each PRS. This Mendelian Randomization would be used to help us discover what genes might be linked between diseases.","Anticipated Findings
+The findings would tell us what, if any, genes are linked between the diseases. Knowing this information can help us track the onset of Alzheimer's Disease in ADHD patients and work to discover ways to prevent such occurrences.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Disability Status","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ryan Colby
+- Undergraduate Student, Brigham Young University"
+alzheimers-liver-project,The goal of this project is to uncover novel early biomarkers and generate prediction models for Alzheimer’s disease (AD) based on race/ethnicity or dietary habits. The hypothesis is that metabolic dysfunction and diet-associated health issues are predictors for cognitive impairment…,"Scientific Questions Being Studied
+The goal of this project is to uncover novel early biomarkers and generate prediction models for Alzheimer’s disease (AD) based on race/ethnicity or dietary habits. The hypothesis is that metabolic dysfunction and diet-associated health issues are predictors for cognitive impairment in a race/ethnicity-specific manner. We propose using medical data obtained from 6 University of California Medical Centers to generate prediction models for AD development based on metabolic disease diagnoses and clinical test results, differentiating by race and ethnicity as well as gender. The long-term objective is to aggressively treat and prevent metabolic diseases prevalent among differing ethnicities, leading to AD prevention.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease and Liver diseases)","Scientific Approaches
+The inclusion criteria are patients who are 65-95 years old with and without AD based on ICD-10 code (International Classification of Diseases).
+Diseases that affect liver functions (alcoholic, toxic, failure, chronic hepatitis, fibrosis, cirrhosis, inflammation, malignancy, i.e., liver cancer of any types, autoimmune, Wilson’s Disease), Type 2 diabetes melilotus (T2DM), cardiovascular disease, as well as nicotine or alcohol dependence will be included for risk predictions. Demographic data and clinical tests that will be included are birth sex, BMI, age at menopause (or hot flash symptom, hemoglobin A1C, glucose blood/urine tests, erythrocyte sedimentation rate, plasma viscosity, liver function panels, comprehensive metabolic panels, blood count, lipid panels, urinalysis, C reactive protein, and prothrombin time to generate prediction models. All of those are possible indicators of metabolic dysfunction.","Anticipated Findings
+We expect to generate good prediction models and to be able to quantify the importance of metabolic clinical features for AD identification. If the learned model is not sufficiently accurate on held-back data, we will retrain the models from scratch using more domain knowledge to reduce the complexity of the prediction tasks. We will also explore the possibility of using a similar dataset to pre-train a model or to select appropriate features. If the data does not match with the known National data, we will look into patient population and barriers to access within the UC system. The benchmarks for success are measured by: (1) the identification of disparities in AD as well as metabolic diseases in the UC system; (2) the generation of good models for predicting AD based on race and ethnicity.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Brian Paciotti
+- Project Personnel, University of California, Davis"
+Identification of novel genetic variants affecting Alzheimer’s disease,"Alzheimer’s disease (AD) is a neurodegenerative disease, which affects around 0.10% of people in the United States aged 65 years or older. It is important to find genetic variants which are associated with AD and affect AD. Here, we will…","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is a neurodegenerative disease, which affects around 0.10% of people in the United States aged 65 years or older. It is important to find genetic variants which are associated with AD and affect AD. Here, we will use the Multivariable Information Theory-based dependence Search Tool (MIST) software we implemented to see how the software runs using the AD datasets in All of Us. We will also check how the UK Biobank results (which we already have) compare to the ones with All of Us. In addition, we will apply methods described in the MIST software and compare with standard statistical methods using the AD datasets in All of Us.
+It has been suggested that the APOE4 genetic variant affects AD. It is important to find new genetic dependencies by identifying genes and/or genetic variants that modify this well-known APOE4 genetic variant.","Project Purpose(s)
+Methods Development","Scientific Approaches
+Here, we will use research methods and tools such as the Multivariable Information Theory-based dependence Search Tool (MIST) software as well as standard statistical methods (e.g., linear models and other existing software packages) to establish novel genes and/or genetic variants that have relationships among variables in the All of Us datasets.
+The MIST software is a new software package we developed, which performs the joint probability density for many variables and then carry out the entropy-based measures implemented to identify the functional dependencies among variables. The MIST software utilizes a novel symmetric measure of functional dependence we developed, which is based on Information Theory.
+Also, we will use the Alzheimer’s disease (AD) datasets in All of Us. The All of Us results for AD will be compared to the ones with UK Biobank (which we already have).","Anticipated Findings
+The anticipated findings from the study will be novel genes and/or genetic variants that modify the well-known APOE4 genetic variant. In the field, it has been shown that the APOE4 genetic variant affects Alzheimer’s disease (AD). It is important to identify new genes and/or genetic variants which modify this well-known APOE4 genetic variant affecting AD.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eugene Lin
+- Mid-career Tenured Researcher, Pacific Northwest Research Institute"
+Alzheimer's Disease Analysis,We want to study the characteristics of Alzheimer's Disease patients through their medical data. Our goal is to perform early detection for neurodegeneration and discover potential drugs for the disease.,"Scientific Questions Being Studied
+We want to study the characteristics of Alzheimer's Disease patients through their medical data. Our goal is to perform early detection for neurodegeneration and discover potential drugs for the disease.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Drug Development
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+We will study the medical data of the patients including diagnosis, lab tests, demographics, medications, etc. We plan to apply Machine Learning (ML) techniques to solve this problem. Particularly, we are interested in applying traditional ML methods such as Logistic Regression, Support Vector Machine (SVM), Random Forest, etc. as baselines for our predictions. Then, we will develop deep learning methods to generate more accurate solutions to the problem.","Anticipated Findings
+The anticipated findings will be early indicators of neurodegeneration, and a high-performance ML that can accurately predict the results while providing sufficient interpretation to help the clinician understand the rationale behind the solution.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yurui Cao
+- Graduate Trainee, University of Illinois at Urbana Champaign"
+Duplicate of Underdiagnosis of Dementias,The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies…,"Scientific Questions Being Studied
+The national prevalence of Alzheimer’s disease is estimated to be 11% in individuals over 65 years old and 1.5-2.0 times higher in underrepresented racial and ethnic groups including Black and Hispanic/Latinx. In real world medical care based on prior studies and our work, less than half of patients with dementia have been formally diagnosed and significantly more so in underrepresented racial and ethnic groups. Our scientific questions are:
+1. Are dementias underdiagnosed in the electronic health record (EHR) compared to population estimates?
+2. What are the risk factors for patients to not be formally diagnosed with dementias?
+3. How do the underdiagnosis and risk factors differ across racial and ethnic groups?
+We hypothesize dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors include demographics, comorbidities, medications, and healthcare access.","Project Purpose(s)
+Disease Focused Research (dementia)
+Population Health","Scientific Approaches
+We will define dementia as probable based on ICD codes and possible based on a combination of ICD codes, medication use and personal medical history. We will calculate the prevalence of dementias across racial and ethnic group compared to population estimates. We will compare risk factors of patients who have probable dementia versus possible dementia using logistic regression correcting for demographics. Risk factors tested will include drug exposures, lab measurement, demographics, health access, and other survey questions. We will compare risk factors across racial and ethnic groups.","Anticipated Findings
+We expect to find that dementias are underdiagnosed the EHR, more so in underrepresented racial and ethnic groups, and that risk factors for underdiagnosis include demographics, comorbidities, medications, and healthcare access, which will differ across racial and ethnic groups. These findings may lead to racially and ethnically specific strategies to improve the early and appropriate diagnosis of dementias, which can initiate multi-disciplinary care and treatment.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Samantha Shah
+- Project Personnel, University of California, Los Angeles"
+Duplicate of Preparing to Investigate the Genetics of NDDs in the AoU Cohort,"Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative…","Scientific Questions Being Studied
+Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases  such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative diseases.","Project Purpose(s)
+Disease Focused Research (neurodegenerative disease, Ageing)
+Ancestry","Scientific Approaches
+We will use this workspace to become familiar with how to retrieve phenotypic and genomic data from the AoU cohort. Using Python and/or R (via JupyterNotebooks) we will perform a prospective statistical power analysis of the AoU dataset to determine the applicability of future, secondary analysis to help bridge the gap between genetic association and functional impact with methods such as GWAS, PheWAS, and Polygenic Risk Score (PRS). Additionally, our lab is interested in investigating the role of genetics in neurodegenerative diseases in underrepresented populations and therefore will investigate whether the diversity and size of the AoU cohort will allow us to perform population-specific analysis of the genetic contributions to neurodegenerative diseases.","Anticipated Findings
+We expect to find that the size of the AoU cohort will have the statistical power necessary to perform our desired secondary analysis.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eve Gardner
+- Project Personnel, Van Andel Research Institute"
+Preparing to Investigate the Genetics of NDDs in the AoU Cohort,"Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative…","Scientific Questions Being Studied
+Querying the AoU WGS data to quantify the statistical power of using the AoU cohort dataset to independently investigate the genetic architecture of neurodegenerative diseases  such as Alzheimer’s Disease (AD), Parkinson’s Disease (PD), Frontotemporal Dementia (FTD), and other age-associated neurodegenerative diseases.","Project Purpose(s)
+Disease Focused Research (neurodegenerative disease, Ageing)
+Ancestry","Scientific Approaches
+We will use this workspace to become familiar with how to retrieve phenotypic and genomic data from the AoU cohort. Using Python and/or R (via JupyterNotebooks) we will perform a prospective statistical power analysis of the AoU dataset to determine the applicability of future, secondary analysis to help bridge the gap between genetic association and functional impact with methods such as GWAS, PheWAS, and Polygenic Risk Score (PRS). Additionally, our lab is interested in investigating the role of genetics in neurodegenerative diseases in underrepresented populations and therefore will investigate whether the diversity and size of the AoU cohort will allow us to perform population-specific analysis of the genetic contributions to neurodegenerative diseases.","Anticipated Findings
+We expect to find that the size of the AoU cohort will have the statistical power necessary to perform our desired secondary analysis.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Eve Gardner
+- Project Personnel, Van Andel Research Institute"
+Itch and Dementia,"Itch is a common clinical phenomenon which worsens with age, and up to one-third of elderly patients report clinically significant itch with moderate impact on their quality of life. Itch and neurological conditions including Alzheimer’s disease are also significantly associated…","Scientific Questions Being Studied
+Itch is a common clinical phenomenon which worsens with age, and up to one-third of elderly patients report clinically significant itch with moderate impact on their quality of life. Itch and neurological conditions including Alzheimer’s disease are also significantly associated in aging humans. For example, bullous pemphigoid – a pruritic autoimmune skin disorder whose incidence rises with age – increases the odds of dementia by 10-fold (95% confidence interval 5.4-17.8]). The association between age-related non-neoplastic skin conditions and neurological disorders can be due to shared risk factors (e.g., aging, exposure) or upstream pathophysiology (systemic inflammation, inflammaging), but studies dissecting these potential mechanistic relationships are lacking. In this study, I intend to evaluate the association between dementia and pruritus in an aging population.","Project Purpose(s)
+Disease Focused Research (dementia)","Scientific Approaches
+I will use descriptive statistics to characterize pruritic skin diseases in patients with and without dementia including demographic information, inflammatory skin diseases, dementia subtypes, other comorbid medical conditions, and use of specific medications that have been associated with the development of dementia in prior literature (e.g. sedating anti-histamines). I will use basic statistical techniques to assess these relationships including chi-squared analyses, t-tests, Pearson correlation coefficients, and linear multivariable linear regression models.","Anticipated Findings
+I anticipate that these analyses will demonstrate an association between dementia and pruritus, measured by presence/absence of pruritic inflammatory skin diseases. These data will be used to inform future studies on these associations as well as alternative therapeutic options for patients with dementia and itch.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Emily Cole
+- Early Career Tenure-track Researcher, Emory University"
+Alzheimer's Dummy,What external factors contribute to the onset of Alzheimers disease? Can the onset of Alzheimer's be delayed or avoided altogether?,"Scientific Questions Being Studied
+What external factors contribute to the onset of Alzheimers disease?
+Can the onset of Alzheimer's be delayed or avoided altogether?","Project Purpose(s)
+Other Purpose (A dummy workspace for Alzheimer's data and tables.)","Scientific Approaches
+Data from when someone was diagnosed with the disease, what other conditions patients have, and the comparison of external factors between participants.","Anticipated Findings
+Hopefully to find similarities in external factors and environmental factors that contribute to Alzheimer's disease, and if those factors are parallel to time of onset.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Claire Devaney
+- Undergraduate Student, University of Arizona"
+Hypertension-ADRD,Whether hypertensive participants have differing progression of Alzheimer's disease from normotensive participants.,"Scientific Questions Being Studied
+Whether hypertensive participants have differing progression of Alzheimer's disease from normotensive participants.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Drug Development
+Methods Development","Scientific Approaches
+Hypertensive participants as starting point; using alzheimer's disease as end point. Cox proportional hazard, competing risks, multistate models will be used. Other potential confounders will be used.","Anticipated Findings
+Hypertensive patients have higher risk of developing Alzheimer's disease. Antihypertensive medication may have reducing effect.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Sori Kim
+- Graduate Trainee, University of Texas Health Science Center, Houston"
+CICADA,This proposal seeks support for developing advanced clinical informatics and computational approaches for drug-repositioning for Alzheimer's disease (AD) and related dementias (ADRD). The proposed project directly addresses the areas of emphasis in PAR-20-156 to “develop computational methods such as artificial…,"Scientific Questions Being Studied
+This proposal seeks support for developing advanced clinical informatics and computational approaches for drug-repositioning for Alzheimer's disease (AD) and related dementias (ADRD). The proposed project directly addresses the areas of emphasis in PAR-20-156 to “develop computational methods such as artificial intelligence/machine learning to investigate new uses of FDA-approved drugs or candidate drugs from failed Phase II/Phase III clinical trials through analysis of multimodal data.” The overarching goals of this proposal are to develop novel clinical informatics and computational approaches for drug repositioning of AD/ADRD. Our project holds the promise of identifying novel drug repositioning signals. This project is novel for integrating evidence synthesis methods with signal detection methods using advanced multimodal modeling, and it is potentially transformative for advancing prevention and treatment for AD/ADRD.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+Specifically, we will develop statistical methods and ontology technology to extract drug-repositioning signals from multidimensional data (e.g., pharmacy-linked genetic data and biobank data, historical trials, and EHR data). The proposed framework is novel because it integrates advanced statistical inference procedures with semantic technology for data-driven and reproducible drug repositioning for AD/ADRD. We have three aims: We have three specific aims: Aim 1: Develop signal detection methods using multi-modal data (pharmacy-linked genetic data, genetic and electronic health record (EHR) data, and BioBank data). Aim 2: Evaluate the efficacy and safety of candidate drugs via historical trials and EHR data. Aim 3: Develop novel semantic and natural language processing (NLP) methods for Knowledge Graph (KG) construction.","Anticipated Findings
+The success of this project will lead to novel computational methods, KG, and software for facilitating drug repositioning for AD/ADRD based on multimodal data. If successful, the proposed method could identify novel drug repositioning signals and generate novel hypotheses for prevention and treatment intervention of treat AD/ADRD. Our project holds the promise of identifying novel drug repositioning signals. This project is novel for integrating evidence synthesis methods with signal detection methods using advanced multimodal modeling, and it is potentially transformative for advancing prevention and treatment for AD/ADRD.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Bingyu Zhang
+- Graduate Trainee, University of Pennsylvania"
+Alzheimer's research Project Controlled tir,"Understanding the main causative factors of Late onset Alzheimer's Disease, specifically comprehending the correlation between socio-economic factors and the diagnosis of Alzheimer's.","Scientific Questions Being Studied
+Understanding the main causative factors of Late onset Alzheimer's Disease, specifically comprehending the correlation between socio-economic factors and the diagnosis of  Alzheimer's.","Project Purpose(s)
+Educational","Scientific Approaches
+The datasets that i believe to be significant for our research study, are ages(50 years old and above), Race, Sex and socioeconomic factors relating top the cause of Late on set Alzheimer's.","Anticipated Findings
+Anticipated findings of the study are to generally determine different causative factors of Alzheimer's and how these factors can be mitigated in order to determine/develop means of combating these factors. Primarily to effectively identify whether there has been a severe correlation between Alzheimer's diagnosis and socio-economic factors such as wealth, education and medical health care.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Marc Souster
+- Undergraduate Student, Towson University"
+Alzheimer's Genetic SNP,How socioeconomic factors effect diagnosis of Alzheimer's diseases. Want to see how the genotype is displayed based off of socioeconomic factors.,"Scientific Questions Being Studied
+How socioeconomic factors effect diagnosis of Alzheimer's diseases.  Want to see how the genotype is displayed based off of socioeconomic factors.","Project Purpose(s)
+Educational","Scientific Approaches
+We plan to use genetic data, survey data. Want to use graphs to make comparisons between Alzheimer's disease and all other diseases.  Specifically doubl ebox-plot graphs, chi square test.","Anticipated Findings
+I anticipate to find that socioeconomic factors does effect the diagnosis of Alzheimer's disease. The results will better help to create preventative measures and ways to better understand rate of diagnosis.","Demographic Categories of Interest
+Age
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jazmine Dent
+- Undergraduate Student, Towson University
+Collaborators:
+Marc Souster - Undergraduate Student, Towson University
+Kathryn McDougal - Other, Towson University
+Cameron Sieb - Undergraduate Student, Towson University
+Akeem Laurence - Undergraduate Student, Towson University"
+S22 Cameron Sieb Alzheimer's genetics all ages,"How lifestyle, and socio-economic factors influence the diagnoisis of senile-onset Alzheimer’s? It's relevant to public health because through research we will be able to identify the disparities between factors that affect/cause a person to become ill. Being able to understand…","Scientific Questions Being Studied
+How lifestyle, and socio-economic factors influence the diagnoisis of senile-onset Alzheimer’s?
+It's relevant to public health because through research we will be able to identify the disparities between factors that affect/cause a person to become ill.
+Being able to understand more information about a disease that affects a substantial amount of people in the world will provide us with possible answers that we need to prevent and combat Alzheimer’s.","Project Purpose(s)
+Educational","Scientific Approaches
+We will be looking at the demographic & survey datasets. We will be looking at data of people with and with out Alzheimer’s. In the future when the genetics data get release we will be looking at the specific genes that associate with Alzheimer’s","Anticipated Findings
+Our research intentions aim to outline a number of determinants of Alzheimer's disease, while providing further understanding alongside an epidemiological/ genetical approach.
+Utilizing  such a wide demographic data set,  provides our research with a vast and more personalized form of data. Providing a more comprehensive understanding of these types of alzhmiers, generating opportunities of treating the disease, what follows a more personalized/ effective procedure while focusing on different demographics.","Demographic Categories of Interest
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Cameron Sieb
+- Undergraduate Student, Towson University
+Collaborators:
+Marc Souster - Undergraduate Student, Towson University
+Kathryn McDougal - Other, Towson University
+Jazmine Dent - Undergraduate Student, Towson University
+Akeem Laurence - Undergraduate Student, Towson University"
+Alzheimers all age genes,"How lifestyle, and socio-economic factors influence the diagnoisis of senile-onset Alzheimer’s? It's relevant to public health because through research we will be able to identify the disparities between factors that affect/cause a person to become ill. Being able to understand…","Scientific Questions Being Studied
+How lifestyle, and socio-economic factors influence the diagnoisis of senile-onset Alzheimer’s?
+It's relevant to public health because through research we will be able to identify the disparities between factors that affect/cause a person to become ill.
+Being able to understand more information about a disease that affects a substantial amount of people in the world will provide us with possible answers that we need to prevent and combat Alzheimer’s.","Project Purpose(s)
+Educational","Scientific Approaches
+We will be looking at the demographic & survey datasets. We will be looking at data of people with and with out Alzheimer’s. In the future when the genetics data get release we will be looking at the specific genes that associate with Alzheimer’s","Anticipated Findings
+Our research intentions aim to outline a number of determinants of Alzheimer's disease, while providing further understanding alongside an epidemiological/ genetical approach.
+Utilizing  such a wide demographic data set,  provides our research with a vast and more personalized form of data. Providing a more comprehensive understanding of these types of alzhmiers, generating opportunities of treating the disease, what follows a more personalized/ effective procedure while focusing on different demographics.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Cameron Sieb
+- Undergraduate Student, Towson University"
+Clinical Trial Generalizability,Clinical trials are often criticized for poor population representativeness and generalizability. There is a gap between the need to broaden clinical trial criteria and ways available to fulfill the need in practice. We will systematically analyze existing Alzheimer's disease trials…,"Scientific Questions Being Studied
+Clinical trials are often criticized for poor population representativeness and generalizability. There is a gap between the need to broaden clinical trial criteria and ways available to fulfill the need in practice. We will systematically analyze existing Alzheimer's disease trials in ClinicalTrials.gov to create a standardized library of computable eligibility criteria (CEC) and develop statistical models on how adjustments to eligibility criteria, especially age and aging-related comorbidities, would affect (1) trial generalizability, and (2) outcomes (i.e., SAEs) of the target population, approximated using real-world data (RWD).","Project Purpose(s)
+Drug Development
+Methods Development","Scientific Approaches
+Building on our prior CEC work, we will systematically analyze AD trials to standardize their eligibility criteria into CEC (i.e., standardized query templates that translate each AD trial criterion pattern into database queries) based on the OMOP common data model (CDM).  We will identify data gaps (e.g., Mini-Mental State Exam [MMSE]) in the structured CDM and identify strategies to extract these data elements (e.g., from clinical notes). First, we will first conduct a systematic review of SAE prediction models that use RWD, especially EHRs.  Second, informed by the systematic review and built upon our prior work, we will use the RWD from All of Us to analyze and model the mathematical relationships among criteria (i.e., study traits), generalizability, and outcomes (i.e., SAEs) to understand how adjustments to eligibility criteria will jointly affect AD trials’ generalizability and real-world target AD patients’ outcomes.","Anticipated Findings
+We will support the development of a trial eligibility criteria design tool that can optimize trial generalizability while balancing potential increases in the risk of SAEs in the target population.  Built upon the All of Us data, our study is generalizable to the US population.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Zhe He
+- Mid-career Tenured Researcher, Florida State University
+Collaborators:
+Shubo Tian - Graduate Trainee, Florida State University
+Arslan Erdengasileng - Graduate Trainee, Florida State University"
+Controlled SGM Neuroscience,"Neurological diseases such as Parkinson's Disease or Alzheimer's Disease and Related Dementias can have direct or indirect impacts on day-to-day psychosocial and health behaviors (e.g., activities of daily living, healthcare utilization, self care). Little is known about the impact of…","Scientific Questions Being Studied
+Neurological diseases such as Parkinson's Disease or Alzheimer's Disease and Related Dementias can have direct or indirect impacts on day-to-day psychosocial and health behaviors (e.g., activities of daily living, healthcare utilization, self care). Little is known about the impact of neurological diseases in the sexual and gender minority populations. and as sexual and gender minority populations may experience differences in social support and other impacts of structural inequities we would like to know the following:
+1) Does the impact of having Parkinson's Disease or Alzheimer's Disease and Related Dementias (PD/ADRD) on psychosocial behavioral health, or well-being differ between sexual and gender minorities (SGM) and cisgender, heterosexual (CGH) individuals?
+1a) Are there any differences between sexuality and gender identity subpopulations?
+2) Comparing SGM and CGH individuals with PD/ADRD are there differences in comorbid conditions?","Project Purpose(s)
+Disease Focused Research (Parkinson's Disease and Alzheimer's Disease and related dementias)
+Population Health
+Social / Behavioral
+Methods Development","Scientific Approaches
+We will first identify all of those individuals with valid Sexual Orientation and Gender identity concept answers in the controlled tier dataset, and then among those we will identify the sub population with PD/ADRD diagnoses, and then among that cohort of individuals we will evaluate differences among cohort members based on sex-assigned-at-birth, gender identity, and sexual orientation.
+We will use univariate (measures of central tendency, frequencies/distributions) and bivariate statistics (significant differences between groups). Differences will be assessed using the appropriate within and between groups comparisons approaches based on the type of measures used e.g [M]AN[C]OVA ([multiple] analysis of [co-]variance).
+If the population of affected individuals is large enough we may evaluate complex relationships among the various psychosocial health and well-being factors using partial correlations, logistic regressions, or other multivariable analyses if appropriate.","Anticipated Findings
+We anticipate being able to provide some specific descriptive work related to the All-of-us sample, and any group differences that exist. At this point in time the a priori hypothesis is that SGM individuals will have a poorer psychosocial health and well-being than their CGH comparators. When we finish this work we hope that this will generate information that will spark further inquiry and opportunities to conduct studies to better understand and address any disparities that are identified among SGM individuals with PD/ADRD.
+Further, descriptive analyses that examine data in the aggregate as well disaggregated data (by groups) and using analyses that allow us to account for intersecting marginalized identities are important for understanding which groups are at greatest risk for poor outcomes. We we anticipate that differences to exist in both the combined and disaggregated analyses.","Demographic Categories of Interest
+Sex at Birth
+Gender Identity
+Sexual Orientation","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Scott Moore
+- Early Career Tenure-track Researcher, Case Western Reserve University"
+Alzheimer's drug repurposing validation,"Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Scientific Questions Being Studied
+Alzheimer’s disease (AD) is the most common cause of dementia in the elderly population; however, limited treatment options currently exist. This study seeks to clinically validate drug repurposing candidates for Alzheimer's disease.","Project Purpose(s)
+Methods Development","Scientific Approaches
+This study will use a retrospective cohort study design to compare prevalence of Alzheimer's disease in patients with and without exposure to drug repurposing candidates.","Anticipated Findings
+Successfully validated repurposing candidates will represent high-priority drugs for further investigation in clinical trials.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Monika Grabowska
+- Graduate Trainee, Vanderbilt University"
+Ethnic/Racial Disparity of Alzheimer's,"The NIA has already shown there is a racial disparity in Alzheimer's disease, and we are interested in seeing if: 1. There are common liver disease comorbidities associated with Alzheimer's disease 2. If there is additionally any disparity in the…","Scientific Questions Being Studied
+The NIA has already shown there is a racial disparity in Alzheimer's disease, and we are interested in seeing if:
+1. There are common liver disease comorbidities associated with Alzheimer's disease
+2. If there is additionally any disparity in the distribution of liver diseases in the Alzheimer cohort
+3. If there are changes in common testing parameters that happen frequently in Alzheimer patients","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Population Health","Scientific Approaches
+Using the racial/ethic distribution of Alzheimer's and odds ratio to find statistically significant differences between racial/ethnic groups.
+Using the racial/ethic distribution of common comorbid liver diseases and odds ratio to find statistically significant differences between racial/ethnic groups.
+Using the biospecimen dataset to build a machine learning model to predict Alzheimer's disease development.","Anticipated Findings
+We anticipate to possibly identify a racial/ethnic disparity in Alzheimer's disease, and possible testing parameters that can assist with early detection of Alzheimer's disease progression.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Miranda Gilbert
+- Project Personnel, University of California, Davis"
+Dementia,"Alzheimer's Disease and Related Dementias (ADRD) is an overwhelming medical condition at any age, but ADRD in younger age is particularly devastating, affecting quality of life and independence of individuals in their prime years. Here, we aim to study factors…","Scientific Questions Being Studied
+Alzheimer's Disease and Related Dementias (ADRD) is an overwhelming medical condition at any age, but ADRD in younger age is particularly devastating, affecting quality of life and independence of individuals in their prime years. Here, we aim to study factors associated with ADRD age of onset.","Project Purpose(s)
+Disease Focused Research (dementia)","Scientific Approaches
+We will use the total sample to compare characteristics of individuals with and without ADRD and evaluate their relationship with ADRD age of onset.","Anticipated Findings
+Identifying distinct predisposing and/or protective factors for earlier onset of ADRD opens opportunities to target vulnerable populations for early detection and prevention.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sanaz Sedaghat
+- Early Career Tenure-track Researcher, University of Minnesota"
+AD_breathing,The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common…,"Scientific Questions Being Studied
+The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common cardiovascular factors (e.g. high blood pressure, diabetes, cardiovascular events, such as stroke or heart attacks). If brain functioning is interrupted by abnormal blood flow, this might contribute to a faster decay with aging. The hypothesis is that respiratory problems can be observed first, followed by cardiovascular problems and that a subset of the population with these health problems will eventually develop AD. It is critical to explore this connection because it might lead to the investigation and development of preventative breathing interventions.","Project Purpose(s)
+Disease Focused Research (Respiratory conditions and the risk of Alzheimer's Disease)","Scientific Approaches
+First of all, my goal is to identify which variables could be useful for this purpose. For example, an important correlational analysis would be between the number of years since diagnosis of a respiratory disorder and the onset of mild cognitive impairment or AD. It is also of interest, what percentage of people with AD have a history of cardiovascular risk and/or breathing difficulties. For the participants that have not yet developed AD, it will be useful to understand whether they show the same or worse cognitive performance compared to people without this breathing disorder and whether this is still the case for those with breathing abnormalities AND cardiovascular risk.
+For this purpose, I will include data on age, cognitive function, cardiovascular health, breathing-related and cognitive impairment/AD diagnoses and the time and age of the diagnoses. Control variables will be sex, education, physical activity, socioeconomic background and potentially history of medication use.","Anticipated Findings
+I anticipate to find that compared to healthy controls, people with sleep apnea show reduced cognitive functioning. I anticipate this to worsen the longer they have suffered from sleep apnea. In addition, I expect that cardiovascular risk factors will further reduce cognitive functions. This effect may be ameliorated by people who are more physically active, have higher education and a higher socioeconomic status. There might be age and sex differences. Most importantly, I expect that people with AD may have a worse disease course if they also have a history of sleep apnea and/or cardiovascular risk.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Beatrix Krause
+- Research Fellow, University of California, Los Angeles"
+Public Health( Alzheimer in Puertoricans),"Does puerto ricans in the Island of Puerto Rico tend to suffer more from Alzheimer, than puerto ricans in the US mainland?","Scientific Questions Being Studied
+Does puerto ricans in the Island of Puerto Rico tend to suffer more from Alzheimer, than puerto ricans in the US mainland?","Project Purpose(s)
+Disease Focused Research (alzheimer, Dementia)
+Population Health
+Ancestry","Scientific Approaches
+-Use the available ethnicity databases.
+-Search the databases related to dementia classified by: location, birthplace, place of living, places of work, ethnicity & others.
+-Investigate surveys and  historical data that supports our research topics.
+- Use Descriptive and Inferential statistics to successfully and correctly answer our question.","Anticipated Findings
+. I hope that my findings are able to raise awareness that regarding the outcome, dementia is a sensible topic that needs and should have more  attention, research and study.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Access to Care","Data Set Used
+Registered Tier","Research Team
+Owner:
+Joshua Rodriguez
+- Undergraduate Student, University of Puerto Rico Medical Sciences"
+Student Final Project Files Storage,"Completed candidate gene studies on conditions such as Alzheimer's Disease, Opioid Addiction, Cardiomyopathy, and Breast Cancer. The process of pulling this data out of the MatrixTable and the analysis produced by each student led research attempt.","Scientific Questions Being Studied
+Completed candidate gene studies on conditions such as Alzheimer's Disease, Opioid Addiction, Cardiomyopathy, and Breast Cancer. The process of pulling this data out of the MatrixTable and the analysis produced by each student led research attempt.","Project Purpose(s)
+Educational","Scientific Approaches
+Attempting to understand which Hail commands are required to obtain desired variants efficiently. We would like to take variants from the array data and use them in R to run a candidate gene analysis.","Anticipated Findings
+These files will be used as reference and teaching material for future courses.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Kathryn McDougal
+- Other, Towson University
+Akeem Laurence
+- Undergraduate Student, Towson University"
+How to Obtain Array Data from MatrixTable,"We need to pull variants out of the MatrixTable so we can do candidate gene studies on conditions such as Alzheimer's Disease, Opioid Addiction, Cardiomyopathy, and Breast Cancer.","Scientific Questions Being Studied
+We need to pull variants out of the MatrixTable so we can do candidate gene studies on conditions such as Alzheimer's Disease, Opioid Addiction, Cardiomyopathy, and Breast Cancer.","Project Purpose(s)
+Educational","Scientific Approaches
+Attempting to understand which Hail commands are required to obtain desired variants efficiently. We would like to take variants from the array data and use them in R to run a candidate gene analysis.","Anticipated Findings
+Once we are able to obtain the variants we need for our analysis, we can start running candidate gene studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Kathryn McDougal
+- Other, Towson University
+Akeem Laurence
+- Undergraduate Student, Towson University"
+Exploring and duplicate of How to Work with All of Us Genomic Data,1. these notebooks demonstrate example analysis how to use Hail and PLINK to perform genome-wide association studies using the All of Us genomic data and phenotypic data. I can learn using these data in my own research questions 2. I…,"Scientific Questions Being Studied
+1. these notebooks demonstrate example analysis how to use Hail and PLINK to perform genome-wide association studies using the All of Us genomic data and phenotypic data. I can learn using these data in my own research questions
+2. I want to include genetics risk scores of Alzheimer's disease for my targeted population in my other AllofUS projects. Since AD is regarded as a high genetic related disease, there is no reason to exclude the genetics information when analyzing AD-related datasets.","Project Purpose(s)
+Educational
+Other Purpose (Demonstrate to the All of Us Researcher Workbench users how to get started with the All of Us genomic data and tools. It includes an overview of all the All of Us genomic data and shows some simple examples on how to use these data.)","Scientific Approaches
+I'm using this as a tutorial to get familiar with AllofUS genomic platform and how to use the data - Specifically, I wanted to find a way to apply polygenic risk score (PRS) of a given disease using data from AllofUS platform.","Anticipated Findings
+After careful investigation/try-and-errors, I will get familiar with genetics data from AllofUS. I will eventually combine genetic information to my Alzheimer's disease projects.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Yuan SHANG
+- Research Fellow, University of Arizona"
+AD cluster,"We will analyze the potential different mechanism of Alzheimer’s disease, using parameters including medicines from EHR records, genetic backgrounds, questionnaires, blood test lab parameters, etc. Specific questions we will ask are: 1. How the points of AD patients are presented…","Scientific Questions Being Studied
+We will analyze the potential different mechanism of Alzheimer’s disease, using parameters including medicines from EHR records, genetic backgrounds, questionnaires, blood test lab parameters, etc.
+Specific questions we will ask are:
+1. How the points of AD patients are presented in the high-dimension space? Are there any cluster structures? Is it possible to reduce the dimensions?
+2. What are the high dimension structures of the age/sex mapping controls related to AD patients?
+3. If we identified some clusters in point1, what’s the potential contributions of aging to different clusters. Is it possible to predict AD risks for certain clusters for the younger population?
+They are hundreds of potential factors that are associated with AD. We hypothesis that some of those factors shared the same pathological pathways, and thus would cluster in the high dimension space. We expected to conclude some relative independent major driven factors for AD.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)","Scientific Approaches
+We will apply algorithms developed at Columbia University and in the OHDSI network to All of Us data to find medication sequences. We will use Python and BigQuery to (1) retrieve AD patients and the HER, questionnaires and Genomic information. (2) Filter the data with AD risk factors and visualize their structures in high dimensional space. (3) Clustering the data using various clustering and dimensional reduction methods to check potential clusters; (4) Analyzing contribution factors to each potential clusters. (5) Analyzing the structure of cognitive normal subjects with similar AD risk factors. We will engage community partners to review our hypotheses, approach, and study limitations. Limitations include: 1. medication reports may not tell us how well people adhered to their prescribed therapy; 2. High heterogeneity and relative small sample size in the data might result in biased clusters.","Anticipated Findings
+For this study, we expect to show several distinct clusters in AD patients, which may due to different pathological mechanisms in AD which require different therapeutic strategies. We expect to find (1) subtypes of AD; (2) potential contribution factors to different subtypes; (3) effect size of different risk factors to different subtypes; (4)potential predictive model to AD; (5) and potential therapeutic strategies to different AD sub types. Importantly, the detailed code developed will be made available within the Researcher Workbench, so other researchers may more easily repeat our study or applie similar research strategies to other diseases. We believe this approach will be useful in many discovery studies.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Yuan SHANG
+- Research Fellow, University of Arizona"
+Correlation between socio-economic factors and Late on set Alzheimer's.,"Understanding the main causative factors of Late onset Alzheimer's Disease, specifically comprehending the correlation between socio-economic factors and the diagnosis of Alzheimer's.","Scientific Questions Being Studied
+Understanding the main causative factors of Late onset Alzheimer's Disease, specifically comprehending the correlation between socio-economic factors and the diagnosis of  Alzheimer's.","Project Purpose(s)
+Educational","Scientific Approaches
+The datasets that i believe to be significant for our research study, are ages(50 years old and above), Race, Sex and socioeconomic factors relating top the cause of Late on set Alzheimer's.","Anticipated Findings
+Anticipated findings of the study are to generally determine different causative factors of Alzheimer's and how these factors can be mitigated in order to determine/develop means of combating these factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Marc Souster
+- Undergraduate Student, Towson University"
+Demo Alzheimer's,"This is a demo for course. Using to better understand how to use All of Us. Eventually want to better see if there is a relationship between lifestyle (socio-economic status, diet, etc) and diagnosis of early onset Alzheimers. This is…","Scientific Questions Being Studied
+This is a demo for course. Using to better understand how to use All of Us. Eventually want to better see if there is a relationship between lifestyle (socio-economic status, diet, etc) and diagnosis of early onset Alzheimers. This is important because it can help decrease the mortality rate of Alzheimer's and help form preventative measures.","Project Purpose(s)
+Disease Focused Research (Alzheimer's disease)
+Educational
+Other Purpose (Demo for class to better understand how to use All of Us workspace.)","Scientific Approaches
+This is a demo for course. Using to better understand how to use All of Us. Eventually want to better see if there is a relationship between lifestyle (socio-economic status, diet, etc) and diagnosis of early onset Alzheimers. This is important because it can help decrease the mortality rate of Alzheimer's and help form preventative measures.","Anticipated Findings
+This is a demo for course. sing to better understand how to use All of Us. Eventually want to better see if there is a relationship between lifestyle (socio-economic status, diet, etc) and diagnosis of early onset Alzheimers. This is important because it can help decrease the mortality rate of Alzheimer's and help form preventative measures.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jazmine Dent
+- Undergraduate Student, Towson University
+Collaborators:
+Marc Souster - Undergraduate Student, Towson University
+Kathryn McDougal - Other, Towson University
+Cameron Sieb - Undergraduate Student, Towson University
+Akeem Laurence - Undergraduate Student, Towson University"
+Demo Alzheimers,"I am trying to navigate All of Us workbench before deciding on my research. However, I am interested in Alzheimer's","Scientific Questions Being Studied
+I am trying to navigate All of Us workbench before deciding on my research. However, I am interested in Alzheimer's","Project Purpose(s)
+Educational","Scientific Approaches
+I am trying to navigate All of Us workbench before deciding on my research. However, I am interested in Alzheimer's","Anticipated Findings
+I am trying to navigate All of Us workbench before deciding on my research. However, I am interested in Alzheimer's","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Cameron Sieb
+- Undergraduate Student, Towson University
+Collaborators:
+Marc Souster - Undergraduate Student, Towson University
+Kathryn McDougal - Other, Towson University
+Jazmine Dent - Undergraduate Student, Towson University
+Akeem Laurence - Undergraduate Student, Towson University"
+test,Relationship of SES and incidence of Alzheimer's disease,"Scientific Questions Being Studied
+Relationship of SES and incidence of Alzheimer's disease","Project Purpose(s)
+Educational","Scientific Approaches
+Case control study","Anticipated Findings
+Low SES associated with increased Alzheimer's","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Shaista Malik
+- Mid-career Tenured Researcher, University of California, Irvine"
+test,"What is the link between risk factors for heart disease, like hypertension and development of Alzheimer's disease?","Scientific Questions Being Studied
+What is the link between risk factors for heart disease, like hypertension and development of Alzheimer's disease?","Project Purpose(s)
+Disease Focused Research (hypertension, alzheimers, heart disease)
+Educational","Scientific Approaches
+Will do a case=control study, utilizing self reported disease conditions and genetic markers linked with Alzheimer's and hypertension","Anticipated Findings
+Alzheimer's disease might be preventable if risk factors are controlled early in life.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Shaista Malik
+- Mid-career Tenured Researcher, University of California, Irvine"
+Practice Analyses,"Interested in the intersection of human genetics and statistics - specifically interested in Alzheimer's, hormone responses and lipodema","Scientific Questions Being Studied
+Interested in the intersection of human genetics and statistics - specifically interested in Alzheimer's, hormone responses and lipodema","Project Purpose(s)
+Educational","Scientific Approaches
+Interested in looking at the incidence of  Alzheimer's, hormone responses, lipodema within the framework of their genetic basis.","Anticipated Findings
+Hoping to connect genetic conditions with a particular causative factor and support better medical practices for all communities affected","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Romeo B Celaya
+- Research Fellow, University of Arizona"
+Practice Analyses,"Interested in the intersection of human genetics and statistics - specifically interested in Alzheimer's, hormone responses and lipodema","Scientific Questions Being Studied
+Interested in the intersection of human genetics and statistics - specifically interested in Alzheimer's, hormone responses and lipodema","Project Purpose(s)
+Educational","Scientific Approaches
+Interested in looking at the incidence of  Alzheimer's, hormone responses, lipodema within the framework of their genetic basis.","Anticipated Findings
+Hoping to connect genetic conditions with a particular causative factor and support better medical practices for all communities affected","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Romeo B Celaya
+- Research Fellow, University of Arizona"

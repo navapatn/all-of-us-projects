@@ -1,0 +1,1134 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+Type 2 Diabetes Distribution (tier 5),"Diabetes is the fastest increasing disease worldwide and the disease is heterogeneous with regard to clinical presentation and progression. In order to examine the differences in mechanisms and in the clinical course of people with diabetes, we try to explore…","Scientific Questions Being Studied
+Diabetes is the fastest increasing disease worldwide and the disease is heterogeneous with regard to clinical presentation and progression.
+In order to examine the differences in mechanisms and in the clinical course of people with diabetes, we try to explore the distribution of participants with type 2 diabetes according to different risk factors, including age, sex, race, education, BMI, blood pressure and other related biomarkers?","Project Purpose(s)
+Disease Focused Research (Type 2 diabetes)
+Educational","Scientific Approaches
+We will conduct analyses for type 2 diabetes . We will use Rand BigQuery to retrieve type 2 diabetes participants. We will analyze and describe the distribution of these cohort across age, gender, race, education and blood pressure. We will make comparisons for the demographic variables above. The statistical methods will be used including: ANOVA, Chi-square test, Regression model by R software.","Anticipated Findings
+We anticipated to find significant variation of type 2 diabetes participants among the listed risk factors above. Moreover, the significant difference among the clinical risk factors would used on classification of type 2 diabetes  patients to personalized further treatment. We may identify those type 2 diabetes patients  at greatest risk of complications.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+QIAOCHU XUE
+- Research Fellow, Emory University"
+Detection and analysis of genetic risk factors for insulin resistance,"Diabetes, heart attacks, strokes, fatty liver disease and cancer are the epidemic illnesses of modern life. These diseases often occur together, and one common cause is resistance to the effects of insulin (insulin resistance; IR). When measured in the clinic,…","Scientific Questions Being Studied
+Diabetes, heart attacks, strokes, fatty liver disease and cancer are the epidemic illnesses of modern life. These diseases often occur together, and one common cause is resistance to the effects of insulin (insulin resistance; IR). When measured in the clinic, IR can strongly predict who will develop these diseases later in life. The causes of IR are both hereditary (genetic) and environmental. There is only one class of drugs, thiazolidinediones (TZDs), that treats IR, but TZDs have serious side effects that prevent their widespread use. If we knew which genes were responsible for changing IR, new and much needed therapies could be developed. Here, we propose to use genetic information from participants in All of Us to find people who are genetically protected from IR and look for the specific genetic variants that confer this protection. The result of this project will be new potential targets for therapeutic development to prevent and treat these epidemic scale chronic diseases.","Project Purpose(s)
+Disease Focused Research (Insulin Resistance)
+Ancestry","Scientific Approaches
+We propose to use previously published GWAS for traits related to insulin sensitivity/resistance to construct an insulin resistance genetic risk score composed of a series of SNPs. The score for every participant from All of Us will be computed. The participant score will be regressed against the clinical data of the participants including diabetes, cardiovascular events and incident cancers as well as physiologic measures of body composition and relevant serum chemistries and lipid levels. A quantitative clinical profile will be constructed based on this score that is a composite of diagnoses, physiologic and serum measurements. The whole genome sequencing of subgroups of individuals with extreme clinical profile values will be examined for loss-of-function mutations in protein coding genes.","Anticipated Findings
+If successful, this research will identify novel mutations and novel genes that protect individuals from diabetes, cardiometabolic diseases, fatty liver disease, and some cancers. Such genes could lead to new classes of medications for these therapies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Xiaomi Du
+- Graduate Trainee, University of California, San Diego"
+T2 Diabetes Comparison,"We are exploring an algorithm to define type II diabetes phenotypes from the electronic health records to compare All of Us participants with type II diabetes randomized controlled trial (RCT) participants. We are interested in distribution of demographics, co-morbidities and…","Scientific Questions Being Studied
+We are exploring an algorithm to define type II diabetes phenotypes from the electronic health records to compare All of Us participants with type II diabetes randomized controlled trial (RCT) participants. We are interested in distribution of demographics, co-morbidities and treatment patterns of type II diabetes. We will not upload RCT data into the workbench. We will only compare summary statistics of these characteristics instead of comparing individual level data. When comparing model performance in All of Us population and RCT population, we will only transfer fitted model parameters to the workbench instead of individual level data.","Project Purpose(s)
+Methods Development","Scientific Approaches
+We will compare sample characteristics of participants in All of Us with participants in clinical trials with appropriate statistical tests and correct for multiple comparisons. We will study the generalizability of clinical trial results to the real world observational data such as All of Us. We will assess how to model the outcome and how to choose a scale so that the results from trials are transferrable to the general population.","Anticipated Findings
+We do not expect clinical trial participants to be a representative sample of the real world population affected by type II diabetes. By studying a model that is transferrable between populations, our analysis can assist with using the clinical trials results to inform real world decision making.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Wenbo Fei
+- Graduate Trainee, Columbia University
+Collaborators:
+Yuanjia Wang - Mid-career Tenured Researcher, Columbia University"
+Duplicate of Demo - Medication Sequencing - ALM for exploration,"1- What are the main prescribed medication sequences that participants with type 2 diabetes and depression took over three years of treatment? In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have…","Scientific Questions Being Studied
+1- What are the main prescribed medication sequences that participants  with  type 2 diabetes and depression took over three years of treatment?
+In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have T2D and depression codes. We retrieved medications prescribed after the first diagnosis code for each disease. We represented the medications using their ATC 4th level.
+2- What is the most common first anti-diabetic and anti-depressant that were prescribed for All of Us participants? We extracted the first medications prescribed to treat T2D and depression. We identified the most common first medication with the highest number of participants.
+3- Is there a change in the percentages of participants who were prescribed first common medication, treated using one medication, treated only using one common medication between 2000-2018?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes, depression)
+Other Purpose (This work is a result of an All of Us Research Program Demonstration Project. The projects are efforts by the Program designed to meet the program's goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. This work was reviewed and overseen by the All of Us Research Program Science Committee and the Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use.)","Scientific Approaches
+In this project, we plan on using the medication sequencing developed at Columbia University and the OHDSI network as a means to characterize treatment pathways at scale. Further, we want to demonstrate implementation of these medication sequencing algorithms in the All of Us research dataset to show how the various sources of data contained within the program can be used to characterize treatment pathways at scale. We will perform separate medication sequence analyses for three different common, complex diseases: type 2 diabetes, depression
+1- Data manipulation
+Using python and BigQuery to:
+A- Retrieve medication and their classes
+B-Create the medications sequences
+2- Visualization:
+A- Creating sunburst to visualize the sequences
+B- Plotting the percentages of participants the first common medication and one medication during three years","Anticipated Findings
+For this study, we anticipate demonstrating the validity of the data by showing expected treatment patterns despite gathering data from over 30 individual EHR sites. Specifically, we expect to find:
+1- Variation in the medication sequences prescribed to treat All of Us participants who had type 2 diabetes and depression.
+2- The most common medication used to treat participants as first line treatment with type 2 diabetes and depression diagnosis.
+3- A trend or change over time of prescribing the first common medication over the study period
+4- Trend overtime for the percentage of participants
+Importantly, the detailed code developed herein is made available within the Researcher Workbench to researchers, so that they may more easily extract medication data and class information using a common medication ontology, an approach useful in many discovery studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Amy Moore
+- Research Associate, All of Us Researcher Academy/RTI International"
+DiabetesAndEyeDiseases,"People who have diabetes are more likely to develop several eye diseases or conditions, such as diabetic retinopathy, cataracts and open-angle glaucoma. For people who have diabetes, it is important to get regular comprehensive dilated eye exam to identify these…","Scientific Questions Being Studied
+People who have diabetes are more likely to develop several eye diseases or conditions, such as diabetic retinopathy, cataracts and open-angle glaucoma. For people who have diabetes, it is important to get regular comprehensive dilated eye exam to identify these conditions and have early treatment. This study is to survey cohorts of AoU participants who have diabetes and who do not, and compare the incidence rates of these eye conditions, and to examine their EHR data for regular eye exams as a means of prevention.","Project Purpose(s)
+Educational","Scientific Approaches
+1)	Building datasets: identify participants who have type 2 diabetes and randomly select equal number of participants without type 2 diabetes
+2)	Search the EHR records of the participants to identify eye diseases and conditions
+3)	Run statistical analysis to find the difference on incidence rate between the two populations","Anticipated Findings
+Type 2 diabetic participants will have a higher incidence rate of eye diseases or conditions compared to non-diabetic participants. Using the EHR data, if the type 2 participants do not have more frequent eye exams compared to non-diabetic participants, the findings in the study will provide evidence to recommend for regular eye exams for diabetic patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+James Gao
+- Administrator, National Institutes of Health (NIH)"
+Predictors of cognitive decline,"We would like to explore the data to examine the influence predictors of cognitive decline including depression, vascular risk factors (hypertension, diabetes, hyperlipidemia, heart disease/ stroke, etc.) and demographic factors (sex/ gender, age, socio-economic status, race/ ethnicity, etc.).","Scientific Questions Being Studied
+We would like to explore the data to examine the influence predictors of cognitive decline including depression, vascular risk factors (hypertension, diabetes, hyperlipidemia, heart disease/ stroke, etc.) and demographic factors (sex/ gender, age, socio-economic status, race/ ethnicity, etc.).","Project Purpose(s)
+Disease Focused Research (Cognition, depression, vascular risk factors)","Scientific Approaches
+We will use survey data, diagnostic codes, and vitals/ electronic health record data to examine depression, cognition, demographics, and vascular risk factors. We would like to describe the participant characteristics of the study sample and examine longitudinal data to determine cognition decline over time.","Anticipated Findings
+We anticipate that we will be able to describe the patient population using descriptive statistics and determine predictors of cognitive decline including clinical (depression, blood pressure, diabetes, hyperlipidemia, heart disease/ stroke, etc.) and demographic risk factors (sex/ gender, age, socio-economic status, race/ ethnicity, etc.) from the participants in the All of Us dataset.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Seema Aggarwal
+- Early Career Tenure-track Researcher, University of Texas Health Science Center, Houston"
+Diabetes and Dermatology,This study will be looking at connections between diabetes and dermatology. The exact methods will be determined after further research. This is just a test.,"Scientific Questions Being Studied
+This study will be looking at connections between diabetes and dermatology. The exact methods will be determined after further research. This is just a test.","Project Purpose(s)
+Disease Focused Research (Focus is in diabetes and dermatology connections.)","Scientific Approaches
+This study will be looking at connections between diabetes and dermatology. The exact methods will be determined after further research. This is just a test.","Anticipated Findings
+This study will be looking at connections between diabetes and dermatology. The exact methods will be determined after further research. This is just a test.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Emily Strouphauer
+- Graduate Trainee, Baylor College of Medicine"
+diabetes,The long term goal of our work is to improve the diagnosis and clinical management of diabetes subtypes by translating recent advances in our understanding of genetic risk factors for diabetes. We study the role of rare and common genetic…,"Scientific Questions Being Studied
+The long term goal of our work is to improve the diagnosis and clinical management of diabetes subtypes by translating recent advances in our understanding of genetic risk factors for diabetes.  We study the role of rare and common genetic variants in diabetes type 1, type 2, and subtypes of monogenic diabetes. We use genetic data in combination with clinical and other variables to develop risk models to better identify individuals with diabetes subtypes.  We test the utility of previously developed genetic risk scores for type 1 and type 2 diabetes in the MyCode cohort and determine the impact of rare disease-associated genetic variants.  The Allofus cohort will allow us to validate and refine our findings from admixed ancestry in a  large diverse population.   We will develop tools to better diagnose diabetes subtypes in individuals of all ancestries including European and non-Europeans  (African American, admixed American. Asian/Pacific Islander).","Project Purpose(s)
+Disease Focused Research (diabetes mellitus)
+Ancestry","Scientific Approaches
+We will use genetic data (ngs, chip arrays) for all individuals, all ages, all ancestries; clinical data from ehr include demographics, data pertaining to diabetes: labs, diagnosis codes, procedure codes, tumor (pancreatic), medications.  We plan to validate and refine genetic risk scores for diabetes subtypes and examine rare and common variant contribution to type 1 and type 2 diabetes in association studies.  We also plan to develop risk models for diabetes subtypes, including monogenic diabetes using machine learning approaches.","Anticipated Findings
+We plan to use data from Allofus to validate findings from the MyCode cohort, in particular, findings from admixed populations.  Overall, we anticipate being able to validate the grs findings from the MyCode cohort and the Allofus cohort.  We will be able to compare pathogenic variants of monogenic diabetes between the cohorts and ascertain phenotypic spectrum, prevalence, and penetrance of diabetes genes.  We will use the Allofus population to validate any risk models developed.
+Achieving our goals will lead to possibility of further genetic studies into the phenotype, progression and complications of diabetes subtypes.  The risk models for diabetes subtypes will be provided freely on a server and available for clinicians to use.  These tools will be applicable to individuals of all ancestries and all ages.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth","Data Set Used
+Controlled Tier","Research Team
+Owner:
+lin mirshahi
+- Senior Researcher, Geisinger Clinic
+Collaborators:
+Jonathan Luo - Project Personnel, Geisinger Clinic
+Alexander Chang - Senior Researcher, Geisinger Clinic"
+OSA and comorbidities,"We are interested in the conditions that accompany obstructive sleep apnea (OSA). There are conditions that are risk factors for OSA, so we expect to see those prior to a diagnosis of the sleep problem. There are also many comorbidities…","Scientific Questions Being Studied
+We are interested in the conditions that accompany obstructive sleep apnea (OSA). There are conditions that are risk factors for OSA, so we expect to see those prior to a diagnosis of the sleep problem. There are also many comorbidities of OSA, such as cardiovascular disease, mental health problems, and diabetes. We believe that there may be mechanisms underlying OSA and these comorbidities that are present before diagnosis. We therefore want to look at when co-occurring conditions occur before and after a diagnosis of OSA. We also wish to assess those conditions in people without OSA as a comparison.","Project Purpose(s)
+Disease Focused Research (obstructive sleep apnea)","Scientific Approaches
+We will look at conditions relative to the date of diagnosis of OSA. We will assess the timeline of occurrence of events (diagnosis, survey, vital) relative to OSA, and assess the conditions that occur early, simultaneously or late. We will look at the conditions commonly associated with OSA (CV disease, mental health, etc) in people without indication of a sleep disorder, and see whether the timeline and severity differs with the OSA group.","Anticipated Findings
+We expect to see conditions occurring prior to a diagnosis of OSA. This would suggest 1) that we may be detecting OSA late, and that these conditions may be potentially able to help improve screening for OSA, and 2) we may identify possible underlying pathophysiology that could be present in OSA that is also contributing to other health problems.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Paul Macey
+- Mid-career Tenured Researcher, University of California, Los Angeles"
+Diabetes and CVD Risk Factor Control and Treatment Patterns using v4 data,Understanding the spectrum risks found in persons with diabetes and ASCVD in a contemporary cohort of US adults can help target the intensity of therapeutic approaches to prevent future adverse outcomes. The project will examine the following questions: 1. Within…,"Scientific Questions Being Studied
+Understanding the spectrum risks found in persons with diabetes and ASCVD in a contemporary cohort of US adults can help target the intensity of therapeutic approaches to prevent future adverse outcomes.
+The project will examine the following questions:
+1.	Within those with diabetes, how many are higher risk (two or more risk factors) and within those with ASCVD how many are at very high risk according to the recent 2018 cholesterol guidelines?
+2.	Among these higher versus lower risk patients with ASCVD and DM, what is the adherence to non-smoking, healthy diet, and regular physical activity?
+3.	Among these groups, what is the proportion at target for BP (<130/80 mmHg), LDL-C (< 70 mg/dl if CVD, <100 mg/dl otherwise), HbA1c (<8% if with CVD or <7% if not)?
+4.	How does the extent of recommended medication use compare among these groups, including statins, BP medication, DM medication, antiplatelet/aspirin therapy, and influenza vaccination.","Project Purpose(s)
+Disease Focused Research (Cardiovascular disease and diabetes)","Scientific Approaches
+The dataset we would like to utilize would be participants’ provided information (PPI), electronic health records (EHR) and physical measurements, which provide information about the participant’s overall health status, lifestyle, medication history, serum biochemicals and demographic characteristics.
+We will categorize the sample with and without diabetes mellitus (and within diabetes those with vs, without multiple risk factors) or cardiovascular diseases (and among such persons those at high vs. very high risk), and use Chi-square test to compare the extent of adherence to lifestyle measures (in# 2 above), risk factor control (#3 above), and extent of recommended medication use (#4 above). Multiple logistic regression will be used to examine whether the extent of single and multiple risk factor control is and within these conditions, those at higher versus lower risk and use multiple logistic regression to test the behavior and risk factors difference among different groups.","Anticipated Findings
+We anticipate that there are different patterns in terms of health behaviors and risk factors control across the spectrum of diabetes and cardiovascular diseases, which will help to identify the possible prevention strategies towards different kinds of DM and CVDs and realize precision medicine among the patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yufan Gong
+- Graduate Trainee, University of California, Los Angeles
+Nathan Wong
+- Other, University of California, Irvine
+Collaborators:
+Meleeka Akbarpour - Graduate Trainee, University of California, Irvine
+Divya Devineni - Graduate Trainee, University of California, Irvine"
+OGTT and cortisol,"Is the way cortisol concentration changes throughout the day associated with how fast glucose is cleared from the blood stream? This question is important because the result could inform the creation of a new risk factor for type 2 diabetes,…","Scientific Questions Being Studied
+Is the way cortisol concentration changes throughout the day associated with how fast glucose is cleared from the blood stream? This question is important because the result could inform the creation of a new risk factor for type 2 diabetes, or a new way to predict the development of type 2 diabetes or severity of insulin resistance. This information could also inform future treatment  development for pre-diabetics and diabetics.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)","Scientific Approaches
+Data will include all participants who have both a cortisol measurement and an oral glucose tolerance test. Cox proportional hazard model and linear and logistic regression will be used to find associations, calculate odds ratios, and calculate relative risk. Sex, age, diabetes diagnosis, body mass index, race/ethnicity, and medication use will be adjustments in the models.","Anticipated Findings
+We anticipate that people with higher morning cortisol will have poorer oral glucose tolerance test results (it will take them longer to clear the glucose from their blood stream). No one has tested this hypothesis yet and published the results. These results could inform the creation of new risk factors, mechanistic knowledge, and treatments for type 2 diabetes.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Bjorn Kluwe
+- Project Personnel, Ohio State University
+Amaris Williams
+- Research Fellow, Ohio State University"
+Effect of Pyridoxine in Type 2 Diabetics V4,The aim of this study is to investigate if Pyridoxine use can benefit diabetics in preventing long term complications by inhibiting formation of activated glycation end products and improving clinical outcomes. Diabetes and hyperglycemia are affecting over 415 million people…,"Scientific Questions Being Studied
+The aim of this study is to investigate if Pyridoxine use can benefit diabetics in preventing long term complications by inhibiting formation of activated glycation end products and improving clinical outcomes.
+Diabetes and hyperglycemia are affecting over 415 million people worldwide, and by 2040 the number is expected to increase to 642 million. Chronic hyperglycemia results in the glycation of proteins and other biomolecules resulting in generation of AGEs. Glycation can be identified as the core reason for diabetes associated disorders. The interaction of AGEs with their receptor elicits oxidative stress and as a result evokes proliferative, inflammatory, thrombotic and fibrotic reactions in a variety of cells. Therefore, inhibiting the glycation process might be an effective way to prevent the complications of chronic hyperglycemia.","Project Purpose(s)
+Disease Focused Research (Diabetes mellitus)","Scientific Approaches
+Dataset: type 2 DM patients
+Inclusion Criteria: Diabetics not on insulin, Age > 18 and < 70.  A1c >6.5%
+Exclusion Criteria: History of uncontrolled DM with A1c >8.5, hemoglobinopathy, sickle cell disease, thalassemia, anemia(iron def, pernicious anemia, B12 def., Folate def.) blood transfusion in the last 9 months, coagulopathy, blood thinner treatment, treatment with B6/B12/folate/iron in the last 3 months,treatment for TB or INH treatment, asplenia, pregnant or planning pregnancy in the next 6 months.
+Research Method:
+Blood and urine labs such as HGB A1c, HGB/HCT, fructosamine, fasting lipids, microalbuminuria, 24-hour creatinine/ protein, reticulocyte count and glycated albumin will be analysed.
+Lab parameters and outcomes with patients on pyridoxine 100 mg po daily will be compared with subjects not on pyridoxine.","Anticipated Findings
+1. Pyridoxine can decrease HbA1c in Type 2 diabetics
+2. Pyridoxine can decrease Glycated albumin, Glycomark, microalbuminuria
+If pyridoxine can reduce AGE without the risk of hypoglycemia and without other side effects , Pyridoxine should be used in diabetic patients. This will save diabetic patients from the known complications of hyperglycemia without the side effect of anti-diabetic medication.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Bijun Kannadath
+- Early Career Tenure-track Researcher, University of Arizona
+Collaborators:
+Nia Nikkhahmanesh - Graduate Trainee, University of Arizona
+Jiali Ling - Project Personnel, University of Arizona"
+Demo for webinar-2.11-2021,This is a demo to potential research users of the All of Us research data hub. The demo is to demonstrate how do set up a workspace using a query for the following dataset: women Hispanic ages 20-55 diagnosed with…,"Scientific Questions Being Studied
+This is a demo to potential research users of the All of Us research data hub.  The demo is to demonstrate how do set up a workspace using a query for the following dataset:
+women
+Hispanic
+ages 20-55
+diagnosed with Type 2 diabetes
+diagnosed with depression (uncomplicated)
+prescribed metformin
+prescribed injectable insulin
+prescribed an antidepressant (citalopram)
+living at or below the Federal Poverty Limit","Project Purpose(s)
+Educational","Scientific Approaches
+This data set is being developed for demonstration purposes.  The data set will include participants with the following characteristics:
+women
+Hispanic
+ages 20-55
+diagnosed with Type 2 diabetes
+diagnosed with depression (uncomplicated)
+prescribed metformin
+prescribed injectable insulin
+prescribed an antidepressant (citalopram)
+living at or below the Federal Poverty Limit
+Quantitative analyses will be conducted for simple demonstration purposes.","Anticipated Findings
+As this is a demonstration example only, there are no expectations of further analysis of the data or that it will contribute to the body of scientific knowledge in the field.","Demographic Categories of Interest
+Race / Ethnicity
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mary Helen Mays
+- Mid-career Tenured Researcher, University of Puerto Rico Medical Sciences"
+SARS-CoV-2 infection Project,The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes. The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes. The secondary hypothesis is that SARS-CoV-2 is a predisposing factor…,"Scientific Questions Being Studied
+The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes.  The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.  Moreover, the impact of SARS-CoV-2 will disproportionately impact underserved populations whom are at an increased risk for chronic conditions (e.g., diabetes, cardiovascular, pulmonary).","Project Purpose(s)
+Disease Focused Research (SARS-CoV-2)","Scientific Approaches
+We will explore associations between SARS-CoV-2 infections and the incidence of diabetes with a focus on underserved patient populations. This study will also explore other associations affecting the incidence of SARS-CoV-2 infections and co-morbidities. The analysis will employ exploratory methods of data analysis such as association plots, heatmaps, and descriptive statistics. Following the exploratory analysis, generalized linear models will explore the associations further while controlling for patient characteristics and other factors. Multiplicity corrections will control the incidence of type I errors and ensure replicability of research results.  The data will include information on past SARS-CoV-2 infections, type I and II diabetes, demographic characteristics, and other hormone/endocrine conditions, mental health or substance use conditions, and cancer. Data will be stratified to assess the change in risk of these conditions for underserved patient populations.","Anticipated Findings
+The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.","Demographic Categories of Interest
+Race / Ethnicity
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Leslie Flaco
+- Graduate Trainee, University of Texas at El Paso
+Eric Diaz
+- Undergraduate Student, University of Texas at El Paso
+Denisse Urenda
+- Graduate Trainee, University of Texas at El Paso
+Amy Wagler
+- Mid-career Tenured Researcher, University of Texas at El Paso
+Collaborators:
+ATIQUR CHOWDHURY - Graduate Trainee, University of Texas at El Paso"
+t2d_multiethnic_stats,"The pathogenesis of type 2 diabetes (T2D) is incompletely understood. It is commonly believed that the disease encompasses several distinct entities, which we are unable to appropriately sub-classify at present. Access to large datasets with genetic and clinical phenotypic information…","Scientific Questions Being Studied
+The pathogenesis of type 2 diabetes (T2D) is incompletely understood. It is commonly believed that the disease encompasses several distinct entities, which we are unable to appropriately sub-classify at present. Access to large datasets with genetic and clinical phenotypic information provide an ideal opportunity to conduct analyses that might improve our understanding of T2D and related traits, particularly within underserved or underrepresented populations. We therefore have two main aims: (1) understand the genetic basis of T2D and related traits and (2) determine whether T2D might be classified into subtypes of disease.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)
+Methods Development
+Ancestry","Scientific Approaches
+To achieve these goals, we plan on performing association analyses between T2D-related traits and genetic variants typed in the All of Us cohort, extending our previous work on the genetics of T2D to diverse populations. We will also test whether the variants associated with these traits, or risk scores that combine genetic and phenotypic variables, also impact related traits/outcomes, to further characterize the impact of these variants or the disease subtypes described by them on health. We will use combinations of traits and Mendelian randomization techniques to assess causality between traits. Additionally, we will apply clustering approaches to the data in order to identify potential subtypes of T2D.","Anticipated Findings
+We expect to gain a better understanding of the genetic architecture of T2D within diverse, non-white populations, advancing equity in the field of T2D genetics. Our results will: (1) generate new insights into the underlying causes of T2D, providing new clues to possible therapies, (2) greatly enrich our understanding of the genetic architecture of polygenic traits, especially focused on rare variants, and (3) improve methods for identifying subgroups within heterogeneous traits; such methods will be useful for many groups studying many different phenotypes.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Tim Majarian
+- Project Personnel, Mass General Brigham"
+AD_breathing,The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common…,"Scientific Questions Being Studied
+The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common cardiovascular factors (e.g. high blood pressure, diabetes, cardiovascular events, such as stroke or heart attacks). If brain functioning is interrupted by abnormal blood flow, this might contribute to a faster decay with aging. The hypothesis is that respiratory problems can be observed first, followed by cardiovascular problems and that a subset of the population with these health problems will eventually develop AD. It is critical to explore this connection because it might lead to the investigation and development of preventative breathing interventions.","Project Purpose(s)
+Disease Focused Research (Respiratory conditions and the risk of Alzheimer's Disease)","Scientific Approaches
+First of all, my goal is to identify which variables could be useful for this purpose. For example, an important correlational analysis would be between the number of years since diagnosis of a respiratory disorder and the onset of mild cognitive impairment or AD. It is also of interest, what percentage of people with AD have a history of cardiovascular risk and/or breathing difficulties. For the participants that have not yet developed AD, it will be useful to understand whether they show the same or worse cognitive performance compared to people without this breathing disorder and whether this is still the case for those with breathing abnormalities AND cardiovascular risk.
+For this purpose, I will include data on age, cognitive function, cardiovascular health, breathing-related and cognitive impairment/AD diagnoses and the time and age of the diagnoses. Control variables will be sex, education, physical activity, socioeconomic background and potentially history of medication use.","Anticipated Findings
+I anticipate to find that compared to healthy controls, people with sleep apnea show reduced cognitive functioning. I anticipate this to worsen the longer they have suffered from sleep apnea. In addition, I expect that cardiovascular risk factors will further reduce cognitive functions. This effect may be ameliorated by people who are more physically active, have higher education and a higher socioeconomic status. There might be age and sex differences. Most importantly, I expect that people with AD may have a worse disease course if they also have a history of sleep apnea and/or cardiovascular risk.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Beatrix Krause
+- Research Fellow, University of California, Los Angeles"
+Research Program for Vision Surveillance: Diabetes and Diabetic Retinopathy,"How do data from the All of Us database compare against known data sources that are considered to be representative of the general population and have been traditionally used in vision health surveillance activities (such as NHANES, NHIS, etc.)? How…","Scientific Questions Being Studied
+How do data from the All of Us database compare against known data sources that are considered to be representative of the general population and have been traditionally used in vision health surveillance activities (such as NHANES, NHIS, etc.)? How does All of Us compare to existing big-data sources such as IQVIA?
+There is increasing interest in understanding how social factors impact health and vision outcomes. Social determinants of health are important considerations for disease management and prognosis, and our representative use case (diabetes and diabetic retinopathy) has huge implications for our health system as  the leading cause of blindness and visual impairment among working-age adults in the United States. By answering the above questions, we can determine whether the All of Us database is representative and may be broadly generalizable for future studies.","Project Purpose(s)
+Control Set","Scientific Approaches
+-	Develop standard cohort definition for diabetes
+-	Develop standard cohort definition for diabetic retinopathy
+-	Determine prevalence of diabetes and compare across different data sources – All of Us, NHANES, NHIS, IQVIA
+o	Numerator: Number of adults with diabetes
+o	Denominator: Total number of adults available in data source
+-	Determine prevalence of diabetic retinopathy and compare across different data sources – All of Us, NHANES, NHIS, IQVIA
+o	Numerator: Number of adults with diabetic retinopathy
+o	Denominator: Total number of adults available in data source vs. total number of adults with diabetes
+-	For prevalence calculations, will need to establish defined study periods and ensure consistency across data sources
+-	Potential analyses:
+o	Look at state/regional variations
+o	Examine demographics (age, gender, race, ethnicity) of cohorts across data sources
+-	Identify areas of similarity/alignment vs. differences","Anticipated Findings
+If we are able to demonstrate that the All of Us database is representative and aligns with existing nationwide data sources, then findings regarding links between social determinants and vision health outcomes using All of Us would be felt to be more broadly generalizable. On the other hand, if there are major discrepancies between All of Us and previously established data sources, this would be important information for the vision research community to be aware of, and this could even inform future efforts to make the database more representative.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Access to Care","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sally Baxter
+- Research Fellow, University of California, San Diego
+Priyanka Soe
+- Project Personnel, University of California, San Diego
+Michael Wolfe
+- Graduate Trainee, University of California, San Diego
+Cecilia Vallejos
+- Undergraduate Student, University of California, San Diego
+Bharanidharan Radha Saseendrakumar
+- Project Personnel, University of California, San Diego"
+Exploring Diabetes,Not applicable- this Workspace is intended for educational purposes at the 2022 UBR Faculty Summit to learn how to use the Researcher Workbench by analyzing a data type for diabetes,"Scientific Questions Being Studied
+Not applicable- this Workspace is intended for educational purposes at the 2022 UBR Faculty Summit to learn how to use the Researcher Workbench by analyzing a data type for diabetes","Project Purpose(s)
+Educational","Scientific Approaches
+Not applicable- this Workspace is intended for educational purposes at the 2022 UBR Faculty Summit to learn how to use the Researcher Workbench by analyzing a data type for diabetes","Anticipated Findings
+Not applicable- this Workspace is intended for educational purposes at the 2022 UBR Faculty Summit to learn how to use the Researcher Workbench by analyzing a data type for diabetes","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+LaTerrica Williams
+- Project Personnel, Baylor College of Medicine"
+Identifying genetic variations for atypical type 2 DM.,"- The purpose of this analysis is to identify rare genes that are responsible for atypical forms of diabetes, especially the familial forms. - This analysis is not ethnic-specific.","Scientific Questions Being Studied
+- The purpose of this analysis is to identify rare genes that are responsible for atypical forms of diabetes, especially the familial forms.
+- This analysis is not ethnic-specific.","Project Purpose(s)
+Disease Focused Research (diabetes mellitus)
+Ancestry","Scientific Approaches
+- Identify common rare variants in patients who share the same clinical picture.
+- Doing statistical studies to identify the significant variants.","Anticipated Findings
+- Identifying possible novel genes responsible for familial diabetes.
+- Identify new molecular pathways responsible for diabetes.
+- Identifying other clinical features associated with specific genes responsible for the diabetes.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ahmed Alkanaq
+- Research Fellow, Broad Institute"
+Hypoglycemia in Non-Diabetics,"Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients…","Scientific Questions Being Studied
+Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients who have experienced hypoglycemia during inpatient admissions versus those who have not. In those without diabetes, inpatient hypoglycemia may still occur. Studies demonstrate that even in patients without diabetes, hypoglycemia results in poor clinical outcomes as related to mortality and cognitive function. There is no standard protocol for blood glucose monitoring inpatient for patients without diabetes. A standardized protocol could more closely trend blood glucose values among hospitalized non-diabetic patients who have an elevated risk of hypoglycemia in order to reduce the rate of hypoglycemia and its related complications.","Project Purpose(s)
+Disease Focused Research (hypoglycemia)
+Educational","Scientific Approaches
+A retrospective review of patients will be conducted who have experienced at least one episode of hypoglycemia (BG < 70 mg/dL) during inpatient hospitalization and potential risk factors which may have contributed to such episode will be identified. Examples include end stage liver disease, renal disease, cardiac disease, protein-calorie malnutrition. Following, use these risk factors in a multivariate analysis to create a scoring system which assigns specific point values to each risk factor in order to predict risk of hypoglycemia during admission.","Anticipated Findings
+The findings should create a model of risk factors for hypoglycemia among hospitalized non-diabetics. Using this risk model, other researchers may be able to expand the findings to create prospective studies that aim to reduce the risk of developing hypoglycemia groups with these risk factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Anand Gandhi
+- Research Associate, Banner Health
+Collaborators:
+Bijun Kannadath - Early Career Tenure-track Researcher, University of Arizona"
+Diabetes and vaccine,The study will utilize the All Of Us data to test if the antibody response to the vaccine is modulated by diabetes.,"Scientific Questions Being Studied
+The study will utilize the All Of Us data to test if the antibody response to the vaccine is modulated by diabetes.","Project Purpose(s)
+Disease Focused Research (diabetes mellitus)
+Control Set","Scientific Approaches
+We will use a different statistical method and machine learning modeling to determine the factor contributing to the altered vaccine response in diabetic patients. Additionally, this dataset will enrich our findings in the mouse model.","Anticipated Findings
+We anticipated that we will find lower vaccine responses to the common vaccine in diabetic patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Md Huda
+- Research Fellow, University of California, Davis"
+AD analysis,"Age-associated neurodegenerative diseases (A2ND) contribute to the second leading cause of death worldwide and account for the majority of life-years lost to disability. As the global population ages, the prevalence and societal impact of A2ND will become ever greater with…","Scientific Questions Being Studied
+Age-associated neurodegenerative diseases (A2ND) contribute to the second leading cause of death worldwide and account for the majority of life-years lost to disability. As the global population ages, the prevalence and societal impact of A2ND will become ever greater with annual costs in the US expected to exceed 1 trillion dollars by 2050. The management and treatment of A2ND risk factors, such as diabetes and hypertension, might delay or prevent A2ND onset. To this point, an untreated risk factor generates a cascade that with time increases in complexity and ultimately results in A2ND. Our aim is to select risk factor profiles that are targetable with a drug class and assess if a therapeutic or a combination of therapeutics can disrupt the risk cascade modifying A2ND onset.  We aim to include in our analyses demographic data (age, sex, ethnicity, genotype, disease stage, socioeconomic status) to stratify efficacy of each therapeutic for AD prevention in a given population.","Project Purpose(s)
+Disease Focused Research (neurodegenerative disease)","Scientific Approaches
+Our first analysis will examine most common A2ND diagnosis incidence rates in subjects with long-term use of a drug targeting a specific risk factor in comparison to subjects with no drug use.  We will focus, first on preventative drugs within classes such as the HMG-CoA reductase inhibitors, estrogen modulating therapeutics, psychiatric drugs and therapeutics targeting the inflammatory and metabolic system. Factors such as race, age, gender, genotype (e.g. APOE for Alzhimer's Disease (AD))  and other co-morbidities will be used to determine populations of subjects in which this preventative effect is most pronounced. Our second analysis will evaluate possible therapeutic effects on A2ND diagnosis. For this, cognitive measures in subjects with long-term use of a therapeutic will be compared to those in subjects with no known use while accounting for variability in age, gender and race. The drug effect on cognitive scores will be examined in sub-populations defined by their genotype.","Anticipated Findings
+Previous work from our group has shown benefits of treating AD risk factors with commonly used therapeutics (statins, estrogen replacement, selective estrogen receptor modulators, etc) to reduce AD onset. Of clinical importance, there may be selective benefits for  specific genotype patients with and the ability to advance a precision prevention approach for AD. Going forward, key issues to be explored are sex differences in response to therapy, genotypes and phenotypes most appropriate for a given therapy and which specific therapies have greatest preventative efficacy in the context of other variables such as sex, ApoE genotype, and other comorbidities. Results of our pilot analyses and the work proposed here will contribute to a growing body of evidence indicative of therapeutic benefit of AD risk factor treatment in a responder subset and thus have the potential to impact risk and course of Alzheimer's disease. We will extend our analysis to other neurodegenerative disease.","Demographic Categories of Interest
+Age
+Sex at Birth
+Gender Identity
+Geography
+Education Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Francesca Vitali
+- Early Career Tenure-track Researcher, University of Arizona"
+First Workspace on Diabetes,It’s estimated 5 million of the 18 million americans in the US with diabetes do not know they have it. Early diagnosis of diabetes and pre-diabetes is important so that patients can begin to manage the disease early and potentially…,"Scientific Questions Being Studied
+It’s estimated 5 million of the 18 million americans in the US with diabetes do not know they have it. Early diagnosis of diabetes and pre-diabetes is important so that patients can begin to manage the disease early and potentially prevent or delay the serious disease complications that can decrease quality of life. Some of these complications include premature heart disease and stroke, blindness, limb amputations, and kidney failure. Our project will review clinical data to estimate each patient’s diabetes risk, which will help identify high risk individuals who may need to seek medical attention.","Project Purpose(s)
+Educational","Scientific Approaches
+Given the importance of being able to correctly give early diagnosis, this team places a stronger importance for our model on predictive performance, which leads the team to initially lean towards using random forest or boosting (particularly XGBoost) models.  These more complex models might not be as interpretable, and take longer to run, but they generally yield a much higher out-of-sample performance, which is the main goal of this team’s project.  The team will also look into how well a CART model performs with the dataset given that a CART tree, if it is not too complex, would offer that interpretability for the end users of this research project.  It is important to note that a CART model would be used in lieu of a more complex model if it performs on par with the more complex models.","Anticipated Findings
+The overall goal of the project is to assist doctors with treating patients. Ideally, the data analysis would provide doctors with a model of what age range a patient is likely to be diagnosed with diabetes based on his/her risk factors. If we can provide doctors with this information, then they can have a conversation with patients about preventative care, such as lifestyle changes, in advance of that age to try to prevent patients from developing diabetes. It also allows doctors to know when to start testing patients’ A1C levels to diagnose diabetes so the disease can be treated as quickly as possible. This prevents the untreated disease from wreaking havoc on the patients’ bodies, preventing complications from diabetes down the line.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+xiaodi hu
+- Graduate Trainee, Massachusetts Institute of Technology
+Alexander Warner
+- Graduate Trainee, Massachusetts Institute of Technology
+Kenneth Fan
+- Graduate Trainee, Massachusetts Institute of Technology"
+MRSR Project,"Asian Americans recorded the fastest growth rate among all racial and ethnic groups in the US between 2019 and 2020. Diabetes Mellitus and Hypertension occur at high rates within the Asian American community but are masked by high socioeconomic status,…","Scientific Questions Being Studied
+Asian Americans recorded the fastest growth rate among all racial and ethnic groups in the US between 2019 and 2020. Diabetes Mellitus and Hypertension occur at high rates within the Asian American community but are masked by high socioeconomic status, education, and health insurance.  Undoubtedly, with this rapid growth, pre-existing health disparities in the Asian-American community will become magnified. Currently, Asian Americans are more likely to develop Type 2 Diabetes (T2D) despite having a lower body mass index (BMI) compared to other racial/ethnic groups.
+Researchers have been unable to identify health trends within Asian American subgroups. In this study, we aim to examine the prevalence of T2D among the Asian American cohort of the All of Us Research Program, which may differ within each ethnic subgroup. How do the rates of T2D, as diagnosed by hemoglobin A1C, differ among Asian American racial subgroups?","Project Purpose(s)
+Population Health","Scientific Approaches
+We plan to conduct a retrospective observational study with the All of Us cohort data. We plan to access the EHR of participants within Asian American subgroups. Within the EHR’s, T2D will be defined as diagnosed by a physician or measured by HA1C levels. We plan to use SPSS or R to run the statistical analysis. We plan to use a one-way ANOVA to investigate if our single independent variable, the racial subgroup, will have an effect on the dependent variable, T2D.","Anticipated Findings
+The goal is to delineate health trends and disaggregate Asian American subgroups. We anticipate identifying health trends regarding the prevalence of T2D within Asian American subgroups. By identifying these trends, we hope to raise awareness of the prevalence of T2D within Asian American communities. There is currently a deficit in biomedical research regarding Asian Americans. This is especially concerning, as Asian Americans are on pace to be one of the fastest-growing racial groups in America. By identifying trends within the cohort, the results can be used to identify which groups are most susceptible to T2D, which will allow the development of better prevention strategies and optimal treatment.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jui Yu Kao
+- Undergraduate Student, University of California, San Francisco"
+T2D polygenic scores,"We are interested in studying process-specific or ""partitioned"" polygenic scores for type 2 diabetes are a way of subtyping type 2 diabetes.","Scientific Questions Being Studied
+We are interested in studying process-specific or ""partitioned"" polygenic scores for type 2 diabetes are a way of subtyping type 2 diabetes.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)","Scientific Approaches
+We plan to generate partitioned polygenic scores in participants with genomic data and then test for associations of these scores with clinical variables like laboratory measures and presence of diseases.","Anticipated Findings
+We expect that the partitioned polygenic scores will be associated with different clinical characteristics.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Miriam Udler
+- Early Career Tenure-track Researcher, Broad Institute"
+Dermatologic Disease Prevalence,"Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, evaluate…","Scientific Questions Being Studied
+Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, evaluate the association of GA with psychiatric co-morbidities in the All of Us database, a recently launched initiative by the National Institutes Health that aims to provide health data on over 1 million Americans. All of Us includes communities that have been historically underrepresented in research (e.g. gender/sexual minorities, rural populations, social/ethnic minorities, etc.) to allow for a more generalizable understanding of disease data.","Project Purpose(s)
+Disease Focused Research (Granuloma Annulare)","Scientific Approaches
+We plant to extract 231 GA cases using ICD-10-CM code L92.0. Each GA case will be matched to four age-, race-, and sex-matched controls in the All of Us database. Odds ratios will be calculated and reported at 95% confidence intervals.","Anticipated Findings
+To our knowledge, this represents the first study that analyzes psychiatric co-morbidities in GA patients so the anticipated findings are widely unknown. We hope that this knowledge will help physicians manage the care of patients with Granuloma Annulare.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Beatrice Morrow
+- Graduate Trainee, Baylor College of Medicine"
+Duplicate of Diabetes-CKD-LimbLoss,"We intend to explore the questions: To what extent does Chronic Kidney Disease contribute to lower limb amputations in diabetes patients? and Are their differences among black patients compared to other race groups? (Differences may include time to diagnosis, mortality,…","Scientific Questions Being Studied
+We intend to explore the questions: To what extent does Chronic Kidney Disease contribute to lower limb amputations in diabetes patients? and Are their differences among black patients compared to other race groups? (Differences may include time to diagnosis, mortality, decisions to amputate, e.g.)","Project Purpose(s)
+Population Health
+Social / Behavioral
+Educational","Scientific Approaches
+For this phase of our study we will use a secondary data analytical approach, primarily building a study cohort using the All of Us workbench. We will abstract cases for all patients with diabetes, all cases of chronic kidney disease, and all cases of lower limb loss. We will exclude cases for patients <25 years old.
+All diagnosed cases are identified with ICD 10 codes.
+Diabetes - E11 Defined using American Diabetes Association definitions.
+Chronic Kidney Disease - N18-N18.9, Defined based on the National Kidney Disease Outcomes Quality Initiative guidelines.
+Lower Limb Amputations - G57.8
+Demographics including: race, age, SES (or related variable), amputation level, sex, marital status, cardiovascular co-morbid conditions
+Descriptive statistics and Chi square are planned to compare proportion of amputations based on CKD alone, CKD+Diabetes, and CKD+ Diabetes + other co-morbid condition.","Anticipated Findings
+We Hypothesize that a higher rate of amputation will occur with co-occurring diabetes and CKD than with diabetes alone.
+We also Hypothesize that diagnoses for Diabetes and co-occurring CKD for black patients will occur at more advance stages than the diagnoses for white patients.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Chamika Hawkins-Taylor
+- Early Career Tenure-track Researcher, Xavier University of Louisiana"
+Diabetes_Treatment_Trajectory_2,"The project is on understanding the different kinds of treatments available to diabetes patients, and whether there are any significant difference between the nature of the treatments and the outcomes. The primary goal is to develop data science (statistics, machine…","Scientific Questions Being Studied
+The project is on understanding the different kinds of treatments available to diabetes patients, and whether there are any significant difference between the nature of the treatments and the outcomes. The primary goal is to develop data science (statistics, machine learning) methodology to differentiate treatment outcomes.","Project Purpose(s)
+Methods Development","Scientific Approaches
+The plan is to consider a cohort of diabetes patents from all over the United states, and understand the nature of their illness and the treatments they have received. Then, controlling for various characteristics like age and sex, we would like to understand if there are multiple treatment trajectories that are currently in usage, and whether there are any substantial variability between these trajectories, or in the outcomes.
+To address the data science methodological challenges, a tensor co-clustering algorithm will be developed and used.","Anticipated Findings
+The anticipated findings are that there is no substantial or significant difference in the treatment pathways of diabetes. Confirmation of this hypothesis or any departure from it would inform about  possible inequities in diabetes treatment, and would have educational value to care givers, since they would know about the best practices.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Snigdhansu Chatterjee
+- Late Career Tenured Researcher, University of Minnesota"
+Diabetes-CKD-LimbLoss,"We intend to explore the questions: To what extent does Chronic Kidney Disease contribute to lower limb amputations in diabetes patients? and Are their differences among black patients compared to other race groups? (Differences may include time to diagnosis, mortality,…","Scientific Questions Being Studied
+We intend to explore the questions: To what extent does Chronic Kidney Disease contribute to lower limb amputations in diabetes patients? and Are their differences among black patients compared to other race groups? (Differences may include time to diagnosis, mortality, decisions to amputate, e.g.)","Project Purpose(s)
+Population Health
+Social / Behavioral
+Educational","Scientific Approaches
+For this phase of our study we will use a secondary data analytical approach, primarily building a study cohort using the All of Us workbench. We will abstract cases for all patients with diabetes, all cases of chronic kidney disease, and all cases of lower limb loss. We will exclude cases for patients <25 years old.
+All diagnosed cases are identified with ICD 10 codes.
+Diabetes - E11 Defined using American Diabetes Association definitions.
+Chronic Kidney Disease - N18-N18.9, Defined based on the National Kidney Disease Outcomes Quality Initiative guidelines.
+Lower Limb Amputations - G57.8
+Demographics including: race, age, SES (or related variable), amputation level, sex, marital status, cardiovascular co-morbid conditions
+Descriptive statistics and Chi square are planned to compare proportion of amputations based on CKD alone, CKD+Diabetes, and CKD+ Diabetes + other co-morbid condition.","Anticipated Findings
+We Hypothesize that a higher rate of amputation will occur with co-occurring diabetes and CKD than with diabetes alone.
+We also Hypothesize that diagnoses for Diabetes and co-occurring CKD for black patients will occur at more advance stages than the diagnoses for white patients.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Chamika Hawkins-Taylor
+- Early Career Tenure-track Researcher, Xavier University of Louisiana"
+sex Differences,"Historically, there is not alot of literature that looks at the differences between male and female bodily function. My research is geared toward identifying female-specific differences in metabolism. My scientific question is: Are there sex differences in people of have…","Scientific Questions Being Studied
+Historically, there is not alot of literature that looks at the differences between male and female bodily function. My research is geared toward identifying female-specific differences in metabolism. My scientific question is: Are there sex differences in people of have metabolic disorders like diabetes?","Project Purpose(s)
+Disease Focused Research (diabetes)","Scientific Approaches
+I plan to look at a dataset using EHR records of male and female patients. I will use R to conduct statistical analysis on the data set to look for any significant changes.","Anticipated Findings
+I anticipate that there will be a differences between male and females metabolic records. This is important to the scientific field because it can alter how we view patient health outcomes.","Demographic Categories of Interest
+Gender Identity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Kiandra Smith
+- Graduate Trainee, Morehouse School of Medicine"
+Diabetes Research,I will be doing exploratory analysis on Diabetes Type 2.,"Scientific Questions Being Studied
+I will be doing exploratory analysis on Diabetes Type 2.","Project Purpose(s)
+Disease Focused Research (Diabetes Type 2)","Scientific Approaches
+I will be using Python as my primary programming language, and will be conducting PCA and t-tests on the data.","Anticipated Findings
+This is an exploratory study, so I don't anticipate any findings from the study.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Rohit Nandakumar
+- Undergraduate Student, Arizona State University"
+Cardiovascular Disease in MSM,"This study will retrospectively analyze disparities in indicators of cardiovascular disease (i.e., hypertension, type 2 diabetes mellitus, obesity, dyslipidemias, stroke, and inflammatory biomarkers) and risk and protective factors (i.e., smoking, alcohol use, physical activity, diet, access to healthcare, drug use,…","Scientific Questions Being Studied
+This study will retrospectively analyze disparities in indicators of cardiovascular disease (i.e., hypertension, type 2 diabetes mellitus, obesity, dyslipidemias, stroke, and inflammatory biomarkers) and risk and protective factors (i.e., smoking, alcohol use, physical activity, diet, access to healthcare, drug use, intimate partner violence, sex work) among sexual minority individuals registered in the “All of Us” Database.","Project Purpose(s)
+Population Health
+Educational","Scientific Approaches
+We will identify prevalence rates of indicators of cardiovascular disease among the population of interest using frequencies. We will model outcomes using regression methods.","Anticipated Findings
+We anticipate that MSM will present with higher prevalence of cardiovascular outcomes, given the minority stress components.","Demographic Categories of Interest
+Sexual Orientation
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Matthew Robinson
+- Project Personnel, University of Central Florida
+Humberto López Castillo
+- Early Career Tenure-track Researcher, University of Central Florida
+Assad Khan
+- Graduate Trainee, University of Central Florida"
+Dermatologic Disease Prevalence,"Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, evaluate…","Scientific Questions Being Studied
+Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, evaluate the association of GA with psychiatric co-morbidities in the All of Us database, a recently launched initiative by the National Institutes Health that aims to provide health data on over 1 million Americans. All of Us includes communities that have been historically underrepresented in research (e.g. gender/sexual minorities, rural populations, social/ethnic minorities, etc.) to allow for a more generalizable understanding of disease data.","Project Purpose(s)
+Disease Focused Research (Granuloma Anullare)","Scientific Approaches
+We extracted 231 GA cases using ICD-10-CM code L92.0. Each GA case was matched to four age-, race-, and sex-matched controls in the All of Us database. Odds ratios were calculated and reported at 95% confidence intervals.","Anticipated Findings
+To our knowledge, this represents the first study that analyzes psychiatric co-morbidities in GA patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Katelyn Golden
+- Graduate Trainee, Baylor College of Medicine"
+Medical Nutrition Therapy in Cardiometabolic Diseases,"According to the CDC, 90% of the nation's $3.5 trillion annual health care expenditures is spent on treating chronic and mental health conditions. Medical Nutrition Therapy (MNT) provided by Registered Dietitians has been shown to be an effective and cost-effective…","Scientific Questions Being Studied
+According to the CDC, 90% of the nation's $3.5 trillion annual health care expenditures is spent on treating chronic and mental health conditions. Medical Nutrition Therapy (MNT) provided by Registered Dietitians has been shown to be an effective and cost-effective component of treatment for cardiometabolic diseases, such as obesity, diabetes, and hypertension, in small clinical studies and medical practices in hospitals. Thus, MNT could be an additional powerful medical treatment for cardiometabolic diseases. However, there is no known large-scale research that examines the effectiveness of MNT in the diseases. By leveraging the national-level data from All of Us, we hope to determine if MNT could significantly improve patients' health outcomes of the diseases. If possible, we would also like to determine if specific nutrition interventions provided in MNT produce significantly better health outcomes compared to other nutrition interventions provided in MNT.","Project Purpose(s)
+Disease Focused Research (Cardiometabolic Diseases)
+Drug Development","Scientific Approaches
+We plan to conduct a prospective cohort study for individuals with cardiometabolic diseases, including type 2 diabetes, cardiovascular diseases, hypertension, obesity, non-alcoholic fatty liver disease, and metabolic syndromes. Individuals with those diseases who have completed at least 1 MNT or no MNT will be included in the cohort. MNT is being provided by Registered Dietitians in hospitals and clinics, so data about MNT is available from the EHR. By following those individuals in the cohort over time, we will have their short-, middle-, and long-term health outcomes of the diseases. By comparing the health outcomes between individuals who completed MNT and individuals who did not, after adjusting potential confounders, we will determine if could significantly improve patients' health outcomes of the diseases. Additionally, we will attempt to categorize different MNTs based on their specific nutrition interventions and determine if specific MNTs are more effective.","Anticipated Findings
+The primary outcome of the study is the overall effectiveness of MNT on cardiometabolic diseases. The secondary outcome of the study is the effectiveness of specific MNTs on cardiometabolic diseases. Our finding might provide evidence that MNT is an effective treatment for cardiometabolic diseases, in addition to medications and medical surgeries. MNT provided by Registered Dietitians could be an essential part of a health care team that is responsible for treating cardiometabolic diseases, positively impacting patients' weight, blood pressure, blood lipids, and blood glucose control.  Additionally, since MNT is cost-effective, it could help save health care expenditures, which is beneficial to alleviate the financial burden of the diseases. Lastly, because MNT is an individualized nutrition treatment, our findings could contribute to the understanding of the effect of precision nutrition on human health, as one-size-fits-all nutritional approaches have not been very effective.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jiada Zhan
+- Graduate Trainee, Emory University"
+GLP-1 RA PGx,"I hope to leverage the wealth of phenotypic and genotypic data in the All of Us Research Program to study the genetic predictors of response to glucagon-like peptide-1 receptor agonists (GLP-1 RAs), a newer class of anti-diabetes agents that are…","Scientific Questions Being Studied
+I hope to leverage the wealth of phenotypic and genotypic data in the All of Us Research Program to study the genetic predictors of response to glucagon-like peptide-1 receptor agonists (GLP-1 RAs), a newer class of anti-diabetes agents that are being prescribed in increasing frequency in the clinical setting.","Project Purpose(s)
+Ancestry","Scientific Approaches
+For the genomic data collected through All of Us, we will use a sample and variant call rate of >0.98, and filter variants to a MAF>0.01. We will use available imputation with R2>0.5. We will collect the baseline HbA1c and on-treatment HbA1c after index GLP-1 RA. The outcome variable will be baseline minus on-treatment HbA1c, adjusted for baseline . We will similarly calculate change in weight. Discontinuation of the index GLP-1 RA within 3 months will be a proxy for drug intolerance. We will perform GWAS for each endpoint. Multiple linear regression using an additive model will test the association between variants and quantitative traits, adjusting for age, sex, BMI, and principal components. For medication discontinuation, logistic regression will be used. Analyses will be computed for each ancestry and meta-analyzed. We will assess for genome-wide significance and experiment-wide significance after Bonferroni correction to account for multiple testing.","Anticipated Findings
+We hope to identify novel genetic predictors of response to GLP-1 RAs, as measured by glycemia, weight loss, and side effects. Our findings will generate scientific evidence supporting the clinical implementation of pharmacogenetics and leading to a change in the standard of care for patients with type 2 diabetes.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Josephine Li
+- Early Career Tenure-track Researcher, Mass General Brigham"
+DM medication prescription patterns,• This project is an exploratory study designed to understand differences in prescriptions of newer generation diabetes medications such as GLP-1 agonists and SGLT-2 inhibitors by looking at patterns within the All of Us research dataset. Specific questions we will…,"Scientific Questions Being Studied
+•	This project is an exploratory study designed to understand differences in prescriptions of newer generation diabetes medications such as GLP-1 agonists and SGLT-2 inhibitors by looking at patterns within the All of Us research dataset. Specific questions we will ask:
+•	Do minority population patients with diabetes prescribed newer diabetes medications (GLP-1 and SGLT-2) at similar rates compared to white patients?
+•	Does healthcare coverage impact the prescription of newer generation diabetes medications?
+•	Our hypothesis is that there will be slight differences in the class of diabetes medications among racial groups, but not statistically significant. We do, however, think that healthcare coverage, whether the provider accepts it or the patient describes it as “worse” will yield significant outcomes in prescription patterns.","Project Purpose(s)
+Population Health","Scientific Approaches
+•	To analyze the data, we will create different cohorts using the built-in cohort builder on the All of Us workbench. The cohorts will stratify patients by self-reported race. We will develop code in R
+•	Determine if sample size is large enough to reveal statistically significant results","Anticipated Findings
+•	We expect to find discrepancies on prescription of newer generation diabetes medications based on patient insurance status and ethnicity","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Xochitl Pablos-Velez
+- Graduate Trainee, University of Texas, Rio Grande Valley
+Collaborators:
+Bassent Abdelbary - Other, University of Texas, Rio Grande Valley"
+HFpEF and Exercise,I plan to explore the All of Us program data to more fully develop a specific research question relating to the effects of physical activity/exercise training in individuals diagnosed with heart failure with preserved ejection fraction (HFpEF). Currently pharmacological strategies…,"Scientific Questions Being Studied
+I plan to explore the All of Us program data to more fully develop a specific research question relating to the effects of physical activity/exercise training in individuals diagnosed with heart failure with preserved ejection fraction (HFpEF).  Currently pharmacological strategies used to treat heart failure with reduced ejection fraction have not shown the same beneficial effects in individuals diagnosed with HFpEF.  Exercise has been shown to produce beneficial effects in many aspects of this very complex disease as well as in the co-morbidities frequently occurring with HFpEF (e.g. atrial fibrillation, diabetes, obesity, etc.).  More research is needed to analyze how different clinical phenotypes of HFpEF respond to exercise training and whether exercise training is a viable strategy for the treatment and management of HFpEF.","Project Purpose(s)
+Disease Focused Research (Heart Failure with preserved ejection fraction )","Scientific Approaches
+I plan to evaluate and use datasets that include information from individuals diagnosed with HFpEF (also known as ""diastolic heart failure"" or ""heart failure with normal ejection fraction"") and variables that reflect physical activity such as: self report data, clinical exercise testing data, wearable data (i.e. fitbit, pedometer, accelerometer, etc.) to look for trends in this population.","Anticipated Findings
+It is my hope that the information gleaned from this endeavor will inform future projects that will include various physical activity interventions with this population of individuals.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mia Newlin-Bradner
+- Early Career Tenure-track Researcher, Florida State University
+Collaborators:
+Glenna Schluck - Project Personnel, Florida State University"
+Diabetes_Treatment_Trajectory,"The project is on understanding the different kinds of treatments available to diabetes patients, and whether there are any significant difference between the nature of the treatments and the outcomes. The primary goal is to develop data science (statistics, machine…","Scientific Questions Being Studied
+The project is on understanding the different kinds of treatments available to diabetes patients, and whether there are any significant difference between the nature of the treatments and the outcomes. The primary goal is to develop data science (statistics, machine learning) methodology to differentiate treatment outcomes.","Project Purpose(s)
+Methods Development","Scientific Approaches
+The plan is to consider a cohort of diabetes patents from all over the United states, and understand the nature of their illness and the treatments they have received. Then, controlling for various characteristics like age and sex, we would like to understand if there are multiple treatment trajectories that are currently in usage, and whether there are any substantial variability between these trajectories, or in the outcomes.
+To address the data science methodological challenges, a tensor co-clustering algorithm will be developed and used.","Anticipated Findings
+The anticipated findings are that there is no substantial or significant difference in the treatment pathways of diabetes. Confirmation of this hypothesis or any departure from it would inform about  possible inequities in diabetes treatment, and would have educational value to care givers, since they would know about the best practices.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Snigdhansu Chatterjee
+- Late Career Tenured Researcher, University of Minnesota"
+Type 2 Diabetes Risk Model,Early identification of patients with undiagnosed Type 2 Diabetes Mellitus (T2D) or those at an increased risk of developing the disease is an important public health challenge. We aim to develop a predictive model for disease transitions in T2D. This…,"Scientific Questions Being Studied
+Early identification of patients with undiagnosed Type 2 Diabetes Mellitus (T2D) or those at an increased risk of developing the disease is an important public health challenge. We aim to develop a predictive model for disease transitions in T2D. This will help us gain a more accurate understanding of the combination of factors that cause the disease, allowing us to more accurately predict diabetes risk for future patients. Our research aims to 1) better understand T2D disease transition and progression, 2) more accurately predict diabetes risk for future patients, 3) better understand the risk factors that lead to the development of the disease and their interactions, 4) identify currently unknown risk factors, 5) gain a better understanding of which types of interventions have the greatest chance of success for impacting disease transition, either by reducing the severity of the disease, delaying its onset, or preventing it altogether.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)
+Ancestry","Scientific Approaches
+We aim to improve the accuracy of clinical risk factors used for modeling T2D  to inform population health interventions, individual patient care, and research discovery by integrating machine learning and cohort analyses using All of Us datasets. By investigating risk factors of T2D we have the potential to improve disease detection/diagnosis and gain important insights into the etiology and sequelae of this complex disease.","Anticipated Findings
+The results from our study could help patients in several ways. First, a predictive model might help to more accurately predict diabetes risk for future patients and identify the most effective ways to prevent the condition from developing or worsening. Second, identifying relevant risk factors (both known and unknown), as well as their interactions, may help to deliver patient interventions earlier to reduce disease outcomes. This may also help doctors and patients target the factors that are most likely to reduce or eliminate disease transition, helping to provide the best clinical outcome for patients. Finally, a predictive model may also provide a patient with more accurate precision medicine for disease management and prevention.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Alexandra Ralevski
+- Research Fellow, Institute for Systems Biology"
+Duplicate of Risk Prediction Models Across Common Complex Diseases,"The aim of this research is to develop and validate models for predicting risks of common complex diseases, like cancers, heart disease and type-2 diabetes, and evaluate potential utility of such models for developing strategies for risk-based approach to disease…","Scientific Questions Being Studied
+The aim of this research is to develop and validate models for predicting risks of common complex diseases, like cancers, heart disease and type-2 diabetes, and evaluate potential utility of such models for developing strategies for  risk-based approach to disease prevention through lifestyle modification, screening and medication. We will leverage the large size and diversity of All of US  study to develop and validate comprehensive multi-ancestry models that will incorporate information on sociodemographic indicators,  lifestyle factors, environmental exposures, family and medical history, biomarkers and whole genome genotyping and sequencing profiles of individuals. Integration of information across multiple domains of data is expected to lead to improved models for risk prediction and thus will lead to maximization of benefit and minimization harms and economic costs associated with various types of available interventions for disease prevention.","Project Purpose(s)
+Disease Focused Research (cancers, heart diseases, diabetes)
+Population Health
+Social / Behavioral
+Methods Development
+Ancestry","Scientific Approaches
+We will be developing predictive models based on classical statistical methods as well as advanced machine learning algorithms. We will build ""cohorts"" based on individuals who are free of specific diseases of interest at the time to entry to All of Us.  We will then link information on ""baseline"" variables for these individuals to prospectively collected data on disease outcomes (e.g those captured through electronic medical records).   Disease-specific models will incorporate available information on corresponding  well established risk factors such as age, family history, smoking, BMI and alcohol consumption. In addition, when genetic data becomes available, the model will incorporate information on emerging polygenic risk scores from genome-wide association studies. Finally,  we will explore potential role of high-dimensional biomarkers, such as blood metabolites, on risk prediction beyond risk factors that are easy to ascertain and evaluated in more parsimonious models.","Anticipated Findings
+Our study will lead to comprehensive multi-ethnic models for risk prediction models across a number of common chronic diseases. Using results from the study, we will further develop online risk calculators for potential clinical applications.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Nilanjan Chatterjee
+- Mid-career Tenured Researcher, Johns Hopkins University"
+Ambulatory Continuous Glucose Monitoring in Diabetes Care,"Ambulatory continuous glucose monitoring (CGM) has been increasing in use in both type 1 and type 2 diabetes. However, there have been notable disparities in diabetes technology use generally, which may reflect differences in various demographic or socioeconomic factors, provider…","Scientific Questions Being Studied
+Ambulatory continuous glucose monitoring (CGM) has been increasing in use in both type 1 and type 2 diabetes. However, there have been notable disparities in diabetes technology use generally, which may reflect differences in various demographic or socioeconomic factors, provider behaviors, insurance or healthcare access, and other factors. This study will describe the population with CGM use and compare with others with diabetes who have shared electronic health record data but without CGM.","Project Purpose(s)
+Disease Focused Research (diabetes mellitus)
+Population Health
+Social / Behavioral","Scientific Approaches
+We will include all individuals who have electronic health record data available, and designate those with ambulatory continuous glucose monitoring (CGM) medical concepts as having prior CGM use. Additional data will include health record domains (labs and measurements, such as hemoglobin A1c) and survey questions (e.g., demographic and healthcare access and utilization). Methods will include description and graphic visualization of those with and without prior CGM experience. Statistical testing will be performed in evaluated differences with correction for multiple comparisons. Regression or other complex models may be considered if appropriate. All analyses will be performed in R.","Anticipated Findings
+We anticipate there will be differences between those with and without CGM experience based on the electronic health record. Identifying factors that may be related to or associated with CGM use may further inform future provider or health organization strategies to expand CGM more broadly for clinical use. In addition, it may contribute to evidence considered in insurance coverage requirements for CGM.","Demographic Categories of Interest
+Race / Ethnicity
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Feifan Liu
+- Early Career Tenure-track Researcher, University of Massachusetts Medical School
+Ben Gerber
+- Late Career Tenured Researcher, University of Massachusetts Medical School
+Collaborators:
+Zakery Dabbagh - Undergraduate Student, University of Massachusetts Medical School
+Francis Ratsimbazafy - Other, All of Us Program Operational Use"
+Diabetes Genetic Data,"I want to see if there are any significant differences between those that do not have diabetes, those that have type 1 diabetes, and those that have type 2 diabetes.","Scientific Questions Being Studied
+I want to see if there are any significant differences between those that do not have diabetes, those that have type 1 diabetes, and those that have type 2 diabetes.","Project Purpose(s)
+Disease Focused Research (type 1 diabetes and type 2 diabetes)","Scientific Approaches
+I want to use Python to find correlations between those individuals.  As this is a sample project for university, this will largely be an exploratory analysis.","Anticipated Findings
+This is an exploratory analysis, and as such, there are no anticipated findings.  We do, however, hope to see some differences in genomes between those who are diabetic and those who aren't.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Rohit Nandakumar
+- Undergraduate Student, Arizona State University"
+ML Genetic Diabetes,"Large-scale genome wide association studies (GWAS) have identified many genetic variants associated with complex diseases. Most GWAS have been developed within European ancestries and have shown to perform poorly in other race/ethnic groups, exaggerating health disparities across ancestries. Scientific aim…","Scientific Questions Being Studied
+Large-scale genome wide association studies (GWAS) have identified many genetic variants associated with complex diseases. Most GWAS have been developed within European ancestries and have shown to perform poorly in other race/ethnic groups, exaggerating health disparities across ancestries.
+Scientific aim 1: Collection, harmonization and integration of large-scale, multi-ancestry cohorts with diabetes traits across the life-span and genomics for the discovery of genetic variants associated with several forms of diabetes.
+Scientific aim 2: Development of methods to improve PRS prediction in non-European populations by using Bayesian approaches that allow integration of linkage disequilibrium and summary statistics from several ancestries.
+Scientific aim 3: Development, testing, and comparing performance of PRS for each trait, development of risk prediction tools that integrate clinical and genetic risk factors, and assessment of scenarios where PRS improve the prediction.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus, type 1 diabetes mellitus)
+Educational
+Drug Development
+Methods Development
+Control Set
+Ancestry","Scientific Approaches
+We will integrate GWAS data from other large-scale genetic studies with the ALLofUs data in order to:
+1- Maximize the discovery of ancestry-specific genetic variants associated with a variety of forms of diabetes and complications. We will use a variety of genetic association tools, including Regenie, for GWAS analysis, METAL, for meta-analysis of results across ancestries, Finemap and Susie, and COJO to identify distinct signals.
+2- Develop PRSs for diverse ancestries. We will use PRS-CS, PRS-CSx and other methods to develop and test PRSs for all ancestries.
+3- We will functionally annotate genetic variants using publicly available data like the Roadmap Epigenomics browser, FANTOM, VEP, GNOMAD, etc …","Anticipated Findings
+We anticipate that that results of this study will, in part, address health disparities in several ways:
+1- We will improve PRSs for all ancestries so that they can be useful for all individuals if applied clinically.
+2- We will identify potential drug targets, including some drug targets that can only be identified when analyzing specific ancestries.
+3- We will discover novel variants or genes that will help better understand the biology of diabetes and related traits.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Ravi Mandla
+- Project Personnel, Broad Institute
+Philip Schroeder
+- Project Personnel, Broad Institute
+Alicia Huerta
+- Research Fellow, Broad Institute
+Collaborators:
+Josephine Li - Early Career Tenure-track Researcher, Mass General Brigham"
+T2D: Ancestry x SES,"Type 2 diabetes (T2D) is a complex common disease that disproportionately impacts minority ethnic and racial groups. Socioeconomic deprivation (SED) is widely considered to be a risk factor for T2D disparities. In 2021, the effect of genetic ancestry (GA) on…","Scientific Questions Being Studied
+Type 2 diabetes (T2D) is a complex common disease that disproportionately impacts minority ethnic and racial groups. Socioeconomic deprivation (SED) is widely considered to be a risk factor for T2D disparities. In 2021, the effect of genetic ancestry (GA) on such disparities was studied using data from the United Kingdom (UK) to reveal an interaction. The study found that both SED and non-European GA were significantly associated with the observed T2D disparities, with GA showing a stronger effect than SED in the overall population. GA and SED show significant interaction effects on T2D, with SED being a greater risk factor for T2D for individuals with South Asian and African ancestry, compared to those with European ancestry. This study underscored how the effects of environmental risk factors can differ among ancestry groups, suggesting the need for group-specific interventions. We intend to conduct a similar study using more diverse data from the United States' All of Us project.","Project Purpose(s)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will leverage data from the All of Us project to model the relationship between SED (Townsend index), GA (clustering principal components of whole genome genotype data), and T2D status (ICD-9 and ICD-10 codes) across the largest racial groups in the dataset.","Anticipated Findings
+We expect to find similar results as the previous study by Negar et al. (2021) that this is based on, although having more diversity in the study population will enrich the findings. Additionally, it will be helpful to compare the results of the UK population to the USA population. Similarities and differences between the two populations may result in additional insights to the social, environmental, and genetic contributions to health disparities.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Whitney Teagle
+- Other, National Institutes of Health (NIH)"
+Type 1 Diabetes,"In type 1 diabetes (T1D), insulin is not produced by the pancreas, leading to the inability to properly metabolize sugar. If caught early, T1D can be treated with regular insulin injections. As insulin shares properties with growth hormones, a side-effect…","Scientific Questions Being Studied
+In type 1 diabetes (T1D), insulin is not produced by the pancreas, leading to the inability to properly metabolize sugar. If caught early, T1D can be treated with regular insulin injections. As insulin shares properties with growth hormones, a side-effect of managing T1D with insulin injections may be increased growth. Here we explore the relationship between height and T1D status, as a function of age. We establish at least 2 cohorts: Individuals with and without T1D. We further divide the cohorts by sex. We bin the two cohorts identically based on age and calculate individuals' heights within each bin.","Project Purpose(s)
+Educational
+Methods Development","Scientific Approaches
+How does the height of individuals with well-managed type 1 diabetes compare to that of individuals without type 1 diabetes? How do these differences vary with age and sex?","Anticipated Findings
+The primary purpose of the study is training. Its central output is knowledge on using the Researcher Workbench to construct cohorts and analyze data.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Timothy Lezon
+- Other, University of Pittsburgh
+Judith Klein
+- Late Career Tenured Researcher, Arizona State University
+John Maier
+- Other, University of Pittsburgh"
+Duplicate of SARS-CoV-2 infection Project,The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes. The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes. The secondary hypothesis is that SARS-CoV-2 is a predisposing factor…,"Scientific Questions Being Studied
+The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes.  The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.  Moreover, the impact of SARS-CoV-2 will disproportionately impact underserved populations whom are at an increased risk for chronic conditions (e.g., diabetes, cardiovascular, pulmonary).","Project Purpose(s)
+Disease Focused Research (SARS-CoV-2)","Scientific Approaches
+We will explore associations between SARS-CoV-2 infections and the incidence of diabetes with a focus on underserved patient populations. This study will also explore other associations affecting the incidence of SARS-CoV-2 infections and co-morbidities. The analysis will employ exploratory methods of data analysis such as association plots, heatmaps, and descriptive statistics. Following the exploratory analysis, generalized linear models will explore the associations further while controlling for patient characteristics and other factors. Multiplicity corrections will control the incidence of type I errors and ensure replicability of research results.  The data will include information on past SARS-CoV-2 infections, type I and II diabetes, demographic characteristics, and other hormone/endocrine conditions, mental health or substance use conditions, and cancer. Data will be stratified to assess the change in risk of these conditions for underserved patient populations.","Anticipated Findings
+The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.","Demographic Categories of Interest
+Race / Ethnicity
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Eric Diaz
+- Undergraduate Student, University of Texas at El Paso"
+Health of transgender and gender diverse individuals,"The terms transgender and gender diverse are umbrella terms for individuals who gender identity is different from their sex assigned at birth. Little is known about the general health of these individuals. As such, we seek to characterize the health…","Scientific Questions Being Studied
+The terms transgender and gender diverse are umbrella terms for individuals who gender identity is different from their sex assigned at birth. Little is known about the general health of these individuals. As such, we seek to characterize the health and wellbeing of this community and estimate any health disparities between transgender and cisgender individuals. The health conditions and behaviors we will examine include: smoking, body size, alcohol use, substance use, mental health, stress, disability, HIV, hepatitis B and C, HPV, gallstones, hypertension, cholesterol, diabetes, heart disease, and receipt of preventative services (vaccinations and cancer screenings).","Project Purpose(s)
+Population Health","Scientific Approaches
+We will create a cohort transgender and gender diverse individuals using All of Us (AoU) demographics data. We will then select a matched cisgender population from AoU as a comparison group. Participants will be matched on age and race/ethnicity to examine the prevalence of each health condition noted above between the two groups and also calculate prevalence ratios to highlight any health disparities.","Anticipated Findings
+This analysis will characterize the health and well-being of transgender and gender diverse communities in the US. This research can be used by clinicians and future researchers as targets for prevention and treatment.","Demographic Categories of Interest
+Gender Identity","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Sarah Jackson
+- Research Fellow, National Institutes of Health (NIH)
+Collaborators:
+Jalen Brown - Other, National Cancer Institute (NIH - NCI)"
+Public Health Impact of Family Health History in Diverse Populations,"Family history of disease provides a gateway to studying the complex interplay of genetic influences, shared environment, lifestyle, as well as common behavioral factors known to increase risk for many common chronic diseases such as diabetes, cardiovascular disease, and cancer.…","Scientific Questions Being Studied
+Family history of disease provides a gateway to studying the complex interplay of genetic influences, shared environment, lifestyle, as well as common behavioral factors known to increase risk for many common chronic diseases such as diabetes, cardiovascular disease, and cancer. Elucidating how family history contributes to an increase in disease risk and discerning the factors that contribute to the relationship between family history and disease development-- such as whether it is derived from genetic or shared environment-- can help identify individuals at higher disease susceptibility, enable targeted screening initiatives tailored to individuals who may benefit from a more thorough clinical assessment, and establish the effectiveness of family history data in the practice of preventative medicine.","Project Purpose(s)
+Population Health
+Ancestry","Scientific Approaches
+While most family history-based screening tools assess familial risk based on a crude definition of the presence of a positive family history among any family member, a detailed pedigree of family history can capture greater detail on disease risk. In this study, we plan on studying family history of disease data as captured by first-degree (whether a parent or sibling had a disease) and second-degree (such as a grandparent, half siblings, aunt or uncle). We plan to use the family-history wide association study approach to systematically and comprehensively identify associations between laboratory traits and measurements and lifestyle information and family history of disease, including cancer, heart and blood, digestive, hormone and endocrine, kidney, lung, brain and nervous system, mental health and substance use, and bone, joint and muscle, hearing and eye conditions.","Anticipated Findings
+Family history information captures inherited genetic and shared environmental contribution to disease risk. Further, the impact of family health history has not been adequately studied in historically underrepresented populations. The AllofUs Research dataset is uniquely enriched with underrepresented populations. By delineating the mechanisms by which family history affects inherited traits and environmental measurements and results in increased disease risk among diverse populations, our study aims to leverage the rich population-based family history data in All of Us to uncover novel associations that can enhance our understanding of the influence of family history.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Danielle Rasooly
+- Research Associate, Centers for Disease Control and Prevention (CDC)
+Collaborators:
+Ramal Moonesinghe - Late Career Tenured Researcher, Centers for Disease Control and Prevention (CDC)
+Katherine Kolor - Project Personnel, Centers for Disease Control and Prevention (CDC)
+Emily Drzymalla - Other, University of North Carolina, Chapel Hill"
+Granuloma Annulare Project,"Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, we…","Scientific Questions Being Studied
+Granuloma annulare (GA) is non-infectious skin reaction pattern that has been shown to significantly associated with hyperlipidemia, hypothyroidism, ischemic heart disease, and type 2 diabetes mellitus. However, association of GA with psychiatric comorbidities has not been well studied. Here, we aim to evaluate the association of GA with psychiatric co-morbidities in the All of Us database, a recently launched initiative by the National Institutes Health that aims to provide health data on over 1 million Americans. All of Us includes communities that have been historically underrepresented in research (e.g. gender/sexual minorities, rural populations, social/ethnic minorities, etc.) to allow for a more generalizable understanding of disease data.","Project Purpose(s)
+Disease Focused Research (granuloma annulare)","Scientific Approaches
+We extracted 231 GA cases using ICD-10-CM code L92.0. Each GA case was matched to four age-, race-, and sex-matched controls in the All of Us database. Odds ratios were calculated and reported at 95% confidence intervals.","Anticipated Findings
+We anticipate finding one or more psychological comorbidities associated with granuloma annulare, possibly including alcohol use disorder, anorexia nervosa, anxiety, bipolar disorder, bulimia nervosa, depression, insomnia, OCD, and schizophrenia. To our knowledge, this represents the first study that analyzes psychiatric co-morbidities in GA patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yuli Lim
+- Graduate Trainee, Baylor College of Medicine"
+Epidemiology of Achalasia,"We will analyze conditions that may be associated with esophageal achalasia. Specifically: 1. Is idiopathic achalasia associated with other medical conditions that lead to microvascular damage (e.g. type II diabetes mellitus, hypertension, atherosclerosis etc.)? Esophageal achalasia is an idiopathic, rare…","Scientific Questions Being Studied
+We will analyze conditions that may be associated with esophageal achalasia. Specifically:
+1. Is idiopathic achalasia associated with other medical conditions that lead to microvascular damage (e.g. type II diabetes mellitus, hypertension, atherosclerosis etc.)?
+Esophageal achalasia is an idiopathic, rare disorder characterized by degeneration of neurons of the myenteric plexus of the esophagus. Gastroparesis, which functionally resembles achalasia and affects diabetic patients, is hypothesized to occur due to nerve ischemia from microvascular damage secondary to diabetes. Studies on achalasia have been largely limited due to the rarity of the condition, but understanding whether a relationship exists between achalasia and disorders that cause vascular damage could help inform guidelines on preventive care given how common some of these conditions are in the U.S. population (e.g. type II diabetes, hypertension, atherosclerosis, autoimmune conditions).","Project Purpose(s)
+Disease Focused Research (diseases of the gastrointestinal tract, type II diabetes mellitus)
+Population Health
+Educational
+Ancestry","Scientific Approaches
+I plan on reviewing the data set and performing a case-control study. Patients will be included in the study  if  they are ≥ 18  years of age and have esophageal achalasia.  Patients will be matched by age, race, and sex. Then they will be compared to patients without diagnosed esophageal achalasia and compared on their prevalence of type II diabetes, type I diabetes, hypertension, atherosclerosis, malignancy, scleroderma, rheumatoid arthritis, Systemic Lupus Erythematous, and IBD. I will also perform a subanalysis by race for the risks given the limited data on achalasia and hypothesized HLA predispositions. Means will be compared between cohorts using a Student’s t-test. Proportions will be compared using the chi-squared or Fisher’s exact test. Logistic regression will be performed to further examine specific conditions and  the results will be expressed using odds ratios with 95% confidence intervals. I will consider a p value of <0.05 significant for all findings.","Anticipated Findings
+It is anticipated that most, if not all of these conditions leading to microvascular damage, will be represented to a greater extent in the achalasia group compared to the control group. Regardless, any information gathered would be very helpful in leading to a greater understanding of esophageal achalasia, which is poorly understood. Information on associations by race would also be very valuable as little data exists on the topic given the rarity of the condition. We hope that this will  promote more representation of diverse groups in medical literature.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Erik Almazan
+- Research Fellow, Mass General Brigham"
+Metformin Vitamin B12 Study,"Currently, we are performing data exploration to assess the feasibility for our proposed study. We are investigating the association between exposure to Metformin and subsequent reduction in serum Vitamin B12 among adults with diagnosed type II diabetes.","Scientific Questions Being Studied
+Currently, we are performing data exploration to assess the feasibility for our proposed study. We are investigating the association between exposure to Metformin and subsequent reduction in serum Vitamin B12 among adults with diagnosed type II diabetes.","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)","Scientific Approaches
+We aim to utilize the conditions dataset to identify patients with diagnosed Type II Diabetes using corresponding SNOMED codes. Further more, we aim to include those with a record of a Vitamin B12 measurement using the measurements table. We will utilize three tables from this cohort - a person level table with demographic information, a condition table with diagnosis details, and measurement table with laboratory details. We will utilize the Jupyter R notebook to perform an exploratory analysis to identify how many patients received a B12 measurement after their diagnosis and metformin exposure to start with our exploratory analysis.","Anticipated Findings
+We anticipate that exposure to metformin will be associated with a reduction in Vitamin B12 levels. These findings will aid clinicians in identifying people with diabetes at risk of Vitamin B12 reduction and subsequent deficiency, and will aid in enabling these clinicians in implementing early preventive interventions to mitigate negative outcomes and costs.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Aryana Sepassi
+- Early Career Tenure-track Researcher, University of California, Irvine"
+Diabetes and CVD Risk Factor Control and Treatment Patterns using V5 data,Understanding the spectrum risks found in persons with diabetes and ASCVD in a contemporary cohort of US adults can help target the intensity of therapeutic approaches to prevent future adverse outcomes. The project will examine the following questions: 1. Within…,"Scientific Questions Being Studied
+Understanding the spectrum risks found in persons with diabetes and ASCVD in a contemporary cohort of US adults can help target the intensity of therapeutic approaches to prevent future adverse outcomes.
+The project will examine the following questions:
+1.	Within those with diabetes, how many are higher risk (two or more risk factors) and within those with ASCVD how many are at very high risk according to the recent 2018 cholesterol guidelines?
+2.	Among these higher versus lower risk patients with ASCVD and DM, what is the adherence to non-smoking, healthy diet, and regular physical activity?
+3.	Among these groups, what is the proportion at target for BP (<130/80 mmHg), LDL-C (< 70 mg/dl if CVD, <100 mg/dl otherwise), HbA1c (<8% if with CVD or <7% if not)?
+4.	How does the extent of recommended medication use compare among these groups, including statins, BP medication, DM medication, antiplatelet/aspirin therapy, and influenza vaccination.","Project Purpose(s)
+Disease Focused Research (Cardiovascular disease and diabetes)","Scientific Approaches
+The dataset we would like to utilize would be participants’ provided information (PPI), electronic health records (EHR) and physical measurements, which provide information about the participant’s overall health status, lifestyle, medication history, serum biochemicals and demographic characteristics.
+We will categorize the sample with and without diabetes mellitus (and within diabetes those with vs, without multiple risk factors) or cardiovascular diseases (and among such persons those at high vs. very high risk), and use Chi-square test to compare the extent of adherence to lifestyle measures (in# 2 above), risk factor control (#3 above), and extent of recommended medication use (#4 above). Multiple logistic regression will be used to examine whether the extent of single and multiple risk factor control is and within these conditions, those at higher versus lower risk and use multiple logistic regression to test the behavior and risk factors difference among different groups.","Anticipated Findings
+We anticipate that there are different patterns in terms of health behaviors and risk factors control across the spectrum of diabetes and cardiovascular diseases, which will help to identify the possible prevention strategies towards different kinds of DM and CVDs and realize precision medicine among the patients.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Yufan Gong
+- Graduate Trainee, University of California, Los Angeles
+Nathan Wong
+- Other, University of California, Irvine
+Collaborators:
+Trinh Do - Graduate Trainee, University of California, Irvine
+Meleeka Akbarpour - Graduate Trainee, University of California, Irvine
+Divya Devineni - Graduate Trainee, University of California, Irvine"
+HFpEF and Exercise (Examples and learning process),I plan to explore the All of Us program data to more fully develop a specific research question relating to the effects of physical activity/exercise training in individuals diagnosed with heart failure with preserved ejection fraction (HFpEF). Currently pharmacological strategies…,"Scientific Questions Being Studied
+I plan to explore the All of Us program data to more fully develop a specific research question relating to the effects of physical activity/exercise training in individuals diagnosed with heart failure with preserved ejection fraction (HFpEF).  Currently pharmacological strategies used to treat heart failure with reduced ejection fraction have not shown the same beneficial effects in individuals diagnosed with HFpEF.  Exercise has been shown to produce beneficial effects in many aspects of this very complex disease as well as in the co-morbidities frequently occurring with HFpEF (e.g. atrial fibrillation, diabetes, obesity, etc.).  More research is needed to analyze how different clinical phenotypes of HFpEF respond to exercise training and whether exercise training is a viable strategy for the treatment and management of HFpEF.","Project Purpose(s)
+Disease Focused Research (Heart Failure with preserved ejection fraction )
+Other Purpose (This is a duplicate of a research workspace. I am using this one to practice using some of the ALL of us functions so I don't use up the PI's money on her workspace.)","Scientific Approaches
+I plan to evaluate and use datasets that include information from individuals diagnosed with HFpEF (also known as ""diastolic heart failure"" or ""heart failure with normal ejection fraction"") and variables that reflect physical activity such as: self report data, clinical exercise testing data, wearable data (i.e. fitbit, pedometer, accelerometer, etc.) to look for trends in this population.","Anticipated Findings
+It is my hope that the information gleaned from this endeavor will inform future projects that will include various physical activity interventions with this population of individuals.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Glenna Schluck
+- Project Personnel, Florida State University
+Collaborators:
+David Bates - Project Personnel, All of Us Program Operational Use"
+Diabetes in Pregnancy,Exploring data to better understand maternal and neonatal outcomes after pregnancies complicated by diabetes as well as sociodemographic and medical characteristics that are associated with pregnancy outcomes.,"Scientific Questions Being Studied
+Exploring data to better understand maternal and neonatal outcomes after pregnancies complicated by diabetes as well as sociodemographic and medical characteristics that are associated with pregnancy outcomes.","Project Purpose(s)
+Disease Focused Research (Diabetes in pregnancy)","Scientific Approaches
+Will compile a dataset of people with diabetes in pregnancy.
+Compare baseline characteristics by diabetes type and/or pregnancy outcome using bivariable statistics.
+Use multivariable models to adjust for covariates.","Anticipated Findings
+Anticipated findings include identifying factors associated with outcomes of pregnant people with diabetes. Factors associated with improved outcomes would subsequently be used to target future interventions.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Ashley Battarbee
+- Early Career Tenure-track Researcher, University of Alabama at Birmingham"
+Gestational Diabetes,"We are exploring how placental morphology can predict gestational diabetes. Currently, gestational diabetes is diagnosed late in gestation. Lifestyle interventions are recommended as treatment and delivering these interventions earlier than current diagnoses may reverse the complication.","Scientific Questions Being Studied
+We are exploring how placental morphology can predict gestational diabetes. Currently, gestational diabetes is diagnosed late in gestation.  Lifestyle interventions are recommended as treatment and delivering these interventions earlier than current diagnoses may reverse the complication.","Project Purpose(s)
+Educational","Scientific Approaches
+We plan to use placental morphology data, demographic data, and pregnancy outcomes to address this question.","Anticipated Findings
+We anticipate developing predictive models that can identify the presence of gestational diabetes earlier than current practice.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Diana Thomas
+- Late Career Tenured Researcher, West Point, United States Military Academy"
+JW,"I am interested in data in all domains: EHR, Survey Questions and Physical Measurements. My research aims are to test the impact of COVID-19 pandemic on health outcomes (e.g., overall health, mental health, CVD, type 2 diabetes, hypertension, functional limitation…","Scientific Questions Being Studied
+I am interested in data in all domains: EHR, Survey Questions and Physical Measurements. My research aims are to test the impact of COVID-19 pandemic on health outcomes (e.g., overall health, mental health, CVD, type 2 diabetes, hypertension, functional limitation and disability) across groups by gender, age, race/ethnicity, comorbidities, etc. I am also interested in assessing risk factors for mortality caused by COVID-19 pandemic.","Project Purpose(s)
+Population Health","Scientific Approaches
+I am planning to use the epidemiological approach to analyze data to calculate descriptive statistics (e.g., percent) of both health outcomes and risk factors. I also plan to conduct inferential statistical analysis (e.g., logistic regression) to study the association between risk factors and health outcomes","Anticipated Findings
+The prevalence of poor health outcomes increased during the COVID-19 pandemic, particularly in groups associated with with risk factors (e.g., older age with comorbidities).","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jing Wang
+- Late Career Tenured Researcher, University of Texas at Arlington"
+Diabetes psychosocial experience,Data exploration for assessing whether it is possible to conduct an analysis of differential stigma-related experiences and psychosocial and health functioning between individuals diagnosed with type 1 and type 2 diabetes.,"Scientific Questions Being Studied
+Data exploration for assessing whether it is possible to conduct an analysis of differential stigma-related experiences and psychosocial and health functioning between individuals diagnosed with type 1 and type 2 diabetes.","Project Purpose(s)
+Social / Behavioral","Scientific Approaches
+I plan to develop hypotheses based on available data items (should they prove sufficient to address these questions) and run statistical analyses in R to assess differences between individuals diagnoses with type 1 and type 2 diabetes. Will likely also evaluate potential moderators of relationships including weight status,  gender, and race/ethnicity. I may also compare these to a sample that is unaffected by diabetes.","Anticipated Findings
+It is preliminary to make specific hypotheses, however, results may identify situations under which individuals with diabetes experience differential treatment and how such differential treatment, such as in the medical system, might relate to downstream decrements in psychological well-being and health.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Susan Persky
+- Senior Researcher, National Human Genome Research Institute (NIH-NHGRI)"
+Hypoglycemia in Non-Diabetics,"Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients…","Scientific Questions Being Studied
+Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients who have experienced hypoglycemia during inpatient admissions versus those who have not. In those without diabetes, inpatient hypoglycemia may still occur. Studies demonstrate that even in patients without diabetes, hypoglycemia results in poor clinical outcomes as related to mortality and cognitive function. There is no standard protocol for blood glucose monitoring inpatient for patients without diabetes. A standardized protocol could more closely trend blood glucose values among hospitalized non-diabetic patients who have an elevated risk of hypoglycemia in order to reduce the rate of hypoglycemia and its related complications.","Project Purpose(s)
+Disease Focused Research (hypoglycemia)
+Educational","Scientific Approaches
+A retrospective review of patients will be conducted who have experienced at least one episode of hypoglycemia (BG < 70 mg/dL) during inpatient hospitalization and potential risk factors which may have contributed to such episode will be identified. Examples include end stage liver disease, renal disease, cardiac disease, protein-calorie malnutrition. Following, use these risk factors in a multivariate analysis to create a scoring system which assigns specific point values to each risk factor in order to predict risk of hypoglycemia during admission.","Anticipated Findings
+The findings should create a model of risk factors for hypoglycemia among hospitalized non-diabetics. Using this risk model, other researchers may be able to expand the findings to create prospective studies that aim to reduce the risk of developing hypoglycemia groups with these risk factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Anand Gandhi
+- Research Associate, Banner Health
+Collaborators:
+Bijun Kannadath - Early Career Tenure-track Researcher, University of Arizona"
+Duplicate of Demo - Medication Sequencing,"1- What are the main prescribed medication sequences that participants with type 2 diabetes and depression took over three years of treatment? In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have…","Scientific Questions Being Studied
+1- What are the main prescribed medication sequences that participants  with  type 2 diabetes and depression took over three years of treatment?
+In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have T2D and depression codes. We retrieved medications prescribed after the first diagnosis code for each disease. We represented the medications using their ATC 4th level.
+2- What is the most common first anti-diabetic and anti-depressant that were prescribed for All of Us participants? We extracted the first medications prescribed to treat T2D and depression. We identified the most common first medication with the highest number of participants.
+3- Is there a change in the percentages of participants who were prescribed first common medication, treated using one medication, treated only using one common medication between 2000-2018?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes, depression)
+Other Purpose (This work is a result of an All of Us Research Program Demonstration Project. The projects are efforts by the Program designed to meet the program's goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. This work was reviewed and overseen by the All of Us Research Program Science Committee and the Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use.)","Scientific Approaches
+In this project, we plan on using the medication sequencing developed at Columbia University and the OHDSI network as a means to characterize treatment pathways at scale. Further, we want to demonstrate implementation of these medication sequencing algorithms in the All of Us research dataset to show how the various sources of data contained within the program can be used to characterize treatment pathways at scale. We will perform separate medication sequence analyses for three different common, complex diseases: type 2 diabetes, depression
+1- Data manipulation
+Using python and BigQuery to:
+A- Retrieve medication and their classes
+B-Create the medications sequences
+2- Visualization:
+A- Creating sunburst to visualize the sequences
+B- Plotting the percentages of participants the first common medication and one medication during three years","Anticipated Findings
+For this study, we anticipate demonstrating the validity of the data by showing expected treatment patterns despite gathering data from over 30 individual EHR sites. Specifically, we expect to find:
+1- Variation in the medication sequences prescribed to treat All of Us participants who had type 2 diabetes and depression.
+2- The most common medication used to treat participants as first line treatment with type 2 diabetes and depression diagnosis.
+3- A trend or change over time of prescribing the first common medication over the study period
+4- Trend overtime for the percentage of participants
+Importantly, the detailed code developed herein is made available within the Researcher Workbench to researchers, so that they may more easily extract medication data and class information using a common medication ontology, an approach useful in many discovery studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Stanley Jia
+- Undergraduate Student, University of California, Irvine"
+Diabetic Foot ulcer,"Evaluate the differences in healthcare access among adults with diabetes and a foot ulcer, based on race/ethnicity, geography, and other socioeconomic factors","Scientific Questions Being Studied
+Evaluate the differences in healthcare access among adults with diabetes and a foot ulcer, based on race/ethnicity, geography, and other socioeconomic factors","Project Purpose(s)
+Disease Focused Research (diabetes mellitus)","Scientific Approaches
+We will utilize the existing survey data from the All of Us Research Program (AOURP) to determine the disparities in healthcare access and utilization among participants with diabetes and those with foot ulcerations.","Anticipated Findings
+Racial/ethnic minorities, those living in rural areas, and of low socioeconomic classes will experience disparities in access to care and health care utilization compared to whites and general population.","Demographic Categories of Interest
+Race / Ethnicity
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Tze-Woei Tan
+- Mid-career Tenured Researcher, University of Arizona
+Collaborators:
+Chiu-Hsieh Hsu - Late Career Tenured Researcher, University of Arizona"
+Childhood Obesity,"Childhood obesity is a major public health problem across the globe as well as in the US. Childhood obesity can continue into adulthood and is known to be a major risk factor for chronic diseases such as diabetes, cancer, and…","Scientific Questions Being Studied
+Childhood obesity is a major public health problem across the globe as well as in the US. Childhood obesity can continue into adulthood and is known to be a major risk factor for chronic diseases such as diabetes, cancer, and cardiovascular diseases . Preventing childhood obesity has been actively pursued in pediatric programs. However, decades of rigorous research have shown that prevention and management of obesity is not easy. This is partly due to our limited understating of obesity and the complex interactions among a myriad of various factors, including biological and environmental ones, that are known to contribute to obesity. The motivation of this work is to predict childhood obesity early on and study the cause and consequences of obesity.","Project Purpose(s)
+Disease Focused Research (obesity)
+Drug Development","Scientific Approaches
+We are planning to use deep machine learning models to study cause and consequences of obesity and predict childhood obesity.","Anticipated Findings
+We are looking to study cause and consequences of childhood obesity. We will look into factors that will help predict childhood obesity early on. This will help prevent obesity and other chronic diseases that are the consequence of childhood obesity.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mehak Gupta
+- Graduate Trainee, University of Delaware
+Collaborators:
+Raphael Poulain - Graduate Trainee, University of Delaware"
+Duplicate of Demo - Medication Sequencing,"1- What are the main prescribed medication sequences that participants with type 2 diabetes and depression took over three years of treatment? In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have…","Scientific Questions Being Studied
+1- What are the main prescribed medication sequences that participants  with  type 2 diabetes and depression took over three years of treatment?
+In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have T2D and depression codes. We retrieved medications prescribed after the first diagnosis code for each disease. We represented the medications using their ATC 4th level.
+2- What is the most common first anti-diabetic and anti-depressant that were prescribed for All of Us participants? We extracted the first medications prescribed to treat T2D and depression. We identified the most common first medication with the highest number of participants.
+3- Is there a change in the percentages of participants who were prescribed first common medication, treated using one medication, treated only using one common medication between 2000-2018?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes, depression)
+Other Purpose (This work is a result of an All of Us Research Program Demonstration Project. The projects are efforts by the Program designed to meet the program's goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. This work was reviewed and overseen by the All of Us Research Program Science Committee and the Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use.)","Scientific Approaches
+In this project, we plan on using the medication sequencing developed at Columbia University and the OHDSI network as a means to characterize treatment pathways at scale. Further, we want to demonstrate implementation of these medication sequencing algorithms in the All of Us research dataset to show how the various sources of data contained within the program can be used to characterize treatment pathways at scale. We will perform separate medication sequence analyses for three different common, complex diseases: type 2 diabetes, depression
+1- Data manipulation
+Using python and BigQuery to:
+A- Retrieve medication and their classes
+B-Create the medications sequences
+2- Visualization:
+A- Creating sunburst to visualize the sequences
+B- Plotting the percentages of participants the first common medication and one medication during three years","Anticipated Findings
+For this study, we anticipate demonstrating the validity of the data by showing expected treatment patterns despite gathering data from over 30 individual EHR sites. Specifically, we expect to find:
+1- Variation in the medication sequences prescribed to treat All of Us participants who had type 2 diabetes and depression.
+2- The most common medication used to treat participants as first line treatment with type 2 diabetes and depression diagnosis.
+3- A trend or change over time of prescribing the first common medication over the study period
+4- Trend overtime for the percentage of participants
+Importantly, the detailed code developed herein is made available within the Researcher Workbench to researchers, so that they may more easily extract medication data and class information using a common medication ontology, an approach useful in many discovery studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Vojtech Huser
+- Other, National Institutes of Health (NIH)"
+Vitamin B12 deficiency and supplementation in patients on metformin,1. What proportion of patients with type 2 diabetes who take metformin have a vitamin B 12 deficiency? 2. What proportion of patients with type 2 diabetes who take metformin have had their vitamin B 12 levels measured? 3. What…,"Scientific Questions Being Studied
+1. What proportion of patients with type 2 diabetes who take metformin have a vitamin B 12 deficiency?
+2. What proportion of patients with type 2 diabetes who take metformin have had their vitamin B 12 levels measured?
+3. What proportion of patients with type 2 diabetes who take metformin and have a vitamin B 12 deficiency are taking vitamin B 12 supplement?
+4. Are there demographic or other disparities between patients with type 2 diabetes who take metformin and have vitamin B 12 deficiency compared with those who do not have deficiency?
+5. Are there demographic or other disparities between patients with type 2 diabetes who take metformin and have had their vitamin B 12 levels measured compared with those who have not had it measured?
+6. Are there demographic or other disparities between patients with type 2 diabetes who take metformin, have a vitamin B 12 deficiency and take vitamin B 12 supplement compared with those who do not take vitamin B 12 supplement?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)
+Population Health","Scientific Approaches
+Data will be drawn from EHR domains (diagnosis of type 2 diabetes, use of metformin, vitamin B 12 levels, vitamin B 12 supplementation), and survey responses (demographics, healthcare access and utilization). Basic descriptive statistics will be used to answer questions 1-3 above and inferential statistics to assess for disparities based on demographic factors, etc. (questions 4-6).","Anticipated Findings
+This work will contribute to our understanding of how common vitamin B 12 deficiency is in patients who take metformin. Additionally, how likely it is patients taking metformin will be tested for deficiency and how likely it is that deficiency will be treated if present. Finally, this work aims to assess disparities, whether they be gender/sex-based, racial/ethnic, socioeconomic (e.g. educational attainment, income), age-based, or others, in the likelihood a patient taking metformin will have their vitamin B 12 levels assessed, whether they will have a deficiency and whether a deficiency will be treated if it is present.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Gender Identity
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Keri Hurley
+- Other, University of California, Irvine"
+Chronic Kidney Disease,"The long-term goal of this Genome Wide Association Study (GWAS) pilot project is to identify genetic loci associated with chronic kidney disease (CKD). Although diabetes and hypertension are primary risk factors for CKD, genetic factors have also been associated with…","Scientific Questions Being Studied
+The long-term goal of this Genome Wide Association Study (GWAS) pilot project is to identify genetic loci associated with chronic kidney disease (CKD). Although diabetes and hypertension are primary risk factors for CKD, genetic factors have also been associated with CKD-defining traits. In this study, we will examine genome sequence variation among individuals in diagnosed with CKD with those not diagnosed with CKD. Our project seeks to: 1) identify putative genetic loci that increase risk for CKD that have not been previously reported; 2) examine associations between known CKD risk loci among individuals in study; and 3) compare genetic data with other CKD studies as a way of assessing whether individuals included in the study are a representative cohort of CKD subjects. Genetic risk loci identified through this study will form the basis for basic biomedical research to define the molecular determinants of disease and provide a platform for the development of effective treatments.","Project Purpose(s)
+Disease Focused Research (chronic kidney disease)
+Control Set","Scientific Approaches
+We plan to conduct a Genome Wide Association Study (GWAS) to identify genetic loci associated with chronic kidney disease (CKD).  To conduct this study, we will combine de-identified data we plan to generate for 100 CKD patients from Maine with All of Us data. We plan to use All of Us data for both cases and controls. The overall statistical analysis approach consists of three components as follows. First, we will analyze distributions of relevant clinical data from participants, such as eGFR and age separated by sex. Second, we will analyze population stratification using ADMIXTURE (Shringapure et al, 2016) and PLINK (Purcell et al, 2007) to identify any subpopulations that differ genetically and if disease prevalence differs among those subpopulations (Marchini et al, 2004). Distributions of alleles among participants will be compared to reference panels in order to estimate individual ancestry proportions. For the GWAS analysis, genetic associations will be tested using PLINK.","Anticipated Findings
+We seek to: 1) identify putative genetic loci that increase risk for chronic kidney disease (CKD) that have not been previously reported; 2) examine associations between known CKD risk loci among individuals in study; and 3) compare genetic data with other CKD studies as a way of assessing whether individuals included in the study are a representative cohort of CKD subjects. Genetic risk loci identified through this study will form the basis for basic biomedical research in animal models to define the molecular determinants of disease and provide a platform for the development of effective treatments.","Demographic Categories of Interest
+Geography","Data Set Used
+Registered Tier","Research Team
+Owner:
+Benjamin King
+- Early Career Tenure-track Researcher, University of Maine"
+Aevus Precision Rx,"Aevus is engineering a ML -powered Prescription Guidance Platform - Aevus Precision Rx for Endocrinologists/PCPs to tailor prescriptions for Type 2 diabetes patients. In doing so, Aevus intends to improve T2D drug outcomes, reduce medication switching and lower treatment costs.…","Scientific Questions Being Studied
+Aevus is engineering a ML -powered Prescription Guidance Platform - Aevus Precision Rx for Endocrinologists/PCPs  to tailor prescriptions for Type 2 diabetes patients. In doing so, Aevus intends to improve T2D  drug outcomes, reduce medication switching and lower treatment costs. There are 11 drug classes used to treat T2D with over 100 different medications for a doctor to choose from prior to prescribing a treatment plan to a patient. The doctor is thus faced with a problem of plenty - On average, it takes an Endocrinologist/PCP 18-24 months to arrive at a stable drug compound and dosage of that compound to treat a T2D patient. A portion of the astronomical health care spending also goes into treating Adverse Drug Reactions, which are frequent and drain the health system of $3.5 B annually. Precision Rx will act as a real-time point-of-care clinical decision support tool that will interface as a software between the physician and the EHR.","Project Purpose(s)
+Disease Focused Research (Type 2 Diabetes)
+Methods Development
+Control Set","Scientific Approaches
+Approach: 1) Initial data exploration through visualizations of variable distributions in relation to frequency among Diabetes Type 2 patients, as well as medications, 2) Statistical testing of variables for significance in regards to outcome that includes correlation, covariance, univariate linear regressions, univariate logistic regressions, multivariate linear and logistic regressions including lasso regularization, and Bayesian model averaging. 3) Evaluation and scaled significance of variable interactions from statistical testing in respect to the outcome,  4) First testing of prototype machine learning models and evaluation of models against a benchmark for performance, 5) Model selection narrowed to a narrow subset of machine learning algorithms, 6) Testing of combinations of top significant variables found during statistical exploration in the chosen model in order to determine the final set of input predictors, 7) Tuning of final prediction model.","Anticipated Findings
+The goal of our modelling outcome is to generate a scale that will rank the 11 drug classes used to treat Type 2 Diabetes in decreasing order of potential toxicity to the patient. The above mentioned overarching ML model will comprise of several sub-ML models, the ensemble of which will produce an umbrella model that can rank all the drug classes. Each sub-model will tackle the question of 'Is drug class X suitable for unique patient XYZ or not?'. Precision Rx is intended to be a tool that can easily integrate into the existing clinical workflow of a physician with minimal change to their routine. There have been some advancements in the space of automated clinical decision support for Type 2 Diabetes in the past - tools like Epocrates have EHR integration capabilities that allow for physicians to make more accurate prescription decisions based purely off ADA guidelines. These are thus static tools that are not making use of EHR and Big Data Analysis to make a more data-driven decision","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Nayyar Ahmed
+- Other, University of Pittsburgh"
+Duplicate of Demo - Medication Sequencing,"1- What are the main prescribed medication sequences that participants with type 2 diabetes and depression took over three years of treatment? In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have…","Scientific Questions Being Studied
+1- What are the main prescribed medication sequences that participants  with  type 2 diabetes and depression took over three years of treatment?
+In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have T2D and depression codes. We retrieved medications prescribed after the first diagnosis code for each disease. We represented the medications using their ATC 4th level.
+2- What is the most common first anti-diabetic and anti-depressant that were prescribed for All of Us participants? We extracted the first medications prescribed to treat T2D and depression. We identified the most common first medication with the highest number of participants.
+3- Is there a change in the percentages of participants who were prescribed first common medication, treated using one medication, treated only using one common medication between 2000-2018?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes, depression)
+Other Purpose (This work is a result of an All of Us Research Program Demonstration Project. The projects are efforts by the Program designed to meet the program's goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. This work was reviewed and overseen by the All of Us Research Program Science Committee and the Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use.)","Scientific Approaches
+In this project, we plan on using the medication sequencing developed at Columbia University and the OHDSI network as a means to characterize treatment pathways at scale. Further, we want to demonstrate implementation of these medication sequencing algorithms in the All of Us research dataset to show how the various sources of data contained within the program can be used to characterize treatment pathways at scale. We will perform separate medication sequence analyses for three different common, complex diseases: type 2 diabetes, depression
+1- Data manipulation
+Using python and BigQuery to:
+A- Retrieve medication and their classes
+B-Create the medications sequences
+2- Visualization:
+A- Creating sunburst to visualize the sequences
+B- Plotting the percentages of participants the first common medication and one medication during three years","Anticipated Findings
+For this study, we anticipate demonstrating the validity of the data by showing expected treatment patterns despite gathering data from over 30 individual EHR sites. Specifically, we expect to find:
+1- Variation in the medication sequences prescribed to treat All of Us participants who had type 2 diabetes and depression.
+2- The most common medication used to treat participants as first line treatment with type 2 diabetes and depression diagnosis.
+3- A trend or change over time of prescribing the first common medication over the study period
+4- Trend overtime for the percentage of participants
+Importantly, the detailed code developed herein is made available within the Researcher Workbench to researchers, so that they may more easily extract medication data and class information using a common medication ontology, an approach useful in many discovery studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Vojtech Huser
+- Other, National Institutes of Health (NIH)"
+Duplicate of Demo - Medication Sequencing,"1- What are the main prescribed medication sequences that participants with type 2 diabetes and depression took over three years of treatment? In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have…","Scientific Questions Being Studied
+1- What are the main prescribed medication sequences that participants  with  type 2 diabetes and depression took over three years of treatment?
+In this questions, we are extracting the anti-diabetes and anti-depressant medications used to to treated participants who have T2D and depression codes. We retrieved medications prescribed after the first diagnosis code for each disease. We represented the medications using their ATC 4th level.
+2- What is the most common first anti-diabetic and anti-depressant that were prescribed for All of Us participants? We extracted the first medications prescribed to treat T2D and depression. We identified the most common first medication with the highest number of participants.
+3- Is there a change in the percentages of participants who were prescribed first common medication, treated using one medication, treated only using one common medication between 2000-2018?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes, depression)
+Other Purpose (This work is a result of an All of Us Research Program Demonstration Project. The projects are efforts by the Program designed to meet the program's goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. This work was reviewed and overseen by the All of Us Research Program Science Committee and the Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use.)","Scientific Approaches
+In this project, we plan on using the medication sequencing developed at Columbia University and the OHDSI network as a means to characterize treatment pathways at scale. Further, we want to demonstrate implementation of these medication sequencing algorithms in the All of Us research dataset to show how the various sources of data contained within the program can be used to characterize treatment pathways at scale. We will perform separate medication sequence analyses for three different common, complex diseases: type 2 diabetes, depression
+1- Data manipulation
+Using python and BigQuery to:
+A- Retrieve medication and their classes
+B-Create the medications sequences
+2- Visualization:
+A- Creating sunburst to visualize the sequences
+B- Plotting the percentages of participants the first common medication and one medication during three years","Anticipated Findings
+For this study, we anticipate demonstrating the validity of the data by showing expected treatment patterns despite gathering data from over 30 individual EHR sites. Specifically, we expect to find:
+1- Variation in the medication sequences prescribed to treat All of Us participants who had type 2 diabetes and depression.
+2- The most common medication used to treat participants as first line treatment with type 2 diabetes and depression diagnosis.
+3- A trend or change over time of prescribing the first common medication over the study period
+4- Trend overtime for the percentage of participants
+Importantly, the detailed code developed herein is made available within the Researcher Workbench to researchers, so that they may more easily extract medication data and class information using a common medication ontology, an approach useful in many discovery studies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Vojtech Huser
+- Other, National Institutes of Health (NIH)"
+Hypertension Cost Effectiveness,We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used)…,"Scientific Questions Being Studied
+We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used) representing a significant economic burden on both individuals and society. However, there are many guidelines spanning different countries, associations, and organizations which often recommend multiple drug classes even in the case of another existing condition (e.g. type 2 diabetes). We want to use real world evidence to conduct cost effectiveness analysis to improve the existing guidelines.","Project Purpose(s)
+Disease Focused Research (essential hypertension)
+Population Health
+Drug Development
+Methods Development","Scientific Approaches
+We plan to use the electronic health records (EHR) data as real world evidence to conduct a cost-effectiveness analysis. Specifically, we will get the EHR of all individuals who have been diagnosed with hypertension and are first time users of antihypertensive monotherapies. We will then match the cohorts with propensity score matching and conduct cost-effectiveness analysis on all pairwise combinations of drugs with respect to a number of outcomes including: QALY and ICER.","Anticipated Findings
+We anticipate that for most disease/secondary outcomes there is no major difference between different classes or active ingredients of antihypertensives especially for the short term outcome of 5 years. With our findings, we will be able to suggest changes to the existing hypertension prescription guidelines for different races, sexes, ages, preexisting diseases (e.g. chronic kidney disease, type 2 diabetes, etc.) which we hope will have a positive impact on healthcare.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Douglas Arneson
+- Research Fellow, University of California, San Francisco"
+Hypertension Cost Effectiveness,We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used)…,"Scientific Questions Being Studied
+We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used) representing a significant economic burden on both individuals and society. However, there are many guidelines spanning different countries, associations, and organizations which often recommend multiple drug classes even in the case of another existing condition (e.g. type 2 diabetes). We want to use real world evidence to conduct cost effectiveness analysis to improve the existing guidelines.","Project Purpose(s)
+Disease Focused Research (essential hypertension)
+Population Health
+Drug Development
+Methods Development","Scientific Approaches
+We plan to use the electronic health records (EHR) data as real world evidence to conduct a cost-effectiveness analysis. Specifically, we will get the EHR of all individuals who have been diagnosed with hypertension and are first time users of antihypertensive monotherapies. We will then match the cohorts with propensity score matching and conduct cost-effectiveness analysis on all pairwise combinations of drugs with respect to a number of outcomes including: QALY and ICER.","Anticipated Findings
+We anticipate that for most disease/secondary outcomes there is no major difference between different classes or active ingredients of antihypertensives especially for the short term outcome of 5 years. With our findings, we will be able to suggest changes to the existing hypertension prescription guidelines for different races, sexes, ages, preexisting diseases (e.g. chronic kidney disease, type 2 diabetes, etc.) which we hope will have a positive impact on healthcare.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Douglas Arneson
+- Research Fellow, University of California, San Francisco"
+Hypertension Cost Effectiveness,We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used)…,"Scientific Questions Being Studied
+We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used) representing a significant economic burden on both individuals and society. However, there are many guidelines spanning different countries, associations, and organizations which often recommend multiple drug classes even in the case of another existing condition (e.g. type 2 diabetes). We want to use real world evidence to conduct cost effectiveness analysis to improve the existing guidelines.","Project Purpose(s)
+Disease Focused Research (essential hypertension)
+Population Health
+Drug Development
+Methods Development","Scientific Approaches
+We plan to use the electronic health records (EHR) data as real world evidence to conduct a cost-effectiveness analysis. Specifically, we will get the EHR of all individuals who have been diagnosed with hypertension and are first time users of antihypertensive monotherapies. We will then match the cohorts with propensity score matching and conduct cost-effectiveness analysis on all pairwise combinations of drugs with respect to a number of outcomes including: QALY and ICER.","Anticipated Findings
+We anticipate that for most disease/secondary outcomes there is no major difference between different classes or active ingredients of antihypertensives especially for the short term outcome of 5 years. With our findings, we will be able to suggest changes to the existing hypertension prescription guidelines for different races, sexes, ages, preexisting diseases (e.g. chronic kidney disease, type 2 diabetes, etc.) which we hope will have a positive impact on healthcare.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Douglas Arneson
+- Research Fellow, University of California, San Francisco"
+Hypertension Cost Effectiveness,We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used)…,"Scientific Questions Being Studied
+We want conduct an exhaustive cost-effectiveness analysis on all antihypertensive drugs across a variety of outcomes to be able to suggest modified prescription guidelines. Hypertension affects 30-45% of adults in the United States (depending on the definition of hypertension used) representing a significant economic burden on both individuals and society. However, there are many guidelines spanning different countries, associations, and organizations which often recommend multiple drug classes even in the case of another existing condition (e.g. type 2 diabetes). We want to use real world evidence to conduct cost effectiveness analysis to improve the existing guidelines.","Project Purpose(s)
+Disease Focused Research (essential hypertension)
+Population Health
+Drug Development
+Methods Development","Scientific Approaches
+We plan to use the electronic health records (EHR) data as real world evidence to conduct a cost-effectiveness analysis. Specifically, we will get the EHR of all individuals who have been diagnosed with hypertension and are first time users of antihypertensive monotherapies. We will then match the cohorts with propensity score matching and conduct cost-effectiveness analysis on all pairwise combinations of drugs with respect to a number of outcomes including: QALY and ICER.","Anticipated Findings
+We anticipate that for most disease/secondary outcomes there is no major difference between different classes or active ingredients of antihypertensives especially for the short term outcome of 5 years. With our findings, we will be able to suggest changes to the existing hypertension prescription guidelines for different races, sexes, ages, preexisting diseases (e.g. chronic kidney disease, type 2 diabetes, etc.) which we hope will have a positive impact on healthcare.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Douglas Arneson
+- Research Fellow, University of California, San Francisco"
+Distress and T2D,"Depression, anxiety, and other forms of mental distress are frequently co-morbid with type 2 diabetes. Are there common risk factors between the two?","Scientific Questions Being Studied
+Depression, anxiety, and other forms of mental distress are frequently co-morbid with type 2 diabetes. Are there common risk factors between the two?","Project Purpose(s)
+Disease Focused Research (type 2 diabetes mellitus)","Scientific Approaches
+Comparison demographics and medications of individuals diagnosed with type 2 diabetes with and without mental distress.","Anticipated Findings
+If we know that someone is at risk for mental distress, we might be able to provide increased support to mitigate the effects.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sara Taylor
+- Research Fellow, Massachusetts Institute of Technology"
+hma4,"Diabetes, cardiovascualar diseases and dementia are the major challenges to human health, which are determined by genetic susceptibility, environmental risk factors, and their interactions. However, the evidence on the G×E (genetic facotrs* environmental factors) interaction and unconfounded estimates of a…","Scientific Questions Being Studied
+Diabetes, cardiovascualar diseases and dementia are the major challenges to human health, which are determined by genetic susceptibility, environmental risk factors, and their interactions. However, the evidence on the G×E (genetic facotrs* environmental factors) interaction and unconfounded estimates of a modifiable exposure is still laking. This study plan aim to investigate whether modifiable factors for such disease may interact with the genetic variations in relation to risks of diabetes, cardiovascualar diseases and dementia.","Project Purpose(s)
+Disease Focused Research (cardiovascualr diseases, diabetes and dementia)
+Population Health
+Social / Behavioral
+Educational
+Drug Development
+Methods Development
+Control Set
+Ancestry
+Commercial
+Ethical, Legal, and Social Implications (ELSI)","Scientific Approaches
+Datasets: all the genotype and phenotype related datasets
+Reseach method:I plan to use G×E interaction , COX model, Losigical model in my study.
+Tools: R.
+Scientific question: whether modifiable factors could modify the association between genetic risk and  disease risks (Diabetes, cardiovascualar diseases and dementia)","Anticipated Findings
+Some individual environmental fators or an overall modifiable-risk-factor profile may modify the association between genetic risk and disease risk.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Hao Ma
+- Research Fellow, Tulane University"

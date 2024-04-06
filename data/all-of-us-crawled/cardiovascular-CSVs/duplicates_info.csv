@@ -1,0 +1,506 @@
+Index_1,Index_2,Similarity,Title_1,Title_2
+3,439,0.9513431394822679,"Safety and Effectiveness, CKD, SDOH of in chronic disease",Safety and Effectiveness of Anti-diabetes Medications
+4,15,1.0,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+5,303,0.9909867143450632,Common metabolic disease genetic association analysis (v7),Common metabolic disease genetic association analysis
+5,349,0.985756773801064,Common metabolic disease genetic association analysis (v7),Duplicate of Common metabolic disease genetic association analysis
+6,158,0.9901409789796745,FH and ancestry,FH and ancestry - All variants
+17,67,0.9165442122918297,Young_test,CMD medication adherence
+19,40,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,41,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,71,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,79,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,98,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+19,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+19,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+19,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+19,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+19,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+20,280,0.9220134877204974,AS_Duplicate SNP Watchers,DUPLICATE of SNP Watchers for Anna
+21,246,0.9564696305715117,SNPs Watchers,Duplicate of SNPs Watchers for Veronica
+22,61,0.9884993277957373,Duplicate of Multiple Myeloma,Multiple Myeloma
+23,24,0.9071327651738644,Young ASCVD,ASCVD ~ Social Determinants of Health
+23,62,0.932727882835887,Young ASCVD,ASCVD Project
+24,62,0.9310761306796292,ASCVD ~ Social Determinants of Health,ASCVD Project
+35,361,0.9911686523251356,Pulmonary Hypertension Research,Pulmonary Hypertension
+36,342,0.9940116243534413,HSLS MolBio Genomics Workshop,Duplicate of HSLS MolBio Genomics Workshop
+40,41,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,71,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,79,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,98,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+40,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+40,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+40,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+40,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+40,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+41,71,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,79,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,98,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+41,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+41,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+41,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+41,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+41,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+44,376,0.9697070707520096,Social and biological determinants of cardiovascular disease v7,Social and biological determinants of cardiovascular disease v6
+44,458,0.9798187566956679,Social and biological determinants of cardiovascular disease v7,Duplicate of Social and biological determinants of cardiovascular disease
+44,476,0.9871791997078515,Social and biological determinants of cardiovascular disease v7,Social and biological determinants of cardiovascular disease
+47,48,0.9481673474262664,NHPI cardiometabolic workspace,NHPI Cardiovascular Disease Workspace
+47,115,0.9458725196679291,NHPI cardiometabolic workspace,NHPI cardiovascular disease risk workspace
+48,115,0.997301578816004,NHPI Cardiovascular Disease Workspace,NHPI cardiovascular disease risk workspace
+52,126,0.928903497694516,Epidemiology of Inflammatory Skin Conditions v7,Epidemiology of Inflammatory Skin Disease v7 CT
+52,199,0.9750923352195711,Epidemiology of Inflammatory Skin Conditions v7,Duplicate of Epidemiology of Inflammatory Skin Conditions v7 Template
+64,250,0.9494524306208934,Gout by Ethnicity,BJ_Epidemiology of Gout
+64,306,0.9556654977296104,Gout by Ethnicity,Duplicate of Epidemiology of Gout
+64,307,0.9490503174290921,Gout by Ethnicity,Epidemiology of Gout v6
+64,459,0.9629900864106333,Gout by Ethnicity,Epidemiology of Gout
+71,79,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,98,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+71,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+71,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+71,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+71,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+71,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+79,98,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+79,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+79,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+79,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+79,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+79,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+84,284,1.0000000000000002,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities v2,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities v2
+84,486,0.9801919370576962,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities v2,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities
+87,237,0.9957879042701842,Duplicate of HRV + Physical Activity v3,HRV + Physical Activity v3
+87,271,0.9804147744733848,Duplicate of HRV + Physical Activity v3,HRV + Physical Activity
+90,106,0.9090049085930358,"Duplicate of NHPI Lab Workspace (A.O. 1/2, v4, USE THIS)","NHPI Lab Workspace (A.O. 10/13, v3, USE THIS)"
+90,395,0.909663676430268,"Duplicate of NHPI Lab Workspace (A.O. 1/2, v4, USE THIS)",HDL & CVD in NHPI
+93,225,0.9733736034739119,HDL & CVD in NHPI - Dataset v7 - Version 2,HDL & CVD in NHPI - Dataset v7
+93,249,0.9674402461764312,HDL & CVD in NHPI - Dataset v7 - Version 2,Duplicate of HDL & CVD in NHPI - Dataset v7
+93,395,0.9530831578510569,HDL & CVD in NHPI - Dataset v7 - Version 2,HDL & CVD in NHPI
+96,127,0.9729572070667419,"Duplicate of Sleep, exercise and cardiovascular outcomes_SA","Duplicate of Sleep, exercise and cardiovascular outcomes"
+98,104,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+98,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+98,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+98,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+98,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+98,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+102,103,1.0000000000000002,Comorbidities associated with White Blood Cell Disorders,Comorbidities associated with White Blood Cell Disorders
+104,155,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+104,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+104,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+104,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+104,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+104,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+107,111,0.985102453570984,Duplicate of Gene Burden,Gene Burden
+110,188,0.9072219594938667,Jackson BMIF 6300,Guardo BMIF 6300 class
+110,189,0.902928879679529,Jackson BMIF 6300,Shi BMIF 6300 HW
+110,205,0.9109800205990585,Jackson BMIF 6300,Shi BMIF 6300 Class
+110,208,0.9072219594938667,Jackson BMIF 6300,Dutta BMIF 6300 Class
+112,296,0.9999999999999998,Clonal Hematopoiesis,Clonal Hematopoiesis
+116,222,0.9407957016394141,Data inventory exploration Dataset v6,"Data inventory exploration, including genetic data (v5)"
+116,223,0.964541915873353,Data inventory exploration Dataset v6,Data inventory exploration Dataset v5
+116,539,0.9746588898581473,Data inventory exploration Dataset v6,Data inventory exploration
+117,265,0.9670778882078964,BP_PRS_UPDATED,Blood Pressure Polygenic Risk Score
+118,482,0.9280888955005443,Detection of clonal hematopoiesis in 250k WGS [Dataset v7],Detection of clonal hematopoiesis of indeterminate potential (CHIP)
+121,256,0.994791034694652,Cardiometabolic (Genetic),Cardiometabolic
+123,131,0.9063233229300796,AllAboutFitbit_Controlled Tier,AllAboutFitbit
+126,199,0.9059465780884725,Epidemiology of Inflammatory Skin Disease v7 CT,Duplicate of Epidemiology of Inflammatory Skin Conditions v7 Template
+133,136,0.9868163506400907,Explore the potential mechanisms of noncoding variants in human diseases,Explore the potential mechanisms of noncoding variants in human diseases merge
+133,294,0.9868163506400907,Explore the potential mechanisms of noncoding variants in human diseases,Explore the potential mechanisms of noncoding variants in human diseases test08
+133,302,0.9868163506400907,Explore the potential mechanisms of noncoding variants in human diseases,Explore the potential mechanisms of noncoding variants in human diseases test98
+133,341,0.9912758994813924,Explore the potential mechanisms of noncoding variants in human diseases,Explore the potential mechanisms of noncoding variants in human diseases test
+133,344,0.9920644949623934,Explore the potential mechanisms of noncoding variants in human diseases,Explore the potential mechanisms of noncoding variants in human diseases new
+136,294,0.9738065098906256,Explore the potential mechanisms of noncoding variants in human diseases merge,Explore the potential mechanisms of noncoding variants in human diseases test08
+136,302,0.9738065098906256,Explore the potential mechanisms of noncoding variants in human diseases merge,Explore the potential mechanisms of noncoding variants in human diseases test98
+136,341,0.9782072656037004,Explore the potential mechanisms of noncoding variants in human diseases merge,Explore the potential mechanisms of noncoding variants in human diseases test
+136,344,0.9789854645183931,Explore the potential mechanisms of noncoding variants in human diseases merge,Explore the potential mechanisms of noncoding variants in human diseases new
+140,219,0.9734293586726771,PRS modeling,PRS modeling v7
+142,297,0.9783561673940986,2024 DIVERS pneumococcal <65y,Duplicate of DIVERS pneumococcal <65y
+142,298,0.982698691584006,2024 DIVERS pneumococcal <65y,DIVERS pneumococcal <65y
+145,197,0.9933709564611639,Duplicate of Communities of Color - UNCG,Communities of Color - UNCG
+149,393,0.9546023900931463,Cardiovascular disease risk factors in schizophrenia patients,Metabolic syndrome in people with schizophrenia
+152,176,0.9372579971589251,CVD Risk Factor Profiles Tier 5 (Workspace updated 2022),CVD Risk Factor Profiles
+153,206,0.9202916577869565,Lee_BMIF_6300_Class,TSAI_BMIF_6300_Class
+155,178,0.9509689655140732,Duplicate of Demo - Hypertension Prevalence,Explore Hypertension Data
+155,179,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+155,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+155,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+155,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+155,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+161,412,0.9955197663745792,Duplicate of Investigating cardiovascular health disparities among SGM adults,Investigating cardiovascular health disparities among SGM adults
+165,360,0.9319026975871223,Cardiovascular disease and related traits Polygenic risk scores Validation_v3,Cardiovascular disease and related traits Polygenic risk scores Validation_V2
+165,380,0.9424424990265347,Cardiovascular disease and related traits Polygenic risk scores Validation_v3,Cardiovascular disease and related traits Polygenic risk scores Validation
+169,221,0.9769187151960739,NYUGSOM PMED Accelerometry,NYUGSOM PMED
+178,179,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,181,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,217,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,255,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,311,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,316,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,335,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,351,0.9382591397969534,Explore Hypertension Data,Demo - Hypertension Prevalence AoU
+178,398,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,496,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,508,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,513,0.9509689655140732,Explore Hypertension Data,Duplicate of Demo - Hypertension Prevalence
+178,547,0.9258847603333223,Explore Hypertension Data,D16_HTN_revision_after_code_review
+178,548,0.9258847603333223,Explore Hypertension Data,Revision_after_HTN_code_review
+178,549,0.9585229615868167,Explore Hypertension Data,Demo - Hypertension Prevalence
+179,181,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+179,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+179,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+179,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+179,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+180,382,0.9949408333112425,Duplicate of ECG for Monogeneic Arrythmias,ECG for Monogeneic Arrythmias
+181,217,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+181,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+181,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+181,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+181,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+183,190,0.9702482497957177,ThereEmma,Duplicate of ThereEmma_ST
+185,325,1.0,v7.2 Cardiac comorbidites of inflammatory skin conditions,v7.1 Cardiac comorbidites of inflammatory skin conditions
+185,332,1.0,v7.2 Cardiac comorbidites of inflammatory skin conditions,v7 Cardiac comorbidites of inflammatory skin conditions
+185,333,0.9735455974467859,v7.2 Cardiac comorbidites of inflammatory skin conditions,Duplicate of v6 Cardiac comorbidites of inflammatory skin conditions
+185,334,0.9909169681914816,v7.2 Cardiac comorbidites of inflammatory skin conditions,Cardiac comorbidites of inflammatory skin conditions
+187,202,0.9417959005995049,dup3Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe2 of Detection of Gene-Environment Interactions for Complex Diseases (v7)
+187,203,0.9417959005995049,dup3Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe1 of  Detection of Gene-Environment Interactions for Complex Diseases (v7)
+187,229,0.9597432427005248,dup3Detection of Gene-Environment Interactions for Complex Diseases (v7),Duplicate Detection of Gene-Environment Interactions for Complex Diseases (v7)
+187,240,0.9422330367356392,dup3Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe Detection of Gene-Environment Interactions for Complex Diseases (v7)
+188,205,0.9345316553088342,Guardo BMIF 6300 class,Shi BMIF 6300 Class
+188,208,0.9306764367683914,Guardo BMIF 6300 class,Dutta BMIF 6300 Class
+189,205,0.9478639269526986,Shi BMIF 6300 HW,Shi BMIF 6300 Class
+193,248,0.9937566940158534,Duplicate of Duplicate of Extending Polygenic Risk Scores for Unique Phenotypes,Duplicate of Extending Polygenic Risk Scores for Unique Phenotypes
+193,375,0.9741504429874352,Duplicate of Duplicate of Extending Polygenic Risk Scores for Unique Phenotypes,Extending Polygenic Risk Scores for Unique Phenotypes
+195,196,0.9951210968257618,MENA health disparities,Duplicate of MENA health disparities
+201,211,0.9953036672368876,Duplicate of Fitbit Data and Cardiovascular Morbidity/Mortality,Fitbit Data and Cardiovascular Morbidity/Mortality
+202,203,0.9555147188774334,Dupe2 of Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe1 of  Detection of Gene-Environment Interactions for Complex Diseases (v7)
+202,229,0.9724436376576289,Dupe2 of Detection of Gene-Environment Interactions for Complex Diseases (v7),Duplicate Detection of Gene-Environment Interactions for Complex Diseases (v7)
+202,240,0.9547017170823767,Dupe2 of Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe Detection of Gene-Environment Interactions for Complex Diseases (v7)
+203,229,0.9724436376576289,Dupe1 of  Detection of Gene-Environment Interactions for Complex Diseases (v7),Duplicate Detection of Gene-Environment Interactions for Complex Diseases (v7)
+203,240,0.9547017170823767,Dupe1 of  Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe Detection of Gene-Environment Interactions for Complex Diseases (v7)
+205,208,0.9345316553088342,Shi BMIF 6300 Class,Dutta BMIF 6300 Class
+217,255,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+217,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+217,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+217,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+217,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+222,223,0.9754871366664581,"Data inventory exploration, including genetic data (v5)",Data inventory exploration Dataset v5
+222,539,0.9652563696170035,"Data inventory exploration, including genetic data (v5)",Data inventory exploration
+223,539,0.9689652474452453,Data inventory exploration Dataset v5,Data inventory exploration
+225,249,0.9939043371668347,HDL & CVD in NHPI - Dataset v7,Duplicate of HDL & CVD in NHPI - Dataset v7
+225,395,0.9791545142066318,HDL & CVD in NHPI - Dataset v7,HDL & CVD in NHPI
+229,240,0.9729673894528331,Duplicate Detection of Gene-Environment Interactions for Complex Diseases (v7),Dupe Detection of Gene-Environment Interactions for Complex Diseases (v7)
+232,518,0.9746515796429841,Duplicate of Duplicate of CMD Disparities Health and Place,CMD Disparities Health and Place
+234,247,0.9663674088202109,Vision Urbana- SI,Vision Urbana
+237,271,0.9843802662949527,HRV + Physical Activity v3,HRV + Physical Activity
+241,242,0.971811637407631,CHIP controlled,CHIP explore
+245,254,0.9945217673354493,Duplicate of ML Approaches for HDL in NHPI,ML Approaches for HDL in NHPI
+248,375,0.9932719778153549,Duplicate of Extending Polygenic Risk Scores for Unique Phenotypes,Extending Polygenic Risk Scores for Unique Phenotypes
+249,395,0.9732554696162943,Duplicate of HDL & CVD in NHPI - Dataset v7,HDL & CVD in NHPI
+250,306,0.953714618526951,BJ_Epidemiology of Gout,Duplicate of Epidemiology of Gout
+250,307,0.9455135024242801,BJ_Epidemiology of Gout,Epidemiology of Gout v6
+250,459,0.9594013222275823,BJ_Epidemiology of Gout,Epidemiology of Gout
+251,253,0.9068194819949935,Duplicate of PTSD and CVD Risk July '23,PTSD and CVD Risk (hsCRP)
+251,505,0.9350565017802608,Duplicate of PTSD and CVD Risk July '23,PTSD AND CVD
+253,505,0.9646495943535351,PTSD and CVD Risk (hsCRP),PTSD AND CVD
+255,311,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+255,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+255,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+255,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+255,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+261,262,1.0000000000000004,Phenome-wide association study of Sleep Deprivation,Phenome-wide association study of Sleep deprivation
+272,318,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+272,319,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+272,442,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+272,444,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+272,483,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+272,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+273,466,0.993280646942528,Duplicate of NHPI Blood Pressure GWAS,NHPI Blood Pressure GWAS
+279,434,0.9210812449361581,Duplicate of FH & ASCVD Risk,Duplicate of FH & ASCVD Risk 11.22.22
+279,471,0.9960133211529436,Duplicate of FH & ASCVD Risk,FH & ASCVD Risk
+281,420,0.9933762566954244,Duplicate of Cardiovascular disease and Type 2 Diabetes Mellitus,Cardiovascular disease and Type 2 Diabetes Mellitus
+284,486,0.9801919370576962,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities v2,Trajectories of Cardiovascular Risk Among Sexual and Gender Minorities
+285,479,0.9999999999999999,Social Determinates of Health and Cardiovascular Disease Risk,Social Determinates of Health and Cardiovascular Disease Risk
+287,368,0.9139433962328521,genetic-replication-r7,genetic-replication-r6
+287,421,0.9139433962328521,genetic-replication-r7,genetic-replication-r5
+290,433,0.9795459887354768,Naxerova Lab Cardiovascular Disease Evolution (v7 dataset),Naxerova Lab Cardiovascular Disease Evolution (v6 dataset)
+290,478,0.9749808056012723,Naxerova Lab Cardiovascular Disease Evolution (v7 dataset),Naxerova Lab Cardiovascular Disease Evolution (v5 dataset)
+294,302,0.9738065098906256,Explore the potential mechanisms of noncoding variants in human diseases test08,Explore the potential mechanisms of noncoding variants in human diseases test98
+294,341,0.9782072656037004,Explore the potential mechanisms of noncoding variants in human diseases test08,Explore the potential mechanisms of noncoding variants in human diseases test
+294,344,0.9789854645183931,Explore the potential mechanisms of noncoding variants in human diseases test08,Explore the potential mechanisms of noncoding variants in human diseases new
+297,298,0.9955810217037048,Duplicate of DIVERS pneumococcal <65y,DIVERS pneumococcal <65y
+302,341,0.9782072656037004,Explore the potential mechanisms of noncoding variants in human diseases test98,Explore the potential mechanisms of noncoding variants in human diseases test
+302,344,0.9789854645183931,Explore the potential mechanisms of noncoding variants in human diseases test98,Explore the potential mechanisms of noncoding variants in human diseases new
+303,349,0.9947224917667483,Common metabolic disease genetic association analysis,Duplicate of Common metabolic disease genetic association analysis
+306,307,0.9795479438140523,Duplicate of Epidemiology of Gout,Epidemiology of Gout v6
+306,459,0.9939356657212541,Duplicate of Epidemiology of Gout,Epidemiology of Gout
+307,459,0.9855244937842524,Epidemiology of Gout v6,Epidemiology of Gout
+311,316,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+311,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+311,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+311,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+311,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+316,335,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+316,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+316,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+316,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+316,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+316,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+316,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+316,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+316,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+318,319,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+318,442,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+318,444,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+318,483,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+318,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+319,442,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+319,444,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+319,483,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+319,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+322,408,0.9711254866319475,Duplicate of Duplicate of Genetics of Bipolar Disorder and Comorbidities - v7,Duplicate of Genetics of Bipolar Disorder and Comorbidities - v6
+322,409,0.96753830722474,Duplicate of Duplicate of Genetics of Bipolar Disorder and Comorbidities - v7,Genetics of Bipolar Disorder and Comorbidities
+324,492,0.9513709786242484,AFib epidemiology (AOU v4),Duplicate of AFib epidemiology
+325,332,1.0,v7.1 Cardiac comorbidites of inflammatory skin conditions,v7 Cardiac comorbidites of inflammatory skin conditions
+325,333,0.9735455974467859,v7.1 Cardiac comorbidites of inflammatory skin conditions,Duplicate of v6 Cardiac comorbidites of inflammatory skin conditions
+325,334,0.9909169681914816,v7.1 Cardiac comorbidites of inflammatory skin conditions,Cardiac comorbidites of inflammatory skin conditions
+331,383,0.9742787490924814,Public Health Impact of Family History,Duplicate- Public Health Impact of Family History in Diverse Populations
+331,384,0.9742787490924814,Public Health Impact of Family History,Duplicate: Public Health Impact of Family History in Diverse Populations
+331,436,0.9999999999999997,Public Health Impact of Family History,Public Health Impact of Family History
+331,532,0.9762015993665292,Public Health Impact of Family History,Public Health Impact of Family Health History in Diverse Populations
+332,333,0.9735455974467859,v7 Cardiac comorbidites of inflammatory skin conditions,Duplicate of v6 Cardiac comorbidites of inflammatory skin conditions
+332,334,0.9909169681914816,v7 Cardiac comorbidites of inflammatory skin conditions,Cardiac comorbidites of inflammatory skin conditions
+333,334,0.9824693982419135,Duplicate of v6 Cardiac comorbidites of inflammatory skin conditions,Cardiac comorbidites of inflammatory skin conditions
+335,351,0.9707408782883155,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence AoU
+335,398,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+335,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+335,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+335,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+335,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+335,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+335,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+336,367,0.9949489947002539,Duplicate of Cardiovascular Risk in Long-Term Survivors of Breast Cancer,Cardiovascular Risk in Long-Term Survivors of Breast Cancer
+337,340,1.0000000000000002,OSA PRS,OSA PRS
+341,344,0.9834096245873993,Explore the potential mechanisms of noncoding variants in human diseases test,Explore the potential mechanisms of noncoding variants in human diseases new
+347,352,0.9251981160297414,Physical activity and risk factors_part5,Physical activity and risk factors_part4
+347,353,0.9251981160297414,Physical activity and risk factors_part5,Physical activity and risk factors_part3
+347,354,0.9251981160297414,Physical activity and risk factors_part5,Physical activity and risk factors_part2
+347,378,0.9566245184738448,Physical activity and risk factors_part5,Physical activity and risk factors
+351,398,0.9707408782883155,Demo - Hypertension Prevalence AoU,Duplicate of Demo - Hypertension Prevalence
+351,496,0.9707408782883155,Demo - Hypertension Prevalence AoU,Duplicate of Demo - Hypertension Prevalence
+351,508,0.9707408782883155,Demo - Hypertension Prevalence AoU,Duplicate of Demo - Hypertension Prevalence
+351,513,0.9707408782883155,Demo - Hypertension Prevalence AoU,Duplicate of Demo - Hypertension Prevalence
+351,547,0.906977980843993,Demo - Hypertension Prevalence AoU,D16_HTN_revision_after_code_review
+351,548,0.906977980843993,Demo - Hypertension Prevalence AoU,Revision_after_HTN_code_review
+351,549,0.9788593256479561,Demo - Hypertension Prevalence AoU,Demo - Hypertension Prevalence
+352,353,0.9251981160297414,Physical activity and risk factors_part4,Physical activity and risk factors_part3
+352,354,0.9251981160297414,Physical activity and risk factors_part4,Physical activity and risk factors_part2
+352,378,0.9566245184738448,Physical activity and risk factors_part4,Physical activity and risk factors
+353,354,0.9251981160297414,Physical activity and risk factors_part3,Physical activity and risk factors_part2
+353,378,0.9566245184738448,Physical activity and risk factors_part3,Physical activity and risk factors
+354,378,0.9566245184738448,Physical activity and risk factors_part2,Physical activity and risk factors
+355,460,0.9935781852729079,APOL1 pheWAS v7,APOL1 pheWAS
+356,370,0.9451052371507648,CHD PRS  & statin effectiveness on ASCVD (control tierV7),CHD Polygenic Risk Score  & statin effectiveness on ASCVD (control tierV6)
+356,400,0.9528763864399215,CHD PRS  & statin effectiveness on ASCVD (control tierV7),CHD Polygenic Risk Score  & statin effectiveness on ASCVD (control tier)
+357,363,0.9556095403662656,Duplicate of Duplicate of Surgical intervention in reducing CVD risks in OSA  v7,Duplicate of Surgical intervention in reducing CVD risks in OSA  - SA2 (v6)
+358,415,0.9911881539539035,Exploratory analysis of SUDEP biomarkers v7,Exploratory analysis of SUDEP biomarkers
+359,422,0.9832464067884741,admixed_prs_analysis V7,admixed_prs_analysis V6
+359,506,0.9929468564293181,admixed_prs_analysis V7,admixed_prs_analysis
+360,380,0.9424424990265349,Cardiovascular disease and related traits Polygenic risk scores Validation_V2,Cardiovascular disease and related traits Polygenic risk scores Validation
+368,421,0.9139433962328521,genetic-replication-r6,genetic-replication-r5
+370,400,0.975569320359778,CHD Polygenic Risk Score  & statin effectiveness on ASCVD (control tierV6),CHD Polygenic Risk Score  & statin effectiveness on ASCVD (control tier)
+376,458,0.9749768844763355,Social and biological determinants of cardiovascular disease v6,Duplicate of Social and biological determinants of cardiovascular disease
+376,476,0.982300955124447,Social and biological determinants of cardiovascular disease v6,Social and biological determinants of cardiovascular disease
+378,391,0.9235225972119963,Physical activity and risk factors,nl_cvd
+383,384,1.0000000000000002,Duplicate- Public Health Impact of Family History in Diverse Populations,Duplicate: Public Health Impact of Family History in Diverse Populations
+383,436,0.9742787490924814,Duplicate- Public Health Impact of Family History in Diverse Populations,Public Health Impact of Family History
+383,532,0.9911648011864733,Duplicate- Public Health Impact of Family History in Diverse Populations,Public Health Impact of Family Health History in Diverse Populations
+384,436,0.9742787490924814,Duplicate: Public Health Impact of Family History in Diverse Populations,Public Health Impact of Family History
+384,532,0.9911648011864733,Duplicate: Public Health Impact of Family History in Diverse Populations,Public Health Impact of Family Health History in Diverse Populations
+390,435,0.9591355190891202,SM APOE,APOE and hypercholesterol
+390,469,0.9546677024916915,SM APOE,Duplicate of APOE and hypercholesterol
+398,496,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+398,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+398,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+398,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+398,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+398,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+399,481,1.0000000000000002,Individual- and neighborhood-level chronic stressors and lipids,Individual- and neighborhood-level chronic stressors and lipids
+408,409,0.9802433031186932,Duplicate of Genetics of Bipolar Disorder and Comorbidities - v6,Genetics of Bipolar Disorder and Comorbidities
+413,488,0.9925771108914769,Duplicate of Platelet Signaling Pathways,Platelet Signaling Pathways
+422,506,0.9902306457006899,admixed_prs_analysis V6,admixed_prs_analysis
+425,428,0.9953145564821407,Duplicate of Family History of Chronic Conditions,Family History of Chronic Conditions
+431,455,0.9145549559123535,Assignment 1_Biomedical Informatics,Biomedical informatics assignment 1
+433,478,0.9717254838705145,Naxerova Lab Cardiovascular Disease Evolution (v6 dataset),Naxerova Lab Cardiovascular Disease Evolution (v5 dataset)
+434,471,0.9174091898205503,Duplicate of FH & ASCVD Risk 11.22.22,FH & ASCVD Risk
+435,469,0.9952881909622747,APOE and hypercholesterol,Duplicate of APOE and hypercholesterol
+436,532,0.9762015993665292,Public Health Impact of Family History,Public Health Impact of Family Health History in Diverse Populations
+441,445,0.9268119373111284,Controlled Tier CVD Study,CVD
+442,444,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+442,483,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+442,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+444,483,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+444,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+447,449,0.9106661995527516,BMIF-Cardiovascular disease,Cardiovascular risk score
+457,503,0.9541765033293815,Determinants of cardiovascular disease across minority populations V5,Determinants of cardiovascular disease across minority populations V4
+457,542,0.9776786728300024,Determinants of cardiovascular disease across minority populations V5,Determinants of cardiovascular disease across minority populations
+458,476,0.9925439646475923,Duplicate of Social and biological determinants of cardiovascular disease,Social and biological determinants of cardiovascular disease
+462,463,0.9955801231952347,Duplicate of Prevalence of Daily Step Counts in the United States,Prevalence of Daily Step Counts in the United States
+464,498,0.9489742693720228,Duplicate of Statin Usage (V6),Statin
+464,501,0.9768098297355703,Duplicate of Statin Usage (V6),Statin Usage
+483,491,1.0000000000000002,Duplicate of Demo - Cardiovascular Risk Scoring,Duplicate of Demo - Cardiovascular Risk Scoring
+484,487,0.9944319261198008,Duplicate of comorbidity,comorbidity
+496,508,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+496,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+496,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+496,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+496,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+498,501,0.9710505786442722,Statin,Statin Usage
+503,542,0.9759612537802513,Determinants of cardiovascular disease across minority populations V4,Determinants of cardiovascular disease across minority populations
+505,543,0.9033476803039233,PTSD AND CVD,Stephanie H. Cook - Project 1
+508,513,1.0000000000000002,Duplicate of Demo - Hypertension Prevalence,Duplicate of Demo - Hypertension Prevalence
+508,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+508,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+508,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+511,530,0.9971534291050624,SARS-CoV-2 infection Project,Duplicate of SARS-CoV-2 infection Project
+513,547,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,D16_HTN_revision_after_code_review
+513,548,0.9195819204574355,Duplicate of Demo - Hypertension Prevalence,Revision_after_HTN_code_review
+513,549,0.9917062164634677,Duplicate of Demo - Hypertension Prevalence,Demo - Hypertension Prevalence
+517,545,0.9928637768185032,Duplicate of ascvd_underrepresented,ascvd_underrepresented
+519,540,1.0000000000000002,Hypoglycemia in Non-Diabetics,Hypoglycemia in Non-Diabetics
+536,537,1.0000000000000002,Duplicate of Stephanie H. Cook - Project 1,Duplicate of Stephanie H. Cook - Project 1
+536,543,0.9925253575602857,Duplicate of Stephanie H. Cook - Project 1,Stephanie H. Cook - Project 1
+537,543,0.9925253575602857,Duplicate of Stephanie H. Cook - Project 1,Stephanie H. Cook - Project 1
+547,548,0.910807762933246,D16_HTN_revision_after_code_review,Revision_after_HTN_code_review
+547,549,0.9265662154708687,D16_HTN_revision_after_code_review,Demo - Hypertension Prevalence
+548,549,0.9265662154708687,Revision_after_HTN_code_review,Demo - Hypertension Prevalence

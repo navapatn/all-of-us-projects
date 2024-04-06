@@ -1,0 +1,40 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+Asthma and COPD Demonstration Project v5,"Asthma and Chronic Obstructive Pulmonary Disease (COPD) are the two most common respiratory diseases. Therefore, understanding the characteristics and frequency of participants with either of these diseases in the US by analyzing the All of Us database has public health…","Scientific Questions Being Studied
+Asthma and Chronic Obstructive Pulmonary Disease (COPD) are the two most common respiratory diseases. Therefore, understanding the characteristics and frequency of participants with either of these diseases in the US by analyzing the All of Us database has public health implications. We will analyze the relationship of diagnosis for each disease to known risk factors and covariates including gender, age, race, BMI, smoking status, level of education and common comorbidities.","Project Purpose(s)
+Disease Focused Research (Asthma, COPD)
+Other Purpose (This work is the result of an All of Us Research Program Demonstration Project. Demonstration Projects are efforts by the All of Us Research Program designed to meet the goal of ensuring the quality and utility of the Research Hub as a resource for accelerating precision medicine. This work has been approved, reviewed, and overseen by the All of Us Research Program Science Committee and Data and Research Center to ensure compliance with program policy.)","Scientific Approaches
+Standard statistical analysis will be used to determine the frequency of asthma or COPD diagnoses in the EHR and surveys in relationship to gender, age, BMI, race, educational status as a reflection of socioeconomic status (SES), regions of the country, co-morbidities and smoking status. Results will be compared to published data including the CDC. Since COPD is under diagnosed in the US, we will compare the demographics and health characteristics of participants with a significant history of smoking (but no diagnosis of COPD) to participants with a COPD diagnosis. In addition, we will examine the medication data in the EHR for comparison with the published guidelines for treatment of both of these diseases.","Anticipated Findings
+We anticipate a higher frequency of asthma in women compared men but that men are more likely to have reported that asthma started in childhood. In addition, we anticipate a higher frequency of asthma and less medication use in African-Americans compared to non-Hispanic whites. Since COPD is mainly due to cigarette smoking, we anticipate that participants with a diagnosis of COPD are more likely to be men of middle to older age with a significant history of tobacco exposure. In addition, we expect that a proportion of participants with a significant history of smoking will not have a diagnosis of COPD either by EHR or survey but may report symptoms of airways disease. Also, the degree of misclassification of the two diseases will be determined; for example, a young adult with a limited degree of tobacco exposure diagnosed as COPD is more likely to have asthma. In both diseases, we expect an increase frequency of common comorbidities including increased BMI.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Lisa White
+- Project Personnel, University of Arizona
+Collaborators:
+Deborah Meyers"
+Asthma and biomarkers,It is known that chronic inflammation and asthma are associated. This study is to explore the association between asthma condition and inflammation biomarkers.,"Scientific Questions Being Studied
+It is known that chronic inflammation and asthma are associated. This study is to explore the association between asthma condition and inflammation biomarkers.","Project Purpose(s)
+Disease Focused Research (asthma)","Scientific Approaches
+This study will use the AllofUS dataset with both asthma diagnosis and inflammation biomarkers measured.","Anticipated Findings
+We anticipate to identify significant association between asthma and certain kinds of biomarkers. This information might be useful to understand how asthma is related to inflammation status.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Liming Liang
+- Early Career Tenure-track Researcher, Mass General Brigham"
+MPerez Testing Workspace,"The use of electronic cigarettes (e-cigs) continues to be popular in the US, particularly among youth and currently, it is estimated that 28% of high school students use e-cigs regularly. The long-term consequences of e-cig use (""vaping"") are still not…","Scientific Questions Being Studied
+The use of electronic cigarettes (e-cigs) continues to be popular in the US, particularly among youth and currently, it is estimated that 28% of high school students use e-cigs regularly. The long-term consequences of e-cig use (""vaping"") are still not clear but recent research suggests that vaping is associated with asthma and COPD, particularly among subjects considered never smokers of conventional cigarettes. More recently, it has been suggested that vaping may be associated with a higher risk of COVID-19 and worse outcomes of this infection among vapers.
+Aim #1. To characterize the association vaping with asthma and asthma exacerbations among adults
+Aim #2. To characterize the association between vaping and COPD
+Aim #3. To identify vaping as a risk factor for worse outcomes among COVID-19 infected subjects.","Project Purpose(s)
+Disease Focused Research (Asthma, COPD, COVID-19)
+Population Health
+Social / Behavioral","Scientific Approaches
+We will compare the Odds of reporting asthma, COPD, and ER room visits among vapers compared to non-users. Similarly, we will study the association between vaping and COVID-19 infection.
+To perform our analysis we will use logistical and linear regression to adjust for other comorbidities, age, and other potential demographic characteristics as well as other pertinent behavioral traits.","Anticipated Findings
+This analysis will provide further evidence of higher odds of respiratory conditions typically associated with cigarette smoking such as COPD and other respiratory illnesses among subjects who vape. Furthermore, this study may provide evidence of an association between vaping and COVID-19 infection or outcomes from this infection.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mario Perez
+- Other, University of Connecticut Health"

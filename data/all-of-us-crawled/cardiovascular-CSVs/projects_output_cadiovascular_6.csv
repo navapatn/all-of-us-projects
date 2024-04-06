@@ -1,0 +1,817 @@
+title,main_goal_and_aims,Questions,Purpose,Approaches,Findings,Categories,DataTier,Team
+"Cardiovascular Signals - PPG, ECG, Blood Pressure","We would like to study the relationship between different cardiovascular signals (such as PPG, ECG, Blood Pressure, etc.) in a diverse cohort. The understanding gained in the study can guide the R&D of technologies to better utilize the data obtainable…","Scientific Questions Being Studied
+We would like to study the relationship between different cardiovascular signals (such as PPG, ECG, Blood Pressure, etc.) in a diverse cohort.
+The understanding gained in the study can guide the R&D of technologies to better utilize the data obtainable by convenient devices (such as smartphones and/or wearable devices) to provide accessible and affordable health screening.","Project Purpose(s)
+Methods Development","Scientific Approaches
+We will first understand the available datasets in All-of-Us and identify the suitable ones for our initial study.  We plan to use signal processing, data science, and machine learning techniques to understand the relations of different modalities of cardiovascular sensing data.","Anticipated Findings
+The understanding gained in the study can guide the R&D of technologies to better utilize the data obtainable by convenient devices (such as smartphones and/or wearable devices) to provide accessible and affordable health screening.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Min Wu
+- Mid-career Tenured Researcher, University of Maryland, College Park"
+Statin Usage,"Statins are a cornerstone of primary and secondary prevention of Atherosclerotic cardiovascular disease (ASCVD), the leading cause of mortality and disability in the United States. Despite the conclusive evidence to the reduction of mortality among ASCVD patients, adherence patterns to…","Scientific Questions Being Studied
+Statins are a cornerstone of primary and secondary prevention of Atherosclerotic cardiovascular disease (ASCVD), the leading cause of mortality and disability in the United States. Despite the conclusive evidence to the reduction of mortality among ASCVD patients, adherence patterns to this treatment remain alarmingly low with rates of discontinuity approaching 50% in the US population. Current research investigating this pattern have elucidated the impact of clinic-specific factors and patient-physician interactions, but these studies have been limited in generalizability as a result of operating in isolated health care systems. I seek to implement novel computational techniques to analyze patient record data en masse and to uncover the epidemiology of treatment adherence and to address unmet clinical needs of particularly vulnerable patient populations.","Project Purpose(s)
+Population Health","Scientific Approaches
+I will use machine learning algorithms to analyze electronic health records in the aggregate. This will allow the identification of patterns of treatment adherence for statin medication across the population.","Anticipated Findings
+Previous research has suggested that patient adherence is multilayer, affected by factors like differences in clinical systems, patient-physician interaction, and systemic inequality. However, the difficulty of parsing through unstructured clinical notes has reduced many study designs to look at single health care systems and introduce significant bias in the findings. This has limited a robust understanding of the epidemiology of statin use and have likely contributed to unmet clinical needs of patients particularly from high-risk and vulnerable communities. My work will fill gaps in the understanding of statin adherence to inform future policy changes and promote better access to care.","Demographic Categories of Interest
+Race / Ethnicity
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Gabriela Escobar
+- Undergraduate Student, Stanford University"
+OSA and comorbidities,"We are interested in the conditions that accompany obstructive sleep apnea (OSA). There are conditions that are risk factors for OSA, so we expect to see those prior to a diagnosis of the sleep problem. There are also many comorbidities…","Scientific Questions Being Studied
+We are interested in the conditions that accompany obstructive sleep apnea (OSA). There are conditions that are risk factors for OSA, so we expect to see those prior to a diagnosis of the sleep problem. There are also many comorbidities of OSA, such as cardiovascular disease, mental health problems, and diabetes. We believe that there may be mechanisms underlying OSA and these comorbidities that are present before diagnosis. We therefore want to look at when co-occurring conditions occur before and after a diagnosis of OSA. We also wish to assess those conditions in people without OSA as a comparison.","Project Purpose(s)
+Disease Focused Research (obstructive sleep apnea)","Scientific Approaches
+We will look at conditions relative to the date of diagnosis of OSA. We will assess the timeline of occurrence of events (diagnosis, survey, vital) relative to OSA, and assess the conditions that occur early, simultaneously or late. We will look at the conditions commonly associated with OSA (CV disease, mental health, etc) in people without indication of a sleep disorder, and see whether the timeline and severity differs with the OSA group.","Anticipated Findings
+We expect to see conditions occurring prior to a diagnosis of OSA. This would suggest 1) that we may be detecting OSA late, and that these conditions may be potentially able to help improve screening for OSA, and 2) we may identify possible underlying pathophysiology that could be present in OSA that is also contributing to other health problems.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Paul Macey
+- Mid-career Tenured Researcher, University of California, Los Angeles"
+Determinants of cardiovascular disease across minority populations V4,Cardiovascular disease (CVD) are responsible for a substantial proportion of the morbidity and mortality observed in the general population. Mounting evidence indicates that this impact disproportionately affects minority populations. This disproportionate effect is not only present in minorities defined by…,"Scientific Questions Being Studied
+Cardiovascular disease (CVD) are responsible for a substantial proportion of the morbidity and mortality observed in the general population. Mounting evidence indicates that this impact disproportionately affects minority populations. This disproportionate effect is not only present in minorities defined by race/ethnicity, but also in those defined by age, sexual orientation, and other characteristics.  The main questions of this study are: (1) can we use All of US to identify novel risk factors for cardiovascular disease that are specific to a given minority group? (2) Are existing  risk factors for CVD shared across all minority groups? (3) How do the effects of these risk factors vary when considering more than one minority group? These questions are important to (1) identify groups of persons at particularly high risk of sustaining these conditions that may benefit from tailored diagnostic and therapeutic interventions; and (2) identify new treatments for these conditions.","Project Purpose(s)
+Disease Focused Research (cardiovascular system disease)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will use the All of US dataset V4. We will identify variables that represent (1) cardiovascular disease (myocardial infarction, coronary artery disease, stroke); (2) all the known cardiovascular risk factors for each of these conditions; (3) physiological variables that either define a risk factor or are associated with risk of cardiovascular disease (blood pressure, cholesterol levels, hemoglobin A1C); (4) social determinants of health; and (5) identify the underrepresented groups of interest. We will use linear and logistic regression to test for association between cardiovascular risk factors, social determinants of health, and the conditions of interest, and product terms to test for effect modification between contributor variables.","Anticipated Findings
+We expect to find that: (1) a substantial number of the known vascular risk factors increase risk of cardiovascular disease across all evaluated groups; (2) both social determinants of health and known cardiovascular risk factors are independently associated with these cardiovascular conditions; and (3) there are interactions between the effect of social determinants of health and known cardiovascular risk factors. These findings will helps us to (1) identify groups of persons at particularly high risk of sustaining these conditions that may benefit from tailored diagnostic and therapeutic interventions; and (2) identify new treatments for these conditions.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Julian Acosta
+- Research Fellow, Yale University
+Guido Falcone
+- Early Career Tenure-track Researcher, Yale University
+Audrey Leasure
+- Graduate Trainee, Yale University
+Collaborators:
+Zachariah Demarais - Graduate Trainee, Yale University
+Daniela Renedo - Research Fellow, Yale University
+Cyprien Rivier - Research Fellow, Yale University
+Carolyn Conlon - Graduate Trainee, Yale University"
+Cardiovascular Disease Genetics,We hope to better understand who is at risk of cardiovascular disease and are currently exploring the available data in the All of Us program to identify potential research objectives that can be answered with this data set.,"Scientific Questions Being Studied
+We hope to better understand who is at risk of cardiovascular disease and are currently exploring the available data in the All of Us program to identify potential research objectives that can be answered with this data set.","Project Purpose(s)
+Disease Focused Research (cardiovascular system disease)
+Ancestry","Scientific Approaches
+We primarily perform genome-wide association studies to connect genetic variants with diseases and traits. For example, genetic variants can increase or decrease an individuals cholesterol levels compared to the population average.  Through the use of polygenic scores, these variants can be combined together to identify individuals most at risk of cardiovascular disease. Tools used include BOLT-LMM, SAIGE, and custom scripts (R/Python) to perform statistical analysis.","Anticipated Findings
+We anticipate identifying novel genetic variants associated with cardiovascular disease.  The end goal of these projects are to better understand the biology of cardiovascular disease and potentially develop new diagnostic methods or potential new therapeutic targets.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sarah Graham
+- Project Personnel, University of Michigan"
+PTSD AND CVD,"Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular…","Scientific Questions Being Studied
+Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular disparities exist among men, such that those who identify as sexual minorities are more likely to experience poor cardiovascular health as compared to heterosexuals. The objective of this proposal is to examine physiological and behavioral mechanisms linking self-reported PTSD to cardiovascular disease risk. We also would like to understand the moderating effect of race/ethnicity. The long-term objective of this research is to inform the creation of culturally relevant interventions to reduce the risk of CVD among YSMM. The proposed study specifically aims to:","Project Purpose(s)
+Disease Focused Research (CVD)
+Population Health
+Social / Behavioral","Scientific Approaches
+I will explore datasets that provide self report information on the constructs discussed above.
+1. Descriptive statistics. Descriptive statistics for all variables will be calculated. Distributional properties will be examined using summary statistics (e.g., mean, median, SD) and graphs (e.g., histograms and box plots). I will confirm psychometric properties (e.g., internal consistency) of all scales. All management, basic analyses, and assumption testing will be done in Stata 16.23 Hypothesis testing will be conducted in Mplus v8.24
+2. Multivariate linear regression (MLR) will be used to asses if PTSD predicts mean CVD risk.
+3. MLR will be used to assess if race/ethnicity moderated the association between PTSD and CVD risk.","Anticipated Findings
+the mechanisms linking PTSD and intermediate cardiovascular factors among racially diverse individuals remain under-explored.  Conducting this research is vitally important considering the heightened rates of both stress from discrimination and CVD  disease. Secondly,  understanding what the potential ""buffers"" are that mitigate the negative effects of PTSD on cardiovascular risk factors is critically important if we are going to create tailored interventions to reduce CVD.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Stephanie Cook
+- Early Career Tenure-track Researcher, New York University
+Collaborators:
+Catherine Xin - Graduate Trainee, New York University
+zhilin Wang - Project Personnel, New York University
+Chenziheng Weng - Graduate Trainee, New York University
+Erica Wood - Graduate Trainee, New York University"
+admixed_prs_analysis,"With ancestry-specific GWAS results for a variety of cardiovascular traits, we will develop PRSs with a variety of LD panels and test performance in African-ancestry, European-ancestry, and admixed ancestry groups. The primary goal will be to improve the performance of…","Scientific Questions Being Studied
+With ancestry-specific GWAS results for a variety of cardiovascular traits, we will develop PRSs with a variety of LD panels and test performance in African-ancestry, European-ancestry, and admixed  ancestry groups. The primary goal will be to improve the performance of PRSs in individuals of admixed ancestry.","Project Purpose(s)
+Methods Development","Scientific Approaches
+We will use All of Us genetic data to assess the performance of PRSs for a variety of cardiovascular diseases. We will use plink2 and R primarily.","Anticipated Findings
+We hope to find that the best performing PRSs for admixed individuals are scores built from diverse GWAS summary statistics. Our findings will contribute to the clinical utility of PRSs by determining best practices for building PRSs that can be used in individuals of multiple, or unknown genetic ancestry.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Sophia Gunn
+- Research Fellow, New York Genome Center"
+Folate and Heart disease,To evaluate the relationship between serum folate and heart diseases with special focus on myocardial infarction (heart attack). There is currently no consensus in the literature on the effect of elevated blood folate on cardiovascular disease outcomes. With the food…,"Scientific Questions Being Studied
+To evaluate the relationship between serum folate and heart diseases with special focus on myocardial infarction (heart attack). There is currently no consensus in the literature on the effect of elevated blood folate on cardiovascular disease outcomes. With the food fortification with folic acid mandate in the US, the average serum levels of folate has increased for not just women in their reproductive age but everyone in the US. There is a need to be sure of the effect of elevated folate on other health outcomes apart from neural tube defects. It is our hope that the relationship between folate and heart diseases will be better understood using the All of Us data for policy makers to re-evaluate the mandatory food fortification policy in the US.","Project Purpose(s)
+Disease Focused Research (Heart disease)","Scientific Approaches
+We will divide the serum folate variable into quartiles and use that as a predictor variable of myocardial infarction among the study participants. Both binary and multivariable logistic regression models will be used for this analysis.","Anticipated Findings
+It is our hope that the relationship between folate and heart diseases will be better understood using the All of Us data for policy makers to re-evaluate the mandatory food fortification policy in the US.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Felix Twum
+- Early Career Tenure-track Researcher, University of Southern Mississippi"
+Duplicate of Demo - Hypertension Prevalence,"We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical…","Scientific Questions Being Studied
+We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical approaches to understanding and treating hypertension may benefit from the integration of a precision medicine approach that integrates data on environments, social determinants of health, behaviors, and genomic factors that contribute to hypertension risk. Hypertension is a major public health concern and remains a leading risk factor for stroke and cardiovascular disease.","Project Purpose(s)
+Other Purpose (This work is an AoU demo project. Demo projects are efforts by the AoU Research Program designed to meet the program goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. As an approved demo project, this work was reviewed and overseen by the AoU Research Program Science Committee and the AoU Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use. )","Scientific Approaches
+In this cross-sectional, population-based study, we used All of Us baseline data from patient (age>18) provided information (PPI) surveys and electronic health record (EHR) blood pressure measurements and retrospectively examined the prevalence of hypertension in the EHR cohort using Systemized Nomenclature of Medicine (SNOMED codes and blood pressure medications recorded in the EHR.  We used the EHR data (SNOMED codes on 2 distinct dates and at least one hypertension medication) as the primary definition, and then add subjects with elevated systolic or elevated diastolic blood pressure on measurements 2 and 3 from PPI.   We extracted each participant’s detailed dates of SNOMED code for essential hypertension from the Researcher Workbench table ‘cb_search_all_events’. We calculated an age-standardized HTN prevalence according to the age distribution of the U.S. Census, using 3 groups (18-39, 40-59, ≥ 60).","Anticipated Findings
+The prevalence of hypertension in the All of Us cohort is similar to that of published literature. All of Us age-adjusted HTN prevalence was 27.9% compared to 29.6% in National Health and Nutrition Examination Survey. The All of Us cohort is a growing source of diverse longitudinal data that can be utilized to study hypertension nationwide. The prevalence of hypertension varies in the United States (U.S.) by age, sex, and socioeconomic status. Hypertension can often be treated successfully with medication, and prevented or delayed with lifestyle modifications. Even with these established hypertension intervention and prevention strategies, the prevalence of hypertension continues to be at levels of public health concern. The diversity within All of Us may provide insight into factors relevant to hypertension prevention and treatments in a variety of social and geographic contexts and population strata in the U.S.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Seungwon Yang
+- Early Career Tenure-track Researcher, Louisiana State University"
+VHD,"Our main objective is to identify determinants of valvular heart disease, a leading cause of cardiovascular morbidity worldwide.","Scientific Questions Being Studied
+Our main objective is to identify determinants of valvular heart disease, a leading cause of cardiovascular morbidity worldwide.","Project Purpose(s)
+Disease Focused Research (valvular heart disease)
+Population Health
+Social / Behavioral
+Drug Development
+Ancestry","Scientific Approaches
+To answer our scientific questions, we will perform secondary analyses of existing datasets.","Anticipated Findings
+We anticipate that our results will yield novel strategies to decrease the burden of valvular heart disease.","Demographic Categories of Interest
+Race / Ethnicity
+Geography
+Access to Care","Data Set Used
+Registered Tier","Research Team
+Owner:
+T.M. Ayodele Adesanya
+- Research Fellow, Ohio State University"
+cvd,"The goal of this research is to build a robust prediction model to accurately stratify high-risk populations of cardiovascular disease and explore the prediction risk on different subpopulations. We will incorporate the clinical variables, medication history, and social determinants into…","Scientific Questions Being Studied
+The goal of this research is to  build a robust prediction model to accurately stratify high-risk populations of cardiovascular disease and explore the prediction risk on different subpopulations. We will incorporate the clinical variables, medication history, and social determinants into the model. We have developed a pilot model on our own EHR at Vanderbilt University Medical Center. We wanted to validate the model on All of Us data. And we also want to explore if there are more social determinants features in All of Us data and how these social determinants features affect the model prediction.","Project Purpose(s)
+Disease Focused Research (cardiovascular disease)
+Social / Behavioral
+Methods Development","Scientific Approaches
+We will apply machine learning and deep learning models. The cohort will include all adults (age>=18) with a diagnosis of CVD (cases) and no diagnosis of CVD (matched controls). I will extract the demographic, vital signs, labs, diagnosis code, and medication history for the cohort. I will also look into the social determinants such as zip code, education, economic level, if possible.
+I will first validate the model that was previously trained on local EHR on All of -Us data to examine the performance of the model.
+I will also train a new model with any new features such as social determinants included in All of -Us data.
+I will explore the prediction performance of the model on different subgroups stratified by age, gender, race, and social determinants.","Anticipated Findings
+Our anticipated findings include, whether the machine learning model trained on local EHR can have a decent performance on All-of-data.
+Whether the prediction model has a bias on different subpopulations stratified by age, gender, race, and social determinants.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Juan Zhao
+- Other, Vanderbilt University Medical Center
+Collaborators:
+Patrick Wu - Graduate Trainee, Vanderbilt University"
+SARS-CoV-2 infection Project,The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes. The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes. The secondary hypothesis is that SARS-CoV-2 is a predisposing factor…,"Scientific Questions Being Studied
+The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes.  The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.  Moreover, the impact of SARS-CoV-2 will disproportionately impact underserved populations whom are at an increased risk for chronic conditions (e.g., diabetes, cardiovascular, pulmonary).","Project Purpose(s)
+Disease Focused Research (SARS-CoV-2)","Scientific Approaches
+We will explore associations between SARS-CoV-2 infections and the incidence of diabetes with a focus on underserved patient populations. This study will also explore other associations affecting the incidence of SARS-CoV-2 infections and co-morbidities. The analysis will employ exploratory methods of data analysis such as association plots, heatmaps, and descriptive statistics. Following the exploratory analysis, generalized linear models will explore the associations further while controlling for patient characteristics and other factors. Multiplicity corrections will control the incidence of type I errors and ensure replicability of research results.  The data will include information on past SARS-CoV-2 infections, type I and II diabetes, demographic characteristics, and other hormone/endocrine conditions, mental health or substance use conditions, and cancer. Data will be stratified to assess the change in risk of these conditions for underserved patient populations.","Anticipated Findings
+The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.","Demographic Categories of Interest
+Race / Ethnicity
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Leslie Flaco
+- Graduate Trainee, University of Texas at El Paso
+Eric Diaz
+- Undergraduate Student, University of Texas at El Paso
+Denisse Urenda
+- Graduate Trainee, University of Texas at El Paso
+Amy Wagler
+- Mid-career Tenured Researcher, University of Texas at El Paso
+Collaborators:
+ATIQUR CHOWDHURY - Graduate Trainee, University of Texas at El Paso"
+AD_breathing,The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common…,"Scientific Questions Being Studied
+The purpose is to 1) explore the available data in order to 2) investigate whether we can observe trends between respiratory diseases (e.g. sleep apnea) and the development of age-related cognitive impairment and Alzheimer's Disease (AD). Both have in common cardiovascular factors (e.g. high blood pressure, diabetes, cardiovascular events, such as stroke or heart attacks). If brain functioning is interrupted by abnormal blood flow, this might contribute to a faster decay with aging. The hypothesis is that respiratory problems can be observed first, followed by cardiovascular problems and that a subset of the population with these health problems will eventually develop AD. It is critical to explore this connection because it might lead to the investigation and development of preventative breathing interventions.","Project Purpose(s)
+Disease Focused Research (Respiratory conditions and the risk of Alzheimer's Disease)","Scientific Approaches
+First of all, my goal is to identify which variables could be useful for this purpose. For example, an important correlational analysis would be between the number of years since diagnosis of a respiratory disorder and the onset of mild cognitive impairment or AD. It is also of interest, what percentage of people with AD have a history of cardiovascular risk and/or breathing difficulties. For the participants that have not yet developed AD, it will be useful to understand whether they show the same or worse cognitive performance compared to people without this breathing disorder and whether this is still the case for those with breathing abnormalities AND cardiovascular risk.
+For this purpose, I will include data on age, cognitive function, cardiovascular health, breathing-related and cognitive impairment/AD diagnoses and the time and age of the diagnoses. Control variables will be sex, education, physical activity, socioeconomic background and potentially history of medication use.","Anticipated Findings
+I anticipate to find that compared to healthy controls, people with sleep apnea show reduced cognitive functioning. I anticipate this to worsen the longer they have suffered from sleep apnea. In addition, I expect that cardiovascular risk factors will further reduce cognitive functions. This effect may be ameliorated by people who are more physically active, have higher education and a higher socioeconomic status. There might be age and sex differences. Most importantly, I expect that people with AD may have a worse disease course if they also have a history of sleep apnea and/or cardiovascular risk.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Beatrix Krause
+- Research Fellow, University of California, Los Angeles"
+Duplicate of Demo - Hypertension Prevalence,"We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical…","Scientific Questions Being Studied
+We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical approaches to understanding and treating hypertension may benefit from the integration of a precision medicine approach that integrates data on environments, social determinants of health, behaviors, and genomic factors that contribute to hypertension risk. Hypertension is a major public health concern and remains a leading risk factor for stroke and cardiovascular disease.","Project Purpose(s)
+Other Purpose (This work is an AoU demo project. Demo projects are efforts by the AoU Research Program designed to meet the program goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. As an approved demo project, this work was reviewed and overseen by the AoU Research Program Science Committee and the AoU Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use. )","Scientific Approaches
+In this cross-sectional, population-based study, we used All of Us baseline data from patient (age>18) provided information (PPI) surveys and electronic health record (EHR) blood pressure measurements and retrospectively examined the prevalence of hypertension in the EHR cohort using Systemized Nomenclature of Medicine (SNOMED codes and blood pressure medications recorded in the EHR.  We used the EHR data (SNOMED codes on 2 distinct dates and at least one hypertension medication) as the primary definition, and then add subjects with elevated systolic or elevated diastolic blood pressure on measurements 2 and 3 from PPI.   We extracted each participant’s detailed dates of SNOMED code for essential hypertension from the Researcher Workbench table ‘cb_search_all_events’. We calculated an age-standardized HTN prevalence according to the age distribution of the U.S. Census, using 3 groups (18-39, 40-59, ≥ 60).","Anticipated Findings
+The prevalence of hypertension in the All of Us cohort is similar to that of published literature. All of Us age-adjusted HTN prevalence was 27.9% compared to 29.6% in National Health and Nutrition Examination Survey. The All of Us cohort is a growing source of diverse longitudinal data that can be utilized to study hypertension nationwide. The prevalence of hypertension varies in the United States (U.S.) by age, sex, and socioeconomic status. Hypertension can often be treated successfully with medication, and prevented or delayed with lifestyle modifications. Even with these established hypertension intervention and prevention strategies, the prevalence of hypertension continues to be at levels of public health concern. The diversity within All of Us may provide insight into factors relevant to hypertension prevention and treatments in a variety of social and geographic contexts and population strata in the U.S.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Victoria Mgbemena
+- Early Career Tenure-track Researcher, Baylor College of Medicine"
+CVD Risk in BC Survivors,"To determine the number of breast cancer survivors who have information on cardiovascular risk factors (included in the AHA/ACC Pooled Cohort Equations), in addition to information on cancer characteristics and treatments, to determine what risk prediction tools accurately predict CVD…","Scientific Questions Being Studied
+To determine the number of breast cancer survivors who have information on cardiovascular risk factors (included in the AHA/ACC Pooled Cohort Equations), in addition to information on cancer characteristics and treatments, to determine what risk prediction tools accurately predict CVD in this population.","Project Purpose(s)
+Disease Focused Research (arteriosclerotic cardiovascular disease)
+Population Health
+Methods Development","Scientific Approaches
+We will build a cohort of breast cancer survivors with information on cardiovascular risk factors and use Cox proportional hazards models and estimate AUCs.","Anticipated Findings
+We would like to build on the existing models to derive a superior model for CVD risk prediction in breast cancer survivors.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography","Data Set Used
+Registered Tier","Research Team
+Owner:
+Nour Makarem
+- Early Career Tenure-track Researcher, Columbia University"
+MyHeart Counts Risk,"Leading cardiovascular disease risk algorithms are limited in the populations they can be applied to (age, ethnicity) and the data they integrate (often excluding genetics and level of physical activity). We want to use the AOU dataset to train and…","Scientific Questions Being Studied
+Leading cardiovascular disease risk algorithms are limited in the populations they can be applied to (age, ethnicity) and the data they integrate (often excluding genetics and level of physical activity).  We want to use the AOU dataset to train and test a widely applicable dynamic cardiovascular risk score.","Project Purpose(s)
+Disease Focused Research (cardiovascular system disease)
+Methods Development
+Ancestry","Scientific Approaches
+We intend to split the AOU cohort into a testing (80%) and training (20%) set.  Individuals in the test set will be used to train to a risk model.  We may use current clinical algorithms including ASCVD+/QRISK3 or develop new ones either with traditional (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4531311/) or ML models (https://academic.oup.com/eurheartj/article/38/23/1805/3056931?login=true).  We aim to integrate measure of activity from devices and genetic PRS, generated by tools such as PRSice-2.","Anticipated Findings
+We hope to develop a risk algorithm that can be disseminated and eventually deployed within the framework fo the MyHeart Counts study.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Steven Hershman
+- Project Personnel, Stanford University"
+Lupus Manifestations and Social Determinants of Health in Men and Women,"We want to identify and characterize important disease manifestations, serologic profiles, and treatments for patients with systemic lupus erythematosus (SLE). There are known to be differences in these between men and women, and also among different racial groups within the…","Scientific Questions Being Studied
+We want to identify and characterize important disease manifestations, serologic profiles, and treatments for patients with systemic lupus erythematosus (SLE). There are known to be differences in these between men and women, and also among different racial groups within the United States. We are interested in also studying the variation of these with sex, race, and socioeconomic factors. Additionally comorbidities and other health characteristic such as BMI or smoking history are believed to be important in disease outcomes including other system involvement or cardiovascular events. There have not been many large databases or study cohorts with SLE patients that include detailed information about these factors that are believed to be clinically important so the All of Us database provides a unique opportunity for observational study of these factors.","Project Purpose(s)
+Disease Focused Research (systemic lupus erythematosus)","Scientific Approaches
+We plan to report observational data of a cross-sectional cohort of all adult patients from the All of Us database who have a diagnosis of systemic lupus erythematosus (SLE) in EHR records. We will make a descriptive analysis of baseline characteristics including sex, age, race, annual household income, education level, self-reported quality of life, and smoking status. Subsequent analyses will compare the presence of organ specific manifestations of SLE and of cardiovascular events between male and female participants and between races using presence of EHR codes. We will use self-reported survey data to describe the frequency of barriers to healthcare access. We will also estimate the validity of self-report of SLE by comparing patient reported history of SLE with EHR documentation of this diagnosis.","Anticipated Findings
+Male patients with systemic lupus erythematosus (SLE) are described across multiple studies to often develop more severe disease. Patients with SLE in the United among specific racial groups, including black and Hispanic patients, have also been described to develop more severe disease. These are attributed to a combination of genetic variance in the underlying disease and to social and environmental factors. Therefore, we anticipate men may have more frequent organ specific disease manifestations than women with SLE. Cardiovascular events are more common in men so we anticipate a higher rate of events in men with SLE. There is limited data on whether serologic positivity important to SLE is more prevalent among men than women so this prediction is less clear. This will be valuable as there is limited data characterizing SLE in men in a large cohort, or in characterizing the barriers to healthcare access among patients with SLE, which are potential targets for care improvement.","Demographic Categories of Interest
+Race / Ethnicity
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Deepak Nag Ayyala
+- Early Career Tenure-track Researcher, Augusta University"
+Duplicate of ascvd_underrepresented,"It is unclear if traditional clinical risk scores can adequately quantify the risk of atherosclerotic cardiovascular disease in underrepresented study populations. Additionally, the genetic determinants of risk factors for atherosclerotic risk disease, such as polygenic risk scores and monogenic mutations,…","Scientific Questions Being Studied
+It is unclear if traditional clinical risk scores can adequately quantify the risk of atherosclerotic cardiovascular disease in underrepresented study populations. Additionally, the genetic determinants of risk factors for atherosclerotic risk disease, such as polygenic risk scores and monogenic mutations, have only been well-studied and in European populations.
+Questions:
+1. How does the risk of atherosclerotic cardiovascular disease risk differ between commonly represented and underrepresented populations?
+2. Do traditional clinical risk scores for atherosclerotic cardiovascular perform similarly in diverse populations? If not, can this be addressed with new or modified clinical risk scores?
+3. Can we develop polygenic risk scores for atherosclerotic cardiovascular disease and related risk factors for diverse populations?
+4. What is the prevalence of genetic cardiovascular disorders in the population? Are there disparities in the recognition of these disorders between populations?","Project Purpose(s)
+Disease Focused Research (arteriosclerotic cardiovascular disease)
+Population Health
+Social / Behavioral
+Drug Development
+Methods Development
+Ancestry","Scientific Approaches
+Study methodology will include:
+1. Prospective cohort analyses for incident atherosclerotic cardiovascular with subgroup analyses for distinct populations. Cox-proportional hazard models will be used for time-to-event analyses and logistic regression will be used for case-control status. Models will be adjusted for covariates such as age, sex,
+2. Comparison of observed versus predicted risk of atherosclerotic cardiovascular risk using clinical risk tools such as the Pooled Cohort Equations, QRISK3, and the modified Framingham risk score.
+3. Comparison of the genetic architecture of optimized polygenic risk scores in commonly represented and underrepresented populations
+4. Case-control and continuous genetic association studies for ASVCVD and related risk factors.","Anticipated Findings
+The goals of this study’s outcomes are to:
+1. Identify potential disparities and gaps in the current practice of atherosclerotic cardiovascular disease between study populations.
+2. Develop tools to improve the prediction of atherosclerotic cardiovascular risk in underrepresented populations so that these individuals can be appropriately identified for preventative medicine.
+3. Develop polygenic risk scores for atherosclerotic cardiovascular disease and related risk factors in underrepresented populations. This outcome is critical to improve the equitability of genomic medicine in clinical practice.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mark Trinder
+- Graduate Trainee, The Broad Institute"
+CMD Disparities Health and Place,"Social, Structural, and Environmental Determinants of Health (SSEDOH) influence cardiovascular health in the general population; however, the degree to which this occurs among historically underrepresented individuals is not well described. The purpose of this study is to compare cardiometabolic health…","Scientific Questions Being Studied
+Social, Structural, and Environmental Determinants of Health (SSEDOH) influence cardiovascular health in the general population; however, the degree to which this occurs among historically underrepresented individuals is not well described. The purpose of this study is to compare cardiometabolic health (cardiometabolic disease and risks) among the All of Us Program cohort by intersectional identity. We will also compare group-level associations among social, structural, and/or built environmental characteristics and cardiometabolic health and risks.","Project Purpose(s)
+Disease Focused Research (Cardiometabolic Diseases (e.g. Diabetes, Hypertension, Hypercholesterolemia))
+Population Health
+Social / Behavioral
+Methods Development","Scientific Approaches
+A quantitative descriptive approach will be used to characterize ZIP3-level area deprivation and cardiometabolic disease (CMD) risk factors among the individuals in the study. Bivariate correlations, multivariable linear, and logistic regression models will be used to examine the relationships among area deprivation indices and cardiometabolic risk factors. We will also include physical activity with the covariates age, sex assigned at birth, sexuality, gender identity, and race/ethnicity, income, educational attainment, health insurance status.  We will use logistic regression to determine the odds of hypertension, overweight and obesity , dyslipidemia, poor glycemia control, and also a CMD risk burden score. To assess exposure in the logistic regression model, overall ZIP3-level area deprivation will be dichotomized into two groups. Statistical significance will be set at p <.05. ZIP3-level area deprivation includes both the single factor and Berg 3-Factor area deprivation indices.","Anticipated Findings
+We anticipate there will be cardiometabolic health disparities (higher disease and higher risk) among sexual minority and gender diverse individuals, individuals from lower socioeconomic positions, historically marginalized populations (e.g. race, ethnicity, uninsured). Those living in areas with greater area deprivation measures will have higher odds of cardiometabolic disease and more risk factors.
+Deprivation characteristics may serve to inform novel approaches to improve cardiometabolic health in diverse individuals. The high proportion of an increasing incidence of obesity, diabetes, and other cardiometabolic sequela make these types of social/environmental factors important targets for potentially reducing the disparities. Key stakeholders and policymakers should consider the characteristics of the areas in which people live as well as the characteristics of the people who live in those areas when developing policy and system-level interventional programs.","Demographic Categories of Interest
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Scott Moore
+- Early Career Tenure-track Researcher, Case Western Reserve University"
+Hypoglycemia in Non-Diabetics,"Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients…","Scientific Questions Being Studied
+Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients who have experienced hypoglycemia during inpatient admissions versus those who have not. In those without diabetes, inpatient hypoglycemia may still occur. Studies demonstrate that even in patients without diabetes, hypoglycemia results in poor clinical outcomes as related to mortality and cognitive function. There is no standard protocol for blood glucose monitoring inpatient for patients without diabetes. A standardized protocol could more closely trend blood glucose values among hospitalized non-diabetic patients who have an elevated risk of hypoglycemia in order to reduce the rate of hypoglycemia and its related complications.","Project Purpose(s)
+Disease Focused Research (hypoglycemia)
+Educational","Scientific Approaches
+A retrospective review of patients will be conducted who have experienced at least one episode of hypoglycemia (BG < 70 mg/dL) during inpatient hospitalization and potential risk factors which may have contributed to such episode will be identified. Examples include end stage liver disease, renal disease, cardiac disease, protein-calorie malnutrition. Following, use these risk factors in a multivariate analysis to create a scoring system which assigns specific point values to each risk factor in order to predict risk of hypoglycemia during admission.","Anticipated Findings
+The findings should create a model of risk factors for hypoglycemia among hospitalized non-diabetics. Using this risk model, other researchers may be able to expand the findings to create prospective studies that aim to reduce the risk of developing hypoglycemia groups with these risk factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Anand Gandhi
+- Research Associate, Banner Health
+Collaborators:
+Bijun Kannadath - Early Career Tenure-track Researcher, University of Arizona"
+Sex Differences in CVD Comorbidities & Risk Factors based on COVID-19 Positivity,"Our study will look at how cardiovascular disease comorbidities, risk factors, and behaviors differ by sex in those who are COVID-19 positive versus negative. This question is important because there is a lack of public knowledge on the association between…","Scientific Questions Being Studied
+Our study will look at how cardiovascular disease comorbidities, risk factors, and behaviors differ by sex in those who are COVID-19 positive versus negative. This question is important because there is a lack of public knowledge on the association between COVID-19 and cardiovascular health and how this may differ between men and women. Therefore, we are interested in analyzing prevalent cardiovascular comorbidities, risk factors, and behaviors according to COVID-19 test positivity.  Since there are some sex differences in COVID-19 outcomes, we wish to examine how comorbidities, risk factors, and behaviors may differ between men and women.","Project Purpose(s)
+Disease Focused Research (COVID-19, cardiovascular disease, hypertension, diabetes, heart failure)","Scientific Approaches
+We will use the cohort builder to find participants who tested positive for COVID-19. Our inclusion criteria will include cardiovascular risk factors, behaviors and comorbidities. Our exclusion criteria will include people who tested negative for COVID-19. We will then create a second cohort of participants who have tested negative for COVID-19. Our inclusion criteria will remain the same as the first cohort, but this time the exclusion criteria will include people who tested positive for COVID-19. We will also stratify our cohorts into male versus female. After, we will create a dataset builder, and generate concept sets on cardiovascular risk factors (eg hypertension, blood pressure, diabetes, obesity), behaviors (diet, smoking, physical activity), and comorbidities (prior history of coronary heart disease, stroke, heart failure, COPD, diabetes). We will then import the data to Jupyter Notebook and write code in R to analyze our data.","Anticipated Findings
+The anticipated findings from this study are that males who tested positive for COVID-19 will have the most cardiovascular risk factors, followed by males who tested negative for COVID-19, females who tested positive for COVID-19, and lastly, females who tested negative for COVID-19. We expect that males who tested positive for COVID-19 will be more likely to have hypertension, diabetes and less physical activity compared to females. Our findings will be useful to those who have contracted COVID-19 during this pandemic, and how they may be at risk for developing new or aggravating current cardiovascular conditions.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Meleeka Akbarpour
+- Graduate Trainee, University of California, Irvine
+Collaborators:
+Yufan Gong - Graduate Trainee, University of California, Los Angeles
+Nathan Wong - Other, University of California, Irvine
+Divya Devineni - Graduate Trainee, University of California, Irvine"
+riskscore,Huma Therapeutics have developed risk algorithms using data from the UK Biobank. Finding have already been published in scientific journals. Huma has developed risk algorithms to predict: 1. CVD 2. Disease 3. All cause mortality 4. Anxiety & Depression The…,"Scientific Questions Being Studied
+Huma Therapeutics have developed risk algorithms using data from the UK Biobank. Finding have already been published in scientific journals. Huma has developed risk algorithms to predict:
+1. CVD
+2. Disease
+3. All cause mortality
+4. Anxiety & Depression
+The purpose of this study is the perform external validation of aforementioned risk scores. Using these algorithms, it may be possible to predict cardiovascular outcomes using smartphone and fitness trackers.  It can serve as an e-health tool for decentralised screening.","Project Purpose(s)
+Methods Development
+Control Set","Scientific Approaches
+The setting is survival analysis. Algorithms implemented: cox proportional hazard, random survival forest, deep learning (deepsurv).
+The quality of the model has been observed with concordance index.","Anticipated Findings
+The findings would be indicate how generalisable the developed algorithms are on an external dataset.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Rheeda Ali
+- Other, Johns Hopkins University"
+Cardio,"We are looking to characterize the environmental and genetic contributions to health disparities, specifically looking at ancestry as a factor. Currently we are exploring the data to formalize a specific research question, but we are hoping to work with a…","Scientific Questions Being Studied
+We are looking to characterize the environmental and genetic contributions to health disparities, specifically looking at ancestry as a factor. Currently we are exploring the data to formalize a specific research question, but we are hoping to work with a disease with greater health disparities, most of which are cardiovascular diseases.","Project Purpose(s)
+Disease Focused Research (Cardiovascular and metabolic diseases)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will be using the All of Us dataset and/or the UK Biobank dataset. We will primarily use R to conduct a GWAS, PheWAS, PRS, and/or mendelian randomization study. The specific approach will be determined once the research question has been more fleshed-out.","Anticipated Findings
+We anticipate finding how ancestry interacts with other factors to create the disparities in health outcomes that we observe today. We are hoping that this knowledge will lead to targeted interventions to advance towards health equity.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Whitney Teagle
+- Other, National Institutes of Health (NIH)"
+CarDB,"We are trying to understand the risk factors for cardiovascular diseases (examples include cardiomyopathy, aortopathy, coronary artery disease, and arrhythmias). We are also trying to understand disease progression. In particular, we hope to assess the utility of externally derived predictors…","Scientific Questions Being Studied
+We are trying to understand the risk factors for cardiovascular diseases (examples include cardiomyopathy, aortopathy, coronary artery disease, and arrhythmias). We are also trying to understand disease progression. In particular, we hope to assess the utility of externally derived predictors within the context of AllOfUs participants, and in some cases to be able to derive predictors in AllOfUs that can be tested externally (within the scope of what is permitted by the access agreement).","Project Purpose(s)
+Disease Focused Research (Cardiovascular disease)
+Ancestry","Scientific Approaches
+We will use demographic information, biomarkers, imaging results where available, diagnostic codes, and human genetic data for risk modeling. When genetic data are available, we will also engage in genetic discovery and replication efforts for cardiovascular phenotypes and diseases.","Anticipated Findings
+We anticipate validating cardiovascular risk scores for diverse populations within the United States; creating new risk scores; and discovering or replicating genetic findings for cardiovascular diseases.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+James Pirruccello
+- Early Career Tenure-track Researcher, Mass General Brigham"
+Cardiovascular Disease in MSM,"This study will retrospectively analyze disparities in indicators of cardiovascular disease (i.e., hypertension, type 2 diabetes mellitus, obesity, dyslipidemias, stroke, and inflammatory biomarkers) and risk and protective factors (i.e., smoking, alcohol use, physical activity, diet, access to healthcare, drug use,…","Scientific Questions Being Studied
+This study will retrospectively analyze disparities in indicators of cardiovascular disease (i.e., hypertension, type 2 diabetes mellitus, obesity, dyslipidemias, stroke, and inflammatory biomarkers) and risk and protective factors (i.e., smoking, alcohol use, physical activity, diet, access to healthcare, drug use, intimate partner violence, sex work) among sexual minority individuals registered in the “All of Us” Database.","Project Purpose(s)
+Population Health
+Educational","Scientific Approaches
+We will identify prevalence rates of indicators of cardiovascular disease among the population of interest using frequencies. We will model outcomes using regression methods.","Anticipated Findings
+We anticipate that MSM will present with higher prevalence of cardiovascular outcomes, given the minority stress components.","Demographic Categories of Interest
+Sexual Orientation
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Matthew Robinson
+- Project Personnel, University of Central Florida
+Humberto López Castillo
+- Early Career Tenure-track Researcher, University of Central Florida
+Assad Khan
+- Graduate Trainee, University of Central Florida"
+Prostate Cancer CVD,Both incidence & mortality of prostate cancer are significantly higher in patients who identify as black as compared to other race groups (Odedina et al 2009). This dataset provides access to data encompassing SDOH that would allow for a more…,"Scientific Questions Being Studied
+Both incidence & mortality of prostate cancer are significantly higher in patients who identify as black as compared to other race groups (Odedina et al 2009). This dataset provides access to data encompassing SDOH that would allow for a more comprehensive look into how SDOH play into outcome disparities in the population.
+We are interested in investigating the relationship between SDOH and 1. Cardiovascular disease end points including but not limited to stroke, MI, and hospitalization for HF.  2. Mortality
+This analysis will enhance understanding of how different demographics are affected by prostate cancer. Understanding how factors such as education, access to healthcare, amongst other SDOH may play into both cardiovascular outcomes and mortality could potentially help shape treatment plans that are better catered to the specific needs of specific patient populations. This would be particularly helpful for patients that come from historically underserved populations.","Project Purpose(s)
+Disease Focused Research (prostate cancer, Cardiovascular disease)
+Population Health","Scientific Approaches
+Population: Our population of interest is prostate cancer patients in the US.
+Outcome: We want to investigate mortality and cardiovascular disease as outcomes.
+Exposure: SDOH such as education, economic measures (income for example), physical infrastructure, access to healthcare, and other relevant determinants
+Covariates: race, age, location, BMI, smoking history, alcohol use, comorbidities (such as diabetes, hypertension etc), occupation, lifestyle habits (sedentary, active etc)
+Analysis: We plan to use longitudinal data analysis to investigate the outcomes listed above. We will control for the covariates listed and see how outcomes differ based on the exposures of SDOH and treatment types. We will separate our analysis for the two sets of outcomes: cardiovascular disease, as well as cardiovascular, and cancer mortality.","Anticipated Findings
+Studies have been conducted to investigate relationships between specific SDOHs and mortality, particularly to try and understand the large racial disparity in outcomes. Some have shown that low-income may lead to higher mortality rates (Tewari et al 2009). Furthermore, over time as changes in screening recommendations and interventions have been complemented, there has been in a decrease in risk associated with prostate cancer (Cooperberg et al 2003). In regards to our interest in CVD, studies have shown a similar relationship between lower income and CVD incidence (Kreatsoulas and Anand 2010). Through our analysis, we will evaluate this association in men with prostate cancer population. We anticipate that analysis using the comprehensive All of Us data will provide further insight into how the different SDOHs and treatment types impact outcome, in particular since we would be able to analyze multiple social determinants simultaneously, unlike in prior papers.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Sarah Malik
+- Graduate Trainee, Augusta University"
+mdCAD,The scientific question we intend to study is the relationship between depression and cardiovascular disease outcomes. Cardiovascular disease and depression are commonly co-morbid. Understanding the prevalence and longitudinal relationship between the two diagnoses can help inform future disease monitoring tools…,"Scientific Questions Being Studied
+The scientific question we intend to study is the relationship between depression and cardiovascular disease outcomes. Cardiovascular disease and depression are commonly co-morbid. Understanding the prevalence and longitudinal relationship between the two diagnoses can help inform future disease monitoring tools and therapeutics.","Project Purpose(s)
+Disease Focused Research (Depression and Cardiovascular Disease)","Scientific Approaches
+We plan to use phecodes for depression, coronary artery disease, and cardiomyopathy to calculate the prevalence of co-occurring depression and heart disease. We also plan to use sex and race information to stratify analyses.","Anticipated Findings
+We anticipate to find that adverse cardiovascular events such as cardiomyopathy tend to occur more frequently in individuals with co-morbid depression and CAD compared to individuals with only depression or CAD. Our findings would contribute to a growing body of knowledge on the increased rate of heart disease among depression cases and motivate future studies into the shared biology between depression and heart disease.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Julia Sealock
+- Research Fellow, Broad Institute"
+CarDB Gene,"We are trying to understand the risk factors for cardiovascular diseases (examples include heart failure, cardiomyopathy, aortopathy, coronary artery disease, sudden death, thrombosis, cardiometabolic disease, and arrhythmias). We are also trying to understand disease progression. In addition, we hope to…","Scientific Questions Being Studied
+We are trying to understand the risk factors for cardiovascular diseases (examples include heart failure, cardiomyopathy, aortopathy, coronary artery disease, sudden death, thrombosis, cardiometabolic disease, and arrhythmias). We are also trying to understand disease progression. In addition, we hope to assess the utility of externally derived predictors within the context of AllOfUs participants, particularly those with genetic data, and in some cases to be able to derive predictors in AllOfUs that can be tested externally (within the scope of what is permitted by the access agreement).","Project Purpose(s)
+Disease Focused Research (Cardiovascular diseases)
+Ancestry","Scientific Approaches
+We will use demographic information, biomarkers, imaging results where available, diagnostic codes, and human genetic data for phenotype discovery and risk modeling. When genetic data are available, we will also engage in genetic discovery and replication efforts for cardiovascular phenotypes and diseases.","Anticipated Findings
+We anticipate validating cardiovascular risk scores for diverse populations within the United States; creating new risk scores; and discovering or replicating epidemiological and genetic findings for cardiovascular diseases.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+James Pirruccello
+- Early Career Tenure-track Researcher, Mass General Brigham"
+Test Project,"NF1 is one of the genes with hypermutable patterns across the genome. Although primarily associated with neurofibromatosis type 1, NF1 is also reported to have many manifestations in ophthalmologic, vascular, glioma, and central neuro systems. In the cardiovascular system, renal…","Scientific Questions Being Studied
+NF1 is one of the genes with hypermutable patterns across the genome. Although primarily associated with neurofibromatosis type 1, NF1 is also reported to have many manifestations in ophthalmologic, vascular, glioma, and central neuro systems. In the cardiovascular system, renal artery stenosis is considered one of the major causes of hypertension for patients with NF. However, the NF1 penetrance on the renal artery stenosis is still not clearly defined and the epistasis of other genes is also poorly understood.  Here we want to explore 1) the penetrance rate in the general population; 2) the epistasis between NF1 and other genes.","Project Purpose(s)
+Ancestry","Scientific Approaches
+All variants were annotated by Annovar with the following databases: gnomAD population frequency (v2), dbNSFP (v3.5), CADD score (v1.3), and ClinVar database.
+All variants were predicted to be deleterious (ie: disease-causing) by in silico analysis if meeting any of the following sets of criteria: 1) nonsynonymous variant with phred CADD score > 20 and gnomAD allele frequency < 0.01%; 2) variants with considered to have evidence of pathogenicity according to the predicted loss of function (start-loss, stop-loss, stop-gain, frameshift indels, or splice-site) or non-frameshift indels, with gnomAD allele frequency < 0.01%; or 3) defined as likely pathogenic or pathogenic variants in ClinVar.
+Then the annotated variants and the clinical phenotype information from the same individuals will be converted to a contingency table and tested by Fisher's exact test.","Anticipated Findings
+1. Get the penetrance rate between NF1 and RAS;
+2. Identify the potential epistasis between NF1 and other genes.
+By exploring the genetic basis between NF1 and RAS, our study may have many scientific and clinical implications: 1) understand the effects of NF1 on RAS and the potential modifier genes; 2) the consulting implications for probands with annotated ""deleterious"" NF1 variants.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Yu Wang
+- Research Fellow, University of Michigan"
+Genomic Predictors of Vascular Disease,"Based on early studies from the genetics community, we envision being able to answer salient research questions in the field of cardiovascular genetics. First, what are the causal genes for vascular disease, aneurysmal disease, and their risk factors ? Second,…","Scientific Questions Being Studied
+Based on early studies from the genetics community, we envision being able to answer salient research questions in the field of cardiovascular genetics. First, what are the causal genes for vascular disease, aneurysmal disease, and their risk factors ? Second, which genes are uniquely responsible for driving vascular disease and/or aneurysmal disease in the peripheral vascular bed and not in other vascular territories? Third, will a set of genotypes allow us to predict who will be at highest risk for severe vascular disease, including chronic limb threatening ischemia? While substantial work has been performed in establishing the genetic determinants of vascular diseases, including PAD, coronary disease, carotid disease, and aortic aneurysm (abdominal and thoracic), disentangling the genes that specifically affect one disease process or another (or, one vascular bed or another) remains elusive. We intend to us the All of Us resource to answer these key questions, as outlined below.","Project Purpose(s)
+Disease Focused Research (vascular disease)
+Ancestry","Scientific Approaches
+The last decade of genetic association analysis has demonstrated that the effects of common DNA sequence variants are modest (each individual mutation identified increases disease risk by ~2-20%) and thus, large sample sizes will be necessary to fully elucidate the spectrum of common vascular disease mutations within the population.  We intend to leverage the following methods for genomic analysis:
+1) Discovery Genome-wide Association Study analysis in the common variant space
+2) Explore the phenotype consequences of vascular disease risk variants
+3) To associate predicted loss-of-function variation with vascular disease leveraging whole genome sequencing data
+4) Bayesian tools to combine genomic data with publicly available gene-expression data to identify potential therapeutic targets (ie, colocalization analyses with data from repositories like GTEx)
+5) Bayesian tools to generate polygenic risk scores (PRS) for genomic risk prediction, including for disease progression","Anticipated Findings
+We believe our findings will contribute to the body of scientific literature through the identification of:
+1) Novel genes and variants associated with vascular disease
+2) Genes and variants that target one specific type of vascular disease over another
+3) Genes and variants that target one vascular bed over another
+4) The spectrum of consequences for disease-associated variants
+5) Individuals at the highest risk of progressive disease through genomic risk prediction
+In each of these cases, the above data can be used to prioritize causal genes and pathways for novel treatments. Through the discovery of vascular disease-associated genes and describing the range of effects of disease-associated variants, we aim to elucidate key insights of biologic and pharmacologic potential. We hope that the identification of such risk factors, cell types, and genes may be used to inform clinical care.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Derek Klarin
+- Early Career Tenure-track Researcher, Stanford University"
+Duplicate of SARS-CoV-2 infection Project,The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes. The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes. The secondary hypothesis is that SARS-CoV-2 is a predisposing factor…,"Scientific Questions Being Studied
+The proposed study seeks to investigate the associations between SARS-CoV-2 and the development of diabetes.  The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.  Moreover, the impact of SARS-CoV-2 will disproportionately impact underserved populations whom are at an increased risk for chronic conditions (e.g., diabetes, cardiovascular, pulmonary).","Project Purpose(s)
+Disease Focused Research (SARS-CoV-2)","Scientific Approaches
+We will explore associations between SARS-CoV-2 infections and the incidence of diabetes with a focus on underserved patient populations. This study will also explore other associations affecting the incidence of SARS-CoV-2 infections and co-morbidities. The analysis will employ exploratory methods of data analysis such as association plots, heatmaps, and descriptive statistics. Following the exploratory analysis, generalized linear models will explore the associations further while controlling for patient characteristics and other factors. Multiplicity corrections will control the incidence of type I errors and ensure replicability of research results.  The data will include information on past SARS-CoV-2 infections, type I and II diabetes, demographic characteristics, and other hormone/endocrine conditions, mental health or substance use conditions, and cancer. Data will be stratified to assess the change in risk of these conditions for underserved patient populations.","Anticipated Findings
+The primary hypothesis is SARS-CoV-2 will be a risk factor for the onset of diabetes.  The secondary hypothesis is that SARS-CoV-2 is a predisposing factor for other chronic diseases.  Additionally, the proposed study will explore if SARS-CoV-2 is associated with other hormone/endocrine conditions (e.g., hyperthyroidism), mental health or substance use of conditions (e.g., alcohol use disorder), and cancer (e.g., kidney cancer, lung cancer, pancreatic cancer).  Findings have clinical implications for prevention (e.g., vaccines), screenings, and treatments, post SARS-CoV-2 infection.","Demographic Categories of Interest
+Race / Ethnicity
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Eric Diaz
+- Undergraduate Student, University of Texas at El Paso"
+GWAS_HeartDisease,"The exact genetic origins and the molecular mechanisms of cardiomyopathies are still largely unknown. GWAS studies have been informative in identifying variants that lead to cardiovascular disease. However, attributing the molecular function to significantly enriched variants and putting these variants…","Scientific Questions Being Studied
+The exact genetic origins and the molecular mechanisms of cardiomyopathies are still largely unknown. GWAS studies have been informative in identifying variants that lead to cardiovascular disease. However, attributing the molecular function to significantly enriched variants  and putting these variants into the context of disease mechanism remains challenging. We hypothesize that variants impact the expression of genes and these genes should be expressed by a cell type involved in the disease process. By filtering variants expressed by cardiac cell type populations and performing gene regulatory network analysis, we will enhance our ability to identify cardiovascular disease regulatory mechanisms.","Project Purpose(s)
+Disease Focused Research (cardiovascular system disease)
+Ancestry","Scientific Approaches
+In our study, we aim to perform GWAS analysis on cardiovascular diseases (Arrhythmogenic cardiomyopathy, bicuspid aortic valve,  dilated cardiomyopathy, and hypertrophic cardiomyopathy). We hypothesized each cardiovascular diseases has a different molecular signature and different cardiac cell types involved in the disease. Using this GWAS data, we will link variants associated with each cardiovascular disease to a list of genes predicated to be impacted by these variants (eQTL analysis). The genes will be grouped into cardiac cell types expressing these genes using our single cell RNA-seq analysis performed on mouse and human heart tissue (as well as publicly available mouse and human heart atlases). Gene regulatory network and pathway analysis will be performed on genes specifically expressed within each cardiac cell type to more closely understand how variants can lead to cardiac subpopulation pathophysiology.","Anticipated Findings
+We anticipate to identify DNA variants involved in cardiovascular disease and how these variants are linked to cell type specific dysfunction.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Controlled Tier","Research Team
+Owner:
+Jared Churko
+- Early Career Tenure-track Researcher, University of Arizona"
+Public Health Impact of Family Health History in Diverse Populations,"Family history of disease provides a gateway to studying the complex interplay of genetic influences, shared environment, lifestyle, as well as common behavioral factors known to increase risk for many common chronic diseases such as diabetes, cardiovascular disease, and cancer.…","Scientific Questions Being Studied
+Family history of disease provides a gateway to studying the complex interplay of genetic influences, shared environment, lifestyle, as well as common behavioral factors known to increase risk for many common chronic diseases such as diabetes, cardiovascular disease, and cancer. Elucidating how family history contributes to an increase in disease risk and discerning the factors that contribute to the relationship between family history and disease development-- such as whether it is derived from genetic or shared environment-- can help identify individuals at higher disease susceptibility, enable targeted screening initiatives tailored to individuals who may benefit from a more thorough clinical assessment, and establish the effectiveness of family history data in the practice of preventative medicine.","Project Purpose(s)
+Population Health
+Ancestry","Scientific Approaches
+While most family history-based screening tools assess familial risk based on a crude definition of the presence of a positive family history among any family member, a detailed pedigree of family history can capture greater detail on disease risk. In this study, we plan on studying family history of disease data as captured by first-degree (whether a parent or sibling had a disease) and second-degree (such as a grandparent, half siblings, aunt or uncle). We plan to use the family-history wide association study approach to systematically and comprehensively identify associations between laboratory traits and measurements and lifestyle information and family history of disease, including cancer, heart and blood, digestive, hormone and endocrine, kidney, lung, brain and nervous system, mental health and substance use, and bone, joint and muscle, hearing and eye conditions.","Anticipated Findings
+Family history information captures inherited genetic and shared environmental contribution to disease risk. Further, the impact of family health history has not been adequately studied in historically underrepresented populations. The AllofUs Research dataset is uniquely enriched with underrepresented populations. By delineating the mechanisms by which family history affects inherited traits and environmental measurements and results in increased disease risk among diverse populations, our study aims to leverage the rich population-based family history data in All of Us to uncover novel associations that can enhance our understanding of the influence of family history.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Danielle Rasooly
+- Research Associate, Centers for Disease Control and Prevention (CDC)
+Collaborators:
+Ramal Moonesinghe - Late Career Tenured Researcher, Centers for Disease Control and Prevention (CDC)
+Katherine Kolor - Project Personnel, Centers for Disease Control and Prevention (CDC)
+Emily Drzymalla - Other, University of North Carolina, Chapel Hill"
+Health Disparities,I am interested in understanding social determinants of health and their impact broadly on cardiovascular function.,"Scientific Questions Being Studied
+I am interested in understanding social determinants of health and their impact broadly on cardiovascular function.","Project Purpose(s)
+Population Health
+Social / Behavioral","Scientific Approaches
+I plan to investigate datasets from a wide variety of patients in both properly served and underserved communities. Indices of cardiovascular health will be used as primary outcomes and information regarding living conditions, community resources, etc. will be used as covariates.","Anticipated Findings
+This study will provide insight into social determinants of cardiovascular health. Understanding how environment influence cardiovascular function and long term outcomes will benefit future policies and scientific endeavors into the effects of environmental and societal stress.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mitchel Colebank
+- Research Fellow, University of California, Irvine"
+Structural Heart Disease Risk in the Hispanic/Latino Community,"Cardiovascular disease is the leading cause of death in the general US population and the second leading cause of death in Hispanics/Latinos. However, the epidemiology of valvular heart disease in this population is less well known. Given the paucity of…","Scientific Questions Being Studied
+Cardiovascular disease is the leading cause of death in the general US population and the second leading cause of death in Hispanics/Latinos. However, the epidemiology of valvular heart disease in this population is less well known. Given the paucity of data, the objective of this study is to explore the burden and clinical correlates of structural heart disease in Hispanics/ Latinos in the in the All of Us Research Program.","Project Purpose(s)
+Population Health","Scientific Approaches
+We will use the All of US dataset V5. We will identify variables that represent (1) structural heart disease (aortic stenosis, mitral stenosis, tricuspid stenosis); (2) all the known risk factors for each of these conditions; (3) physiological variables that are associated with risk of structural heart disease (blood pressure, cholesterol levels, hemoglobin A1C); (4) anatomical variables that are associated with risk of structural heart disease (chamber size and function, valve morphology and severity, and effect on pulmonary and systemic circulation); and (5) identify the minority groups of interest. We will use linear and logistic regression to test for association between risk factors and the conditions of interest.","Anticipated Findings
+We expect to find that: (1) a substantial number of the known vascular risk factors increase risk of structural heart disease in across all evaluated groups; (2) known risk factors for structural heart disease disproportionately affect some minority groups; and (3) the effect of these risk factors will be stronger in some minority groups. These findings will helps us to (1) identify groups of persons at particularly high risk of sustaining these conditions that may benefit from tailored diagnostic and therapeutic interventions; and (2) identify new precision medicine treatments for these conditions.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Adriana Mares
+- Other, University of Texas at El Paso"
+Our Lab,The goal of this workspace is to explore the different cardiovascular diseases and their respective risk factors.,"Scientific Questions Being Studied
+The goal of this workspace is to explore the different cardiovascular diseases and their respective risk factors.","Project Purpose(s)
+Disease Focused Research (Cardiovascular diseases)","Scientific Approaches
+I will plan on having datasets that study condition occurrences (for cardiovascular diseases and their risk factors), lab values, smoker status and other baseline characteristics.","Anticipated Findings
+Cardiovascular diseases occurrences will associate with known risk factors, like hypercholesterolemia, diabetes, smoking, etc.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jacqueline Dron
+- Research Fellow, Mass General Brigham
+Dimitri Maamari
+- Research Fellow, Mass General Brigham"
+Duplicate of Stephanie H. Cook - Project 1,"Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular…","Scientific Questions Being Studied
+Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular disparities exist among men, such that those who identify as sexual minorities are more likely to experience poor cardiovascular health as compared to heterosexuals. The objective of this proposal is to examine physiological and behavioral mechanisms linking self-reported discrimination to ambulatory blood pressure, an intermediate outcome used to assess subclinical cardiovascular disease, in a racially diverse group of YSMM aged 18-35. The long-term objective of this research is to inform the creation of culturally relevant interventions to reduce the risk of CVD among YSMM. The proposed study specifically aims to:","Project Purpose(s)
+Disease Focused Research (CVD)
+Population Health
+Social / Behavioral","Scientific Approaches
+I will explore datasets that provide self report information on the constructs discussed above.
+1. Descriptive statistics. Descriptive statistics for all variables will be calculated. Distributional properties will be examined using summary statistics (e.g., mean, median, SD) and graphs (e.g., histograms and box plots). I will confirm psychometric properties (e.g., internal consistency) of all scales. All management, basic analyses, and assumption testing will be done in Stata 16.23 Hypothesis testing will be conducted in Mplus v8.24
+2. Multivariate linear regression (MLR) will be used to asses if discrimination predicts mean CVD risk.
+3. MLR will be used to assess if each of the individual health behaviors of substance use, sleep , and physical activity  predicts mean CVD risk.
+4. Structural Equation Modeling (SEM) will be used. The Monte Carlo method for assessing mediation will be used","Anticipated Findings
+the mechanisms linking discrimination and intermediate cardiovascular factors among racially diverse young sexual minority men (YSMM) remain underexplored.  Conducting this research is vitally important considering the heightened rates of both stress from discrimination and subclinical cardiovascular disease among these potentially vulnerable populations. Secondly,  understanding what the potential ""buffers"" are that mitigate the negative effects of intersectional discrimination on cardiovascular risk factors is critically important if we are going to create tailored interventions to reduce CVD among diverse YSMM.","Demographic Categories of Interest
+Race / Ethnicity
+Sexual Orientation","Data Set Used
+Registered Tier","Research Team
+Owner:
+zhilin Wang
+- Project Personnel, New York University
+Stephanie Cook
+- Early Career Tenure-track Researcher, New York University
+Collaborators:
+Chenziheng Weng - Graduate Trainee, New York University"
+Duplicate of Stephanie H. Cook - Project 1,"Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular…","Scientific Questions Being Studied
+Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular disparities exist among men, such that those who identify as sexual minorities are more likely to experience poor cardiovascular health as compared to heterosexuals. The objective of this proposal is to examine physiological and behavioral mechanisms linking self-reported PTSD to cardiovascular disease risk. We also would like to understand the moderating effect of race/ethnicity. The long-term objective of this research is to inform the creation of culturally relevant interventions to reduce the risk of CVD among YSMM. The proposed study specifically aims to:","Project Purpose(s)
+Disease Focused Research (CVD)
+Population Health
+Social / Behavioral","Scientific Approaches
+I will explore datasets that provide self report information on the constructs discussed above.
+1. Descriptive statistics. Descriptive statistics for all variables will be calculated. Distributional properties will be examined using summary statistics (e.g., mean, median, SD) and graphs (e.g., histograms and box plots). I will confirm psychometric properties (e.g., internal consistency) of all scales. All management, basic analyses, and assumption testing will be done in Stata 16.23 Hypothesis testing will be conducted in Mplus v8.24
+2. Multivariate linear regression (MLR) will be used to asses if PTSD predicts mean CVD risk.
+3. MLR will be used to assess if race/ethnicity moderated the association between PTSD and CVD risk.","Anticipated Findings
+the mechanisms linking PTSD and intermediate cardiovascular factors among racially diverse individuals remain under-explored.  Conducting this research is vitally important considering the heightened rates of both stress from discrimination and CVD  disease. Secondly,  understanding what the potential ""buffers"" are that mitigate the negative effects of PTSD on cardiovascular risk factors is critically important if we are going to create tailored interventions to reduce CVD.","Demographic Categories of Interest
+Race / Ethnicity","Data Set Used
+Registered Tier","Research Team
+Owner:
+Stephanie Cook
+- Early Career Tenure-track Researcher, New York University
+Collaborators:
+Catherine Xin - Graduate Trainee, New York University
+zhilin Wang - Project Personnel, New York University
+Chenziheng Weng - Graduate Trainee, New York University"
+ASCVD vs Iron,Atherosclerotic cardiovascular disease (ASCVD) is the leading cause of mortality in the world and also in the United States. Screening asymptomatic patients at high risk for CHD is essential in preventing morbidity and mortality related to ASCVD. The traditional risk…,"Scientific Questions Being Studied
+Atherosclerotic cardiovascular disease (ASCVD) is the leading cause of mortality in the world and also in the United States.  Screening asymptomatic patients at high risk for CHD is essential in preventing morbidity and mortality related to ASCVD. The traditional risk factor assessment tools fall short in identifying intermediate risk patients. More biomarkers are therefore needed to improve risk stratification in this risk category. The role of iron-mediated oxidation in the pathogenesis of CVD has been demonstrated in several animal models its role in humans is still controversial partly because of the use of iron metrics that are strongly influenced not only by systemic and tissue iron burden but also by inflammation and also the cross-sectional nature of the past studies . We propose to improve on previous analyses by focusing on a better characterized cohort derived from a large longitudinal epidemiological study together with applying more sophisticated statistical analysis.","Project Purpose(s)
+Disease Focused Research (Atherosclerotic cardiovascular disease )","Scientific Approaches
+In All of US data set from public record appears that out of 192,000 subjects 5.45% have myocardial infarction, the data on iron markers and inflammation seemed t be also available for around 19% of the subjects, this could provide an opportunity to create a model to test the effect of iron on ASCVD aside from inflammatory markers, we propose a sophisticated statistical method, called structural equation modeling which could de-convolute the effect iron markers and inflammation on development of ASCVD events.","Anticipated Findings
+Revisiting the iron hypothesis as the possible pathophysiology of atherosclerosis in the light of recent advances in understanding of iron biology, discovery of hepcidin and the tight association of hepcidin with inflammation and oxidization of LDL would be a very big step forward.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Leila  Hashemi
+- Mid-career Tenured Researcher, University of California, Los Angeles"
+Data inventory exploration,"This workspace has been created to survey the data available in All of US for a series of projects related to a series of disorders involving the vascular system with extensive pairwise comorbidity. These disorders include, but are not limited…","Scientific Questions Being Studied
+This workspace has been created to survey the data available in All of US for a series of projects related to a series of disorders involving the vascular system with extensive pairwise comorbidity.   These disorders include, but are not limited to, coronary heart disease (CHD), cardiovascular disease (CVD), stroke overall as well as stroke subtypes, migraine, venous thromboembolism (VTE), arterial dissection, arterial aneurysm.   Research derived from the survey would use genetic approaches to understand shared and unique mechanisms of pathophysiology underlying these disorders.","Project Purpose(s)
+Disease Focused Research (A series of disorders with vascular involvement and pairwise comorbidity)
+Ancestry","Scientific Approaches
+As in 2.1, this workspace is created to survey available data toward understanding feasibility of a series of genetic analyses.  If suitable data are available, subsequent research would apply genome-wide genetic methods to identify specific loci (i.e. genetic variants) that contribute to the risk of one or more of the disorders listed in section 2.1.  Through computational methods leveraging public data related to tissue-specific gene expression and biology , identification of these loci would, in turn, help identify individual genes, and further, biological pathways and tissues that are relevant to unique or shared pathophysiology.  The All of Us data for these analyses would include basic demographic information, medical history of the disorders from questionnaire information and medical records, and whole genome genetic data.  Genetic analysis would be performed within strata of genetically derived ancestry, and then compared across ancestry strata.","Anticipated Findings
+The outcome of the research would be a deeper understanding of the biology underlying unique and shared risk of the disorders listed in 2.1, with potential to inform preventive and/or therapeutic strategies.","Demographic Categories of Interest
+Race / Ethnicity
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Daniel Chasman
+- Other, Mass General Brigham"
+Hypoglycemia in Non-Diabetics,"Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients…","Scientific Questions Being Studied
+Hypoglycemia is a common occurrence in hospitalized patients with diabetes and is associated with adverse clinical outcomes. Numerous prospective and retrospective studies demonstrate an increase risk of cardiovascular events, all-cause hospitalization, longer hospital stay, and all-cause mortality among diabetic patients who have experienced hypoglycemia during inpatient admissions versus those who have not. In those without diabetes, inpatient hypoglycemia may still occur. Studies demonstrate that even in patients without diabetes, hypoglycemia results in poor clinical outcomes as related to mortality and cognitive function. There is no standard protocol for blood glucose monitoring inpatient for patients without diabetes. A standardized protocol could more closely trend blood glucose values among hospitalized non-diabetic patients who have an elevated risk of hypoglycemia in order to reduce the rate of hypoglycemia and its related complications.","Project Purpose(s)
+Disease Focused Research (hypoglycemia)
+Educational","Scientific Approaches
+A retrospective review of patients will be conducted who have experienced at least one episode of hypoglycemia (BG < 70 mg/dL) during inpatient hospitalization and potential risk factors which may have contributed to such episode will be identified. Examples include end stage liver disease, renal disease, cardiac disease, protein-calorie malnutrition. Following, use these risk factors in a multivariate analysis to create a scoring system which assigns specific point values to each risk factor in order to predict risk of hypoglycemia during admission.","Anticipated Findings
+The findings should create a model of risk factors for hypoglycemia among hospitalized non-diabetics. Using this risk model, other researchers may be able to expand the findings to create prospective studies that aim to reduce the risk of developing hypoglycemia groups with these risk factors.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Anand Gandhi
+- Research Associate, Banner Health
+Collaborators:
+Bijun Kannadath - Early Career Tenure-track Researcher, University of Arizona"
+"Mast cell disorders, depression, and inflammation","With few exceptions (e.g., Nicoloro, Lobel & Wolfe, 2016), mast cell disorders have received little attention from psychological science. Therefore, reliable estimates of the prevalence of emotional distress in this population are largely nonexistent. Documenting levels, types, and contributors to…","Scientific Questions Being Studied
+With few exceptions (e.g., Nicoloro, Lobel & Wolfe, 2016), mast cell disorders have received little attention from psychological science. Therefore, reliable estimates of the prevalence of emotional distress in this population are largely nonexistent. Documenting levels, types, and contributors to depression in this population can facilitate the development of appropriate interventions and highlight pathways through which emotional states such as depression may exacerbate mast cell disorders, as hypothesized by some researchers (Theoharides & Konstantinidou, 2007). There is considerable evidence in other populations that negative emotional states can influence physical health through a variety of pathways; a number of these are implicated in mast cell disorders, including the immune, endocrine, cardiovascular, and central nervous systems(e.g., Kiecolt-Glaser, McGuire, Robles, & Glaser, 2002; Herbert & Cohen, 1993; Kiecolt-Glaser, Malarkey, Cacioppo, & Glaser, 1994).","Project Purpose(s)
+Disease Focused Research (mast cell disorders and depression)
+Social / Behavioral","Scientific Approaches
+We plan to examine the relationship between depression and markers of inflammation in individuals with mast cell disorders.","Anticipated Findings
+The findings can be used to identify individuals at risk, to develop effective interventions, to inform the care of people with mast cell disorders,
+and to reduce their suffering.","Demographic Categories of Interest
+Others","Data Set Used
+Registered Tier","Research Team
+Owner:
+Jennifer SantaBarbara
+- Research Fellow, University of California, Los Angeles"
+Determinants of cardiovascular disease across minority populations,Cardiovascular disease (CVD) are responsible for a substantial proportion of the morbidity and mortality observed in the general population. Mounting evidence indicates that this impact disproportionately affects minority populations. This disproportionate effect is not only present in minorities defined by…,"Scientific Questions Being Studied
+Cardiovascular disease (CVD) are responsible for a substantial proportion of the morbidity and mortality observed in the general population. Mounting evidence indicates that this impact disproportionately affects minority populations. This disproportionate effect is not only present in minorities defined by race/ethnicity, but also in those defined by age, sexual orientation, and other characteristics.  The main questions of this study are: (1) can we use All of US to identify novel risk factors for cardiovascular disease that are specific to a given minority group? (2) Are existing  risk factors for CVD shared across all minority groups? (3) How do the effects of these risk factors vary when considering more than one minority group? These questions are important to (1) identify groups of persons at particularly high risk of sustaining these conditions that may benefit from tailored diagnostic and therapeutic interventions; and (2) identify new treatments for these conditions.","Project Purpose(s)
+Disease Focused Research (cardiovascular system disease)
+Population Health
+Social / Behavioral
+Ancestry","Scientific Approaches
+We will use the All of US dataset V3. We will identify variables that represent (1) cardiovascular disease (myocardial infarction, coronary artery disease, stroke); (2) all the known risk factors for each of these conditions; (3) physiological variables that either define a risk factor or are associated with risk of cardiovascular disease (blood pressure, cholesterol levels, hemoglobin A1C); and (4) identify the minority groups of interest. We will use linear and logistic regression to test for association between risk factors and the conditions of interest.","Anticipated Findings
+We expect to find that: (1) a substantial number of the known vascular risk factors increase risk of cardiovascular disease in across all evaluated groups; (2) known risk factors for cardiovascular disease disproportionately affect some minority groups; and (3) the effect of these risk factors will be stronger in some minority groups. These findings will helps us to (1) identify groups of persons at particularly high risk of sustaining these conditions that may benefit from tailored diagnostic and therapeutic interventions; and (2) identify new treatments for these conditions.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Julian Acosta
+- Research Fellow, Yale University
+Guido Falcone
+- Early Career Tenure-track Researcher, Yale University
+Audrey Leasure
+- Graduate Trainee, Yale University
+Collaborators:
+Zachariah Demarais - Graduate Trainee, Yale University
+Carolyn Conlon - Graduate Trainee, Yale University"
+Stephanie H. Cook - Project 1,"Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular…","Scientific Questions Being Studied
+Although cardiovascular disease (CVD) is the leading cause of death among men and women over the age of 65 in the United States, men account for more than half of the deaths due to CVD. Moreover, evidence suggests that cardiovascular disparities exist among men, such that those who identify as sexual minorities are more likely to experience poor cardiovascular health as compared to heterosexuals. The objective of this proposal is to examine physiological and behavioral mechanisms linking self-reported discrimination to ambulatory blood pressure, an intermediate outcome used to assess subclinical cardiovascular disease, in a racially diverse group of YSMM aged 18-35. The long-term objective of this research is to inform the creation of culturally relevant interventions to reduce the risk of CVD among YSMM. The proposed study specifically aims to:","Project Purpose(s)
+Disease Focused Research (CVD)
+Population Health
+Social / Behavioral","Scientific Approaches
+I will explore datasets that provide self report information on the constructs discussed above.
+1. Descriptive statistics. Descriptive statistics for all variables will be calculated. Distributional properties will be examined using summary statistics (e.g., mean, median, SD) and graphs (e.g., histograms and box plots). I will confirm psychometric properties (e.g., internal consistency) of all scales. All management, basic analyses, and assumption testing will be done in Stata 16.23 Hypothesis testing will be conducted in Mplus v8.24
+2. Multivariate linear regression (MLR) will be used to asses if discrimination predicts mean CVD risk.
+3. MLR will be used to assess if each of the individual health behaviors of substance use, sleep , and physical activity  predicts mean CVD risk.
+4. Structural Equation Modeling (SEM) will be used. The Monte Carlo method for assessing mediation will be used","Anticipated Findings
+the mechanisms linking discrimination and intermediate cardiovascular factors among racially diverse young sexual minority men (YSMM) remain underexplored.  Conducting this research is vitally important considering the heightened rates of both stress from discrimination and subclinical cardiovascular disease among these potentially vulnerable populations. Secondly,  understanding what the potential ""buffers"" are that mitigate the negative effects of intersectional discrimination on cardiovascular risk factors is critically important if we are going to create tailored interventions to reduce CVD among diverse YSMM.","Demographic Categories of Interest
+Race / Ethnicity
+Sexual Orientation","Data Set Used
+Registered Tier","Research Team
+Owner:
+Stephanie Cook
+- Early Career Tenure-track Researcher, New York University
+Collaborators:
+zhilin Wang - Project Personnel, New York University
+Chenziheng Weng - Graduate Trainee, New York University"
+Childhood Obesity,"Childhood obesity is a major public health problem across the globe as well as in the US. Childhood obesity can continue into adulthood and is known to be a major risk factor for chronic diseases such as diabetes, cancer, and…","Scientific Questions Being Studied
+Childhood obesity is a major public health problem across the globe as well as in the US. Childhood obesity can continue into adulthood and is known to be a major risk factor for chronic diseases such as diabetes, cancer, and cardiovascular diseases . Preventing childhood obesity has been actively pursued in pediatric programs. However, decades of rigorous research have shown that prevention and management of obesity is not easy. This is partly due to our limited understating of obesity and the complex interactions among a myriad of various factors, including biological and environmental ones, that are known to contribute to obesity. The motivation of this work is to predict childhood obesity early on and study the cause and consequences of obesity.","Project Purpose(s)
+Disease Focused Research (obesity)
+Drug Development","Scientific Approaches
+We are planning to use deep machine learning models to study cause and consequences of obesity and predict childhood obesity.","Anticipated Findings
+We are looking to study cause and consequences of childhood obesity. We will look into factors that will help predict childhood obesity early on. This will help prevent obesity and other chronic diseases that are the consequence of childhood obesity.","Demographic Categories of Interest
+Age","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mehak Gupta
+- Graduate Trainee, University of Delaware
+Collaborators:
+Raphael Poulain - Graduate Trainee, University of Delaware"
+ascvd_underrepresented,"It is unclear if traditional clinical risk scores can adequately quantify the risk of atherosclerotic cardiovascular disease in underrepresented study populations. Additionally, the genetic determinants of risk factors for atherosclerotic risk disease, such as polygenic risk scores and monogenic mutations,…","Scientific Questions Being Studied
+It is unclear if traditional clinical risk scores can adequately quantify the risk of atherosclerotic cardiovascular disease in underrepresented study populations. Additionally, the genetic determinants of risk factors for atherosclerotic risk disease, such as polygenic risk scores and monogenic mutations, have only been well-studied and in European populations.
+Questions:
+1. How does the risk of atherosclerotic cardiovascular disease risk differ between commonly represented and underrepresented populations?
+2. Do traditional clinical risk scores for atherosclerotic cardiovascular perform similarly in diverse populations? If not, can this be addressed with new or modified clinical risk scores?
+3. Can we develop polygenic risk scores for atherosclerotic cardiovascular disease and related risk factors for diverse populations?
+4. What is the prevalence of genetic cardiovascular disorders in the population? Are there disparities in the recognition of these disorders between populations?","Project Purpose(s)
+Disease Focused Research (arteriosclerotic cardiovascular disease)
+Population Health
+Social / Behavioral
+Drug Development
+Methods Development
+Ancestry","Scientific Approaches
+Study methodology will include:
+1. Prospective cohort analyses for incident atherosclerotic cardiovascular with subgroup analyses for distinct populations. Cox-proportional hazard models will be used for time-to-event analyses and logistic regression will be used for case-control status. Models will be adjusted for covariates such as age, sex,
+2. Comparison of observed versus predicted risk of atherosclerotic cardiovascular risk using clinical risk tools such as the Pooled Cohort Equations, QRISK3, and the modified Framingham risk score.
+3. Comparison of the genetic architecture of optimized polygenic risk scores in commonly represented and underrepresented populations
+4. Case-control and continuous genetic association studies for ASVCVD and related risk factors.","Anticipated Findings
+The goals of this study’s outcomes are to:
+1. Identify potential disparities and gaps in the current practice of atherosclerotic cardiovascular disease between study populations.
+2. Develop tools to improve the prediction of atherosclerotic cardiovascular risk in underrepresented populations so that these individuals can be appropriately identified for preventative medicine.
+3. Develop polygenic risk scores for atherosclerotic cardiovascular disease and related risk factors in underrepresented populations. This outcome is critical to improve the equitability of genomic medicine in clinical practice.","Demographic Categories of Interest
+Race / Ethnicity
+Age
+Sex at Birth
+Gender Identity
+Sexual Orientation
+Geography
+Disability Status
+Access to Care
+Education Level
+Income Level","Data Set Used
+Registered Tier","Research Team
+Owner:
+Mark Trinder
+- Graduate Trainee, The Broad Institute
+Collaborators:
+Romit Bhattacharya - Research Fellow, Broad Institute"
+Cardiovascular Risk Prediction,"Cardiovascular disease risk is an important determinant of how we treat patients. Preventive medications can reduce future risk, but they are associated with both financial and biological side-effects. Previous methods of predicting risk, notably the Pooled Cohort Equation (PCE), tend…","Scientific Questions Being Studied
+Cardiovascular disease risk is an important determinant of how we treat patients. Preventive medications can reduce future risk, but they are associated with both financial and biological side-effects. Previous methods of predicting risk, notably the Pooled Cohort Equation (PCE), tend to perform worse in racial and ethnic minorities than in populations from European ancestry. As such, we plan to evaluate the accuracy of cardiovascular risk prediction in the diverse cohort of the All of Us study, and determine which if any variables might aid in refining risk in racial and ethnic minorities.","Project Purpose(s)
+Disease Focused Research (arteriosclerotic cardiovascular disease)
+Population Health","Scientific Approaches
+Atherosclerotic cardiovascular disease (ASCVD) is defined by the American College of Cardiology and American Heart Association (ACC/AHA) includes stroke, transient ischemic attack (TIA), documented coronary artery disease (CAD) with stable angina, acute coronary syndromes (ACS), coronary or other arterial revascularization, peripheral vascular disease with or without claudication, and aortic aneurysm. In clinical practice, physicians will also include asymptomatic CAD (meaning, without angina)  with demonstrable ischemia on a stress test.
+We plan to utilize data from adults greater than 18 years of age in the All of Us Research study who are free of ASCVD, and have complete data for inputs in the Pooled Cohort Equation (age, gender, race, cholesterol levels, blood pressure (BP), BP medications, diabetes status, and smoking status).
+We propose to then use the PCE to assess accuracy of risk prediction in the multi-ethnic All of Us cohort.","Anticipated Findings
+The anticipated findings are that the PCE will not perform equally across all racial and ethnic categories. This will provide an opportunity for further refinement of risk-prediction algorithms using commonly collected clinical information.
+An improved risk prediction algorithm would improve our ability to target the most needed preventive therapies to those at greatest risk of future events, and minimize harms from unnecessary therapies.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Romit Bhattacharya
+- Research Fellow, Broad Institute
+Collaborators:
+Sarah Urbut - Research Fellow, Broad Institute
+Mark Trinder - Graduate Trainee, The Broad Institute"
+D16_HTN_revision_after_code_review,"We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical…","Scientific Questions Being Studied
+We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical approaches to understanding and treating hypertension may benefit from the integration of a precision medicine approach that integrates data on environments, social determinants of health, behaviors, and genomic factors that contribute to hypertension risk. Hypertension is a major public health concern and remains a leading risk factor for stroke and cardiovascular disease.","Project Purpose(s)
+Other Purpose (This work is an AoU demo project. Demo projects are efforts by the AoU Research Program designed to meet the program goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. As an approved demo project, this work was reviewed and overseen by the AoU Research Program Science Committee and the AoU Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use. )","Scientific Approaches
+In this cross-sectional, population-based study, we used All of Us baseline data from patient (age>18) provided information (PPI) surveys and electronic health record (EHR) blood pressure measurements and retrospectively examined the prevalence of hypertension in the EHR cohort using Systemized Nomenclature of Medicine (SNOMED codes and blood pressure medications recorded in the EHR.  We used the EHR data (SNOMED codes on 2 distinct dates and at least one hypertension medication) as the primary definition, and then add subjects with elevated systolic or elevated diastolic blood pressure on measurements 2 and 3 from PPI.   We extracted each participant’s detailed dates of SNOMED code for essential hypertension from the Researcher Workbench table ‘cb_search_all_events’. We calculated an age-standardized HTN prevalence according to the age distribution of the U.S. Census, using 3 groups (18-39, 40-59, ≥ 60).","Anticipated Findings
+The prevalence of hypertension in the All of Us cohort is similar to that of published literature. All of Us age-adjusted HTN prevalence was 27.9% compared to 29.6% in National Health and Nutrition Examination Survey. The All of Us cohort is a growing source of diverse longitudinal data that can be utilized to study hypertension nationwide. The prevalence of hypertension varies in the United States (U.S.) by age, sex, and socioeconomic status. Hypertension can often be treated successfully with medication, and prevented or delayed with lifestyle modifications. Even with these established hypertension intervention and prevention strategies, the prevalence of hypertension continues to be at levels of public health concern. The diversity within All of Us may provide insight into factors relevant to hypertension prevention and treatments in a variety of social and geographic contexts and population strata in the U.S.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Paulette Chandler
+- Senior Researcher, Mass General Brigham
+Guohai Zhou
+- Other, Mass General Brigham
+Ashley  Able
+- Other, All of Us Program Operational Use
+Collaborators:
+Roxana Loperena Cortes - Other, All of Us Program Operational Use
+Elizabeth Karlson - Late Career Tenured Researcher, Mass General Brigham"
+Revision_after_HTN_code_review,"We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical…","Scientific Questions Being Studied
+We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical approaches to understanding and treating hypertension may benefit from the integration of a precision medicine approach that integrates data on environments, social determinants of health, behaviors, and genomic factors that contribute to hypertension risk. Hypertension is a major public health concern and remains a leading risk factor for stroke and cardiovascular disease.","Project Purpose(s)
+Other Purpose (This work is an AoU demo project. Demo projects are efforts by the AoU Research Program designed to meet the program goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. As an approved demo project, this work was reviewed and overseen by the AoU Research Program Science Committee and the AoU Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use. )","Scientific Approaches
+In this cross-sectional, population-based study, we used All of Us baseline data from patient (age>18) provided information (PPI) surveys and electronic health record (EHR) blood pressure measurements and retrospectively examined the prevalence of hypertension in the EHR cohort using Systemized Nomenclature of Medicine (SNOMED codes and blood pressure medications recorded in the EHR.  We used the EHR data (SNOMED codes on 2 distinct dates and at least one hypertension medication) as the primary definition, and then add subjects with elevated systolic or elevated diastolic blood pressure on measurements 2 and 3 from PPI.   We extracted each participant’s detailed dates of SNOMED code for essential hypertension from the Researcher Workbench table ‘cb_search_all_events’. We calculated an age-standardized HTN prevalence according to the age distribution of the U.S. Census, using 3 groups (18-39, 40-59, ≥ 60).","Anticipated Findings
+The prevalence of hypertension in the All of Us cohort is similar to that of published literature. All of Us age-adjusted HTN prevalence was 27.9% compared to 29.6% in National Health and Nutrition Examination Survey. The All of Us cohort is a growing source of diverse longitudinal data that can be utilized to study hypertension nationwide. The prevalence of hypertension varies in the United States (U.S.) by age, sex, and socioeconomic status. Hypertension can often be treated successfully with medication, and prevented or delayed with lifestyle modifications. Even with these established hypertension intervention and prevention strategies, the prevalence of hypertension continues to be at levels of public health concern. The diversity within All of Us may provide insight into factors relevant to hypertension prevention and treatments in a variety of social and geographic contexts and population strata in the U.S.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+Guohai Zhou
+- Other, Mass General Brigham"
+Demo - Hypertension Prevalence,"We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical…","Scientific Questions Being Studied
+We are using the All of Us Researcher Workbench interface to answer the question, ""Is hypertension prevalence in the All of Us Research Program similar to hypertension prevalence in the 2015–2016 National Health and Nutrition Examination Survey (NHANES) ?"". Clinical approaches to understanding and treating hypertension may benefit from the integration of a precision medicine approach that integrates data on environments, social determinants of health, behaviors, and genomic factors that contribute to hypertension risk. Hypertension is a major public health concern and remains a leading risk factor for stroke and cardiovascular disease.","Project Purpose(s)
+Other Purpose (This work is an AoU demo project. Demo projects are efforts by the AoU Research Program designed to meet the program goal of ensuring the quality and utility of the Research Hub as a resource for accelerating discovery in science and medicine. As an approved demo project, this work was reviewed and overseen by the AoU Research Program Science Committee and the AoU Data and Research Center to ensure compliance with program policy, including policies for acceptable data access and use. )","Scientific Approaches
+In this cross-sectional, population-based study, we used All of Us baseline data from patient (age>18) provided information (PPI) surveys and electronic health record (EHR) blood pressure measurements and retrospectively examined the prevalence of hypertension in the EHR cohort using Systemized Nomenclature of Medicine (SNOMED codes and blood pressure medications recorded in the EHR.  We used the EHR data (SNOMED codes on 2 distinct dates and at least one hypertension medication) as the primary definition, and then add subjects with elevated systolic or elevated diastolic blood pressure on measurements 2 and 3 from PPI.   We extracted each participant’s detailed dates of SNOMED code for essential hypertension from the Researcher Workbench table ‘cb_search_all_events’. We calculated an age-standardized HTN prevalence according to the age distribution of the U.S. Census, using 3 groups (18-39, 40-59, ≥ 60).","Anticipated Findings
+The prevalence of hypertension in the All of Us cohort is similar to that of published literature. All of Us age-adjusted HTN prevalence was 27.9% compared to 29.6% in National Health and Nutrition Examination Survey. The All of Us cohort is a growing source of diverse longitudinal data that can be utilized to study hypertension nationwide. The prevalence of hypertension varies in the United States (U.S.) by age, sex, and socioeconomic status. Hypertension can often be treated successfully with medication, and prevented or delayed with lifestyle modifications. Even with these established hypertension intervention and prevention strategies, the prevalence of hypertension continues to be at levels of public health concern. The diversity within All of Us may provide insight into factors relevant to hypertension prevention and treatments in a variety of social and geographic contexts and population strata in the U.S.","Demographic Categories of Interest
+This study will not center on underrepresented populations.","Data Set Used
+Registered Tier","Research Team
+Owner:
+yonghao yu
+- Administrator, All of Us Program Operational Use
+Francis Ratsimbazafy
+- Other, All of Us Program Operational Use
+Jun Qian
+- Other, All of Us Program Operational Use"

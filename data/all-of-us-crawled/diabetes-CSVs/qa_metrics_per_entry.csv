@@ -1,0 +1,408 @@
+Roles,Researchers,Institutions,Individuals Per Team,Unique Individuals Per Entry,Unique Institutions Per Entry,Is Multi-Institutional
+"['Owner', 'Research Fellow']",['Sarada Ghosh'],['Cornell University'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Research Fellow']","['Xinyi Tan', 'Jay Lusk']","['Columbia University', 'Duke University']",2,2,2,True
+"['Owner', 'Collaborator']","['Reagan Ballard', 'Micah Hysong']","['University of North Carolina, Chapel Hill', 'University of North Carolina, Chapel Hill']",2,2,1,False
+"['Robin Beaumont', 'Michael Weedon', 'Gareth Hawkes', 'Andrew Wood', 'Harry Wright', 'Harry Green']","['Research Fellow', 'Senior Researcher', 'Research Fellow', 'Mid-career Tenured Researcher', 'Research Assistant', 'Mid-career Tenured Researcher']","['University of Exeter', 'University of Exeter', 'University of Exeter', 'University of Exeter', 'University of Exeter', 'University of Exeter']",6,4,1,False
+"['Owner', 'Project Personnel']",['Yuji Choi'],['Johns Hopkins University'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Jonathon Baccus', 'Hui Wang', 'Graham Jones']","['University of Alabama', 'University of Alabama', 'University of Alabama']",3,3,1,False
+"['Owner', 'Graduate Trainee']",['Tadesse Abegaz'],['Florida A&M University'],1,1,1,False
+"['Owner', 'Research Fellow']",['Omar Costilla Reyes'],['Massachusetts Institute of Technology'],1,1,1,False
+"['Owner', 'Research Fellow', 'Senior Researcher', 'Research Assistant', 'Research Fellow']","['Robin Beaumont', 'Michael Weedon', 'Harry Wright', 'Gareth Hawkes']","['University of Exeter', 'University of Exeter', 'University of Exeter', 'University of Exeter']",4,4,1,False
+"['Owner', 'Graduate Trainee', 'Mid-career Tenured Researcher']","['Pianhong Han', 'Esther Black']","['University of Kentucky', 'University of Kentucky']",2,2,1,False
+"['Owner', 'Research Fellow', 'Research Fellow', 'Research Fellow', 'Graduate Trainee']","['Srishti Sinha', 'Samantha Huey', 'Sarada Ghosh', 'Naiwen Ji']","['Cornell University', 'Cornell University', 'Cornell University', 'Cornell University']",4,4,1,False
+"['Owner', 'Owner', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator', 'Collaborator']","['Kaavya Ashok', 'Alisa Manning', 'Ravi Mandla', 'Raymond Kreienkamp', 'Lukasz Szczerbinski', 'Sara Cromer', 'Reagan Ballard', 'Laura Raffield', 'Miriam Udler', 'Micah Hysong', 'Josephine Li', 'Josep Mercader', 'Gareth Hawkes', 'Alicia Huerta', 'Aaron Deutsch', 'Alexandra Barry']","['Broad Institute', 'Mass General Brigham', 'Broad Institute', 'Broad Institute', 'Broad Institute', 'Mass General Brigham', 'University of North Carolina, Chapel Hill', 'University of North Carolina, Chapel Hill', 'Broad Institute', 'University of North Carolina, Chapel Hill', 'Mass General Brigham', 'Broad Institute', 'University of Exeter', 'Broad Institute', 'Mass General Brigham', 'Mass General Brigham']",16,16,4,True
+"['Owner', 'Senior Researcher', 'Undergraduate Student']","['Andrew Magis', 'Lea Repovic']","['Institute for Systems Biology', 'Institute for Systems Biology']",2,2,1,False
+['Owner'],['Scott Jones'],['Northwell Health'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Zhirui Deng', 'Theresa Koleck', 'Caitlin Dreisbach', 'Carol Li']","['University of Pittsburgh', 'University of Pittsburgh', 'University of Rochester', 'University of Rochester']",4,4,2,True
+['Owner'],['Peixian Dong'],['University of Southern California'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Other']","['Daniel Flores', 'Andy Lee']","['University of California, Irvine', 'University of California, Irvine']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Junjie Lu'],['Stanford University'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Early Career Tenure-track Researcher', 'Mid-career Tenured Researcher', 'Mid-career Tenured Researcher', 'Early Career Tenure-track Researcher']","['Veronica Brady', 'Nyasha Chambwe', 'German Rosas-Acosta', 'Anjana Saxena', 'Anna Eiring']","['University of Texas Health Science Center, Houston', 'Feinstein Institute for Medical Research', 'University of Texas at El Paso', 'City University of New York (CUNY)', 'Texas Tech University Health Sciences Center at El Paso']",5,5,5,True
+"['Owner', 'Research Fellow']",['Yangyang Deng'],['National Institutes of Health (NIH)'],1,1,1,False
+"['Owner', 'Research Fellow']",['Mai Sedki'],['Stanford University'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator', 'Collaborator', 'Collaborator']","['Ahmed Khattab', 'Shang-Fu Chen', 'Aidan Cardall', 'Aidan Cardall', 'Justin Wang']","['Scripps Research', 'Scripps Research', 'Brigham Young University', 'Scripps Research', 'Scripps Research']",5,4,2,True
+"['Owner', 'Collaborators', 'Collaborators', 'Collaborators', 'Collaborators', 'Collaborators', 'Collaborators']","['Tennille Leak-Johnson', 'Viviane Schuch', 'Muhammed Idris', 'Jade Avery', 'Hannah Luk', 'Deyana Lewis', 'Ariel Williams']","['Morehouse School of Medicine', 'Morehouse School of Medicine', 'Morehouse School of Medicine', 'Morehouse School of Medicine', 'University of Texas Medical Branch (UTMB) at Galveston', 'Morehouse School of Medicine', 'National Human Genome Research Institute (NIH - NHGRI)']",7,7,3,True
+"['Owner', 'Collaborators']","['Chamika Hawkins-Taylor', 'Xiao Zhang', 'Hongyan Xu']","['Xavier University of Louisiana', 'Xavier University of Louisiana', 'Augusta University']",3,3,2,True
+['Owner'],['Fan Li'],['University of Missouri'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Tadesse Abegaz', 'Tadesse Abegaz']","['Florida A&M University', 'Florida A&M University']",2,1,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator']","['Jordan Keels', 'Theresa Koleck']","['Boston College', 'University of Pittsburgh']",2,2,2,True
+"['Owner', 'Graduate Trainee']",['Megana Thamilselvan'],['University of Toronto'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student', 'Undergraduate Student']","['Jesus Leyva', 'Colin Hooppaw', 'Cayla Hollingsworth']","['Arizona State University', 'Arizona State University', 'Arizona State University']",3,3,1,False
+"['Owner', 'Senior Researcher']",['Amelie Bonnefond'],['Inserm'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Shivam Sharma'],['Georgia Institute of Technology'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee']","['YALIN LI', 'SREE SAI SREEVANI GONGALREDDY', 'niharika sarraf', 'Bhargava Cherukuri']","['George Mason University', 'George Mason University', 'George Mason University', 'George Mason University']",4,4,1,False
+"['Owner', 'Undergraduate Student', 'Project Personnel', 'Undergraduate Student', 'Research Associate']","['Dafeng Hui', 'Takara Pierce', 'Stefanee Tillman', 'Sarena Noel', 'Javan Carter']","['Fisk University', 'Tennessee State University', 'All of Us Researcher Academy/RTI International', 'Tennessee State University', 'All of Us Researcher Academy/RTI International']",5,5,3,True
+['Owner'],['Jessica Rast'],['Drexel University'],1,1,1,False
+"['Owner', 'Collaborator']","['Tess Cherlin', 'Katie Cardone']","['University of Pennsylvania', 'University of Pennsylvania']",2,2,1,False
+"['Josep Mercader', 'Casey Marchek', 'Alisa Manning', 'Ravi Mandla', 'Philip Schroeder', 'Miriam Udler', 'Maheak Vora', 'Lukasz Szczerbinski', 'Josephine Li', 'Bianca Porneala', 'Kaavya Ashok', 'Aaron Deutsch', 'Satoshi Yoshiji', 'Qixuan Jin', 'Maggie Ng', 'Yingchang Lu', 'Joohyun Kim', 'Haoran Zhang', 'Alicia Huerta']","['Early Career Tenure-track Researcher', 'Project Personnel', 'Early Career Tenure-track Researcher', 'Project Personnel', 'Project Personnel', 'Early Career Tenure-track Researcher', 'Project Personnel', 'Research Fellow', 'Early Career Tenure-track Researcher', 'Project Personnel', 'Early Career Tenure-track Researcher', 'Research Fellow', 'Research Fellow', 'Graduate Trainee', 'Mid-career Tenured Researcher', 'Early Career Tenure-track Researcher', 'Other', 'Graduate Trainee', 'Research Fellow']","['Broad Institute', 'Mass General Brigham', 'Mass General Brigham', 'Broad Institute', 'Broad Institute', 'Broad Institute', 'Broad Institute', 'Broad Institute', 'Mass General Brigham', 'Mass General Brigham', 'Broad Institute', 'Mass General Brigham', 'Broad Institute', 'Massachusetts Institute of Technology', 'Vanderbilt University Medical Center', 'Vanderbilt University Medical Center', 'Vanderbilt University Medical Center', 'Massachusetts Institute of Technology', 'Broad Institute']",19,6,4,True
+"['Owner', 'Undergraduate Student']",['Vaibhavi Sunkara'],"['University of Texas, San Antonio']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Early Career Tenure-track Researcher']","['Jade Avery', 'Tennille Leak-Johnson']","['Morehouse School of Medicine', 'Morehouse School of Medicine']",2,2,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Jianhua Zhang', 'Harrison McNabb', 'Dayo Shittu']","['National Institute of Diabetes and Digestive and Kidney Diseases (NIH - NIDDK)', 'National Institute of Diabetes and Digestive and Kidney Diseases (NIH - NIDDK)', 'National Human Genome Research Institute (NIH-NHGRI)']",3,3,2,True
+['Owner'],['Centdrika Hurt'],['Birmingham-Southern College'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher', 'Late Career Tenured Researcher', 'Early Career Tenure-track Researcher']","['Julie Volkman', 'Ben Gerber', 'Alicia Lamere']","['Bryant University', 'University of Massachusetts Medical School', 'Stonehill College']",3,3,3,True
+"['Owner', 'Undergraduate Student']",['William Navarrete Moreno'],"['University of Colorado, Denver']",1,1,1,False
+"['Owner', 'Undergraduate Student', 'Research Fellow', 'Research Assistant', 'Graduate Trainee']","['Jeff Kramer', 'Vincent Lam', 'Sonali Gupta', 'Shivam Sharma']","['Georgia Institute of Technology', 'National Institutes of Health (NIH)', 'National Institutes of Health (NIH)', 'Georgia Institute of Technology']",4,4,2,True
+"['Owner', 'Graduate Trainee']",['Matthew Alonso'],['University of Miami'],1,1,1,False
+['Owner'],['azene zenebe'],['Bowie State University'],1,1,1,False
+"['Owner', 'Research Fellow', 'Graduate Trainee', 'Project Personnel', 'Project Personnel', 'Research Fellow', 'Project Personnel', 'Research Fellow', 'Project Personnel']","['Johanna Smith', 'Kristjan Norland', 'Yue Yu', 'jie na', 'Marwan Hamed', 'Matt Kosel', 'Ozan Dikilitas', 'Jacob Petrzelka']","['Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic', 'Mayo Clinic']",8,8,1,False
+"['Owner', 'Graduate Trainee']",['Alexis Cenname'],['University of Pittsburgh'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Project Personnel']","['Brandon Grover', 'Mozhdeh Bahrainian']","['University of Wisconsin, Madison']",2,2,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator', 'Collaborator', 'Collaborator']","['Richard Mojica Velez', 'Valeria Miranda', 'Kyle Melin', 'Jonathan Hernandez-Agosto', 'Bianca  Torres']","['University of Puerto Rico Medical Sciences', 'University of Puerto Rico Medical Sciences', 'University of Puerto Rico Medical Sciences', 'University of Puerto Rico Medical Sciences', 'University of Puerto Rico Medical Sciences']",5,5,1,False
+"['Owner', 'Collaborators']","['Sijia Li', 'Rui Duan', 'Chongliang Luo']","['Harvard T. H. Chan School of Public Health', 'Washington University in St. Louis']",3,3,2,True
+"['Owner', 'Graduate Trainee']",['Alexis Cunningham'],['Meharry Medical College'],1,1,1,False
+"['Owner', 'Research Fellow']",['Cassie Robertson'],['National Human Genome Research Institute (NIH - NHGRI)'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Research Fellow', 'Graduate Trainee']","['Lijia Zheng', 'Olga Kravchenko', 'Chenyu Li']","['Stanford University', 'University of Pittsburgh', 'University of Pittsburgh']",3,3,2,True
+"['Owner', 'Early Career Tenure-track Researcher']",['Anu Sharma'],['University of Florida'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Anna-Sophie Thein'],"['University of California, San Francisco']",1,1,1,False
+"['Owner', 'Research Fellow', 'Early Career Tenure-track Researcher', 'Senior Researcher']","['Timothy Frayling', 'Liza Darrous', 'Lauric Ferrat', 'Aurelie Kamoun']","['Universite de Geneve', 'Universite de Geneve', 'Universite de Geneve', 'Universite de Geneve']",4,4,1,False
+['Owner'],['Seyedeh Neelufar Payrovnaziri'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Project Personnel', 'Other']","['Chloe Bennett', 'Robert Cavanaugh', 'Louisa Smith']","['Northeastern University', 'Northeastern University', 'Northeastern University']",3,3,1,False
+"['Owner', 'Undergraduate Student']",['Vir Trivedi'],['Loyola University Chicago'],1,1,1,False
+"['Owner', 'Project Personnel']",['Scott Sauers'],['Washington University in St. Louis'],1,1,1,False
+['Owner'],['Rochelle Castillo'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Research Assistant', 'Graduate Trainee']","['Sonali Gupta', 'Onyinye Chukka']","['National Institutes of Health (NIH)', 'Georgia Institute of Technology']",2,2,2,True
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Shivam Sharma', 'Courtney Astore']","['Georgia Institute of Technology', 'Georgia Institute of Technology']",2,2,1,False
+"['Owner', 'Project Personnel']",['Lavanya Muthukumar'],['University of Michigan'],1,1,1,False
+"['Owner', 'Project Personnel']",['Michael Douglas'],"['University of California, San Francisco']",1,1,1,False
+"['Owner', 'Undergraduate Student', 'Graduate Trainee', 'Graduate Trainee']","['Yang Yang', 'Tian Liu', 'Che-Yi Liao']","['Georgia Institute of Technology', 'Texas A&M University', 'Georgia Institute of Technology']",3,3,2,True
+"['Owner', 'Other', 'Early Career Tenure-track Researcher', 'Other']","['Izabelle Humes', 'Kathryn Shows', 'Aymone Kouame']","['All of Us Program Operational Use', 'Virginia State University', 'All of Us Program Operational Use']",3,3,2,True
+"['Owner', 'Graduate Trainee', 'Research Fellow', 'Early Career Tenure-track Researcher']","['Dara Brena', 'Viviane Schuch', 'Erica Johnson']","['Morehouse School of Medicine', 'Morehouse School of Medicine', 'Morehouse School of Medicine']",3,3,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Lijia Zheng', 'Chenyu Li']","['Stanford University', 'University of Pittsburgh']",2,2,2,True
+"['Owner', 'Project Personnel']",['Marieke Jones'],['University of Virginia'],1,1,1,False
+"['Owner', 'Project Personnel', 'Research Fellow', 'Research Assistant', 'Graduate Trainee']","['Nur Shahir', 'Vincent Lam', 'Sonali Gupta', 'Shivam Sharma']","['National Institutes of Health (NIH)', 'National Institutes of Health (NIH)', 'National Institutes of Health (NIH)', 'Georgia Institute of Technology']",4,4,2,True
+"['Owner', 'Graduate Trainee']",['Ziyang Zhang'],['Emory University'],1,1,1,False
+"['Owner', 'Research Fellow']",['QIAOCHU XUE'],['Emory University'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Ka Wing Ho'],['University of Glasgow'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Yiqiang Zhang'],['University of Hawaii at Manoa'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Caleb Harrison', 'Mary Ellen Vajravelu']","['University of Pittsburgh', 'University of Pittsburgh']",2,2,1,False
+"['Owner', 'Graduate Trainee']","['Henry Taylor', 'National Human Genome Research Institute (NIH - NHGRI)']","['', '']",2,2,1,False
+"['Owner', 'Research Fellow']","['Ginikanwa Onyekaba', 'Ginikanwa Onyekaba']","['Columbia University', 'Columbia University']",2,1,1,False
+"['Owner', 'Graduate Trainee']",['James Crim'],['George Washington University'],1,1,1,False
+"['Owner', 'Research Assistant', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee']","['Sonali Gupta', 'Shivam Sharma', 'Onyinye Chukka', 'Jay Menuey']","['National Institutes of Health (NIH)', 'Georgia Institute of Technology', 'Georgia Institute of Technology', 'Georgia Institute of Technology']",4,4,2,True
+"['Owner', 'Graduate Trainee']",['Dawei Guan'],['University of Florida'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Gracia Kayembe', 'George Washington University']",['George Washington University'],2,2,1,False
+"['Owner', 'Project Personnel', 'Graduate Trainee']","['Jaffer Shah', 'Carla Dias']","['Cornell University', 'Cornell University']",2,2,1,False
+"['Owner', 'Research Fellow']",['BA THONG NGUYEN'],['University of Hawaii at Manoa'],1,1,1,False
+"['Owner', 'Research Fellow']",['BA THONG NGUYEN'],['University of Hawaii at Manoa'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['José Irizarry'],['Tulane University'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Chenyu Huang'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Early Career Tenure-track Researcher', 'Graduate Trainee', 'Undergraduate Student']","['Miranda Sharp', 'Mary Davis', 'Lydia Howell', 'Kylee Bates']",['Brigham Young University'],4,4,1,False
+"['Owner', 'Research Fellow']",['Brooke Wolford'],['University of Michigan'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Joshua Amosu', 'Sajid Hussain', 'Aditya Karki']","['Fisk University', 'Fisk University', 'Fisk University']",3,3,1,False
+"['Owner', 'Collaborator']","['Sajid Hussain', 'Joshua Amosu']","['Fisk University', 'Fisk University']",2,2,1,False
+"['Owner', 'Undergraduate Student']",['Jigz Cozada'],['Arizona State University'],1,1,1,False
+"['Owner', 'Research Fellow', 'Collaborator']","['Allen Chang', 'Ben Gerber']","['University of Massachusetts Medical School', 'University of Massachusetts Medical School']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Alexander Rader'],['University of Texas Medical Branch (UTMB) at Galveston'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Subbaramireddy Remala'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Research Associate']",['Stepan Grinek'],['New York Stem Cell Foundation'],1,1,1,False
+"['Owner', 'Student']",['Isabel Plakas'],['Johns Hopkins University'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Sheevang Patel'],['New York Institute of Technology'],1,1,1,False
+"['Owner', 'Research Fellow', 'Graduate Trainee', 'Research Fellow', 'Graduate Trainee']","['QIAOCHU XUE', 'Piaopiao Li', 'Jieun Lee', 'Dawei Guan']","['Emory University', 'Emory University', 'Emory University', 'University of Florida']",4,4,2,True
+"['Owner', 'Graduate Trainee', 'Other', 'Other']","['Micah Hysong', 'Jun Qian', 'Emily Drzymalla']","['University of North Carolina, Chapel Hill', 'All of Us Program Operational Use', 'University of North Carolina, Chapel Hill']",3,3,2,True
+"['Owner', 'Other']",['Seyedeh Neelufar Payrovnaziri'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Owner', 'Graduate Trainee']","['Meghan Blazey', 'Caitlin Dreisbach', 'Jaimin Shah']","['University of Rochester', 'University of Rochester', 'University of Rochester']",3,3,1,False
+"['Owner', 'Graduate Trainee']",['Dharan Kadiyala'],['Columbia University'],1,1,1,False
+"['Owner', 'Administrator']",['Jose Gorospe'],['National Institutes of Health (NIH)'],1,1,1,False
+"['Owner', 'Senior Researcher']",['Andrew Magis'],['Institute for Systems Biology'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Nima Shajarian'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Veronica Brady', 'Ziqi Liu', 'Samuel Akyirem']","['University of Texas Health Science Center, Houston', 'University of Texas Health Science Center, Houston', 'Yale University']",3,3,2,True
+"['Owner', 'Graduate Trainee']",['Emmanuella Asiedu'],['University of Massachusetts Medical School'],1,1,1,False
+"['Owner', 'Project Personnel', 'Graduate Trainee']","['Jin Zhou', 'Aubrey Jensen', 'Jonathan Hori']","['University of California, Los Angeles', 'University of Arizona', 'University of California, Los Angeles']",3,3,2,True
+"['Owner', 'Project Personnel', 'Project Personnel']","['Soumya Kini', 'Justin Hill']","['The MITRE Corporation', 'The MITRE Corporation']",2,2,1,False
+"['Owner', 'Graduate Trainee']","['Brooke Morris', 'Baylor University']",[''],2,2,1,False
+"['Owner', 'Graduate Trainee', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Whitney Schutz', 'Thomas McCoy', 'Crystal Epstein']","['University of North Carolina, Greensboro', 'University of North Carolina, Greensboro', 'University of North Carolina, Greensboro']",3,3,1,False
+['Owner'],['Joanne Cole'],"['University of Colorado, Denver']",1,1,1,False
+['Owner'],['Allen Seylani'],"['University of California, Riverside']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Undergraduate Student']","['Zain Jabbar', 'Jeremiah Dy']","['University of Hawaii at Manoa', 'University of Hawaii at Manoa']",2,2,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Breckin Forstrom', 'Mary Davis', 'Christian Betteridge']","['Brigham Young University', 'Brigham Young University', 'Brigham Young University']",3,3,1,False
+"['Owner', 'Research Fellow']",['xuan zhou'],['University of Copenhagen'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Xiao Zhang', 'Chamika Hawkins-Taylor']",['Xavier University of Louisiana'],2,2,1,False
+"['Owner', 'Early Career Tenure-track Researcher']","['Ghada Soliman', 'Aritz Irizar']","['City University of New York (CUNY)', 'Icahn School of Medicine at Mount Sinai']",2,2,2,True
+"['Owner', 'Collaborator', 'Collaborator', 'Collaborator']","['Amber Vermeesch', 'Whitney Schutz', 'Thomas McCoy', 'Crystal Epstein']","['University of North Carolina, Greensboro', 'University of North Carolina, Greensboro', 'University of North Carolina, Greensboro', 'University of North Carolina, Greensboro']",4,4,1,False
+"['Owner', 'Graduate Trainee']","['Veronica Brady', 'Samuel Akyirem']","['University of Texas Health Science Center, Houston', 'Yale University', 'University of Texas Health Science Center, Houston']",2,2,2,True
+"['Owner', 'Graduate Trainee']",['James Russ-Silsby'],['University of Exeter'],1,1,1,False
+"['Owner', 'Project Personnel', 'Late Career Tenured Researcher', 'Graduate Trainee']","[""Matteo D'Antonio"", 'Robert Greenes', 'Jean Gonzalez']","['University of California, San Diego', 'Arizona State University', 'University of California, San Diego']",3,3,2,True
+"['Owner', 'Research Fellow']",['Huan Mo'],['National Human Genome Research Institute (NIH-NHGRI)'],1,1,1,False
+"['Owner', 'Project Personnel', 'Research Fellow', 'Graduate Trainee', 'Early Career Tenure-track Researcher']","['Jeffrey Haessler', 'Harriett Fuller', 'Boya Guo', 'Burcu Darst']",['Fred Hutchinson Cancer Research Center'],4,4,1,False
+"['Owner', 'Project Personnel']",['Jaffer Shah'],['Cornell University'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Yashu Vashishath', 'Yashu Vashishath']","['University of North Texas', 'University of North Texas']",2,1,1,False
+"['Owner', 'Graduate Trainee']",['Christopher Doan'],['University of Texas Medical Branch (UTMB) at Galveston'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Ipek Ensari', 'Brianna Gibbs']","['Icahn School of Medicine at Mount Sinai', 'Icahn School of Medicine at Mount Sinai']",2,2,1,False
+"['Owner', 'Graduate Trainee']","['xueting wang', 'Yale University']",[],2,2,0,False
+['Owner'],['Nashra Bukhari'],['New York City Health & Hospitals'],1,1,1,False
+"['Owner', 'Undergraduate Student']","['Jessica Hong', 'Brown University']",['Brown University'],2,2,1,False
+['Owner'],['Kassaye Yitbarek Yigzaw'],['University Hospital of North Norway'],1,1,1,False
+['Owner'],['Juanita Morris'],['National Pan-Hellenic Council'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Junius Rosario', 'itza garcia']","['Philadelphia College of Osteopathic Medicine', 'Philadelphia College of Osteopathic Medicine']",2,2,1,False
+"['Owner', 'Research Fellow', 'Project Personnel']","['frhaan zahrawi', 'Khaled Zahrawi']","['Yale University', 'Yale University']",2,2,1,False
+"['Owner', 'Project Personnel']",['Weibin Zhang'],['University of Texas Medical Branch (UTMB) at Galveston'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Chenyu Huang'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Project Personnel']",['Kelsy Alaine Broadaway'],"['University of North Carolina, Chapel Hill']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Maaz Imam', 'Coulter Johnston', 'Jiajun Luo']","['University of Chicago', 'University of Chicago', 'University of Chicago']",3,3,1,False
+"['Owner', 'Project Personnel']",['Ariel Aptekmann'],['Hackensack University Medical Center'],1,1,1,False
+"['Owner', 'Senior Researcher']",['Liliana Lombardi De Sa'],['Sun River Health'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher', 'Graduate Trainee', 'Graduate Trainee', 'Early Career Tenure-track Researcher', 'Graduate Trainee', 'Early Career Tenure-track Researcher', 'Project Personnel', 'Graduate Trainee']","['Rohith Ravindranath', 'Billy Caceres', 'Yashika Sharma', 'Vince Nguyen', 'Stephanie Cook', 'Joseph Belloir', 'Ipek Ensari', 'Danny Doan', 'Chenziheng Weng']","['Stanford University', 'Columbia University', 'Columbia University', 'Columbia University', 'New York University', 'Columbia University', 'Icahn School of Medicine at Mount Sinai', 'Columbia University', 'New York University']",9,9,4,True
+"['Owner', 'Early Career Tenure-track Researcher']",['Abiodun Otolorin'],['Howard University'],1,1,1,False
+"['Owner', 'Owner', 'Collaborator', 'Collaborator', 'Collaborator']","['Steve Johnson', 'Lisiane Pruinelli', 'Tim Meyer', 'Ragnhildur Bjarnadottir', 'Marisa Sileo']","['University of Minnesota', 'University of Minnesota', 'University of Minnesota', 'University of Florida', ""Boston Children's Hospital""]",5,5,3,True
+"['Owner', 'Project Personnel', 'Graduate Trainee']","['Blake Fortes', 'Tim Banh', 'Ramin Talebi']","['University of California, Los Angeles', 'University of California, Los Angeles', 'University of California, Los Angeles']",3,3,1,False
+"['Owner', 'Research Fellow']",['Addam Reynolds'],['University of Southern California'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator', 'Collaborator']","['Dhairya Upadhyay', 'Souptik Barua', 'Adeep Kulkarni']","['New York University', 'New York University, Grossman School of Medicine', 'New York University, Grossman School of Medicine']",3,3,2,True
+"['Owner', 'Undergraduate Student']",['Yang Yang'],['Georgia Institute of Technology'],1,1,1,False
+"['Owner', 'Student']",['Jack Cummins'],['Manchester-Essex Regional High School'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Raja Allmdar Tariq Ali'],['Indiana University'],1,1,1,False
+"['Owner', 'Research Associate']",['Patrick Allaire'],['Marshfield Clinic Research Institute'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Research Assistant', 'Other', 'Other', 'Mid-career Tenured Researcher', 'Other', 'Senior Researcher', 'Project Personnel']","['Robert Meller', 'Shashwat Deepali Nagar', 'Sonali Gupta', 'Roxana Loperena Cortes', 'Francis Ratsimbazafy', 'King Jordan', 'Kelsey Mayo', 'Juan Kehoe', 'Elena Moseyko']","['Morehouse School of Medicine', 'Georgia Institute of Technology', 'National Institutes of Health (NIH)', 'All of Us Program Operational Use', 'All of Us Program Operational Use', 'Georgia Institute of Technology', 'All of Us Program Operational Use', 'All of Us Program Operational Use', 'All of Us Program Operational Use']",9,9,4,True
+"['Owner', 'Project Personnel']",['Stefanee Tillman'],['All of Us Researcher Academy/RTI International'],1,1,1,False
+"['Owner', 'Research Fellow', 'Graduate Trainee']","['Seth Sharp', 'Hector Ortega']","['Stanford University', 'Stanford University']",2,2,1,False
+['Owner'],['Nasser Sharareh'],['University of Utah'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Ravi Radhakrishnan', 'Sahil Kulkarni', 'Jonathan Nukpezah']","['University of Pennsylvania', 'University of Pennsylvania', 'University of Pennsylvania']",3,3,1,False
+"['Owner', 'Collaborator']","['Yong Eun', 'Bettina Therese Escolano']","['New York City Health & Hospitals', 'New York City Health & Hospitals']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Jiacheng Miao'],"['University of Wisconsin, Madison']",1,1,1,False
+"['Owner', 'Graduate Trainee']",['Heyang Ji'],['Indiana University'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Lorna Jenkins'],['University of South Florida'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Francisco Munoz'],['University of Puerto Rico Comprehensive Cancer Centre'],1,1,1,False
+"['Varsha Varkhedi', 'Jo-Hsuan Wu', 'Sophia Sidhu', 'Sally Baxter', 'Bharanidharan Radha Saseendrakumar', 'Kaela Acuff', 'Alison Chan']","['Undergraduate Student', 'Research Fellow', 'Graduate Trainee', 'Research Fellow', 'Project Personnel', 'Graduate Trainee', 'Graduate Trainee']","['University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego']",7,4,1,False
+"['Owner', 'Research Fellow']",['Bowen Yan'],['University of Florida'],1,1,1,False
+"['Owner', 'Research Fellow']",['Prashant Rao'],['Beth Israel Deaconess Medical Center'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['charbel Bou-Khalil'],['Stanford University'],1,1,1,False
+"['Owner', 'Research Fellow']","['Samantha Carreon', 'Jessica Meers']","['Baylor College of Medicine', 'University of Miami']",2,2,2,True
+"['Owner', 'Mid-career Tenured Researcher', 'Graduate Trainee', 'Early Career Tenure-track Researcher']","['Gang Han', 'Ashley Kurian', 'Ya-Ching Huang']","['Texas A&M University', 'Texas A&M University', 'Texas A&M University']",3,3,1,False
+"['Owner', 'Project Personnel', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Shayaa Muhammad', 'Scott Jones', 'Stephanie Izard', 'Amil Tan']","['City University of New York (CUNY)', 'Northwell Health', 'Northwell Health', 'City University of New York (CUNY)']",4,4,2,True
+"['Owner', 'Graduate Trainee']",['Selam Harar'],['George Mason University'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student', 'Undergraduate Student']","['Liv VanderBeischel', 'Leodivina Dodoo', 'Ashley McNatt']","['Arizona State University', 'Arizona State University', 'Arizona State University']",3,3,1,False
+['Owner'],['Fred LaPolla'],"['New York University, Grossman School of Medicine']",1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher', 'Project Personnel']","['Nilanjan Chatterjee', 'Wen Shi']","['Johns Hopkins University', 'Johns Hopkins University']",2,2,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Trey-Rashad Hawkins', 'Meiko Thompson']","['All of Us Researcher Academy/RTI International', 'Southern University at New Orleans']",2,2,2,True
+"['Owner', 'Graduate Trainee']","['Yining Huang', 'Harvard Medical School']",['Harvard Medical School'],2,2,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Michelle Ko', 'Ramin Talebi']","['University of California, Los Angeles', 'University of California, Los Angeles']",2,2,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Undergraduate Student']","['Caitlin Dreisbach', 'Carol Li']","['University of Rochester', 'University of Rochester']",2,2,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Christian Betteridge', 'Mary Davis', 'Breckin Forstrom']","['Brigham Young University', 'Brigham Young University', 'Brigham Young University']",3,3,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Alisa Manning'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Veronica Brady', 'Samuel Akyirem']","['University of Texas Health Science Center, Houston', 'Yale University']",2,2,2,True
+"['Owner', 'Graduate Trainee']",['Yasser Alharbi'],['Nova Southeastern University'],1,1,1,False
+"['Owner', 'Research Fellow']",['Alicia Huerta'],['Broad Institute'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher', 'Project Personnel', 'Other']","['Junguk Hur', 'Parker Combs', 'Christianah Jemiyo']","['University of North Dakota', 'University of North Dakota', 'University of North Dakota']",3,3,1,False
+"['Owner', 'Graduate Trainee']",['Citina Liang'],['University of Southern California'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Azad Bhuiyan'],['Jackson State University'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Grace Borchert'],['Washington State University'],1,1,1,False
+['Owner'],['Hongyan Xu'],['Augusta University'],1,1,1,False
+['Owner'],['Tam Tran'],['National Human Genome Research Institute (NIH - NHGRI)'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Jason Gillman'],"['University of Texas Health Science Center, Houston']",1,1,1,False
+"['Owner', 'Project Personnel', 'Research Associate']","['Kristin Glaze', 'Javan Carter']","['All of Us Researcher Academy/RTI International', 'All of Us Researcher Academy/RTI International']",2,2,1,False
+[],[],[],0,0,0,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student']","['Viera Garcia', 'Ayesha Smith']","['Arizona State University', 'Arizona State University']",2,2,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Yang Yu', 'Caitlin Dreisbach']","['University of Rochester', 'University of Rochester']",2,2,1,False
+['Owner'],['James White'],['University of Florida'],1,1,1,False
+"['Owner', 'Project Personnel']","['Vincent Chen', 'Nicholas Tedesco']","['University of Michigan', 'University of Michigan']",2,2,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Samuel Salib', 'Joshua Kim']","['University of California, Irvine', 'Duke University']",2,2,2,True
+['Owner'],['Wendy White'],['Tougaloo College'],1,1,1,False
+['Owner'],['Frances Dancer'],['Jackson State University'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Faith Brown'],['Jackson State University'],1,1,1,False
+"['Owner', 'Research Associate']",['Jose Flores'],['Memorial Sloan Kettering Cancer Center'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Ehsan Alipour'],['University of Washington'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator', 'Collaborator']","['Sonali Gupta', 'Vincent Lam', 'Varsha Srinivasan', 'Jasmyn Pellebon']","['National Institutes of Health (NIH)', 'National Institutes of Health (NIH)', 'Georgia Institute of Technology', 'Georgia Institute of Technology']",4,4,2,True
+"['Owner', 'Project Personnel', 'Mid-career Tenured Researcher']","['TIMOTHY COFFIN', 'Farrokh Alemi']","['George Mason University', 'George Mason University']",2,2,1,False
+"['Andrew Brown', 'Reshma Gurung', 'Niya Holifield', 'Muhammad G. Khodary Omar', 'Deepa Bedi', 'Chitra Nayak', 'Chastity Bradford']","['Owner', 'Graduate Trainee', 'Undergraduate Student', 'Mid-career Tenured Researcher']",['Tuskegee University'],4,4,1,False
+"['Owner', 'Project Personnel']",['Shayaa Muhammad'],['City University of New York (CUNY)'],1,1,1,False
+"['Owner', 'Research Fellow']",['Chenjie Zeng'],['National Human Genome Research Institute (NIH - NHGRI)'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Research Fellow', 'Late Career Tenured Researcher']","['Tyler Ryan', 'Eric Nielsen', 'Ben Gerber']","['University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School']",3,3,1,False
+"['Owner', 'Research Fellow']",['QIAOCHU XUE'],['Emory University'],1,1,1,False
+"['Owner', 'Collaborator']","['Emily Drzymalla', 'Reagan Ballard']","['University of North Carolina, Chapel Hill', 'University of North Carolina, Chapel Hill']",2,2,1,False
+"['Owner', 'Collaborator']","['Lisette Martinez', 'Katrina Yamazaki']","['California State University Los Angeles', 'The Community Health Center']",2,2,2,True
+"['Owner', 'Graduate Trainee', 'Early Career Tenure-track Researcher']","['Samuel Akyirem', 'Veronica Brady']","['Yale University', 'University of Texas Health Science Center, Houston']",2,2,2,True
+"['Owner', 'Graduate Trainee', 'Research Fellow']","['Nanda Nayak', 'Megan Lancaster']","['Vanderbilt University Medical Center', 'Vanderbilt University Medical Center']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Nikita Piryani'],['Medical College of Wisconsin'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Taiwo Fakunle'],['Arizona State University'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student', 'Other', 'Undergraduate Student']","['Zaire Hills', 'Hollie Brown', 'Charcacia Sanders', 'Amaya Ashley']",['Prairie View A&M University'],4,4,1,False
+"['Owner', 'Research Fellow']",['Joshua Geiger'],['University of Rochester'],1,1,1,False
+[],[],[],0,0,0,False
+"['Owner', 'Graduate Trainee']",['Samuel Akyirem'],['Yale University'],1,1,1,False
+"['Owner', 'Collaborator']","['Cecilia Lopez', 'Jakhari Ross']","['Arizona State University', 'Arizona State University']",2,2,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['German Rosas-Acosta'],['University of Texas at El Paso'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Jakhari Ross'],['Arizona State University'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Gerardo Lazaro'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Valerie Sant'],['University of Texas at Austin'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Elijah Taylor'],"['University of Maryland, Baltimore']",1,1,1,False
+"['Owner', 'Project Personnel', 'Collaborator']","['Danielle Johnson', 'Bradley Webb']","['All of Us Researcher Academy/RTI International', 'Virginia Commonwealth University']",2,2,2,True
+"['Owner', 'Collaborator']","['Alexa Wnorowski', 'Matthew Blank']","['The Jackson Laboratory', 'Baylor College of Medicine']",2,2,2,True
+['Owner'],['Tomas Nuño'],['University of Arizona'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Kayvan Mivehnejad'],['George Washington University'],1,1,1,False
+"['Owner', 'Project Personnel']",['Alina Gataullina'],"['University of California, Davis']",1,1,1,False
+"['Owner', 'Undergraduate Student']",['Segovia Lucas'],['University of Alabama at Birmingham'],1,1,1,False
+"['Owner', 'Research Fellow']",['Obed Garcia'],['Stanford University'],1,1,1,False
+"['Owner', 'Research Fellow', 'Project Personnel', 'Late Career Tenured Researcher']","['Ernesto Licon', 'Steven Hiek', 'Argyrios Ziogas']","['University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine']",3,3,1,False
+"['Owner', 'Graduate Trainee']",['Shahjalal Chowdhury'],['Tuskegee University'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student']","['Pratyusha Panchangam', 'gabriela patino']","['Arizona State University', 'Arizona State University']",2,2,1,False
+"['Owner', 'Project Personnel', 'Research Fellow']","['Steven Hiek', 'Ernesto Licon', 'Argyrios Ziogas']","['University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine']",3,3,1,False
+"['Owner', 'Research Assistant']",['Toaiva Penelope Hall'],['American Samoa Community Cancer Coalition'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Valerie Ray', 'North Carolina A&T State University']",['North Carolina A&T State University'],2,2,1,False
+"['Owner', 'Undergraduate Student']",['Tyler Cerneka'],['Arizona State University'],1,1,1,False
+['Owner'],['Donglan Zhang'],['University of Georgia'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Graduate Trainee']","['Josephine Li', 'Alexandra Barry']","['Mass General Brigham', 'Mass General Brigham']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Xiaomi Du'],"['University of California, San Diego']",1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Andrew Baumgartner'],['Institute for Systems Biology'],1,1,1,False
+"['Peter Buto', 'Christopher Lord', 'Alvaro Alonso', 'Vignesh Subbian', 'Francis Ratsimbazafy', 'Aymone Kouame', 'Aniqa Alam', 'Konstantinos Sidiropoulos']","['Owner', 'Graduate Trainee', 'Project Personnel', 'Late Career Tenured Researcher', 'Early Career Tenure-track Researcher', 'Other', 'Other', 'Other']","['Emory University', 'All of Us Program Operational Use', 'Emory University', 'University of Arizona', 'All of Us Program Operational Use', 'All of Us Program Operational Use', 'Nova Southeastern University']",8,6,4,True
+"['Owner', 'Graduate Trainee']",['Neha Arora'],['Tulane University'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Jeremie Abides'],['Arizona State University'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Pankaj Vyas', 'shenghao xia']","['University of Arizona', 'University of Arizona']",2,2,1,False
+"['Owner', 'Undergraduate Student', 'Graduate Trainee']","['DANIEL KUDDABUJJA', 'NHAT ANH TRAN']","['Texas Southern University, College of Pharmacy and Health Sciences']",2,2,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Benjamin King'],['University of Maine'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Joshua Le'],['University of Vermont'],1,1,1,False
+"['Owner', 'Senior Researcher']","['Anurag Garikipati', 'Robert Adelson']","['Forta Health', 'Forta Health']",2,2,1,False
+"['Owner', 'Research Fellow']",['Hoda Salsabili'],['Purdue University'],1,1,1,False
+['Owner'],['Danielle Rasooly'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+['Owner'],['Megan Coffee'],"['New York University, Grossman School of Medicine']",1,1,1,False
+"['Owner', 'Research Fellow']",['Olubu Adiji'],['Baylor College of Medicine'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Timesha Steele'],['Prairie View A&M University'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Early Career Tenure-track Researcher']","['Vibhuti Gupta', 'Hongmei Wang']","['Meharry Medical College', 'Texas Southern University, College of Pharmacy and Health Sciences']",2,2,2,True
+"['Owner', 'Undergraduate Student', 'Undergraduate Student', 'Other']","['Tia Bullard', 'Amira Stephens', 'Charcacia Sanders']","['Prairie View A&M University', 'Prairie View A&M University', 'Prairie View A&M University']",3,3,1,False
+"['Owner', 'Undergraduate Student', 'Early Career Tenure-track Researcher']","['Daniel Mattyasovsky', 'Eric Butler']","['Shaw University', 'Shaw University']",2,2,1,False
+"['Owner', 'Graduate Trainee', 'Other', 'Undergraduate Student']","['Manxi Yang', 'Danielle Forman', 'Jacqueline Kim', 'Hester Nguyen']","['University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine']",4,4,1,False
+"['Owner', 'Project Personnel']",['Elizabeth Procter-Gray'],"['University of Massachusetts, Lowell']",1,1,1,False
+"['Kendelle Lewis', 'Autum Herron', 'Charcacia Sanders']","['Owner', 'Undergraduate Student', 'Undergraduate Student', 'Other']","['Prairie View A&M University', 'Prairie View A&M University', 'Prairie View A&M University']",4,3,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student']","['Taylor Smith', 'Jahari Ennols']","['Prairie View A&M University', 'Prairie View A&M University', 'Prairie View A&M University']",2,2,1,False
+"['Owner', 'Undergraduate Student', 'Undergraduate Student']","['Peter Mordi', 'Ebunoluwa Adelola', 'Akeem Laurence']","['Towson University', 'Towson University', 'Towson University']",3,3,1,False
+"['Owner', 'Research Associate', 'Senior Researcher']","['Louis Lello', 'Erik Widen']","['Genomic Prediction', 'Genomic Prediction', 'Michigan State University']",2,2,2,True
+"['Owner', 'Senior Researcher']",['Grier Page'],['All of Us Researcher Academy/RTI International'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Nolan Kamitaki'],['Broad Institute'],1,1,1,False
+"['Hsing-Chun Wang', 'Yike Li', 'Jose Pagan', 'Donglan Zhang']","['Owner', 'Graduate Trainee', 'Early Career Tenure-track Researcher', 'Late Career Tenured Researcher', 'Mid-career Tenured Researcher']","['New York University', 'Vanderbilt University Medical Center', 'New York University', 'University of Georgia']",5,5,3,True
+"['Holly Dixon', 'Rajvir Badwal', 'Kathryn McDougal']","['Owner', 'Undergraduate Student', 'Other']","['Towson University', 'Towson University', 'Towson University']",3,3,1,False
+['Owner'],['Gary Desir'],['Yale University'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Other', 'Early Career Tenure-track Researcher']","['Victor Alcala', 'KIMBERLY RAIFORD', 'Eric Butler']","['Shaw University', 'Shaw University', 'Shaw University']",3,3,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Ronke Akinkugbe'],['Icahn School of Medicine at Mount Sinai'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Alex Gilchrist', 'Sydney Pickett']","['Arizona State University', 'Arizona State University']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Kateryna Stone'],['University of Cincinnati'],1,1,1,False
+[],[],[],0,0,0,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Sean Grimm', 'Arshia Firdaus']","['George Mason University', 'George Mason University']",2,2,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Keith Chan'],['City University of New York (CUNY)'],1,1,1,False
+"['Owner', 'Research Fellow']",['Zachary Strasser'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Yashu Vashishath', 'Sarah Beaver']","['University of North Texas', 'University of North Texas']",2,2,1,False
+"['Owner', 'Graduate Trainee', 'Research Fellow']","['Aaron Eisman', 'Jacob Barber']","['Brown University', 'Beth Israel Deaconess Medical Center']",2,2,2,True
+"['Owner', 'Graduate Trainee']",['Paramita Basak Upama'],['Marquette University'],1,1,1,False
+"['Owner', 'Collaborator']","['Alisa Manning', 'Casey Marchek']","['Mass General Brigham', 'Mass General Brigham']",2,2,1,False
+"['Owner', 'Graduate Trainee']","['Toni Pollin', 'Jessica Tiner']","['University of Maryland, Baltimore', 'University of Maryland, Baltimore']",2,2,1,False
+['Owner'],['Phil Lee'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Research Fellow', 'Research Assistant', 'Graduate Trainee', 'Graduate Trainee', 'Senior Researcher']","['Vincent Lam', 'Sonali Gupta', 'Shivam Sharma', 'Robin Kee', 'Leonardo Marino-Ramirez']","['National Institutes of Health (NIH)', 'National Institutes of Health (NIH)', 'Georgia Institute of Technology', 'National Institutes of Health (NIH)', 'National Institutes of Health (NIH)']",5,5,2,True
+"['Owner', 'Research Fellow']",['Yaolin Pei'],['New York University'],1,1,1,False
+"['Owner', 'Collaborator']","['Nyasha Chambwe', 'Veronica Brady']","['Feinstein Institute for Medical Research', 'University of Texas Health Science Center, Houston']",2,2,2,True
+"['Owner', 'Early Career Tenure-track Researcher']",['Prateek Shukla'],['University of Massachusetts Medical School'],1,1,1,False
+['Owner'],['Haowei Wang'],['Syracuse University'],1,1,1,False
+"['Owner', 'Undergraduate Student', 'Early Career Tenure-track Researcher', 'Early Career Tenure-track Researcher', 'Graduate Trainee', 'Late Career Tenured Researcher']","['Benjamin Weitz', 'Daniel Amante', 'JungAe Lee', 'Emmanuella Demosthenes', 'Dedeepya Billa', 'Ben Gerber']","['University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts, Lowell', 'University of Massachusetts Medical School']",6,6,2,True
+"['Owner', 'Undergraduate Student', 'Undergraduate Student']","['Lordes Ulloa', 'Kaydence Walker']","['Arizona State University', 'Arizona State University']",2,2,1,False
+['Owner'],['Elior Rahmani'],"['University of California, Los Angeles']",1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Graduate Trainee', 'Mid-career Tenured Researcher', 'Research Fellow']","['Normarie Torres Blasco', 'Mario Bermonti-Pérez', 'Lianel Rosario', 'Julie Dutil', 'Caleb Esteban', 'Eliut Rivera-Segarra', 'Cristina Pena', 'Alixida Ramos-Pibernus']",['Ponce Medical School Foundation'],8,8,1,False
+[],[],[],0,0,0,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Alana Biggers'],['University of Illinois at Chicago'],1,1,1,False
+['Owner'],['Alain Koyama'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Kate Steigauf'],['Arizona State University'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Mattieu Pollack'],"['University of Maryland, College Park']",1,1,1,False
+"['Owner', 'Project Personnel', 'Graduate Trainee', 'Other', 'Late Career Tenured Researcher']","['Weibin Zhang', 'Daniel Bao', 'Alex Bokov', 'Suresh Bhavnani']","['University of Texas Medical Branch (UTMB) at Galveston', 'University of Texas Health Science Center, San Antonio']",4,4,2,True
+['Owner'],['Ariadne Letra'],['University of Pittsburgh'],1,1,1,False
+['Mireya Diaz'],['Owner'],"['Western Michigan University, Homer Stryker M.D. School of Medicine']",1,1,1,False
+['Owner'],['Vinicius Borges'],['Marshall University'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Robin Rodriguez', 'Kate Steigauf', 'Angelique Lacava']","['Arizona State University', 'Arizona State University', 'Arizona State University']",3,3,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator']","['Mitra Mosslemi', 'Chip Shaw']","['University of Pittsburgh', 'Texas Tech University Health Sciences Center']",2,2,2,True
+['Owner'],['Raha Dastgheyb'],['Johns Hopkins University'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Joshua Krause'],"['University of Wisconsin, La Crosse']",1,1,1,False
+"['Yossi Farjoun', 'marcus klarqvist']","['Owner', 'Project Personnel']","['Broad Institute', 'Broad Institute']",2,2,1,False
+[],[],[],0,0,0,False
+['Owner'],['Hongyan Xu'],['Augusta University'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Mid-career Tenured Researcher']","['Yike Li', 'Hsing-Chun Wang', 'Donglan Zhang']","['Vanderbilt University Medical Center', 'New York University', 'University of Georgia']",3,3,3,True
+"['Owner', 'Research Fellow']",['Sini Nagpal'],['Georgia Institute of Technology'],1,1,1,False
+"['Emmanuella Demosthenes', 'Dedeepya Billa', 'Ben Gerber', 'Benjamin Weitz', 'Daniel Amante']","['Owner', 'Graduate Trainee', 'Late Career Tenured Researcher', 'Undergraduate Student', 'Early Career Tenure-track Researcher']","['University of Massachusetts Medical School', 'University of Massachusetts, Lowell', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School']",5,5,2,True
+"['Owner', 'Project Personnel']",['James Laughery'],['ChristianaCare'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Mid-career Tenured Researcher', 'Mid-career Tenured Researcher']","['Andre Nguyen', 'Hongyan Xu', 'Christopher Williams']","['Xavier University of Louisiana', 'Augusta University', 'Xavier University of Louisiana']",3,3,2,True
+"['Owner', 'Project Personnel']",['Rohit Vashisht'],"['University of California, San Francisco']",1,1,1,False
+['Owner'],['Roland Sturm'],['Pardee RAND Graduate School'],1,1,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Ridgely Fisk Green', 'Ramal Moonesinghe']","['Centers for Disease Control and Prevention (CDC)', 'Centers for Disease Control and Prevention (CDC)']",2,2,1,False
+"['Owner', 'Research Fellow']",['Joana Andoh'],['Johns Hopkins University'],1,1,1,False
+['Ramal Moonesinghe'],['Late Career Tenured Researcher'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+"['Owner', 'Research Fellow', 'Graduate Trainee']","['Michael Yi', 'Sylvia Pena']","['Northwestern University', 'Marquette University']",2,2,2,True
+"['Owner', 'Graduate Trainee']",['Frances Golden'],"['University of California, Irvine']",1,1,1,False
+"['Owner', 'Graduate Trainee', 'Project Personnel']","['Jacob Abshire', 'Hui Wang']","['University of Alabama at Birmingham', 'University of Alabama']",2,2,2,True
+"['Owner', 'Graduate Trainee', 'Other', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee']","['Yufan Gong', 'Nathan Wong', 'Trinh Do', 'Meleeka Akbarpour', 'Frances Golden', 'Divya Devineni']","['University of California, Los Angeles', 'University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine', 'University of California, Irvine']",6,6,2,True
+"['Owner', 'Graduate Trainee']","['Md Raihan Mia', 'Marquette University']",['Marquette University'],2,2,1,False
+"['Owner', 'Graduate Trainee']",['Bowen Wang'],['Rensselaer Polytechnic Institute'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Late Career Tenured Researcher']","['Tyler Ryan', 'Ben Gerber']","['University of Massachusetts Medical School', 'University of Massachusetts Medical School']",2,2,1,False
+"['Owner', 'Undergraduate Student']",['Christian Betteridge'],['Brigham Young University'],1,1,1,False
+"['Owner', 'Collaborator']","['Marcus Pezzolesi', 'Devorah Stucki']","['University of Utah', 'University of Utah']",2,2,1,False
+['Owner'],['Aize Cao'],['Meharry Medical College'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Joan LLabre'],['Rensselaer Polytechnic Institute'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Stevan Lazic'],"['University of Wisconsin, La Crosse']",1,1,1,False
+['Owner'],['Judith Aponte'],['City University of New York (CUNY)'],1,1,1,False
+"['Owner', 'Project Personnel']","['Jon Sundin', 'Carina Grunberg']","['AI LA Community, Inc', 'AI LA Community, Inc']",2,2,1,False
+"['Owner', 'Research Fellow']",['Vincent Lam'],['National Institutes of Health (NIH)'],1,1,1,False
+"['Owner', 'Research Fellow']",['Md Tuhin Sheikh'],['Yale University'],1,1,1,False
+"['Owner', 'Project Personnel']",['Carina Grunberg'],"['AI LA Community, Inc']",1,1,1,False
+"['Owner', 'Graduate Trainee']",['Hunter Deaton'],['Lincoln Memorial University-DeBusk College of Osteopathic Medicine'],1,1,1,False
+"['Owner', 'Late Career Tenured Researcher']",['Cheryl McCullumsmith'],['University of Toledo'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Margaret Lenhart'],['University of Notre Dame'],1,1,1,False
+"['Owner', 'Research Assistant']",['Stephen Tsou'],"['AI LA Community, Inc']",1,1,1,False
+['Owner'],['Carl Yang'],['Emory University'],1,1,1,False
+"['Owner', 'Senior Researcher']",['Farida Akhtari'],['National Institute of Environmental Health Sciences (NIH - NIEHS)'],1,1,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Bohdan Khomtchouk'],['Indiana University'],1,1,1,False
+"['Owner', 'Graduate Trainee']","['Jacob Rich', 'Jacob Rich']",['Case Western Reserve University'],2,1,1,False
+['Owner'],['Kalpana Raja'],"['University of Texas Health Science Center, Houston']",1,1,1,False
+"['Owner', 'Research Fellow', 'Project Personnel']","['Jasmine Baker', 'Julie Coleman']",['Baylor College of Medicine'],2,2,1,False
+"['Owner', 'Undergraduate Student']",['Alex Gilchrist'],['Arizona State University'],1,1,1,False
+"['Owner', 'Project Personnel', 'Project Personnel', 'Research Fellow']","['Ravi Mandla', 'Philip Schroeder', 'Alicia Huerta']","['Broad Institute', 'Broad Institute', 'Broad Institute', 'Mass General Brigham']",3,3,2,True
+"['Owner', 'Graduate Trainee']",['Anthony Akande'],"['University of Texas Health Science Center, Houston']",1,1,1,False
+"['Owner', 'Research Fellow']",['Nicholas Johnson'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+"['Owner', 'Project Personnel']",['Sarah Colbert'],['Icahn School of Medicine at Mount Sinai'],1,1,1,False
+['Owner'],['Eric Triplett'],['University of Florida'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher']","['Phoebe Finneran', 'Michael Honigberg']","['Broad Institute', 'Broad Institute']",2,2,1,False
+"['Owner', 'Graduate Trainee']",['Yujie Wei'],['Johns Hopkins University'],1,1,1,False
+"['Owner', 'Research Fellow']",['Nicholas Johnson'],['Centers for Disease Control and Prevention (CDC)'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Lauren Murphy'],['University of Arizona'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Nicholas Bartelo'],['Cornell University'],1,1,1,False
+['Owner'],['Phil Lee'],['Mass General Brigham'],1,1,1,False
+['Owner'],['Jammie Hopkins'],['Morehouse School of Medicine'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee', 'Graduate Trainee']","['xiaodi hu', 'Alexander Warner', 'Kenneth Fan']","['Massachusetts Institute of Technology', 'Massachusetts Institute of Technology', 'Massachusetts Institute of Technology']",3,3,1,False
+"['Owner', 'Graduate Trainee', 'Mid-career Tenured Researcher']","['Wenbo Fei', 'Yuanjia Wang']","['Columbia University', 'Columbia University']",2,2,1,False
+"['Owner', 'Administrator']",['James Gao'],['National Institutes of Health (NIH)'],1,1,1,False
+['Seema Aggarwal'],['Early Career Tenure-track Researcher'],"['University of Texas Health Science Center, Houston']",1,1,1,False
+"['Owner', 'Graduate Trainee']","['Emily Strouphauer', 'Baylor College of Medicine']",['Baylor College of Medicine'],2,2,1,False
+"['Owner', 'Senior Researcher', 'Project Personnel', 'Senior Researcher']","['lin mirshahi', 'Jonathan Luo', 'Alexander Chang']","['Geisinger Clinic', 'Geisinger Clinic', 'Geisinger Clinic']",3,3,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Paul Macey'],"['University of California, Los Angeles']",1,1,1,False
+"['Owner', 'Project Personnel', 'Research Fellow']","['Bjorn Kluwe', 'Amaris Williams']","['Ohio State University', 'Ohio State University']",2,2,1,False
+"['Owner', 'Collaborator', 'Collaborator']","['Bijun Kannadath', 'Nia Nikkhahmanesh', 'Jiali Ling']","['University of Arizona', 'University of Arizona', 'University of Arizona']",3,3,1,False
+"['Owner', 'Mid-career Tenured Researcher']",['Mary Helen Mays'],['University of Puerto Rico Medical Sciences'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Undergraduate Student', 'Graduate Trainee', 'Mid-career Tenured Researcher']","['Leslie Flaco', 'Eric Diaz', 'Denisse Urenda', 'Amy Wagler']","['University of Texas at El Paso', 'University of Texas at El Paso', 'University of Texas at El Paso', 'University of Texas at El Paso']",4,4,1,False
+"['Owner', 'Project Personnel']",['Tim Majarian'],['Mass General Brigham'],1,1,1,False
+"['Owner', 'Research Fellow']",['Beatrix Krause'],"['University of California, Los Angeles']",1,1,1,False
+"['Sally Baxter', 'Priyanka Soe', 'Michael Wolfe', 'Cecilia Vallejos', 'Bharanidharan Radha Saseendrakumar']","['Research Fellow', 'Project Personnel', 'Graduate Trainee', 'Undergraduate Student', 'Project Personnel']","['University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego', 'University of California, San Diego']",5,4,1,False
+"['Owner', 'Project Personnel']",['LaTerrica Williams'],['Baylor College of Medicine'],1,1,1,False
+"['Owner', 'Research Fellow']",['Ahmed Alkanaq'],['Broad Institute'],1,1,1,False
+"['Owner', 'Collaborator']","['Anand Gandhi', 'Bijun Kannadath']","['Banner Health', 'University of Arizona']",2,2,2,True
+"['Owner', 'Research Fellow']",['Md Huda'],"['University of California, Davis']",1,1,1,False
+['Owner'],['Francesca Vitali'],['University of Arizona'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Jui Yu Kao'],"['University of California, San Francisco']",1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Miriam Udler'],['Broad Institute'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Beatrice Morrow'],['Baylor College of Medicine'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher']",['Chamika Hawkins-Taylor'],['Xavier University of Louisiana'],1,1,1,False
+"['Owner', 'Late Career Tenured Researcher']",['Snigdhansu Chatterjee'],['University of Minnesota'],1,1,1,False
+"['Owner', 'Graduate Trainee']",['Kiandra Smith'],['Morehouse School of Medicine'],1,1,1,False
+"['Owner', 'Undergraduate Student']",['Rohit Nandakumar'],['Arizona State University'],1,1,1,False
+"['Owner', 'Project Personnel', 'Early Career Tenure-track Researcher', 'Graduate Trainee']","['Matthew Robinson', 'Humberto López Castillo', 'Assad Khan']","['University of Central Florida', 'University of Central Florida', 'University of Central Florida']",3,3,1,False
+"['Owner', 'Graduate Trainee']",['Jiada Zhan'],['Emory University'],1,1,1,False
+"['Owner', 'Graduate Trainee', 'Collaborator']","['Xochitl Pablos-Velez', 'Bassent Abdelbary']","['University of Texas, Rio Grande Valley', 'University of Texas, Rio Grande Valley']",2,2,1,False
+"['Owner', 'Collaborator']","['Mia Newlin-Bradner', 'Glenna Schluck']","['Florida State University', 'Florida State University']",2,2,1,False
+"['Owner', 'Research Fellow']",['Alexandra Ralevski'],['Institute for Systems Biology'],1,1,1,False
+"['Owner', 'Early Career Tenure-track Researcher', 'Late Career Tenured Researcher']","['Feifan Liu', 'Ben Gerber']","['University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'University of Massachusetts Medical School', 'All of Us Program Operational Use']",2,2,2,True
+"['Owner', 'Undergraduate Student']",['Rohit Nandakumar'],['Arizona State University'],1,1,1,False
+['Owner'],['Whitney Teagle'],['National Institutes of Health (NIH)'],1,1,1,False
+"['Owner', 'Other', 'Late Career Tenured Researcher', 'Other']","['Timothy Lezon', 'Judith Klein', 'John Maier']","['University of Pittsburgh', 'Arizona State University', 'University of Pittsburgh']",3,3,2,True
+"['Owner', 'Collaborator']","['Sarah Jackson', 'Jalen Brown']","['National Institutes of Health (NIH)', 'National Cancer Institute (NIH - NCI)']",2,2,2,True
+"['Owner', 'Research Fellow']",['Erik Almazan'],['Mass General Brigham'],1,1,1,False
+['Owner'],['Aryana Sepassi'],"['University of California, Irvine']",1,1,1,False
+['Owner'],['Ashley Battarbee'],['University of Alabama at Birmingham'],1,1,1,False
+['Owner'],['Diana Thomas'],"['West Point, United States Military Academy']",1,1,1,False
+['Owner'],['Jing Wang'],['University of Texas at Arlington'],1,1,1,False
+"['Owner', 'Senior Researcher']",['Susan Persky'],['National Human Genome Research Institute (NIH-NHGRI)'],1,1,1,False
+"['Tze-Woei Tan', 'Chiu-Hsieh Hsu']","['Owner', 'Mid-career Tenured Researcher', 'Late Career Tenured Researcher']","['University of Arizona', 'University of Arizona']",3,3,1,False
+"['Owner', 'Graduate Trainee', 'Graduate Trainee']","['Mehak Gupta', 'Raphael Poulain']","['University of Delaware', 'University of Delaware']",2,2,1,False
+['Owner'],['Keri Hurley'],"['University of California, Irvine']",1,1,1,False
+['Owner'],['Nayyar Ahmed'],['University of Pittsburgh'],1,1,1,False
+"['Owner', 'Research Fellow']",['Douglas Arneson'],"['University of California, San Francisco']",1,1,1,False
+"['Owner', 'Research Fellow']",['Sara Taylor'],['Massachusetts Institute of Technology'],1,1,1,False
+['Owner'],['Hao Ma'],['Tulane University'],1,1,1,False
